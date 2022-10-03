@@ -1,3 +1,3 @@
 # schwpz.github.io
 
-Personal web site
+Personal Web Site Template
