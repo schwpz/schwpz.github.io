@@ -1,108 +1,532 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Batuhan Turguteli IT Specialist and Coder">
-    <meta name="keywords" content="Batuhan Turguteli,IT,Specialist,coder">
-    <title>Batuhan Turguteli</title>
-    <!--css styles-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/lightbox.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i%7CRaleway:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
-    <link rel="stylesheet" href="css/slicknav.min.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="shortcut icon" href="images/favicon.ico" />
+  <meta charset="UTF-8">
+  <title>Eyedra – Secure File Splitting & Sharing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Eyedra is a secure Windows utility for splitting and merging files with robust encryption, 2FA, wallet codes, and zero-knowledge file sharing.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-main: #070B13;
+      --bg-alt: #0d141b;
+      --bg-panel: #131a22f0;
+      --border: #1B2229;
+      --primary: #26B8FE;
+      --primary-soft: #B0DAF5;
+      --accent: #F7F8F9;
+      --text: #F7F8F9;
+      --text-soft: #b7c6d9;
+      --text-muted: #7f8fa6;
+      --nav-bg: rgba(13,20,27,0.95);
+      --nav-hover: #131a22cc;
+      --nav-underline: #26B8FE;
+      --card-bg: #0e141bfa;
+      --section-bg: #10151bfa;
+      --shadow: 0 8px 36px 0 #26B8FE24;
+    }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--bg-main);
+      color: var(--text);
+      font-family: 'Poppins', 'Inter', Arial, sans-serif;
+      min-height: 100vh;
+      scroll-behavior: smooth;
+      position: relative;
+    }
+    body:before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill-opacity="0.03"><rect width="100" height="100" fill="white"/><circle cx="70" cy="30" r="1" fill="black"/><circle cx="30" cy="80" r="1" fill="black"/><circle cx="80" cy="60" r="1" fill="black"/><circle cx="45" cy="40" r="1" fill="black"/><circle cx="20" cy="10" r="1" fill="black"/></svg>');
+      opacity: 1;
+      mix-blend-mode: overlay;
+      pointer-events: none;
+    }
+    a { color: var(--primary-soft); text-decoration: none; }
+    a:hover { color: var(--primary); }
 
+    /* Navbar */
+    .navbar-outer {
+      position: sticky;
+      top: 0; left: 0; width: 100vw;
+      background: var(--nav-bg);
+      z-index: 1000;
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 2px 18px #000b;
+    }
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 66px;
+      max-width: 900px;
+      margin: 0 auto;
+      gap: 2rem;
+    }
+    .navbar .brand {
+      font-family: 'Poppins', 'Inter', Arial, sans-serif;
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: var(--primary);
+      letter-spacing: -1px;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-right: 2rem;
+      user-select: none;
+    }
+    .navbar .logo-eye {
+      width: 34px; height: 34px;
+      filter: drop-shadow(0 0 8px #26b8fe65);
+      background: transparent;
+      border-radius: 50%;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.7rem;
+      align-items: center;
+    }
+    .nav-link {
+      color: var(--text-soft);
+      font-family: 'Inter','Poppins',sans-serif;
+      font-weight: 600;
+      font-size: 1.01rem;
+      background: none;
+      border: none;
+      outline: none;
+      padding: 0.2em 0.8em;
+      border-radius: 14px;
+      position: relative;
+      cursor: pointer;
+      transition: color 0.18s;
+      letter-spacing: 0.01em;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .nav-link:after {
+      content: "";
+      position: absolute;
+      left: 18%;
+      right: 18%;
+      bottom: 10px;
+      height: 2.5px;
+      border-radius: 2px;
+      background: linear-gradient(90deg, #26B8FE 0%, #B0DAF5 100%);
+      opacity: 0;
+      transition: opacity 0.18s, left 0.22s, right 0.22s;
+    }
+    .nav-link.active,
+    .nav-link:hover {
+      color: var(--text);
+      background: var(--nav-hover);
+    }
+    .nav-link.active:after,
+    .nav-link:hover:after {
+      opacity: 1;
+      left: 12%;
+      right: 12%;
+    }
+
+    /* Hero */
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+      padding: 0 1rem 2rem 1rem;
+      border-bottom: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      background: linear-gradient(150deg, #070B13 60%, #1B2229 100%);
+    }
+    .hero-content {
+      z-index: 2;
+      position: relative;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 3.2rem 1.2rem 1.1rem 1.2rem;
+      animation: fadein 0.8s;
+    }
+    @keyframes fadein { from { opacity: 0; transform: translateY(20px);} to { opacity: 1; transform:none;} }
+    .hero-content .logo-eye {
+      width: 150px; height: 150px;
+      margin-bottom: 1.1rem;
+      filter: drop-shadow(0 0 14px #26b8fe44);
+      animation: eyePulse 2.5s infinite alternate cubic-bezier(.5,1.8,.5,.8);
+      display: inline-block;
+      background: transparent;
+      border-radius: 50%;
+    }
+    @keyframes eyePulse { 0% {transform: scale(1);} 100% {transform: scale(1.07);} }
+    .hero-title {
+      font-family: 'Poppins', 'Inter', Arial, sans-serif;
+      font-size: 2.18rem;
+      font-weight: 700;
+      color: #fff !important;
+      letter-spacing: -1px;
+      min-height: 60px; /* for typewriter */
+      margin-bottom: 0.6rem;
+      display: inline-block;
+      background: none;
+      -webkit-background-clip: unset;
+      -webkit-text-fill-color: unset;
+    }
+    .typewriter-cursor {
+      display: inline-block;
+      width: 1ch;
+      color: #fff;
+      animation: blink .9s infinite steps(1);
+      font-weight: 900;
+      font-size:1.07em;
+    }
+    @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
+    .hero-desc {
+      font-size: 1.11rem;
+      color: var(--primary-soft);
+      font-weight: 500;
+      margin-bottom: 1.4rem;
+      line-height: 1.6;
+      max-width: 520px;
+      margin-left: auto;
+      margin-right: auto;
+      animation: fadein 1.4s;
+    }
+    .cta-btn {
+      background: linear-gradient(90deg, #26B8FE 0%, #B0DAF5 100%);
+      color: #0d141b;
+      font-family: 'Poppins', 'Inter', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 1.08rem;
+      padding: 0.9rem 2.2rem;
+      border-radius: 30px;
+      border: none;
+      margin-bottom: 1.5rem;
+      margin-top: 0.2rem;
+      box-shadow: 0 2px 20px #26b8fe3a;
+      cursor: pointer;
+      transition: background 0.17s, color 0.13s, transform 0.13s, box-shadow 0.18s;
+      letter-spacing: 0.2px;
+      display: inline-block;
+    }
+    .cta-btn:hover {
+      background: linear-gradient(90deg,#B0DAF5 0%, #26B8FE 100%);
+      color: #070B13;
+      box-shadow: 0 4px 32px #b0daf53a;
+      transform: translateY(-2px) scale(1.03);
+    }
+    .hero-features {
+      margin-top: 1.1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      justify-content: center;
+      font-size: 1.01rem;
+      color: var(--text-muted);
+      animation: fadein 1.9s;
+    }
+    .hero-features span {
+      background: var(--bg-panel);
+      border-radius: 13px;
+      padding: 0.23em 0.95em;
+      border: 1px solid var(--border);
+      display: inline-block;
+      margin-bottom: 0.19rem;
+      transition: background 0.15s, box-shadow 0.17s;
+      box-shadow: 0 2px 6px #26b8fe0b;
+    }
+
+    /* Section transitions */
+    .section {
+      max-width: 1060px;
+      margin: 0 auto;
+      padding: 2.2rem 1.3rem 1.7rem 1.3rem;
+      background: var(--section-bg);
+      border-radius: 0 0 24px 24px;
+      border-bottom: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      margin-bottom: 2.2rem;
+      animation: fadein 1.3s;
+    }
+    .section-title {
+      font-family: 'Inter', 'Poppins', Arial, sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.8rem;
+      text-align: left;
+      border-left: 4px solid var(--primary);
+      padding-left: 0.6rem;
+      letter-spacing: .01em;
+    }
+    /* Cards */
+    .usecases-grid, .how-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.05rem 0.9rem;
+    }
+    .usecase-card, .how-step {
+      background: var(--bg-panel);
+      border-radius: 14px;
+      box-shadow: 0 0 0 1.5px var(--border), 0 6px 18px #26b8fe0d;
+      padding: 1rem 1rem 0.9rem 1rem;
+      min-height: 110px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+      border: none;
+      transition: box-shadow 0.15s, border 0.13s, transform 0.13s;
+      opacity: 0.98;
+      align-items: flex-start;
+      text-align: left;
+    }
+    /* Sadece son kart (Academia & Research) ortalı */
+    .usecases-grid .usecase-card:last-child {
+      align-items: center;
+      text-align: center;
+    }
+    .usecase-card .icon, .how-step .num {
+      font-size: 1.13rem;
+      margin-bottom: 0.15rem;
+      color: var(--primary);
+    }
+    .usecase-title, .how-step strong {
+      font-size: 1.03rem;
+      font-weight: 700;
+      color: var(--text);
+      font-family: 'Poppins', 'Inter', Arial, sans-serif;
+    }
+    .usecase-why, .usecase-ex, .usecase-adv,
+    .how-step {
+      font-size: 0.97rem;
+      color: var(--primary-soft);
+      margin-bottom: 0.1rem;
+    }
+    .usecase-adv {
+      font-style: italic;
+      color: var(--primary);
+    }
+
+    /* Security Features */
+    .feature-list, .remember-list {
+      margin: 1.0rem auto 0 auto;
+      max-width: 600px;
+      padding: 0;
+      list-style: none;
+      color: var(--text-muted);
+      line-height: 1.5;
+      font-size:0.97rem;
+    }
+    .feature-list li:before { content: '🛡️'; color: var(--primary); }
+    .remember-list li:before { content: '🔒'; color: var(--primary);}
+    .feature-list li, .remember-list li {
+      margin-bottom: 0.5em;
+      padding-left: 1.7em;
+      position: relative;
+    }
+    .feature-list li:before, .remember-list li:before {
+      position: absolute;
+      left: 0; top: 0;
+      font-size: 1em;
+    }
+
+    footer {
+      text-align:center;
+      color: var(--text-muted);
+      padding: 2rem 0 1rem 0;
+      font-size: 0.98rem;
+      background: var(--bg-main);
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+    footer a { color: var(--primary); }
+    @media (max-width: 900px) {
+      .navbar { max-width: 100vw; }
+    }
+    @media (max-width: 700px) {
+      .navbar { flex-direction: column; align-items: center; gap: 0.1rem; height: auto; padding: 0.65rem 0.3rem;}
+      .brand { margin-right: 0;}
+      .nav-links { gap: 1.1rem; }
+      .hero-title { font-size: 1.2rem; min-height: auto;}
+      .section-title { font-size: 0.98rem; }
+      .usecases-grid, .how-grid { grid-template-columns: 1fr; }
+      .hero-content { padding-top: 1.1rem;}
+      .section { padding: 1.1rem 0.7rem; }
+    }
+  </style>
 </head>
-
-
 <body>
-    <div class="preloader">
-        <div class="preloader-img"></div>
+  <!-- Navbar -->
+  <div class="navbar-outer">
+    <nav class="navbar">
+      <div class="brand">
+        <img src="https://raw.githubusercontent.com/schwpz/eyedra/refs/heads/main/eyedralogo.png" class="logo-eye" alt="Eyedra Logo" />
+        Eyedra
+      </div>
+      <div class="nav-links">
+        <a class="nav-link" href="#usecases">Use Cases</a>
+        <a class="nav-link" href="#how">How It Works</a>
+        <a class="nav-link" href="#security">Security</a>
+        <a class="nav-link" href="#remember">Remember</a>
+        <a class="nav-link" href="https://github.com/schwpz/eyedra" target="_blank">GitHub</a>
+      </div>
+    </nav>
+  </div>
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <img src="https://raw.githubusercontent.com/schwpz/eyedra/refs/heads/main/eyedralogo.png" class="logo-eye" alt="Eyedra Logo" />
+        <br />
+      <div class="hero-title"><span id="typed"></span><span class="typewriter-cursor">|</span></div>
+      <div class="hero-desc">
+        Eyedra is a secure Windows utility for splitting and merging files with robust encryption,<br>
+        mandatory Two-Factor Authentication (2FA), user-specific wallet codes, and a private key system.<br>
+        <b style="color:var(--primary);font-weight:600;">True zero-knowledge security for confidential file sharing.</b>
+      </div>
+      <a href="https://github.com/schwpz/eyedra" class="cta-btn" target="_blank">View on GitHub</a>
+      <div class="hero-features">
+        <span>Zero-Knowledge</span>
+        <span>2FA Required</span>
+        <span>Wallet Codes</span>
+        <span>Private/Public Key Encryption</span>
+      </div>
     </div>
-
-    <div id="scroll-top-area">
-        <a href="#"><span>Scroll Top</span><i class="fas fa-arrow-right"></i></a>
+  </section>
+  <section class="section" id="usecases">
+    <div class="section-title">Potential Use Cases</div>
+    <div class="usecases-grid">
+      <div class="usecase-card">
+        <div class="icon">📰</div>
+        <div class="usecase-title">Journalists & Media</div>
+        <div class="usecase-why">Protect sources, share sensitive docs securely.</div>
+        <div class="usecase-ex">E.g. confidential exchange between reporters & activists.</div>
+        <div class="usecase-adv">2FA + private key = only intended users can decrypt.</div>
+      </div>
+      <div class="usecase-card">
+        <div class="icon">🕊️</div>
+        <div class="usecase-title">Human Rights NGOs</div>
+        <div class="usecase-why">Exchange sensitive data without leaks.</div>
+        <div class="usecase-ex">E.g. confidential sharing among NGOs or activists.</div>
+        <div class="usecase-adv">Zero-knowledge = anonymity & confidentiality.</div>
+      </div>
+      <div class="usecase-card">
+        <div class="icon">⚖️</div>
+        <div class="usecase-title">Legal & Attorneys</div>
+        <div class="usecase-why">Client files are privacy-critical.</div>
+        <div class="usecase-ex">E.g. secure transfer of case files, contracts, evidence.</div>
+        <div class="usecase-adv">Only correct private key can decrypt files.</div>
+      </div>
+      <div class="usecase-card">
+        <div class="icon">₿</div>
+        <div class="usecase-title">Finance & Crypto</div>
+        <div class="usecase-why">Wallet logic is familiar to crypto users.</div>
+        <div class="usecase-ex">E.g. confidential sharing of financial or token files.</div>
+        <div class="usecase-adv">Crypto-friendly public/private key usage.</div>
+      </div>
+      
     </div>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <a href="index.html" class="logo">
-                        <img src="images/logo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="col-md-9">
-                    <nav class="menu single-page-nav" id="menu">
-                        <ul>
-                            <li><a class="home" href="#">Home</a></li>
-                            <li><a class="resume" href="#">CV/Resume</a></li>
-                            <li><a class="contact" href="mailto:contact.batu@gmail.com">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+  </section>
+  <section class="section" id="how">
+    <div class="section-title">How Eyedra Works</div>
+    <div class="how-grid">
+      <div class="how-step"><span class="num">1.</span>
+        <strong>Download & Launch</strong>
+        Grab Eyedra.exe from Releases.<br>
+        Double-click to start. No install needed.
+      </div>
+      <div class="how-step"><span class="num">2.</span>
+        <strong>Create Account (2FA Required)</strong>
+        Register with username & strong password.<br>
+        Scan QR with TOTP app & verify 2FA.
+      </div>
+      <div class="how-step"><span class="num">3.</span>
+        <strong>Get Wallet Code & Private Key</strong>
+        Wallet code = public key (safe to share).<br>
+        Private key is derived, never stored.
+      </div>
+      <div class="how-step"><span class="num">4.</span>
+        <strong>Login & Share Files</strong>
+        Authenticate with 2FA. Split/encrypt files for others using their wallet code.<br>
+        Only the intended recipient can decrypt.
+      </div>
+    </div>
+  </section>
+  <section class="section" id="security">
+    <div class="section-title">Security Features</div>
+    <ul class="feature-list">
+      <li>Mandatory Two-Factor Authentication (TOTP) for all sessions & actions</li>
+      <li>Public/Private key encryption—only the recipient’s private key can decrypt</li>
+      <li>AES-256-GCM encryption for every file chunk</li>
+      <li>Zero-knowledge: No data or keys ever leave your device</li>
+      <li>No recovery backdoor—lost credentials mean lost access, even for the developer</li>
+      <li>Multi-user: each user has an isolated wallet code & private key</li>
+    </ul>
+  </section>
+  <section class="section" id="remember">
+    <div class="section-title">What You Need To Remember</div>
+    <ul class="remember-list">
+      <li>Your wallet code = your public key = your address for receiving encrypted files</li>
+      <li>Your private key = your access. Only you can decrypt files sent to your wallet code</li>
+      <li>Never share your credentials or private key. Share your wallet code to receive files</li>
+      <li>Files encrypted to a wallet code can only be opened by the private key owner</li>
+      <li>If you lose your credentials or wallet code, your files are lost forever</li>
+    </ul>
+  </section>
+  <footer>
+    &copy; 2025 Batuhan Turguteli &middot;
+    <a href="https://github.com/schwpz/eyedra" target="_blank">GitHub</a>
+  </footer>
+  <script>
+    // Typewriter effect for hero title (white color)
+    const phrases = [
+     
+      "Eyedra.tech_"
+    ];
+    let el = document.getElementById('typed');
+    let i = 0, erase = false, phraseIx = 0;
+    function typeWriter() {
+      let phrase = phrases[phraseIx];
+      if (!erase) {
+        el.textContent = phrase.slice(0, i++);
+        if (i <= phrase.length) setTimeout(typeWriter, 48 + Math.random()*55);
+        else { erase = false; setTimeout(typeWriter, 1800);}
+      } else {
+        el.textContent = phrase.slice(0, --i);
+        if (i > 0) setTimeout(typeWriter, 22 + Math.random()*30);
+        else { erase = false; phraseIx = (phraseIx+1)%phrases.length; setTimeout(typeWriter, 700);}
+      }
+    }
+    typeWriter();
 
-    <section class="welcome-area animated-text" id="welcome-area">
-        <div class="particle particle-default-bg">
-            <div id="particles-js"></div>
-            <div class="bg-overlay"></div>
-            <div class="welcome-overlay"></div>
-            <div class="display-table">
-                <div class="display-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="welcome-text">
-                                    <div class="type-wrap">
-                                        <div id="typed-strings">
-                                            <h1>I'm <span>Batuhan Turguteli.</span></h1>
-                                            <h1>I'm an <span>IT Specialist & Analyst.</span></h1>
-                                        </div>
-                                        <span id="typed"></span>
-                                    </div>
-                                    <p>Currently working at Conectys as a Quality Assurance Analyst. For more information, please check out my Linked-In account or reach me via E-Mail. Mail Address: contact.batu@gmail.com
-                                        <p>
-                                    <div class="social-icons">
-                                         <a href="https://www.credly.com/users/batuhan-turguteli/badges"><i class="fa fa-id-badge" aria-hidden="true"></i>
-                                        <a href="https://www.linkedin.com/in/batuturguteli/"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://github.com/schwpz"><i class="fab fa-github"></i></a>
-                                        
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <script src="js/jquery.min.js "></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.slicknav.min.js "></script>
-    <script src="js/owl.carousel.min.js "></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/app-particle.js"></script>
-    <script src="js/jquery.waypoints.min.js "></script>
-    <script src="js/jquery.ajaxchimp.min.js "></script>
-    <script src="js/lightbox.js "></script>
-    <script src="js/typed.min.js "></script>
-    <script src="js/mixitup.min.js "></script>
-    <script src="js/jquery.counterup.min.js "></script>
-    <script src="js/jquery.singlePageNav.min.js "></script>
-    <script src="js/main.js"></script>
+    // Smooth scroll for nav links
+    document.querySelectorAll('.nav-link[href^="#"]').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('.nav-link.active')?.classList.remove('active');
+        this.classList.add('active');
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) window.scrollTo({ top: target.offsetTop - 75, behavior: 'smooth' });
+      });
+    });
+    // Active link highlight on scroll
+    const sections = ['usecases', 'how', 'security', 'remember'];
+    window.addEventListener('scroll', () => {
+      let scrollPos = window.scrollY || window.pageYOffset;
+      for (const id of sections) {
+        const sec = document.getElementById(id);
+        if (sec && scrollPos + 90 >= sec.offsetTop && scrollPos < sec.offsetTop + sec.offsetHeight) {
+          document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+          document.querySelector('.nav-link[href="#'+id+'"]')?.classList.add('active');
+        }
+      }
+    });
+  </script>
 </body>
+</html>
