@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Batuhan Turguteli | Interactive AI CV Chat</title>
+
+<style>
+:root {
+  --bg:#0d0d0f;
+  --panel:#17171a;
+  --bot:#222227;
+  --accent:#0a66c2;
+  --text:#e4e4e7;
+  --border:#27272a;
+}
+
+body {
+  margin:0;
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  display:flex;
+  height:100vh;
+  overflow:hidden;
+}
+
+/* === SOL PORTFOLIO PANEL === */
+.left-panel {
+  width:260px;
+  background:var(--panel);
+  border-right:1px solid var(--border);
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:12px;
+  box-sizing:border-box;
+  flex-shrink:0;
+}
+
+.profile-img {
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  border:2px solid var(--accent);
+}
+
+.name {
+  font-size:22px;
+  font-weight:700;
+  color:white;
+  text-align:center;
+}
+
+.typewriter {
+  font-size:14px;
+  opacity:0.85;
+  font-weight:500;
+  border-right:2px solid var(--accent);
+  white-space:normal;
+  overflow-wrap:break-word;
+  word-break:break-word;
+  width:100%;
+  text-align:center;
+  box-sizing:border-box;
+  animation:blink 0.7s infinite;
+  padding-right:5px;
+}
+
+@keyframes blink {
+  0%{border-color:transparent}
+  50%{border-color:var(--accent)}
+  100%{border-color:transparent}
+}
+
+/* === ANA CHAT PANEL === */
+.main-chat {
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  box-sizing:border-box;
+}
+
+.top-bar {
+  background:var(--panel);
+  padding:14px;
+  font-size:16px;
+  font-weight:600;
+  text-align:center;
+  border-bottom:1px solid var(--border);
+  color:white;
+  flex-shrink:0;
+}
+
+#chat {
+  flex:1;
+  overflow-y:auto;
+  width:100%;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  box-sizing:border-box;
+}
+
+.bubble {
+  padding:12px 16px;
+  border-radius:14px;
+  font-size:15px;
+  line-height:1.5;
+  max-width:55%;
+  opacity:0;
+  transform:translateY(5px);
+  animation:fade 0.18s ease-out forwards;
+}
+
+@keyframes fade {
+  to {opacity:1; transform:translateY(0);}
+}
+
+.bot { background:var(--bot); align-self:flex-start; }
+.user { background:var(--accent); color:white; align-self:flex-end; }
+
+/* === ALTTA TAM GENİŞ INPUT === */
+.input-container {
+  width:100%;
+  background:var(--panel);
+  padding:16px 20px;
+  border-top:1px solid var(--border);
+  box-sizing:border-box;
+  flex-shrink:0;
+}
+
+#msgInput {
+  width:100%;
+  font-size:16px;
+  padding:16px 20px;
+  background:#2f2f36;
+  border:1px solid #3f3f46;
+  border-radius:14px;
+  color:white;
+  outline:none;
+  transition:0.15s;
+  box-sizing:border-box;
+}
+
+#msgInput:focus {
+  border-color:var(--accent);
+  background:#38383f;
+}
+
+/* Designed by BT */
+.footer {
+  margin-top:auto;
+  font-size:12px;
+  font-weight:700;
+  color:#71717a;
+}
+
+.logo-bt {
+  display:inline-block;
+  background:black;
+  color:var(--accent);
+  padding:4px 8px;
+  border-radius:6px;
+  font-family:Arial Black,Arial,sans-serif;
+  font-size:12px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+</style>
+</head>
+
+<body>
+
+<div class="left-panel">
+  <img class="profile-img" src="https://avatars.githubusercontent.com/u/114942335?v=4"/>
+  <div class="name">Batuhan Turguteli</div>
+  <div id="typeEffect" class="typewriter"></div>
+  <div class="footer">Designed by <span class="logo-bt">BT</span></div>
+</div>
+
+<div class="main-chat">
+  <div class="top-bar">Interactive CV Chat</div>
+  <div id="chat"></div>
+
+  <div class="input-container">
+    <input id="msgInput" placeholder="Ask a question about Batuhan..." autocomplete="off"/>
+  </div>
+</div>
+
+<script>
+// === OpenRouter API CALL ===
+const OPENROUTER_API_KEY = "sk-or-v1-YOUR_API_KEY_HERE";
+const MODEL = "google/gemma-2-27b-it";
+
+const SYSTEM_PROMPT = `
+You are Batuhan’s AI CV Chatbot.
+Only answer based on Batuhan’s facts. No hallucination.
+If not about Batuhan, reply: "I only answer about Batuhan in this CV chat."
+`;
+
+async function askAI(msg) {
+  try {
+    const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      method:"POST",
+      headers:{
+        "Authorization":"Bearer " + OPENROUTER_API_KEY,
+        "Content-Type":"application/json"
+      },
+      body:JSON.stringify({
+        model:MODEL,
+        messages:[
+          {role:"system",content:SYSTEM_PROMPT},
+          {role:"user",content:msg}
+        ],
+        max_tokens:200
+      })
+    });
+    const data = await res.json();
+    return data.choices?.[0]?.message?.content || "I only answer about Batuhan.";
+  } catch {
+    return "I only answer about Batuhan.";
+  }
+}
+
+function addBubble(text, sender="bot") {
+  const chat = document.getElementById("chat");
+  const div = document.createElement("div");
+  div.className="bubble " + (sender==="bot"?"bot":"user");
+  div.innerText=text;
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function showTyping() {
+  const chat = document.getElementById("chat");
+  const t = document.createElement("div");
+  t.className="bubble bot typing";
+  t.id="typing";
+  t.innerHTML=`<span class="dot"></span><span class="dot"></span><span class="dot"></span>`;
+  chat.appendChild(t);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+document.getElementById("msgInput").addEventListener("keydown", async (e)=>{
+  if(e.key === "Enter") {
+    e.preventDefault();
+    const msg = e.target.value.trim();
+    if(!msg) return;
+    e.target.value="";
+    addBubble(msg,"user");
+    showTyping();
+    const answer = await askAI(msg);
+    document.getElementById("typing")?.remove();
+    addBubble(answer,"bot");
+  }
+});
+
+// === SOL PANEL TYPE EFFECT ===
+const typeText = "Scalability • AI Literacy • Scalable Training • Process Optimization";
+let i = 0;
+function typeLeft() {
+  const el = document.getElementById("typeEffect");
+  if(i < typeText.length) {
+    el.textContent += typeText.charAt(i);
+    i++;
+    setTimeout(typeLeft, 65);
+  }
+}
+
+window.onload = ()=>{
+  addBubble("Hi! I'm Batuhan’s AI CV. You can ask me anything about him.","bot");
+  setTimeout(typeLeft, 500);
+};
+</script>
+
+</body>
+</html>
