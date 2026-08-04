@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GeoStrike.io | Global OSINT Intelligence Feed</title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <meta name="description" content="GeoStrike.io — Real-time global OSINT intelligence feed. Live conflict updates, breaking news, and geopolitical alerts from verified sources.">
+  <meta name="keywords" content="OSINT, intelligence, conflict, breaking news, geopolitics, live feed, war monitor, middle east, ukraine, real-time">
+  <meta name="author" content="schwpz">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://geostrike.io/">
+  <meta property="og:title" content="GeoStrike.io | Global OSINT Intelligence Feed">
+  <meta property="og:description" content="Real-time global conflict and intelligence monitoring. Live updates from verified OSINT sources.">
+  <meta property="og:image" content="https://geostrike.io/logo.png">
+  <meta property="og:url" content="https://geostrike.io">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GeoStrike.io">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GeoStrike.io | Global OSINT Feed">
+  <meta name="twitter:description" content="Real-time global conflict and intelligence monitoring.">
+  <meta name="twitter:image" content="https://geostrike.io/logo.png">
+  <meta name="twitter:site" content="@schwpzio">
+  <meta name="theme-color" content="#060910">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+  <style>
+    
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:#060910;color:#e2e8f0;font-family:-apple-system,'Segoe UI',sans-serif;height:100dvh;display:flex;flex-direction:column;overflow:hidden;animation:pageEnter .6s ease both}
+    @keyframes pageEnter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    header{display:flex;align-items:center;justify-content:space-between;padding:.45rem 1.2rem;background:#0d1117;border-bottom:1px solid #1e293b;flex-shrink:0;gap:1rem;flex-wrap:wrap}
+    .logo{display:flex;align-items:center;text-decoration:none}
+    .logo img{height:48px;width:auto;border-radius:10px;object-fit:cover;transition:opacity .2s}
+    .logo img:hover{opacity:.85}
+    .header-right{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap}
+    #status-text{font-size:.68rem;color:#64748b}
+    #last-updated{font-size:.65rem;color:#334155}
+    .conn-indicator{display:flex;align-items:center;gap:.3rem;font-size:.65rem;padding:.2rem .5rem;border-radius:999px;border:1px solid;transition:all .4s ease}
+    .conn-indicator.connected{color:#22c55e;border-color:#22c55e33;background:#22c55e11}
+    .conn-indicator.reconnecting{color:#f59e0b;border-color:#f59e0b33;background:#f59e0b11}
+    .conn-indicator.offline{color:#ef4444;border-color:#ef444433;background:#ef444411}
+    .conn-dot{width:6px;height:6px;border-radius:50%;background:currentColor}
+    .conn-indicator.connected .conn-dot{animation:pulse 2s infinite}
+    .conn-indicator.reconnecting .conn-dot{animation:pulse .5s infinite}
+    @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+    .cam-toggle-btn{padding:.2rem .55rem;border-radius:999px;border:1px solid #1e293b;background:transparent;color:#64748b;cursor:pointer;font-size:.68rem;transition:all .2s cubic-bezier(.34,1.56,.64,1)}
+    .cam-toggle-btn:hover{border-color:#06b6d4;color:#06b6d4;transform:scale(1.05)}
+    .cam-toggle-btn.active{background:#06b6d4;border-color:#06b6d4;color:#fff}
+    .lang-btn{padding:.2rem .55rem;border-radius:999px;border:1px solid #1e293b;background:transparent;color:#64748b;cursor:pointer;font-size:.68rem;font-weight:700;transition:all .2s cubic-bezier(.34,1.56,.64,1);letter-spacing:.04em}
+    .lang-btn:hover{border-color:#a855f7;color:#a855f7;transform:scale(1.05)}
+    .lang-btn.active{background:#a855f7;border-color:#a855f7;color:#fff}
+    .filters{padding:.35rem 1.2rem;background:#0d1117;border-bottom:1px solid #1a2535;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;flex-shrink:0}
+    .filter-label{font-size:.6rem;color:#475569;text-transform:uppercase}
+    .filters button{padding:.18rem .55rem;border-radius:999px;border:1px solid #1e293b;background:transparent;color:#64748b;cursor:pointer;font-size:.68rem;transition:all .2s cubic-bezier(.34,1.56,.64,1)}
+    .filters button:hover{border-color:#334155;color:#94a3b8;transform:translateY(-1px) scale(1.05)}
+    .filters button:active{transform:scale(.95)}
+    .filters button.active{background:#0ea5e9;border-color:#0ea5e9;color:#fff;font-weight:600}
+    .topic-btn.active-breaking{background:#ef4444!important;border-color:#ef4444!important;color:#fff!important}
+    .topic-btn.active-conflict{background:#f97316!important;border-color:#f97316!important;color:#fff!important}
+    .topic-btn.active-osint{background:#3b82f6!important;border-color:#3b82f6!important;color:#fff!important}
+    .topic-btn.active-middleeast{background:#f59e0b!important;border-color:#f59e0b!important;color:#fff!important}
+    .topic-btn.active-geopolitics{background:#06b6d4!important;border-color:#06b6d4!important;color:#fff!important}
+    .topic-btn.active-politics{background:#a855f7!important;border-color:#a855f7!important;color:#fff!important}
+    .topic-btn.active-alerts{background:#eab308!important;border-color:#eab308!important;color:#fff!important}
+    .topic-btn.active-cyber{background:#10b981!important;border-color:#10b981!important;color:#fff!important}
+    .search-bar{padding:.35rem 1.2rem;background:#0a0f1a;border-bottom:1px solid #1a2535;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;flex-shrink:0}
+    .search-input{padding:.22rem .7rem;border-radius:6px;border:1px solid #1e293b;background:#0d1117;color:#e2e8f0;font-size:.72rem;outline:none;width:200px;transition:all .25s ease}
+    .search-input:focus{border-color:#0ea5e9;box-shadow:0 0 0 3px #0ea5e920;width:240px}
+    .search-input::placeholder{color:#334155}
+    .filter-select{padding:.22rem .5rem;border-radius:6px;border:1px solid #1e293b;background:#0d1117;color:#64748b;font-size:.68rem;outline:none;cursor:pointer;transition:all .2s ease}
+    .filter-select:focus{border-color:#0ea5e9;color:#e2e8f0}
+    .clear-btn{padding:.22rem .6rem;border-radius:6px;border:1px solid #334155;background:transparent;color:#64748b;font-size:.68rem;cursor:pointer;transition:all .2s cubic-bezier(.34,1.56,.64,1)}
+    .clear-btn:hover{border-color:#ef4444;color:#ef4444;transform:scale(1.05)}
+    .stats-bar{display:flex;gap:.5rem;padding:.4rem 1.2rem;background:#0a0f1a;border-bottom:1px solid #1a2535;flex-shrink:0;flex-wrap:wrap}
+    .stat-card{flex:1;min-width:110px;background:#0d1117;border:1px solid #1e293b;border-radius:6px;padding:.4rem .7rem;display:flex;align-items:center;gap:.5rem;transition:all .25s cubic-bezier(.34,1.56,.64,1);cursor:default}
+    .stat-card:hover{transform:translateY(-3px) scale(1.02);border-color:#334155;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+    .stat-icon{font-size:1rem;flex-shrink:0;transition:transform .3s}
+    .stat-card:hover .stat-icon{transform:scale(1.3) rotate(-5deg)}
+    .stat-info{display:flex;flex-direction:column}
+    .stat-val{font-size:1rem;font-weight:700;color:#f8fafc;line-height:1;transition:color .3s}
+    .stat-lbl{font-size:.58rem;color:#475569;text-transform:uppercase;letter-spacing:.04em;margin-top:1px}
+    .stat-card.s-conflict{border-left:3px solid #ef4444}.stat-card.s-conflict:hover .stat-val{color:#ef4444}
+    .stat-card.s-threat{border-left:3px solid #f97316}.stat-card.s-threat:hover .stat-val{color:#f97316}
+    .stat-card.s-today{border-left:3px solid #0ea5e9}.stat-card.s-today:hover .stat-val{color:#0ea5e9}
+    .stat-card.s-regions{border-left:3px solid #a855f7}.stat-card.s-regions:hover .stat-val{color:#a855f7}
+    #progress{height:2px;background:#1e293b;flex-shrink:0}
+    #progress-bar{height:100%;background:linear-gradient(90deg,#0ea5e9,#a855f7,#0ea5e9);background-size:200% 100%;width:0%;transition:width .3s ease;animation:shimmer 2s linear infinite}
+    @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+    .main{display:flex;flex:1;overflow:hidden;min-height:0}
+    .map-panel{flex:1;display:flex;flex-direction:column;overflow:hidden;min-height:0}
+    .oref-ticker{display:flex;align-items:center;background:linear-gradient(90deg,#7f1d1d,#991b1b);border-bottom:2px solid #ef4444;height:28px;flex-shrink:0;overflow:hidden;transition:height .4s ease,border .4s ease;position:relative;z-index:10}
+    .oref-ticker.oref-hidden{height:0;border-bottom:none}
+    .oref-ticker-left{display:flex;align-items:center;gap:.4rem;padding:0 .7rem;background:#ef4444;height:100%;flex-shrink:0;white-space:nowrap}
+    .oref-ticker-dot{width:8px;height:8px;border-radius:50%;background:#fff;animation:pulse .6s infinite;flex-shrink:0}
+    .oref-ticker-label{font-size:.65rem;font-weight:800;color:#fff;letter-spacing:.1em;text-transform:uppercase}
+    .oref-ticker-track{flex:1;overflow:hidden;height:100%;position:relative}
+    .oref-ticker-inner{display:flex;align-items:center;height:100%;white-space:nowrap;animation:tickerScroll 30s linear infinite}
+    @keyframes tickerScroll{0%{transform:translateX(100vw)}100%{transform:translateX(-100%)}}
+    .oref-ticker-item{font-size:.68rem;color:#fecaca;padding:0 1.5rem;border-right:1px solid #ef444466;white-space:nowrap;flex-shrink:0}
+    .oref-ticker-item .oref-type{color:#fff;font-weight:700;margin-right:.35rem}
+    .oref-ticker-count{padding:0 .7rem;font-size:.62rem;color:#fca5a5;flex-shrink:0;white-space:nowrap;background:#7f1d1d;height:100%;display:flex;align-items:center;border-left:1px solid #ef444444;font-weight:700}
+    #map{flex:1;background:#0a0f1a;min-height:0}
+    .leaflet-container{background:#0a0f1a!important}
+    .intel-marker{border-radius:50%;border:2px solid rgba(255,255,255,.35);cursor:pointer;opacity:0;animation:markerAppear .5s cubic-bezier(.34,1.56,.64,1) forwards;transition:transform .2s cubic-bezier(.34,1.56,.64,1),box-shadow .2s}
+    @keyframes markerAppear{0%{opacity:0;transform:scale(0)}70%{opacity:1;transform:scale(1.3)}100%{opacity:1;transform:scale(1)}}
+    .intel-marker:hover{transform:scale(2.2)!important;box-shadow:0 0 12px currentColor}
+    .intel-marker.new-marker{animation:markerAppear .5s cubic-bezier(.34,1.56,.64,1) forwards,markerPulse 2s .5s infinite}
+    @keyframes markerPulse{0%{box-shadow:0 0 0 0 rgba(239,68,68,.8)}70%{box-shadow:0 0 0 14px rgba(239,68,68,0)}100%{box-shadow:0 0 0 0 rgba(239,68,68,0)}}
+    .leaflet-popup-content-wrapper{background:#0f172a!important;border:1px solid #1e293b!important;border-radius:10px!important;color:#e2e8f0!important;box-shadow:0 12px 40px rgba(0,0,0,.7)!important;max-width:300px}
+    .leaflet-popup-tip{background:#0f172a!important}
+    .leaflet-popup-content{margin:10px 14px!important}
+    .popup-badge{font-size:.6rem;padding:.15rem .4rem;border-radius:3px;font-weight:700;text-transform:uppercase;display:inline-block;margin-bottom:.4rem}
+    .popup-text{font-size:.78rem;line-height:1.5;color:#cbd5e1}
+    .popup-channel{font-size:.65rem;color:#475569;margin-top:.3rem}
+    .popup-link{display:inline-block;margin-top:.4rem;font-size:.7rem;color:#0ea5e9;text-decoration:none}
+    .popup-link:hover{color:#38bdf8}
+    .feed-panel{width:520px;flex-shrink:0;background:#0d1117;border-left:1px solid #1a2535;display:flex;flex-direction:column;overflow:hidden;min-height:0}
+    .feed-header-bar{padding:.35rem .8rem;background:#0a0f1a;border-bottom:1px solid #1a2535;font-size:.65rem;color:#475569;display:flex;justify-content:space-between;flex-shrink:0;align-items:center}
+    .feed-list{flex:1;min-height:0;overflow-y:auto;padding:.4rem;display:flex;flex-direction:column;gap:.35rem}
+    .feed-list::-webkit-scrollbar{width:3px}
+    .feed-list::-webkit-scrollbar-track{background:transparent}
+    .feed-list::-webkit-scrollbar-thumb{background:#1e293b;border-radius:2px}
+    .feed-list::-webkit-scrollbar-thumb:hover{background:#334155}
+    .card{background:#0f1923;border-radius:7px;padding:.65rem .85rem;border-left:3px solid #374151;text-decoration:none;color:inherit;display:block;position:relative;overflow:visible;transition:background .2s ease,transform .25s cubic-bezier(.34,1.56,.64,1),box-shadow .25s ease}
+    .card::before{content:'';position:absolute;inset:0;border-radius:7px;background:linear-gradient(135deg,rgba(255,255,255,.02),transparent);opacity:0;transition:opacity .25s ease;pointer-events:none}
+    .card:hover{background:#151f2e;transform:translateX(4px) translateY(-1px);box-shadow:0 6px 24px rgba(0,0,0,.45),-3px 0 0 var(--card-color,#374151)}
+    .card:hover::before{opacity:1}
+    .card:hover .review-btn{opacity:1;transform:scale(1)}
+    .card.highlighted{background:#1a2535;border-left-width:4px;box-shadow:0 0 0 1px #0ea5e940,0 8px 32px rgba(14,165,233,.12)}
+    .card.entry-anim{animation:cardEntry .45s cubic-bezier(.34,1.56,.64,1) both}
+    @keyframes cardEntry{from{opacity:0;transform:translateY(-10px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+    .card.is-new{animation:newCardEntry .5s cubic-bezier(.34,1.56,.64,1) both}
+    @keyframes newCardEntry{0%{opacity:0;transform:translateX(-12px) scale(.95)}60%{transform:translateX(3px) scale(1.01)}100%{opacity:1;transform:translateX(0) scale(1)}}
+    .card.reviewed{opacity:.35}.card.reviewed .card-text{text-decoration:line-through}
+    .card-top{display:flex;gap:.3rem;align-items:center;margin-bottom:.35rem;flex-wrap:nowrap;overflow:hidden}
+    .badge{font-size:.56rem;padding:.1rem .32rem;border-radius:3px;font-weight:700;text-transform:uppercase;flex-shrink:0}
+    .threat-badge{font-size:.54rem;padding:.1rem .28rem;border-radius:3px;font-weight:700;flex-shrink:0}
+    .threat-HIGH{background:#ef444422;color:#ef4444;border:1px solid #ef444444}
+    .threat-MED{background:#f9731622;color:#f97316;border:1px solid #f9731644}
+    .threat-LOW{background:#3b82f622;color:#3b82f6;border:1px solid #3b82f644}
+    .region-tag{font-size:.62rem;flex-shrink:0}
+    .channel{font-size:.62rem;color:#4a5568;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+    .card:hover .channel{color:#64748b}
+    .time-ago{font-size:.6rem;color:#4a5568;margin-left:auto;white-space:nowrap;flex-shrink:0;background:#1e293b;padding:.08rem .3rem;border-radius:3px}
+    .card-text{font-size:.77rem;line-height:1.6;color:#8a9ab5;white-space:pre-wrap;word-break:break-word}
+    .card:hover .card-text{color:#94a3b8}
+    .dot-new{width:5px;height:5px;border-radius:50%;background:#ef4444;display:inline-block;margin-right:2px;animation:pulse 1.5s infinite;vertical-align:middle;flex-shrink:0}
+    .new-badge{font-size:.5rem;background:#ef444415;color:#ef4444;border:1px solid #ef444430;padding:.07rem .25rem;border-radius:3px;flex-shrink:0;font-weight:700}
+    .geo-pin{font-size:.6rem;color:#2d3f55;flex-shrink:0}
+    .review-btn{position:absolute;top:.4rem;right:.4rem;width:20px;height:20px;border-radius:4px;border:1px solid #1e293b;background:#0d1117;color:#334155;font-size:.65rem;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transform:scale(.7);transition:all .2s cubic-bezier(.34,1.56,.64,1);z-index:2}
+    .review-btn:hover{border-color:#22c55e;color:#22c55e;background:#22c55e11}
+    .review-btn.done{opacity:1!important;transform:scale(1)!important;border-color:#22c55e;color:#22c55e;background:#22c55e11}
+    .card-tooltip{display:none;position:absolute;z-index:999;left:100%;top:0;margin-left:8px;width:220px;background:#0f172a;border:1px solid #1e293b;border-radius:8px;padding:.6rem .8rem;font-size:.68rem;color:#94a3b8;line-height:1.6;pointer-events:none;box-shadow:0 12px 32px rgba(0,0,0,.6)}
+    .card:hover .card-tooltip{display:block}
+    .card-tooltip b{color:#e2e8f0;display:block;margin-bottom:.2rem;font-size:.7rem}
+    .tooltip-row{display:flex;justify-content:space-between;gap:.5rem}
+    .tooltip-key{color:#475569}
+    .tooltip-val{color:#cbd5e1;text-align:right;word-break:break-all}
+    .card-img-wrap{margin-top:.5rem}
+    .card-img{width:auto;max-width:220px;max-height:140px;border-radius:5px;display:block;object-fit:cover;background:#0a0f1a}
+    .card-video-wrap{margin-top:.5rem}
+    .card-video{width:auto;max-width:220px;max-height:130px;border-radius:5px;background:#000;display:block}
+    .ripple{position:absolute;border-radius:50%;background:rgba(255,255,255,.06);transform:scale(0);animation:rippleAnim .5s linear;pointer-events:none}
+    @keyframes rippleAnim{to{transform:scale(4);opacity:0}}
+    .copyright{flex-shrink:0;padding:.2rem 1.2rem;background:#0a0f1a;border-top:1px solid #1a2535;display:flex;align-items:center;justify-content:center;gap:.4rem;font-size:.58rem;color:#2d3f55}
+    .copyright a{color:#334155;text-decoration:none;transition:color .2s}
+    .copyright a:hover{color:#64748b}
+    .cam-panel{width:0;flex-shrink:0;overflow:hidden;background:#0d1117;border-left:1px solid #1a2535;display:flex;flex-direction:column;transition:width .35s cubic-bezier(.34,1.56,.64,1)}
+    .cam-panel.open{width:640px}
+    .cam-panel-header{padding:.35rem .8rem;background:#0a0f1a;border-bottom:1px solid #1a2535;display:flex;justify-content:space-between;flex-shrink:0;align-items:center;gap:.5rem;white-space:nowrap}
+    .cam-panel-title{font-size:.65rem;font-weight:700;color:#94a3b8;letter-spacing:.06em}
+    .cam-layout-btns{display:flex;gap:.25rem}
+    .cam-layout-btn{width:20px;height:20px;border-radius:3px;border:1px solid #1e293b;background:transparent;color:#64748b;font-size:.55rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s}
+    .cam-layout-btn.active{background:#0ea5e9;border-color:#0ea5e9;color:#fff}
+    .cam-tabs{display:flex;gap:.3rem;padding:.3rem .5rem;background:#0a0f1a;border-bottom:1px solid #1a2535;flex-shrink:0;flex-wrap:wrap}
+    .cam-tab{padding:.15rem .45rem;border-radius:4px;border:1px solid #1e293b;background:transparent;color:#64748b;cursor:pointer;font-size:.62rem;font-weight:600;text-transform:uppercase;transition:all .18s cubic-bezier(.34,1.56,.64,1)}
+    .cam-tab:hover{border-color:#334155;color:#94a3b8;transform:translateY(-1px)}
+    .cam-tab.active{background:#ef4444;border-color:#ef4444;color:#fff}
+    .cam-tab.r-me.active{background:#f59e0b!important;border-color:#f59e0b!important}
+    .cam-tab.r-eu.active{background:#3b82f6!important;border-color:#3b82f6!important}
+    .cam-tab.r-us.active{background:#a855f7!important;border-color:#a855f7!important}
+    .cam-tab.r-as.active{background:#10b981!important;border-color:#10b981!important}
+    .cam-grid{flex:1;overflow-y:auto;padding:.5rem;display:grid;gap:.5rem;grid-template-columns:1fr;min-height:0}
+    .cam-grid.cols-1{grid-template-columns:1fr}.cam-grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    .cam-grid::-webkit-scrollbar{width:3px}
+    .cam-grid::-webkit-scrollbar-thumb{background:#1e293b;border-radius:2px}
+    .cam-item{background:#0f1923;border-radius:8px;overflow:hidden;border:1px solid #1a2535;transition:all .2s cubic-bezier(.34,1.56,.64,1);animation:camEntry .4s ease both}
+    @keyframes camEntry{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}
+    .cam-item:hover{border-color:#334155;box-shadow:0 6px 24px rgba(0,0,0,.6)}
+    .cam-item-header{padding:.3rem .6rem;background:#0a0f1a;display:flex;align-items:center;justify-content:space-between}
+    .cam-item-name{font-size:.65rem;font-weight:700;color:#f8fafc;text-transform:uppercase;letter-spacing:.06em;display:flex;align-items:center;gap:.35rem}
+    .cam-live-dot{width:6px;height:6px;border-radius:50%;background:#ef4444;flex-shrink:0;animation:pulse 1.5s infinite}
+    .cam-expand{width:20px;height:20px;border-radius:3px;border:1px solid #1e293b;background:transparent;color:#475569;font-size:.6rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s}
+    .cam-expand:hover{border-color:#0ea5e9;color:#0ea5e9}
+    .cam-frame{position:relative;padding-bottom:56.25%;height:0;background:#000;overflow:hidden}
+    .cam-frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:none;display:block}
+    .cam-add-bar{padding:.35rem .5rem;background:#0a0f1a;border-top:1px solid #1a2535;display:flex;gap:.3rem;align-items:center;flex-shrink:0}
+    .cam-add-input{flex:1;padding:.22rem .5rem;border-radius:5px;border:1px solid #1e293b;background:#060910;color:#e2e8f0;font-size:.65rem;outline:none;transition:all .2s}
+    .cam-add-input:focus{border-color:#0ea5e9;box-shadow:0 0 0 2px #0ea5e920}
+    .cam-add-input::placeholder{color:#334155}
+    .cam-name-input{max-width:90px}
+    .cam-add-btn{padding:.22rem .55rem;border-radius:5px;border:1px solid #0ea5e9;background:#0ea5e9;color:#fff;font-size:.62rem;font-weight:600;cursor:pointer;white-space:nowrap;transition:all .18s cubic-bezier(.34,1.56,.64,1)}
+    .cam-add-btn:hover{background:#38bdf8;transform:scale(1.05)}
+    .cam-add-btn:active{transform:scale(.95)}
+    .cam-fs{display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.95);align-items:center;justify-content:center}
+    .cam-fs.open{display:flex;animation:fsIn .2s ease}
+    @keyframes fsIn{from{opacity:0}to{opacity:1}}
+    .cam-fs-box{position:relative;width:92vw;max-width:1400px}
+    .cam-fs-box iframe{width:100%;aspect-ratio:16/9;border:none;border-radius:10px;display:block}
+    .cam-fs-close{position:absolute;top:-36px;right:0;background:transparent;border:none;color:#94a3b8;font-size:1.3rem;cursor:pointer}
+    .cam-fs-close:hover{color:#fff}
+    .cam-fs-title{position:absolute;top:-32px;left:0;font-size:.78rem;color:#64748b;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+    .siren-card{background:#1a0505;border-left:4px solid #ef4444;border-radius:7px;padding:.65rem .85rem;animation:newCardEntry .5s cubic-bezier(.34,1.56,.64,1) both}
+    .siren-card-top{display:flex;align-items:center;gap:.4rem;margin-bottom:.4rem}
+    .siren-title{font-size:.77rem;color:#fca5a5;font-weight:600;margin-bottom:.3rem}
+    .siren-areas{font-size:.68rem;color:#6b7280;line-height:1.6}
+    .oref-tooltip{background:#1a0505!important;border:1px solid #ef4444!important;color:#fca5a5!important;font-size:.65rem!important;font-weight:700!important;padding:.2rem .4rem!important;border-radius:4px!important;box-shadow:0 4px 12px rgba(239,68,68,.3)!important}
+    .oref-tooltip::before{border-top-color:#ef4444!important}
+    @media(max-width:768px){
+      body{overflow:hidden;height:100dvh}
+      header{padding:.3rem .6rem;flex-shrink:0}
+      .logo img{height:30px}
+      .header-right{gap:.4rem}
+      #status-text{display:none}
+      #last-updated{display:none}
+      .filters{padding:.25rem .6rem;gap:.25rem;overflow-x:auto;flex-wrap:nowrap;flex-shrink:0}
+      .filters::-webkit-scrollbar{display:none}
+      .filter-label{display:none}
+      .filters button{font-size:.62rem;padding:.15rem .4rem;flex-shrink:0}
+      .search-bar{display:none}
+      .stats-bar{gap:.25rem;padding:.25rem .6rem;flex-wrap:nowrap;overflow-x:auto;flex-shrink:0}
+      .stats-bar::-webkit-scrollbar{display:none}
+      .stat-card{min-width:80px;padding:.25rem .4rem;flex-shrink:0}
+      .stat-val{font-size:.8rem}
+      .stat-lbl{font-size:.48rem}
+      .stat-icon{font-size:.85rem}
+      #progress{flex-shrink:0}
+      .main{flex:1;flex-direction:column;min-height:0;overflow:hidden}
+      .map-panel{flex:none;height:25vh;min-height:0;overflow:hidden}
+      .feed-panel{width:100%;border-left:none;border-top:1px solid #1a2535;flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+      .feed-header-bar{flex-shrink:0}
+      .feed-list{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:.3rem;gap:.25rem}
+      .card{padding:.5rem .65rem}
+      .card-text{font-size:.74rem;line-height:1.5}
+      .card-top{gap:.2rem;margin-bottom:.2rem}
+      .badge{font-size:.56rem;padding:.08rem .28rem}
+      .threat-badge{font-size:.54rem}
+      .channel{font-size:.62rem}
+      .time-ago{font-size:.6rem}
+      .card-img{max-width:100%;max-height:140px}
+      .card-video{max-width:100%;max-height:130px}
+      .card-tooltip{display:none!important}
+      .review-btn{opacity:1;transform:scale(1)}
+      .cam-panel{display:none;width:100%;height:0;border-left:none;border-top:1px solid #1a2535;flex-direction:column}
+      .cam-grid.cols-2{grid-template-columns:1fr}
+      .oref-ticker{height:22px;flex-shrink:0}
+      .oref-ticker-label{font-size:.56rem}
+      .oref-ticker-item{font-size:.58rem;padding:0 .8rem}
+      .oref-ticker-count{font-size:.53rem;padding:0 .35rem}
+      .copyright{display:none}
+    }
+    @media(max-width:380px){
+      .map-panel{height:20vh}
+      .logo img{height:26px}
+      .lang-btn{padding:.15rem .4rem;font-size:.6rem}
+      .cam-toggle-btn{padding:.15rem .4rem;font-size:.6rem}
+    }
+    .oref-ring-1 path,
+.oref-ring-1 {
+  animation: orefPulse1 2s ease-out infinite !important;
+}
+.oref-ring-2 path,
+.oref-ring-2 {
+  animation: orefPulse2 2.5s ease-out infinite !important;
+}
+@keyframes orefPulse1 {
+  0%,100% { opacity: .4; }
+  50%     { opacity: .08; }
+}
+@keyframes orefPulse2 {
+  0%,100% { opacity: .2; }
+  50%     { opacity: .03; }
+}
+.oref-tooltip {
+  background:    #1a0505 !important;
+  border:        1px solid #ef4444 !important;
+  color:         #fca5a5 !important;
+  font-size:     .65rem !important;
+  font-weight:   700 !important;
+  padding:       .2rem .4rem !important;
+  border-radius: 4px !important;
+  box-shadow:    0 4px 12px rgba(239,68,68,.3) !important;
+}
+.oref-tooltip::before {
+  border-top-color: #ef4444 !important;
+}
+/* --- OSINT POPUP STYLES --- */
+.leaflet-popup-content-wrapper {
+    background: rgba(10, 15, 24, 0.95) !important;
+    color: #e2e8f0 !important;
+    border: 1px solid #ff4d4d;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 15px rgba(255, 77, 77, 0.3);
+    font-family: 'Inter', sans-serif; /* Varsa kurduğun yazı tipi */
+}
+
+.leaflet-popup-tip {
+    background: rgba(10, 15, 24, 0.95) !important;
+    border: 1px solid #ff4d4d;
+}
+
+.osint-popup-card {
+    min-width: 250px;
+    padding: 5px;
+}
+
+.osint-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1e293b;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.osint-callsign {
+    color: #ff4d4d;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.osint-type-badge {
+    background: rgba(239, 68, 68, 0.2);
+    color: #ff4d4d;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.osint-photo-container {
+    width: 100%;
+    height: 120px;
+    background: #000;
+    margin: 8px 0;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.photo-loader {
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.osint-popup-card {
+    min-width: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.osint-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+.osint-status-overlay {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: rgba(10, 15, 24, 0.8);
+    color: #4ade80; /* Canlı yeşil */
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.osint-data-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    font-size: 12px;
+}
+
+.osint-data-item {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #1e293b;
+    padding-left: 8px;
+}
+
+.osint-data-item.active {
+    border-left: 2px solid #ff4d4d;
+}
+
+.osint-label {
+    color: #94a3b8;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.osint-value {
+    color: #fff;
+    font-weight: 600;
+}
+.custom-base-icon {
+    background: none !important;
+    border: none !important;
+}
+.custom-base-icon:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+  </style>
+</head>
+<body>
+<header>
+  <a class="logo" href="https://geostrike.io" target="_blank" rel="noopener">
+    <img src="logo.png" alt="GeoStrike" onerror="this.style.display='none'">
+  </a>
+  <div class="header-right">
+    <span id="last-updated"></span>
+    <span id="status-text"></span>
+    <button class="cam-toggle-btn" id="cam-toggle-btn" onclick="toggleCams(this)">📹 <span id="lbl-cameras"></span></button><button class="cam-toggle-btn" id="mute-btn" onclick="toggleMute(this)">🔊</button>
+    <button class="lang-btn" id="lang-tr" onclick="setLang('tr')">TR</button>
+    <button class="lang-btn" id="lang-en" onclick="setLang('en')">EN</button>
+    <div class="conn-indicator connected" id="conn-indicator">
+      <span class="conn-dot"></span>
+      <span id="conn-label">Connected</span>
+    </div>
+  </div>
+</header>
+<div class="tradingview-widget-container" style="flex-shrink: 0; border-bottom: 1px solid #1a2535; background: #060910;">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+    "symbols": [
+      { "proName": "OANDA:XAUUSD", "title": "Gold (XAU/USD)" },
+      { "proName": "TVC:UKOIL", "title": "Brent Crude" },
+      { "proName": "BITSTAMP:BTCUSD", "title": "Bitcoin" },
+      { "proName": "OANDA:SPX500USD", "title": "S&P 500" },
+      { "proName": "CAPITALCOM:DXY", "title": "US Dollar Index" }
+    ],
+    "showSymbolLogo": true,
+    "isTransparent": true,
+    "displayMode": "adaptive",
+    "colorTheme": "dark",
+    "locale": "en"
+  }
+  </script>
+</div>
+<div class="filters">
+  <div style="display:flex;gap:.3rem;align-items:center">
+    <span class="filter-label">⏱</span>
+    <button onclick="setTime(1)" id="t1">1<span id="lbl-hs"></span></button>
+    <button onclick="setTime(3)" id="t3">3<span id="lbl-hs2"></span></button>
+    <button onclick="setTime(24)" id="t24">24<span id="lbl-hs3"></span></button>
+    <button onclick="setTime(0)" id="t0" class="active"></button>
+  </div>
+  <div style="display:flex;gap:.3rem;align-items:center;flex-wrap:wrap">
+    <span class="filter-label">🏷</span>
+    <button class="topic-btn active" id="btn-all" onclick="setTopic('all',this)"></button>
+    <button class="topic-btn" onclick="setTopic('breaking',this)">🚨 Breaking</button>
+    <button class="topic-btn" onclick="setTopic('conflict',this)">⚔️ Conflict</button>
+    <button class="topic-btn" onclick="setTopic('osint',this)">🔍 OSINT</button>
+    <button class="topic-btn" onclick="setTopic('middleeast',this)">🕌 Mid.East</button>
+    <button class="topic-btn" onclick="setTopic('geopolitics',this)">🌐 Geo</button>
+    <button class="topic-btn" onclick="setTopic('politics',this)">🏛️ Politics</button>
+    <button class="topic-btn" onclick="setTopic('alerts',this)">⚠️ Alerts</button>
+    <button class="topic-btn" onclick="setTopic('cyber',this)">💻 Cyber</button>
+  </div>
+</div>
+<div class="search-bar">
+  <span class="filter-label">🔍</span>
+  <input class="search-input" id="search-input" type="text" oninput="debounceSearch()">
+  <select class="filter-select" id="region-filter" onchange="applyFilters()"></select>
+  <select class="filter-select" id="threat-filter" onchange="applyFilters()"></select>
+  <select class="filter-select" id="date-filter" onchange="applyFilters()"></select>
+  <button class="clear-btn" onclick="clearFilters()">❌ <span id="lbl-clear"></span></button>
+</div>
+<div class="stats-bar">
+  <div class="stat-card s-conflict"><span class="stat-icon">🔴</span><div class="stat-info"><span class="stat-val" id="s-conflict">0</span><span class="stat-lbl" id="lbl-stat-conflict"></span></div></div>
+  <div class="stat-card s-threat"><span class="stat-icon">⚠️</span><div class="stat-info"><span class="stat-val" id="s-threat">0</span><span class="stat-lbl" id="lbl-stat-threat"></span></div></div>
+  <div class="stat-card s-today"><span class="stat-icon">📅</span><div class="stat-info"><span class="stat-val" id="s-today">0</span><span class="stat-lbl" id="lbl-stat-today"></span></div></div>
+  <div class="stat-card s-regions"><span class="stat-icon">🌍</span><div class="stat-info"><span class="stat-val" id="s-regions">0</span><span class="stat-lbl" id="lbl-stat-regions"></span></div></div>
+</div>
+<div id="progress"><div id="progress-bar"></div></div>
+<div class="main">
+  <div class="map-panel">
+    <div id="oref-ticker" class="oref-ticker oref-hidden">
+      <div class="oref-ticker-left"><span class="oref-ticker-dot"></span><span class="oref-ticker-label">🚨 RED ALERT</span></div>
+      <div class="oref-ticker-track"><div class="oref-ticker-inner" id="oref-ticker-inner"></div></div>
+      <div class="oref-ticker-count" id="oref-ticker-count"></div>
+    </div>
+    <div id="map"></div>
+  </div>
+  <div class="feed-panel" id="feed-panel">
+    <div class="feed-header-bar">
+      <span id="feed-count">—</span>
+      <span>🔄 <span id="countdown">30</span>s</span>
+    </div>
+    <div class="feed-list" id="feed">
+      <div style="text-align:center;padding:2rem;color:#334155" id="feed-loading">📡</div>
+    </div>
+  </div>
+  <div class="cam-panel" id="cam-panel">
+    <div class="cam-panel-header">
+      <span class="cam-panel-title">📹 <span id="lbl-live-cams"></span></span>
+      <div style="display:flex;align-items:center;gap:.4rem">
+        <span id="cam-count" style="font-size:.6rem;color:#334155"></span>
+        <div class="cam-layout-btns">
+          <button class="cam-layout-btn active" id="cl1" onclick="setCamLayout(1)">▬</button>
+          <button class="cam-layout-btn" id="cl2" onclick="setCamLayout(2)">▦</button>
+        </div>
+      </div>
+    </div>
+    <div class="cam-tabs" id="cam-tabs-container"></div>
+    <div class="cam-grid cols-1" id="cam-grid"></div>
+    <div class="cam-add-bar">
+      <input class="cam-add-input" id="cam-add-url">
+      <input class="cam-add-input cam-name-input" id="cam-add-name">
+      <button class="cam-add-btn" onclick="camAdd()">+ <span id="lbl-add"></span></button>
+    </div>
+  </div>
+</div>
+<div class="cam-fs" id="cam-fs" onclick="camCloseFull(event)">
+  <div class="cam-fs-box">
+    <span class="cam-fs-title" id="cam-fs-title"></span>
+    <button class="cam-fs-close" onclick="camCloseFull()">✕</button>
+    <iframe id="cam-fs-iframe" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture"></iframe>
+  </div>
+</div>
+<script>
+const I18N={
+  tr:{cameras:'Kameralar',all:'Tümü',hour_short:'s',loading:'Yükleniyor...',no_news:'Haber bulunamadı',live_cams:'CANLİ KAMERALAR',search_ph:'Haber ara...',all_regions:'🌍 Tüm Bölgeler',r_ukraine:'Ukrayna',r_israel:'İsrail/Gaza',r_iran:'İran',r_russia:'Rusya',r_usa:'ABD',r_me:'Orta Doğu',r_africa:'Afrika',r_asia:'Asya',r_europe:'Avrupa',r_america:'Amerika',all_threat:'⚠️ Tüm Tehdit',all_time:'📅 Tüm Zaman',last1h:'Son 1 Saat',last6h:'Son 6 Saat',last24h:'Son 24 Saat',last7d:'Son 7 Gün',clear:'Temizle',stat_conflict:'Aktif Çatışma',stat_threat:'Yüksek Tehdit',stat_today:'Bugünkü Olay',stat_regions:'Bölge İzleniyor',add:'Ekle',cam_empty:'Bu bölgede kamera yok',cam_url_ph:'YouTube URL veya video ID...',cam_name_ph:'Başlık',news_count:n=>`${n} haber`,cam_count:n=>`${n} kanal`,conn_connected:'Bağlandı',conn_reconnecting:'Yeniden Bağlanıyor',conn_offline:'Bağlantı Yok',status_loading:'Yükleniyor...',status_no_new:n=>`Yeni yok (${n})`,status_new:(k,n)=>`+${k} yeni (${n})`,status_error:'❌ Bağlantı hatası',popup_goto:'Kaynağa git →',tt_threat:'Tehdit',tt_region:'Bölge',tt_time:'Zaman',tt_source:'Kaynak',new_label:'YENİ',just_now:'az önce',sec_ago:'sn önce',min_ago:'dk önce',hour_ago:'sa önce',day_ago:'g önce',cam_tab_all:'Tümü',cam_tab_me:'Orta Doğu',cam_tab_eu:'Avrupa',cam_tab_us:'Amerika',cam_tab_as:'Asya',locale:'tr-TR',siren_label:'SİREN AKTİF',siren_areas:'bölge',siren_allclear:'Siren sona erdi'},
+  en:{cameras:'Cameras',all:'All',hour_short:'h',loading:'Loading...',no_news:'No news found',live_cams:'LIVE CAMERAS',search_ph:'Search news...',all_regions:'🌍 All Regions',r_ukraine:'Ukraine',r_israel:'Israel/Gaza',r_iran:'Iran',r_russia:'Russia',r_usa:'USA',r_me:'Middle East',r_africa:'Africa',r_asia:'Asia',r_europe:'Europe',r_america:'Americas',all_threat:'⚠️ All Threats',all_time:'📅 All Time',last1h:'Last 1 Hour',last6h:'Last 6 Hours',last24h:'Last 24 Hours',last7d:'Last 7 Days',clear:'Clear',stat_conflict:'Active Conflicts',stat_threat:'High Threat',stat_today:"Today's Events",stat_regions:'Regions Monitored',add:'Add',cam_empty:'No cameras in this region',cam_url_ph:'YouTube URL or video ID...',cam_name_ph:'Title',news_count:n=>`${n} news`,cam_count:n=>`${n} channels`,conn_connected:'Connected',conn_reconnecting:'Reconnecting',conn_offline:'Offline',status_loading:'Loading...',status_no_new:n=>`No new (${n})`,status_new:(k,n)=>`+${k} new (${n})`,status_error:'❌ Connection error',popup_goto:'Go to source →',tt_threat:'Threat',tt_region:'Region',tt_time:'Time',tt_source:'Source',new_label:'NEW',just_now:'just now',sec_ago:'s ago',min_ago:'m ago',hour_ago:'h ago',day_ago:'d ago',cam_tab_all:'All',cam_tab_me:'Mid.East',cam_tab_eu:'Europe',cam_tab_us:'Americas',cam_tab_as:'Asia',locale:'en-US',siren_label:'SIREN ACTIVE',siren_areas:'areas',siren_allclear:'All clear'}
+};
+let currentLang=localStorage.getItem('intel_lang')||'tr';
+function tr(key,...args){const val=I18N[currentLang][key];if(typeof val==='function')return val(...args);return val!==undefined?val:key;}
+function setLang(lang){currentLang=lang;localStorage.setItem('intel_lang',lang);document.documentElement.lang=lang;document.getElementById('lang-tr').classList.toggle('active',lang==='tr');document.getElementById('lang-en').classList.toggle('active',lang==='en');applyI18N();render();}
+function applyI18N(){
+  const L=I18N[currentLang];
+  document.getElementById('lbl-cameras').textContent=L.cameras;
+  document.getElementById('lbl-hs').textContent=L.hour_short;
+  document.getElementById('lbl-hs2').textContent=L.hour_short;
+  document.getElementById('lbl-hs3').textContent=L.hour_short;
+  document.getElementById('t0').textContent=L.all;
+  document.getElementById('btn-all').textContent=L.all;
+  document.getElementById('lbl-clear').textContent=L.clear;
+  document.getElementById('lbl-stat-conflict').textContent=L.stat_conflict;
+  document.getElementById('lbl-stat-threat').textContent=L.stat_threat;
+  document.getElementById('lbl-stat-today').textContent=L.stat_today;
+  document.getElementById('lbl-stat-regions').textContent=L.stat_regions;
+  document.getElementById('lbl-live-cams').textContent=L.live_cams;
+  document.getElementById('lbl-add').textContent=L.add;
+  document.getElementById('search-input').placeholder=L.search_ph;
+  document.getElementById('cam-add-url').placeholder=L.cam_url_ph;
+  document.getElementById('cam-add-name').placeholder=L.cam_name_ph;
+  const fl=document.getElementById('feed-loading');if(fl)fl.textContent='📡 '+L.loading;
+  const rf=document.getElementById('region-filter'),rv=rf.value;
+  rf.innerHTML=`<option value="">${L.all_regions}</option><option value="UA">🇺🇦 ${L.r_ukraine}</option><option value="IL">🇮🇱 ${L.r_israel}</option><option value="IR">🇮🇷 ${L.r_iran}</option><option value="RU">🇷🇺 ${L.r_russia}</option><option value="US">🇺🇸 ${L.r_usa}</option><option value="ME">🕌 ${L.r_me}</option><option value="AF">🌍 ${L.r_africa}</option><option value="AS">🌏 ${L.r_asia}</option>`;rf.value=rv;
+  const tf=document.getElementById('threat-filter'),tv=tf.value;
+  tf.innerHTML=`<option value="">${L.all_threat}</option><option value="HIGH">🔴 High</option><option value="MED">🟠 Medium</option><option value="LOW">🔵 Low</option>`;tf.value=tv;
+  const df=document.getElementById('date-filter'),dv=df.value;
+  df.innerHTML=`<option value="0">${L.all_time}</option><option value="1">${L.last1h}</option><option value="6">${L.last6h}</option><option value="24">${L.last24h}</option><option value="168">${L.last7d}</option>`;df.value=dv;
+  const ct=document.getElementById('cam-tabs-container');
+  ct.innerHTML=`<button class="cam-tab${camRegion==='all'?' active':''}" onclick="setCamRegion('all',this)">${L.cam_tab_all}</button><button class="cam-tab r-me${camRegion==='me'?' active':''}" onclick="setCamRegion('me',this)">🕌 ${L.cam_tab_me}</button><button class="cam-tab r-eu${camRegion==='eu'?' active':''}" onclick="setCamRegion('eu',this)">🇪🇺 ${L.cam_tab_eu}</button><button class="cam-tab r-us${camRegion==='us'?' active':''}" onclick="setCamRegion('us',this)">🇺🇸 ${L.cam_tab_us}</button><button class="cam-tab r-as${camRegion==='as'?' active':''}" onclick="setCamRegion('as',this)">🌏 ${L.cam_tab_as}</button>`;
+  const connEl=document.getElementById('conn-indicator');
+  const state=connEl.classList.contains('connected')?'connected':connEl.classList.contains('reconnecting')?'reconnecting':'offline';
+  setConn(state);
+}
+
+const WORKER='https://fancy-sun-ab56.schwpzzzz.workers.dev';
+const CHANNELS=[
+  {handle:'BNONews',label:'BNO News',topic:'breaking'},
+  {handle:'LiveUAMap',label:'LiveUAMap',topic:'breaking'},
+  {handle:'OsintUpdates',label:'Osint Updates',topic:'breaking'},
+  {handle:'spectatorindex',label:'The Spectator Index',topic:'breaking'},
+  {handle:'wfwitness',label:'Witness',topic:'breaking'},
+  {handle:'AuroraIntel',label:'Aurora Intel',topic:'conflict'},
+  {handle:'ClashReport',label:'Clash Report',topic:'conflict'},
+  {handle:'DeepStateUA',label:'DeepState',topic:'conflict'},
+  {handle:'DefenderDome',label:'The Defender Dome',topic:'conflict'},
+  {handle:'OSINTdefender',label:'OSINTdefender',topic:'conflict'},
+  {handle:'bellingcat',label:'Bellingcat',topic:'osint'},
+  {handle:'OSINTIndustries',label:'OSINT Industries',topic:'osint'},
+  {handle:'Osintlatestnews',label:'OSIntOps News',topic:'osint'},
+  {handle:'osintlive',label:'OSINT Live',topic:'osint'},
+  {handle:'abualiexpress',label:'Abu Ali Express',topic:'middleeast'},
+  {handle:'englishabuali',label:'Abu Ali Express EN',topic:'middleeast'},
+  {handle:'Middle_East_Spectator',label:'Middle East Spectator',topic:'middleeast'},
+  {handle:'MiddleEastNow_Breaking',label:'ME Now Breaking',topic:'middleeast'},
+  {handle:'GeopoliticalCenter',label:'GeopoliticalCenter',topic:'geopolitics'},
+  {handle:'OsintTv',label:'OsintTV',topic:'geopolitics'},
+  {handle:'VahidOnline',label:'Vahid Online',topic:'politics'},
+  {handle:'iranintltv',label:'Iran International',topic:'politics'},
+  {handle:'nexta_tv',label:'NEXTA',topic:'politics'},
+  {handle:'kpszsu',label:'Air Force Ukraine',topic:'alerts'},
+  {handle:'war_monitor',label:'War Monitor',topic:'alerts'},
+];
+const COLORS={breaking:'#ef4444',conflict:'#f97316',osint:'#3b82f6',middleeast:'#f59e0b',geopolitics:'#06b6d4',politics:'#a855f7',alerts:'#eab308',cyber:'#10b981'};
+const GEO={'iran':[32.4,53.7],'tehran':[35.7,51.4],'israel':[31.0,35.0],'gaza':[31.4,34.3],'tel aviv':[32.1,34.8],'ukraine':[49.0,32.0],'kyiv':[50.4,30.5],'kiev':[50.4,30.5],'zaporizhzhia':[47.8,35.1],'kherson':[46.6,32.6],'kharkiv':[49.9,36.2],'donetsk':[48.0,37.8],'russia':[61.5,90.0],'moscow':[55.7,37.6],'syria':[35.0,38.0],'damascus':[33.5,36.3],'usa':[38.0,-97.0],'washington':[38.9,-77.0],'china':[35.0,105.0],'beijing':[39.9,116.4],'taiwan':[23.7,120.9],'north korea':[40.0,127.0],'pakistan':[30.0,70.0],'india':[20.0,77.0],'turkey':[39.0,35.0],'ankara':[39.9,32.8],'istanbul':[41.0,28.9],'yemen':[15.5,48.5],'iraq':[33.0,44.0],'baghdad':[33.3,44.4],'lebanon':[33.9,35.5],'beirut':[33.9,35.5],'saudi':[24.0,45.0],'egypt':[26.0,30.0],'libya':[27.0,17.0],'sudan':[15.0,32.0],'somalia':[6.0,46.0],'afghanistan':[33.0,65.0],'myanmar':[19.0,96.0],'japan':[36.0,138.0],'korea':[37.5,127.0],'germany':[51.0,10.0],'france':[46.0,2.0],'uk':[54.0,-2.0],'london':[51.5,-0.1],'poland':[52.0,20.0],'west bank':[32.0,35.2],'red sea':[20.0,38.0],'dubai':[25.2,55.3],'doha':[25.3,51.5],'qatar':[25.3,51.5],'bahrain':[26.0,50.5],'kuwait':[29.4,47.9],'jordan':[31.0,36.0],'karachi':[24.9,67.0],'haifa':[32.8,35.0],'jerusalem':[31.8,35.2],"be'er sheva":[31.2,34.8],'ashdod':[31.8,34.6]};
+const REGION_MAP=[{code:'UA',emoji:'🇺🇦',keys:['ukraine','kyiv','zaporizhzhia','kherson','kharkiv','donetsk','kiev']},{code:'IL',emoji:'🇮🇱',keys:['israel','gaza','tel aviv','west bank','ramallah','haifa','jerusalem']},{code:'IR',emoji:'🇮🇷',keys:['iran','tehran','khamenei']},{code:'RU',emoji:'🇷🇺',keys:['russia','moscow','kremlin','putin']},{code:'US',emoji:'🇺🇸',keys:['usa','washington','pentagon','trump','biden','american']},{code:'ME',emoji:'🕌',keys:['syria','iraq','lebanon','yemen','saudi','beirut','baghdad','damascus','dubai','doha','qatar','bahrain','kuwait','jordan']},{code:'AF',emoji:'🌍',keys:['libya','sudan','somalia','ethiopia','egypt','nigeria']},{code:'AS',emoji:'🌏',keys:['china','taiwan','north korea','pakistan','india','myanmar','japan','korea','afghanistan']}];
+const THREAT_HIGH=['flash','breaking','attack','strike','killed','dead','war','missile','bomb','explosion','airstrike','captured','invasion','offensive','assault','combat','casualt','wounded','shelling','artillery','drone','intercept','destroy','eliminated','nuclear','hostage','coup','assassin','execution','rocket','mortar','raid','death toll','downed','crashed','fire','burned','siren','alert'];
+const THREAT_MED=['clash','tension','protest','arrest','sanction','warning','threat','troops','military','deploy','operation','alert','mobilize','ceasefire','escalat','condemn','border','blockade'];
+function getThreat(txt){const l=(txt||'').toLowerCase();if(THREAT_HIGH.some(k=>l.includes(k)))return'HIGH';if(THREAT_MED.some(k=>l.includes(k)))return'MED';return'LOW';}
+function getRegion(txt){const l=(txt||'').toLowerCase();for(const r of REGION_MAP){if(r.keys.some(k=>l.includes(k)))return r;}return null;}
+
+let allItems=[],seenIds=new Set(),activeTopic='all',activeHours=0;
+let countdown=30,lastUpdatedTs=null,searchDebounceTimer=null;
+let map,clusterLayer;
+const filters={search:'',region:'',threat:'',dateHours:0};
+const reviewed=new Set(JSON.parse(localStorage.getItem('intel_reviewed')||'[]'));
+const translateCache=new Map();
+let translating=false;
+
+function todayKey(){const d=new Date();return`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
+function todayStartTs(){const d=new Date();d.setHours(0,0,0,0);return d.getTime();}
+function checkDailyReset(){const stored=localStorage.getItem('intel_day'),today=todayKey();if(stored!==today){localStorage.setItem('intel_day',today);seenIds.clear();allItems=[];translateCache.clear();}}
+let audioCtx=null;
+function playTing(){ if (isMuted) return;try{if(!audioCtx)audioCtx=new(window.AudioContext||window.webkitAudioContext)();if(audioCtx.state==='suspended')audioCtx.resume();const now=audioCtx.currentTime;[0,.15,.3].forEach((delay,i)=>{const osc=audioCtx.createOscillator(),gain=audioCtx.createGain();osc.connect(gain);gain.connect(audioCtx.destination);osc.type='sine';osc.frequency.value=i===0?880:i===1?1100:1320;gain.gain.setValueAtTime(0,now+delay);gain.gain.linearRampToValueAtTime(.4,now+delay+.01);gain.gain.exponentialRampToValueAtTime(.001,now+delay+.6);osc.start(now+delay);osc.stop(now+delay+.6);});}catch{}}
+function setConn(s){const el=document.getElementById('conn-indicator'),lb=document.getElementById('conn-label');el.className='conn-indicator '+s;lb.textContent=s==='connected'?tr('conn_connected'):s==='reconnecting'?tr('conn_reconnecting'):tr('conn_offline');}
+function startLastUpdatedTicker(){setInterval(()=>{if(!lastUpdatedTs)return;const d=Math.floor((Date.now()-lastUpdatedTs)/1000);document.getElementById('last-updated').textContent=d<60?d+tr('sec_ago'):d<3600?Math.floor(d/60)+tr('min_ago'):Math.floor(d/3600)+tr('hour_ago');},1000);}
+function addRipple(el,e){const r=el.getBoundingClientRect(),s=Math.max(r.width,r.height);const rip=document.createElement('span');rip.className='ripple';rip.style.cssText=`width:${s}px;height:${s}px;left:${e.clientX-r.left-s/2}px;top:${e.clientY-r.top-s/2}px`;el.appendChild(rip);setTimeout(()=>rip.remove(),500);}
+function setProgress(p){document.getElementById('progress-bar').style.width=p+'%';}
+function sleep(ms){return new Promise(r=>setTimeout(r,ms));}
+function humanTime(ts){const d=Math.floor((Date.now()-ts)/1000);if(d<0)return tr('just_now');if(d<60)return d+tr('sec_ago');if(d<3600)return Math.floor(d/60)+tr('min_ago');if(d<86400)return Math.floor(d/3600)+tr('hour_ago');return Math.floor(d/86400)+tr('day_ago');}
+function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function getDisplayText(item){if(currentLang==='tr')return translateCache.get(item.id)??item.text;return item.text;}
+async function translateItems(items){
+  if(currentLang!=='tr'||translating)return;
+  const toTranslate=items.filter(item=>item.text?.trim()&&!translateCache.has(item.id));
+  if(!toTranslate.length)return;
+  translating=true;
+  try{
+    for(let i=0;i<toTranslate.length;i+=20){
+      if(currentLang!=='tr')break;
+      const batch=toTranslate.slice(i,i+20);
+      try{
+        const res=await fetch(`${WORKER}/translate`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({texts:batch.map(item=>item.text)}),signal:AbortSignal.timeout(20000)});
+        if(!res.ok)throw new Error('fail');
+        const data=await res.json();
+        batch.forEach((item,idx)=>{translateCache.set(item.id,data.translations?.[idx]||item.text);});
+      }catch{batch.forEach(item=>translateCache.set(item.id,item.text));}
+      batch.forEach(item=>{const el=document.getElementById('card-'+item.id);if(el){const textEl=el.querySelector('.card-text');if(textEl)textEl.textContent=translateCache.get(item.id)||item.text;}});
+      if(i+20<toTranslate.length)await sleep(200);
+    }
+  }finally{translating=false;}
+}
+function scheduleTranslation(items){if(currentLang!=='tr')return;const uncached=items.filter(item=>item.text?.trim()&&!translateCache.has(item.id));if(!uncached.length)return;if(translating){setTimeout(()=>scheduleTranslation(items),2000);return;}translateItems(items);}
+function applyMobileFix(){if(window.innerWidth>768)return;const feedPanel=document.getElementById('feed-panel');const feedList=document.getElementById('feed');if(feedPanel)feedPanel.style.cssText='width:100%!important;flex:1 1 0%!important;min-height:0!important;height:0!important;display:flex!important;flex-direction:column!important;overflow:hidden!important;border-left:none!important;border-top:1px solid #1a2535!important;';if(feedList)feedList.style.cssText='flex:1 1 0%!important;min-height:0!important;height:0!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important;padding:.3rem!important;';}
+
+function initMap(){
+  
+  const tacticalIcon = L.divIcon({
+  className: 'tactical-pulse',
+  iconSize: [14, 14], 
+  iconAnchor: [7, 7]
+});
+  map=L.map('map',{center:[25,15],zoom:2,zoomControl:true,attributionControl:false});
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:19}).addTo(map);
+  clusterLayer=L.markerClusterGroup({maxClusterRadius:50,iconCreateFunction:c=>L.divIcon({html:`<div style="background:#1e293b;border:2px solid #334155;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;color:#e2e8f0;font-size:.7rem;font-weight:700">${c.getChildCount()}</div>`,className:'',iconSize:[32,32]})});
+  map.addLayer(clusterLayer);
+  map.on('zoomstart',()=>{document.getElementById('map').style.opacity='0.8';});
+  map.on('zoomend',()=>{document.getElementById('map').style.opacity='1';});
+}
+function findCoords(txt){const l=(txt||'').toLowerCase();for(const[k,c]of Object.entries(GEO)){if(l.includes(k))return c;}return null;}
+function markerSize(threat){return threat==='HIGH'?14:threat==='MED'?11:8;}
+function addMarkerForItem(item){
+  const coords=findCoords(item.text);if(!coords)return;
+  const color=COLORS[item.topic]||'#64748b',size=markerSize(item.threat);
+  const icon=L.divIcon({className:'',html:`<div class="intel-marker${item._isNew?' new-marker':''}" style="width:${size}px;height:${size}px;background:${color};border-color:${color}88"></div>`,iconSize:[size,size],iconAnchor:[size/2,size/2]});
+const marker=L.marker(coords,{icon});
+  
+  // Haberi analiz edip etiketi oluşturuyoruz
+  const category = categorizeThreat(item.text);
+  const tagHTML = `<span style="font-size:10px; padding:2px 5px; border-radius:3px; font-weight:bold; border:1px solid ${category.color}; background-color:${category.bgColor}; color:${category.color}; margin-right:5px; white-space:nowrap;">${category.tag}</span>`;
+  
+  // Etiketi pop-up'ın içine (topic'in hemen soluna) ekliyoruz
+  marker.bindPopup(`<div style="display:flex; align-items:center; margin-bottom:6px;">${tagHTML}<span class="popup-badge" style="background:${color}22;color:${color}">${item.topic}</span></div><div class="popup-text">${escHtml((item.text||'').slice(0,180))}</div><div class="popup-channel">📡 ${escHtml(item.channel)}</div><a class="popup-link" href="${escHtml(item.url)}" target="_blank" rel="noopener">${tr('popup_goto')}</a>`,{maxWidth:300});
+  
+  marker.on('click',()=>highlightCard(item.id));
+  clusterLayer.addLayer(marker);item._marker=marker;
+}
+function rebuildMarkers(){clusterLayer.clearLayers();allItems.filter(matchesAllFilters).forEach(item=>{item._marker=null;addMarkerForItem(item);});}
+function highlightCard(id){document.querySelectorAll('.card').forEach(c=>c.classList.remove('highlighted'));const card=document.getElementById('card-'+id);if(card){card.classList.add('highlighted');card.scrollIntoView({behavior:'smooth',block:'center'});}}
+
+async function fetchChannel(ch){
+  try{
+    const res=await fetch(`${WORKER}?c=${ch.handle}`,{signal:AbortSignal.timeout(15000)});
+    if(!res.ok)return[];
+    const data=await res.json();
+    if(!data.messages||!Array.isArray(data.messages))return[];
+    return data.messages.map(msg=>{
+      const text=(msg.text||'').trim();
+      const cleanText=text.replace(/[\u{1F300}-\u{1F9FF}][\d]+/gu,'').replace(/\n{3,}/g,'\n\n').trim();
+      if(!cleanText&&!msg.imageUrl&&!msg.videoUrl)return null;
+      const safeId=`${ch.handle}_${msg.msgId}`;
+      if(seenIds.has(safeId))return null;
+      const imageUrl=msg.imageUrl&&!msg.imageUrl.includes('telegram.org/img/emoji')?msg.imageUrl:null;
+      return{id:safeId,channel:ch.label,handle:ch.handle,topic:ch.topic,text:cleanText,imageUrl,videoUrl:msg.videoUrl||null,threat:getThreat(cleanText),region:getRegion(cleanText),url:msg.url,ts:msg.ts,msgId:msg.msgId,_isNew:false,_marker:null};
+    }).filter(Boolean);
+  }catch{return[];}
+}
+
+async function initialLoad(){
+  checkDailyReset();setConn('reconnecting');
+  document.getElementById('status-text').textContent=tr('status_loading');
+  setProgress(0);
+  try{
+    for(let i=0;i<CHANNELS.length;i+=4){
+      const batch=CHANNELS.slice(i,i+4);
+      const res=await Promise.all(batch.map(fetchChannel));
+      const fresh=res.flat().filter(item=>{if(!item||seenIds.has(item.id))return false;seenIds.add(item.id);return true;});
+      allItems.push(...fresh);
+      setProgress(Math.round(((i+4)/CHANNELS.length)*100));
+      if(i+4<CHANNELS.length)await sleep(300);
+    }
+    allItems.sort((a,b)=>b.ts-a.ts);
+    setProgress(100);
+    allItems.forEach(item=>addMarkerForItem(item));
+    render();
+    updateStats();
+    lastUpdatedTs=Date.now();
+    setConn('connected');
+    document.getElementById('status-text').textContent=`${new Date().toLocaleTimeString(tr('locale'))} — ${tr('news_count',allItems.length)}`;
+    const visible=allItems.filter(matchesAllFilters).slice(0,300);
+    scheduleTranslation(visible);
+  }catch(e){setConn('offline');document.getElementById('status-text').textContent=tr('status_error');}
+}
+
+async function updateOnly(){
+  checkDailyReset();setConn('reconnecting');
+  try{
+    const newItems=[];
+    for(let i=0;i<CHANNELS.length;i+=5){
+      const batch=CHANNELS.slice(i,i+5);
+      const res=await Promise.all(batch.map(fetchChannel));
+      const fresh=res.flat().filter(item=>{if(!item||seenIds.has(item.id))return false;seenIds.add(item.id);return true;});
+      newItems.push(...fresh);
+      if(i+5<CHANNELS.length)await sleep(150);
+    }
+    setConn('connected');lastUpdatedTs=Date.now();
+    const time=new Date().toLocaleTimeString(tr('locale'));
+    if(!newItems.length){document.getElementById('status-text').textContent=`${time} — ${tr('status_no_new',allItems.length)}`;return;}
+    newItems.forEach(item=>{item._isNew=true;});
+    allItems.push(...newItems);
+    allItems.sort((a,b)=>b.ts-a.ts);
+    newItems.forEach(item=>addMarkerForItem(item));
+    render();
+    updateStats();
+    document.getElementById('status-text').textContent=`${time} — ${tr('status_new',newItems.length,allItems.length)}`;
+    document.title = `(${newItems.length}) GeoStrike.io | Global OSINT Intelligence Feed`;
+setTimeout(() => { document.title = 'GeoStrike.io | Global OSINT Intelligence Feed'; }, 30000);
+    scheduleTranslation(newItems);
+    setTimeout(()=>{newItems.forEach(i=>{i._isNew=false;});document.querySelectorAll('.card.is-new').forEach(c=>c.classList.remove('is-new'));},15000);
+  }catch(e){setConn('offline');document.getElementById('status-text').textContent=tr('status_error');}
+}
+
+function matchesAllFilters(item){
+  if(activeTopic!=='all'&&item.topic!==activeTopic)return false;
+  if(activeHours>0&&item.ts<Date.now()-activeHours*3600000)return false;
+  if(filters.search){const q=filters.search.toLowerCase();if(!(item.text||'').toLowerCase().includes(q))return false;}
+  if(filters.region&&(!item.region||item.region.code!==filters.region))return false;
+  if(filters.threat&&item.threat!==filters.threat)return false;
+  if(filters.dateHours>0&&item.ts<Date.now()-filters.dateHours*3600000)return false;
+  return true;
+}
+function render(){
+  const items=allItems.filter(matchesAllFilters).slice(0,300);
+  document.getElementById('feed-count').textContent=tr('news_count',items.length);
+  const feed=document.getElementById('feed');
+  if(!items.length){feed.innerHTML=`<div style="text-align:center;padding:2rem;color:#334155">📭 ${tr('no_news')}</div>`;rebuildMarkers();return;}
+  // Saat özeti widget'ı
+const oneHourAgo = Date.now() - 3600000;
+const hourItems = allItems.filter(i => i.ts > oneHourAgo);
+const hourBreaking = hourItems.filter(i => i.topic==='breaking'||i.topic==='conflict').length;
+const hourHigh = hourItems.filter(i => i.threat==='HIGH').length;
+const hourRegions = new Set(hourItems.filter(i=>i.region).map(i=>i.region.code)).size;
+const summaryHtml = hourItems.length ? `
+<div style="background:#0f1923;border:1px solid #1e293b;border-radius:7px;padding:.5rem .8rem;margin-bottom:.4rem;font-size:.65rem;color:#64748b;display:flex;gap:.8rem;flex-wrap:wrap;align-items:center">
+  <span style="color:#94a3b8;font-weight:700">SON 1 SAAT</span>
+  <span>🚨 <b style="color:#e2e8f0">${hourBreaking}</b> breaking</span>
+  <span>🔴 <b style="color:#ef4444">${hourHigh}</b> yüksek tehdit</span>
+  <span>🌍 <b style="color:#e2e8f0">${hourRegions}</b> bölge</span>
+  <span>📋 <b style="color:#e2e8f0">${hourItems.length}</b> toplam</span>
+</div>` : '';
+feed.innerHTML = summaryHtml + items.map((item,idx)=>buildCard(item,item._isNew,idx)).join('');
+  feed.innerHTML=items.map((item,idx)=>buildCard(item,item._isNew,idx)).join('');
+  const sc=document.getElementById('siren-card-el');
+  if(sc)feed.insertBefore(sc,feed.firstChild);
+  rebuildMarkers();
+}
+function buildCard(item,isNew,idx=0){
+  const color=COLORS[item.topic]||'#64748b';
+  const borderColor = item.threat==='HIGH'?'#ef4444':item.threat==='MED'?'#f97316':color;
+  const hasGeo=!!findCoords(item.text);
+  const timeStr=humanTime(item.ts);
+  const isReviewed=reviewed.has(item.id);
+  const threatColor=item.threat==='HIGH'?'#ef4444':item.threat==='MED'?'#f97316':'#3b82f6';
+  const regionHtml=item.region?`<span class="region-tag" title="${item.region.code}">${item.region.emoji}</span>`:'';
+  const exactTime=new Date(item.ts).toLocaleString(tr('locale'));
+  const shortUrl=(item.url||'').replace('https://','').slice(0,30)+'…';
+  const delay=Math.min(idx*0.03,0.6);
+  const displayText=getDisplayText(item);
+  const media=item.videoUrl?`<div class="card-video-wrap"><video class="card-video" src="${escHtml(item.videoUrl)}" controls playsinline preload="none"></video></div>`:item.imageUrl?`<div class="card-img-wrap"><img class="card-img" src="${escHtml(item.imageUrl)}" alt="" loading="lazy" onerror="this.parentElement.remove()"></div>`:'';
+  // 1. Haberi analiz edip kategoriyi alıyoruz
+  const category = categorizeThreat(item.text);
+  const tagHTML = `<span style="font-size:10px; padding:2px 5px; border-radius:3px; font-weight:bold; border:1px solid ${category.color}; background-color:${category.bgColor}; color:${category.color}; margin-left:5px; white-space:nowrap;">${category.tag}</span>`;
+
+  // 2. Güncellenmiş Kart HTML'i (Eski threat-badge yerine tagHTML eklenmiş hali)
+  return `<a class="card${isNew?' is-new':' entry-anim'}${isReviewed?' reviewed':''}" id="card-${item.id}" href="${escHtml(item.url)}" target="_blank" rel="noopener noreferrer" style="border-left-color:${borderColor};--card-color:${borderColor};animation-delay:${delay}s" onmouseenter="hoverCard('${item.id}')" onclick="addRipple(this,event)">
+    <button class="review-btn${isReviewed?' done':''}" title="✓" onclick="toggleReview(event,'${item.id}')">✓</button>
+    <div class="card-top">
+      <span class="badge" style="background:${color}22;color:${color}">${item.topic}</span>
+      ${tagHTML}
+      ${isNew?`<span class="new-badge">${tr('new_label')}</span>`:''}
+      ${regionHtml}
+      ${hasGeo?'<span class="geo-pin">📍</span>':''}
+      <span class="channel">📡 ${escHtml(item.channel)}</span>
+      <span class="time-ago">${isNew?'<span class="dot-new"></span>':''}${timeStr}</span>
+    </div>
+    <div class="card-text">${escHtml(displayText)}</div>
+    ${media}
+    <div class="card-tooltip">
+      <b>${escHtml(item.channel)}</b>
+      <div class="tooltip-row"><span class="tooltip-key">${tr('tt_threat')}</span><span class="tooltip-val" style="color:${category.color}">${category.tag}</span></div>
+      <div class="tooltip-row"><span class="tooltip-key">${tr('tt_region')}</span><span class="tooltip-val">${item.region?item.region.emoji+' '+item.region.code:'—'}</span></div>
+      <div class="tooltip-row"><span class="tooltip-key">${tr('tt_time')}</span><span class="tooltip-val">${exactTime}</span></div>
+      <div class="tooltip-row"><span class="tooltip-key">${tr('tt_source')}</span><span class="tooltip-val">${escHtml(shortUrl)}</span></div>
+    </div>
+  </a>`;
+}
+function toggleReview(e,id){e.preventDefault();e.stopPropagation();const card=document.getElementById('card-'+id),btn=card?.querySelector('.review-btn');if(!card)return;if(reviewed.has(id)){reviewed.delete(id);card.classList.remove('reviewed');btn?.classList.remove('done');}else{reviewed.add(id);card.classList.add('reviewed');btn?.classList.add('done');}localStorage.setItem('intel_reviewed',JSON.stringify([...reviewed]));}
+function updateStats(){animateCount('s-conflict',allItems.filter(i=>i.topic==='conflict'||i.topic==='breaking').length);animateCount('s-threat',allItems.filter(i=>i.threat==='HIGH').length);animateCount('s-today',allItems.filter(i=>i.ts>todayStartTs()).length);animateCount('s-regions',new Set(allItems.filter(i=>i.region).map(i=>i.region.code)).size);}
+function animateCount(id,target){const el=document.getElementById(id),start=parseInt(el.textContent)||0;if(start===target)return;const steps=25;let step=0;const ease=x=>x<0.5?2*x*x:(-2*x*x+4*x-1);const ti=setInterval(()=>{step++;el.textContent=Math.round(start+(target-start)*ease(step/steps));if(step>=steps){el.textContent=target;clearInterval(ti);}},16);}
+function hoverCard(id){if(orefActive)return;const item=allItems.find(i=>i.id===id);if(!item?._marker)return;map.panTo(item._marker.getLatLng(),{animate:true,duration:0.4});}
+function debounceSearch(){clearTimeout(searchDebounceTimer);searchDebounceTimer=setTimeout(()=>{filters.search=document.getElementById('search-input').value.trim();applyFilters();},300);}
+function applyFilters(){filters.region=document.getElementById('region-filter').value;filters.threat=document.getElementById('threat-filter').value;filters.dateHours=parseInt(document.getElementById('date-filter').value)||0;render();}
+function clearFilters(){filters.search='';filters.region='';filters.threat='';filters.dateHours=0;document.getElementById('search-input').value='';document.getElementById('region-filter').value='';document.getElementById('threat-filter').value='';document.getElementById('date-filter').value='0';render();}
+function setTime(h){activeHours=h;['t0','t1','t3','t24'].forEach(id=>document.getElementById(id).classList.remove('active'));document.getElementById({0:'t0',1:'t1',3:'t3',24:'t24'}[h]).classList.add('active');render();}
+function setTopic(topic,btn){activeTopic=topic;document.querySelectorAll('.topic-btn').forEach(b=>{b.classList.remove('active');Object.keys(COLORS).forEach(c=>b.classList.remove('active-'+c));});topic==='all'?btn.classList.add('active'):btn.classList.add('active-'+topic);render();}
+function startCountdown(){countdown=30;const el=document.getElementById('countdown');const ti=setInterval(()=>{countdown--;el.textContent=countdown;if(countdown<=0){clearInterval(ti);updateOnly().then(startCountdown);}},1000);}
+
+// ═══════════════════════════════════════
+// 🚨 OREF — zoom + highlight
+// ═══════════════════════════════════════
+let orefActive=false,orefLastTitle='';
+let orefLayer=null;
+let orefSavedView=null;
+
+async function pollOref(){
+  try{
+    const res=await fetch(`${WORKER}/oref`,{signal:AbortSignal.timeout(8000)});
+    const data=await res.json();
+    const ticker=document.getElementById('oref-ticker');
+    const inner=document.getElementById('oref-ticker-inner');
+    const countEl=document.getElementById('oref-ticker-count');
+
+    if(orefLayer){map.removeLayer(orefLayer);orefLayer=null;}
+
+    if(data.active&&data.raw?.data?.length>0){
+      const areas=data.raw.data;
+      const cities=data.raw.cities||[];
+      const title=data.raw.title||'Rocket & Missile Fire';
+      const count=areas.length;
+
+      inner.innerHTML=areas.map(area=>`<span class="oref-ticker-item"><span class="oref-type">${escHtml(title)}</span>${escHtml(area)}</span>`).join('');
+      inner.style.animationDuration=Math.max(20,count*0.6)+'s';
+      countEl.textContent=`⚠️ ${count} ${tr('siren_areas')}`;
+      ticker.classList.remove('oref-hidden');
+
+      if(cities.length>0){
+        orefLayer=L.layerGroup();
+        // pollOref içinde cities.forEach kısmını değiştir
+
+cities.forEach(city => {
+  const circle = L.circleMarker([city.lat, city.lng], {
+    radius:      7,
+    fillColor:   '#ef4444',
+    fillOpacity: 0.85,
+    color:       '#fff',
+    weight:      1.5,
+    opacity:     0.9,
+    className:   'oref-dot',
+  });
+  circle.bindTooltip(city.en, {
+    permanent:  false,
+    direction:  'top',
+    className:  'oref-tooltip',
+  });
+  orefLayer.addLayer(circle);
+
+  const ring1 = L.circleMarker([city.lat, city.lng], {
+    radius:      14,
+    fillColor:   'transparent',
+    fillOpacity: 0,
+    color:       '#ef4444',
+    weight:      1,
+    opacity:     0.4,
+    className:   'oref-ring-1',
+  });
+  orefLayer.addLayer(ring1);
+
+  const ring2 = L.circleMarker([city.lat, city.lng], {
+    radius:      22,
+    fillColor:   'transparent',
+    fillOpacity: 0,
+    color:       '#ef4444',
+    weight:      0.8,
+    opacity:     0.2,
+    className:   'oref-ring-2',
+  });
+  orefLayer.addLayer(ring2);
+});
+        orefLayer.addTo(map);
+        if(!orefSavedView){orefSavedView={center:map.getCenter(),zoom:map.getZoom()};}
+        const latlngs=cities.map(c=>[c.lat,c.lng]);
+        const bounds=L.latLngBounds(latlngs);
+        map.flyToBounds(bounds,{padding:[60,60],maxZoom:10,duration:1.4});
+      }
+
+      if(!orefActive||orefLastTitle!==title){
+        orefActive=true;
+        orefLastTitle=title;
+        addSirenCard(title,areas,count);
+      }
+    }else{
+      if(orefActive){
+        orefActive=false;
+        orefLastTitle='';
+        showAllClearCard();
+        if(orefSavedView){map.flyTo(orefSavedView.center,orefSavedView.zoom,{duration:1.2});orefSavedView=null;}
+      }
+      ticker.classList.add('oref-hidden');
+      inner.innerHTML='';
+      countEl.textContent='';
+    }
+  }catch{}
+}
+
+function addSirenCard(title,areas,count){
+  document.getElementById('siren-card-el')?.remove();
+  const feed=document.getElementById('feed');if(!feed)return;
+  const div=document.createElement('div');div.id='siren-card-el';div.className='siren-card';
+  div.innerHTML=`<div class="siren-card-top"><span class="badge" style="background:#ef444422;color:#ef4444;border:1px solid #ef444444">🚨 RED ALERT</span><span class="threat-badge threat-HIGH">HIGH</span><span class="new-badge">${tr('new_label')}</span><span class="region-tag">🇮🇱</span><span class="time-ago"><span class="dot-new"></span>${tr('just_now')}</span></div><div class="siren-title">${escHtml(title)} — ${count} ${tr('siren_areas')}</div><div class="siren-areas">${areas.slice(0,10).map(escHtml).join(' · ')}${count>10?` · +${count-10} more`:''}</div>`;
+  feed.insertBefore(div,feed.firstChild);
+  playTing();
+  setTimeout(playTing,1000);
+  setTimeout(playTing,2000);
+}
+
+function showAllClearCard(){
+  document.getElementById('siren-card-el')?.remove();
+  const feed=document.getElementById('feed');if(!feed)return;
+  const div=document.createElement('div');div.id='siren-card-el';
+  div.style.cssText='background:#052010;border-left:4px solid #22c55e;border-radius:7px;padding:.65rem .85rem;animation:newCardEntry .5s cubic-bezier(.34,1.56,.64,1) both';
+  div.innerHTML=`<div style="display:flex;align-items:center;gap:.4rem"><span class="badge" style="background:#22c55e22;color:#22c55e;border:1px solid #22c55e44">✅ ALL CLEAR</span><span class="time-ago">${tr('just_now')}</span></div><div style="font-size:.77rem;color:#86efac;font-weight:600;margin-top:.3rem">${tr('siren_allclear')}</div>`;
+  feed.insertBefore(div,feed.firstChild);
+  setTimeout(()=>div.remove(),60000);
+}
+
+function startOrefPolling(){pollOref();setInterval(pollOref,10000);}
+
+// ═══════════════════════════════════════
+// 📹 KAMERA
+// ═══════════════════════════════════════
+const CAM_STORAGE='intel_live_cams';
+const DEFAULT_CAMS=[{id:'tehran-cam',name:'TEHRAN',region:'me',videoId:'-zGuR1qVKrU'},{id:'telaviv-cam',name:'TEL AVIV',region:'me',videoId:'-VLcYT5QBrY'},{id:'jerusalem-cam',name:'JERUSALEM',region:'me',videoId:'JHwwZRH2wz8'},{id:'middleeast-cam',name:'MIDDLE EAST',region:'me',videoId:'4E-iFtUM2kk'}];
+let camChannels=camLoad(),camRegion='all',camLayout=1,camsOpen=false;
+function camLoad(){try{const s=JSON.parse(localStorage.getItem(CAM_STORAGE)||'null');if(Array.isArray(s)&&s.length)return s;}catch{}return[...DEFAULT_CAMS];}
+function camSave(){localStorage.setItem(CAM_STORAGE,JSON.stringify(camChannels));}
+function camProxyUrl(videoId,mute='1'){return`${WORKER}/embed?v=${encodeURIComponent(videoId)}&autoplay=1&mute=${mute}`;}
+function camParseId(raw){raw=raw.trim();if(/^[A-Za-z0-9_-]{11}$/.test(raw))return{videoId:raw};try{const url=new URL(raw.startsWith('http')?raw:'https://'+raw);if(url.hostname.includes('youtu.be')){const id=url.pathname.slice(1).split('/')[0];if(/^[A-Za-z0-9_-]{11}$/.test(id))return{videoId:id};}if(url.hostname.includes('youtube.com')){const v=url.searchParams.get('v');if(v&&/^[A-Za-z0-9_-]{11}$/.test(v))return{videoId:v};}}catch{}return null;}
+function toggleCams(btn){
+  camsOpen=!camsOpen;
+  const camPanel=document.getElementById('cam-panel');
+  const isMobile=window.innerWidth<=768;
+  if(isMobile){camPanel.style.cssText=camsOpen?'display:flex!important;width:100%!important;height:50vh!important;flex-direction:column!important;overflow:hidden!important;border-left:none!important;border-top:1px solid #1a2535!important;':'display:none!important;width:0!important;height:0!important;';}
+  else{camPanel.classList.toggle('open',camsOpen);}
+  btn.classList.toggle('active',camsOpen);
+  if(camsOpen)camRender();
+}
+function setCamRegion(r,btn){camRegion=r;document.querySelectorAll('.cam-tab').forEach(b=>b.classList.remove('active'));btn.classList.add('active');camRender();}
+function setCamLayout(n){camLayout=n;document.getElementById('cam-grid').className=`cam-grid cols-${n}`;['cl1','cl2'].forEach(id=>{const el=document.getElementById(id);if(!el)return;const on=id==='cl'+n;el.style.background=on?'#0ea5e9':'transparent';el.style.borderColor=on?'#0ea5e9':'#1e293b';el.style.color=on?'#fff':'#64748b';el.classList.toggle('active',on);});}
+function camRender(){
+  const grid=document.getElementById('cam-grid');
+  const list=camRegion==='all'?camChannels:camChannels.filter(c=>c.region===camRegion);
+  document.getElementById('cam-count').textContent=tr('cam_count',list.length);
+  if(!list.length){grid.innerHTML=`<div style="grid-column:1/-1;text-align:center;padding:2rem;color:#334155;font-size:.75rem">📡 ${tr('cam_empty')}</div>`;return;}
+  grid.innerHTML=list.map((ch,i)=>{const sid=escHtml(ch.id);return`<div class="cam-item" style="animation-delay:${i*0.07}s"><div class="cam-item-header"><span class="cam-item-name"><span class="cam-live-dot"></span>${escHtml(ch.name)}</span><button class="cam-expand" onclick="camOpenFull('${sid}','${escHtml(ch.name)}')" title="Fullscreen">⛶</button></div><div class="cam-frame"><iframe src="${camProxyUrl(ch.videoId,'1')}" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe></div></div>`;}).join('');
+}
+function camOpenFull(id,name){const ch=camChannels.find(c=>c.id===id);if(!ch)return;document.getElementById('cam-fs-title').textContent=name;document.getElementById('cam-fs-iframe').src=camProxyUrl(ch.videoId,'0');document.getElementById('cam-fs').classList.add('open');}
+function camCloseFull(e){if(e&&e.target!==document.getElementById('cam-fs'))return;document.getElementById('cam-fs').classList.remove('open');document.getElementById('cam-fs-iframe').src='';}
+function camAdd(){const urlIn=document.getElementById('cam-add-url'),nameIn=document.getElementById('cam-add-name');const raw=urlIn.value.trim();if(!raw)return;const parsed=camParseId(raw);if(!parsed){urlIn.style.borderColor='#ef4444';setTimeout(()=>urlIn.style.borderColor='#1e293b',2000);return;}const name=nameIn.value.trim()||(parsed.videoId||'Camera');const id='cam-'+parsed.videoId;if(camChannels.some(c=>c.id===id)){urlIn.value='';return;}camChannels.push({id,name,region:camRegion==='all'?'me':camRegion,videoId:parsed.videoId});camSave();urlIn.value='';nameIn.value='';camRender();}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')camCloseFull({target:document.getElementById('cam-fs')});});
+document.getElementById('cam-add-url')?.addEventListener('keydown',e=>{if(e.key==='Enter')camAdd();});
+function categorizeThreat(text) {
+  if (!text) return { tag: '[📡 GENERAL UPDATE]', color: '#94a3b8', bgColor: 'rgba(148, 163, 184, 0.15)' };
+  const lowerText = text.toLowerCase();
+
+  const airStrikeKeywords = ['airstrike', 'missile', 'explosion', 'bombing', 'air raid', 'siren', 'drone', 'uav', 'ракета', 'взрыв', 'вибух', 'авиаудар', 'авіаудар', 'бпла', 'сирена', 'قصف', 'صاروخ', 'غارة', 'انفجار', 'مسيرة'];
+  if (airStrikeKeywords.some(keyword => lowerText.includes(keyword))) return { tag: '[🔴 AIRSTRIKE]', color: '#ef4444', bgColor: 'rgba(239, 68, 68, 0.15)' };
+
+  const cyberKeywords = ['cyber', 'hack', 'ddos', 'data leak', 'ransomware', 'telecom', 'кибер', 'кібер', 'хакер', 'ддос', 'утечка', 'витік', 'взлом', 'злам', 'سيبراني', 'اختراق', 'تسريب'];
+  if (cyberKeywords.some(keyword => lowerText.includes(keyword))) return { tag: '[💻 CYBER ATTACK]', color: '#0ea5e9', bgColor: 'rgba(14, 165, 233, 0.15)' };
+
+  const combatKeywords = ['clash', 'combat', 'troops', 'border', 'artillery', 'firefight', 'infantry', 'бой', 'бій', 'столкновение', 'зіткнення', 'артиллерия', 'артилерія', 'пехота', 'піхота', 'граница', 'кордон', 'اشتباك', 'معركة', 'مدفعية', 'حدود', 'جنود'];
+  if (combatKeywords.some(keyword => lowerText.includes(keyword))) return { tag: '[⚔️ GROUND COMBAT]', color: '#f97316', bgColor: 'rgba(249, 115, 22, 0.15)' };
+
+  const politicsKeywords = ['statement', 'minister', 'white house', 'kremlin', 'pentagon', 'official', 'diplomat', 'spokesperson', 'заявление', 'заява', 'министр', 'міністр', 'кремль', 'минобороны', 'міноборони', 'بيان', 'وزير', 'دفاع', 'رسمي'];
+  if (politicsKeywords.some(keyword => lowerText.includes(keyword))) return { tag: '[🗣 OFFICIAL STATEMENT]', color: '#eab308', bgColor: 'rgba(234, 179, 8, 0.15)' };
+
+  return { tag: '[📡 GENERAL UPDATE]', color: '#94a3b8', bgColor: 'rgba(148, 163, 184, 0.15)' };
+}
+// ═══════════════════════════════════════
+// BAŞLANGIÇ
+// ═══════════════════════════════════════
+initMap();
+applyMobileFix();
+startLastUpdatedTicker();
+document.getElementById('lang-tr').classList.toggle('active',currentLang==='tr');
+document.getElementById('lang-en').classList.toggle('active',currentLang==='en');
+document.documentElement.lang=currentLang;
+applyI18N();
+initialLoad().then(startCountdown);
+startOrefPolling();
+function initAudio(){if(!audioCtx)audioCtx=new(window.AudioContext||window.webkitAudioContext)();}
+document.addEventListener('click',initAudio,{once:false});
+document.addEventListener('touchstart',initAudio,{once:false});
+document.addEventListener('keydown',initAudio,{once:false});
+document.addEventListener('scroll',initAudio,{once:false});
+</script>
+<style>
+  
+  /* Taktiksel Radar (Pulse) Efekti */
+.tactical-pulse {
+  background: rgba(239, 68, 68, 0.8);
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(239, 68, 68, 1);
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 15px rgba(239, 68, 68, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+/* Footer Ayarları */
+.footer { background: #0a0f1a; border-top: 1px solid #1a2535; padding: 8px 1.2rem; font-size: 0.65rem; color: #64748b; flex-shrink: 0; z-index: 100; position: relative; }
+.footer-container { display: flex; justify-content: space-between; align-items: center; }
+.footer a { color: #64748b; text-decoration: none; margin-left: 15px; transition: all 0.2s ease; font-weight: 600; }
+.footer a:hover { color: #0ea5e9; }
+
+/* Modal (Pencere) Ayarları */
+.modal { display: none; position: fixed; z-index: 99999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(6, 9, 16, 0.95); backdrop-filter: blur(5px); overflow-y: auto; }
+.modal-content { background-color: #0d1117; margin: 40px auto; padding: 30px 40px; width: 90%; max-width: 650px; color: #94a3b8; border-radius: 12px; border: 1px solid #1e293b; box-shadow: 0 20px 50px rgba(0,0,0,0.9); animation: modalEnter 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28); }
+@keyframes modalEnter { from { opacity: 0; transform: scale(0.95) translateY(-20px); } to { opacity: 1; transform: scale(1) translateY(0); } }
+
+/* Modal İç Yazıları */
+.modal-content h2 { color: #0ea5e9; font-size: 1.3rem; margin-bottom: 15px; border-bottom: 1px solid #1e293b; padding-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+.modal-content h3 { margin-top: 20px; margin-bottom: 10px; color: #e2e8f0; font-size: 0.95rem; font-weight: 700; }
+.modal-content p { font-size: 0.8rem; line-height: 1.6; margin-bottom: 10px; }
+.warning-text { color: #facc15; font-weight: 600; } /* Önemli uyarılar için sarımtırak renk */
+.close { float: right; font-size: 24px; cursor: pointer; color: #64748b; line-height: 1; transition: color 0.2s; }
+.close:hover { color: #ef4444; }
+
+/* Kabul Et Butonu Tasarımı */
+.accept-btn {
+  display: block; width: 100%; margin-top: 25px; padding: 12px;
+  background: linear-gradient(90deg, #0ea5e9, #2563eb);
+  color: #fff; border: none; border-radius: 6px;
+  font-size: 1rem; font-weight: 600; cursor: pointer;
+  transition: opacity 0.2s, transform 0.1s;
+  text-align: center; text-transform: uppercase; letter-spacing: 0.5px;
+}
+.accept-btn:hover { opacity: 0.9; }
+.accept-btn:active { transform: scale(0.98); }
+/* Taktiksel Radar (Pulse) Efekti */
+.tactical-pulse {
+  background: rgba(239, 68, 68, 0.8);
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(239, 68, 68, 1);
+  animation: pulse-animation 2s infinite;
+}
+@keyframes pulse-animation {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 15px rgba(239, 68, 68, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+/* Taktiksel Askeri Uçak İkonu */
+.mil-plane-icon {
+  display: flex; align-items: center; justify-content: center; transition: transform 0.3s linear;
+}
+.mil-plane-icon svg {
+  fill: #ef4444; filter: drop-shadow(0 0 6px rgba(239, 68, 68, 0.9));
+}
+
+</style>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-left">
+    © <a href="https://github.com/schwpz/" target="_blank" rel="noopener">schwpz</a><span>  · All rights reserved ·</span>
+    </div>
+    <div class="footer-right">
+      <a href="#" onclick="openDisclaimer(event)">Disclaimer / Yasal Uyarı</a>
+    </div>
+  </div>
+</footer>
+
+<div id="disclaimerModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeDisclaimer()">&times;</span>
+    
+    <h2>
+      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+      Disclaimer / Yasal Uyarı
+    </h2>
+
+    <div style="max-height: 60vh; overflow-y: auto; padding-right: 5px;">
+        <h3>English Version</h3>
+        <p>GeoStrike.io is an independent OSINT (Open-Source Intelligence) monitoring platform operated by a private individual. The platform aggregates publicly available information, including content retrieved via Telegram channel APIs and other open sources. All content remains the property of its original publishers.</p>
+        <p>GeoStrike.io does not create, verify, or modify third-party content. Clicking on any news item redirects users directly to the original source. The information provided is for informational and research purposes only. No guarantees are made regarding accuracy, completeness, or reliability.</p>
+        <p class="warning-text">Due to the automated nature of OSINT aggregation, feeds may contain graphic, sensitive, or disturbing content related to global conflicts. Viewer discretion is strongly advised.</p>
+        <p>Data is temporarily cached strictly for system performance, not for permanent archival or redistribution purposes. The operator shall not be held liable for errors, damages, or external content accessed through source links.</p>
+        <p>If you are a content owner and believe your material is used improperly, please contact us for prompt review and removal. Contact : schwpzzzz@gmail.com</p>
+
+        <hr style="border: 0; border-top: 1px solid #1f2a37; margin: 20px 0;">
+
+        <h3>Türkçe Versiyon</h3>
+        <p>GeoStrike.io, bağımsız bir şahıs tarafından işletilen açık kaynak istihbarat (OSINT) izleme platformudur. Platform, Telegram kanal API'leri ve diğer açık kaynaklardan elde edilen herkese açık bilgileri otomatik olarak listelemektedir. Tüm içeriklerin hakları ilgili yayıncılara aittir.</p>
+        <p>GeoStrike.io üçüncü taraf içerikleri üretmez, doğrulamaz veya değiştirmez. Haber bağlantılarına tıklandığında kullanıcı doğrudan orijinal kaynağa yönlendirilir. Yayınlanan bilgiler yalnızca bilgilendirme ve araştırma amaçlıdır. Doğruluk, eksiksizlik veya güncellik konusunda herhangi bir garanti verilmez.</p>
+        <p class="warning-text">OSINT veri toplama sürecinin otomatik doğası gereği, haber akışları küresel çatışmalarla ilgili grafik, hassas veya rahatsız edici görüntüler içerebilir. Kullanıcıların takdirine bırakılmıştır.</p>
+        <p>Veriler, kalıcı arşivleme amacıyla değil, yalnızca sistem performansını artırmak amacıyla geçici olarak (cache) tutulmaktadır. Platform sahibi, içerik hatalarından veya dış bağlantılardan sorumlu tutulamaz.</p>
+        <p>İçerik sahipleri, uygunsuz kullanım olduğunu düşünmeleri halinde iletişime geçerek içeriğin kaldırılmasını talep edebilirler. İletişim : schwpzzzz@gmail.com</p>
+    </div>
+
+    <button class="accept-btn" onclick="acceptDisclaimer()">
+      Kabul Ediyorum / I Agree
+    </button>
+  </div>
+</div>
+
+<script>
+  // Site yüklendiğinde kontrol et
+  document.addEventListener("DOMContentLoaded", function() {
+    // Eğer daha önce onaylanmadıysa modalı aç
+    if (!localStorage.getItem("geoStrike_disclaimer_accepted")) {
+      document.getElementById("disclaimerModal").style.display = "block";
+    }
+  });
+
+  // Footer linki için manuel açma fonksiyonu
+  function openDisclaimer(event) {
+    if(event) event.preventDefault();
+    document.getElementById("disclaimerModal").style.display = "block";
+  }
+
+  // Kapatma (Onaylamadan kapatırsa tekrar sorar, ama footer'dan açtıysa sormaz)
+  function closeDisclaimer() {
+    document.getElementById("disclaimerModal").style.display = "none";
+  }
+
+  // Kabul Et Butonu Fonksiyonu
+  function acceptDisclaimer() {
+    localStorage.setItem("geoStrike_disclaimer_accepted", "true"); // Onayı kaydet
+    document.getElementById("disclaimerModal").style.display = "none"; // Modalı kapat
+  }
+
+  // ESC tuşu ile kapatma
+  document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") {
+      closeDisclaimer();
+    }
+  });
+
+// --- GLOBAL STRATEGIC MILITARY NETWORK (USA & UK) ---
+const militaryBases = [
+    // --- UNITED STATES: EUROPEAN COMMAND (EUCOM) ---
+    { name: "Ramstein Air Base", coord: [49.4456, 7.6025], country: "USA/DE", desc: "HQ US Air Forces in Europe (USAFE). Major logistics hub for global operations.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ramstein_Air_Base_-_Aerial.jpg/300px-Ramstein_Air_Base_-_Aerial.jpg" },
+    { name: "Spangdahlem Air Base", coord: [49.9791, 6.6931], country: "USA/DE", desc: "52nd Fighter Wing. Strategic air defense and electronic warfare hub.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Spangdahlem_Air_Base_Aerial.jpg/300px-Spangdahlem_Air_Base_Aerial.jpg" },
+    { name: "Aviano Air Base", coord: [46.0319, 12.5964], country: "USA/IT", desc: "31st Fighter Wing. Major NATO strike base for Mediterranean operations.", img: "https://i.ibb.co/BhfS6S/aviano.jpg" },
+    { name: "Naval Station Rota", coord: [36.6472, -6.3458], country: "USA/ES", desc: "Gateway to the Mediterranean. Key support for US 6th Fleet.", img: "https://i.ibb.co/3WfS6S/rota.jpg" },
+    { name: "RAF Lakenheath", coord: [52.4086, 0.5558], country: "USA/UK", desc: "USAF 48th Fighter Wing. Largest US fighter base in England (F-15/F-35).", img: "https://i.ibb.co/9WfS6S/lakenheath.jpg" },
+    { name: "RAF Mildenhall", coord: [52.3639, 0.4853], country: "USA/UK", desc: "100th Air Refueling Wing. Critical air-to-air refueling and recon hub.", img: "https://i.ibb.co/KhfS6S/mildenhall.jpg" },
+    { name: "Souda Bay Naval Base", coord: [35.4981, 24.1517], country: "USA/GR", desc: "Strategic deep-water port in Crete supporting carrier strike groups.", img: "https://i.ibb.co/LhfS6S/souda.jpg" },
+
+    // --- UNITED STATES: CENTRAL COMMAND (CENTCOM) ---
+    { name: "Al Udeid Air Base", coord: [25.1170, 51.3150], country: "USA/QA", desc: "Forward HQ for CENTCOM. Largest US military facility in the Middle East.", img: "https://i.ibb.co/9WfS6S/udeid.jpg" },
+    { name: "NSA Bahrain", coord: [26.2100, 50.6000], country: "USA/BH", desc: "HQ US 5th Fleet. Critical for monitoring the Persian Gulf and Strait of Hormuz.", img: "https://i.ibb.co/RhfS6S/bahrain.jpg" },
+    { name: "Ali Al Salem Air Base", coord: [29.3456, 47.5186], country: "USA/KW", desc: "Key operational hub for tactical airlift and regional logistics.", img: "https://i.ibb.co/ThfS6S/salem.jpg" },
+    { name: "Camp Lemonnier", coord: [11.5450, 43.1480], country: "USA/DJ", desc: "Only permanent US base in Africa. Core of counter-terrorism operations.", img: "https://i.ibb.co/KhfS6S/lemonnier.jpg" },
+    { name: "Incirlik Air Base", coord: [37.0019, 35.4257], country: "USA/TR", desc: "Major NATO tactical nuclear storage and regional response center.", img: "https://i.ibb.co/LztvN0R/incirlik.jpg" },
+
+    // --- UNITED STATES: INDO-PACIFIC COMMAND (INDOPACOM) ---
+    { name: "Yokota Air Base", coord: [35.7486, 139.3486], country: "USA/JP", desc: "HQ US Forces Japan. Primary airlift hub for the Pacific theater.", img: "https://i.ibb.co/YhfS6S/yokota.jpg" },
+    { name: "Kadena Air Base", coord: [26.3556, 127.7675], country: "USA/JP", desc: "Keystone of the Pacific. Largest US air base in the region (Okinawa).", img: "https://i.ibb.co/BhfS6S/kadena.jpg" },
+    { name: "Camp Humphreys", coord: [36.9589, 127.0506], country: "USA/KR", desc: "Largest overseas US military installation. HQ US Forces Korea.", img: "https://i.ibb.co/GhfS6S/humphreys.jpg" },
+    { name: "Osan Air Base", coord: [37.0903, 127.0300], country: "USA/KR", desc: "Critical air defense base located 40 miles from the North Korean border.", img: "https://i.ibb.co/KhfS6S/osan.jpg" },
+    { name: "Andersen AFB", coord: [13.5839, 144.9244], country: "USA/GU", desc: "Strategic bomber hub (Guam). Vital for power projection in Asia.", img: "https://i.ibb.co/LhfS6S/andersen.jpg" },
+
+    // --- UNITED KINGDOM: STRATEGIC OVERSEAS BASES ---
+    { name: "RAF Akrotiri", coord: [34.5905, 32.9832], country: "UK/CY", desc: "Sovereign Base Area. UK's primary launchpad for Middle East operations.", img: "https://i.ibb.co/MhfS6S/akrotiri.jpg" },
+    { name: "RAF Gibraltar", coord: [36.1511, -5.3486], country: "UK/GI", desc: "Strategic choke point controlling the entrance to the Mediterranean.", img: "https://i.ibb.co/9WfS6S/gib.jpg" },
+    { name: "RAF Mount Pleasant", coord: [-51.8228, -58.4472], country: "UK/FK", desc: "Falkland Islands. Major defense and intelligence hub in the South Atlantic.", img: "https://i.ibb.co/RhfS6S/falkland.jpg" },
+    { name: "Diego Garcia", coord: [-7.3110, 72.4110], country: "UK/USA", desc: "British Indian Ocean Territory. Secretive strategic bomber and submarine base.", img: "https://i.ibb.co/LhfS6S/diego.jpg" },
+    { name: "Ascension Island", coord: [-7.9692, -14.3939], country: "UK/AC", desc: "Critical communications and refueling station in the mid-Atlantic.", img: "https://i.ibb.co/ThfS6S/ascension.jpg" },
+    { name: "Sembawang Naval Base", coord: [1.4556, 103.8244], country: "UK/SG", desc: "Singapore. Major logistics support for Royal Navy Far East operations.", img: "https://i.ibb.co/MhfS6S/singapore.jpg" }
+];
+
+function initMilitaryBases() {
+    if (typeof map === 'undefined') return;
+    const baseLayer = L.layerGroup().addTo(map);
+
+    militaryBases.forEach(base => {
+        const baseIcon = L.divIcon({
+            className: 'military-base-marker',
+            html: `<svg width="30" height="30" viewBox="0 0 24 24" fill="#ff4d4d">
+                    <path d="M12 2L4 7v10l8 5 8-5V7l-8-5z" stroke="#fff" stroke-width="1.5"/>
+                    <path d="M12 7l1.5 3h3.5l-2.5 2 1 3.5-3.5-2-3.5 2 1-3.5-2.5-2h3.5L12 7z" fill="#fff"/>
+                   </svg>`,
+            iconSize: [30, 30],
+            iconAnchor: [15, 15]
+        });
+
+        const marker = L.marker(base.coord, { icon: baseIcon }).addTo(baseLayer);
+
+        marker.bindPopup(`
+            <div style="background: #000; color: #fff; border-radius: 12px; overflow: hidden; border: 1px solid #ff4d4d; width: 260px; font-family: 'JetBrains Mono', monospace; box-shadow: 0 0 20px rgba(255,0,0,0.5);">
+                <div style="padding: 12px; background: linear-gradient(45deg, #2a0000, #000); border-bottom: 1px solid #ff4d4d;">
+                    <div style="font-size: 10px; color: #ff4d4d; font-weight: bold; letter-spacing: 2px;">CLASSIFIED MILITARY ASSET</div>
+                    <div style="font-size: 16px; font-weight: bold; margin-top: 4px; color: #fff;">${base.name}</div>
+                    <div style="font-size: 9px; color: #888; margin-top: 2px;">LOCATION: ${base.country}</div>
+                </div>
+                <div style="padding: 12px;">
+                    <p style="font-size: 12px; color: #ccc; margin: 0; line-height: 1.5;">${base.desc}</p>
+                    <div style="margin-top: 12px; font-size: 10px; color: #444; border-top: 1px solid #222; padding-top: 8px;">
+                        GEO-COORDS: ${base.coord[0].toFixed(4)}, ${base.coord[1].toFixed(4)}
+                    </div>
+                </div>
+                <div style="height: 6px; background: repeating-linear-gradient(45deg, #ff4d4d, #ff4d4d 10px, #000 10px, #000 20px);"></div>
+            </div>
+        `, { closeButton: false, offset: [0, -10] });
+    });
+}
+
+// Başlat
+initMilitaryBases();
+  
+// --- GEOSHTRIKE MILITARY RADAR ---
+(function() {
+    // Harita hazır olana kadar bekleme sistemi
+    const checkMap = setInterval(() => {
+        if (typeof map !== 'undefined') {
+            clearInterval(checkMap);
+            startRadar();
+        }
+    }, 1000);
+
+    function startRadar() {
+        const planesLayer = L.layerGroup().addTo(map);
+        const trailsLayer = L.layerGroup().addTo(map);
+        const planeSvg = `<svg viewBox="0 0 24 24" fill="#ff4d4d" width="24" height="24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>`;
+        const aircraftTrails = {};
+
+        async function updatePlanes() {
+            try {
+                // !!! BURAYI KENDİ WORKER ADRESİNLE DEĞİŞTİR !!!
+                const response = await fetch('https://fancy-sun-ab56.schwpzzzz.workers.dev/aircraft');
+                const data = await response.json();
+                
+                if (data && data.ac) {
+                    planesLayer.clearLayers();
+                    data.ac.forEach(p => {
+                        if (p.lat && p.lon) {
+                            // Marker Oluşturma
+                            const marker = L.marker([p.lat, p.lon], {
+                                icon: L.divIcon({
+                                    className: 'plane-icon',
+                                    html: `<div style="transform: rotate(${p.track || 0}deg);">${planeSvg}</div>`,
+                                    iconSize: [24, 24]
+                                })
+                            });
+
+                            // Popup (Bilgi Kartı) İçeriği
+                            marker.bindPopup(`
+    <div style="background: #000; color: #fff; padding: 10px; border-radius: 8px; border: 1px solid #1a1a1a; min-width: 240px;">
+        <div style="color: #ff4d4d; font-size: 19px; font-weight: bold; margin-bottom: 8px;">
+            ${p.flight ? p.flight.trim() : 'MIL-ASSET'}
+        </div>
+
+        <div id="img-${p.hex}" style="width: 100%; height: 130px; background: #0a0a0a; border-radius: 5px; overflow: hidden; margin-bottom: 10px; border: 1px solid #222; display: flex; align-items: center; justify-content: center;">
+            <span style="color: #333; font-size: 10px;">GÖRÜNTÜ YÜKLENİYOR...</span>
+        </div>
+
+        <div style="font-size: 14px; line-height: 1.6;">
+            <div><b style="color: #fff;">Tip:</b> <span style="color: #eee;">${p.t || 'Q9'}</span></div>
+            <div><b style="color: #fff;">İrtifa:</b> <span style="color: #eee;">${Math.round(p.alt_geom || p.alt_baro || 0)} ft</span></div>
+            <div><b style="color: #fff;">Hız:</b> <span style="color: #eee;">${Math.round(p.gs || 0)} kts</span></div>
+            <div><b style="color: #fff;">Tescil:</b> <span style="color: #ff4d4d;">${p.r || 'N/A'}</span></div>
+        </div>
+
+        <div style="margin-top: 8px; border-top: 1px solid #1a1a1a; padding-top: 5px; display: flex; justify-content: space-between; align-items: center;">
+            <span style="color: #4ade80; font-size: 10px; font-weight: bold;">● LIVE DATA</span>
+            <span style="color: #444; font-size: 9px;">${p.hex}</span>
+        </div>
+    </div>
+`, {
+    maxWidth: 280,
+    closeButton: true
+});
+
+                            // Popup açılınca resmi çek
+                            marker.on('popupopen', () => {
+                                if(p.r) {
+                                    fetch(`https://api.planespotters.net/pub/photos/reg/${p.r}`)
+                                        .then(r => r.json())
+                                        .then(d => {
+                                            if(d.photos && d.photos[0]) {
+                                                document.getElementById(`img-${p.hex}`).innerHTML = `<img src="${d.photos[0].thumbnail_large.src}" style="width:100%; height:100%; object-fit:cover;">`;
+                                            }
+                                        });
+                                }
+                            });
+
+                            marker.addTo(planesLayer);
+
+                            // Trail (Rota İzi)
+                            if (!aircraftTrails[p.hex]) {
+                                aircraftTrails[p.hex] = L.polyline([], {color: '#ff4d4d', weight: 1, opacity: 0.5}).addTo(trailsLayer);
+                            }
+                            aircraftTrails[p.hex].addLatLng([p.lat, p.lon]);
+                        }
+                    });
+                }
+            } catch (e) { console.error("Hata:", e); }
+        }
+
+        updatePlanes();
+        setInterval(updatePlanes, 5000); // 5 saniyede bir tazele
+    }
+})();
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) {
+    document.title = 'GeoStrike.io | Global OSINT Intelligence Feed';
+  }
+});
+let isMuted = false;
+function toggleMute(btn) {
+  isMuted = !isMuted;
+  btn.textContent = isMuted ? '🔇' : '🔊';
+}
+document.getElementById('feed').addEventListener('scroll', function() {
+  const btn = document.getElementById('scroll-top-btn');
+  btn.style.display = this.scrollTop > 300 ? 'block' : 'none';
+});
+</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "19c41319e9054100aa03ce3212d45874"}'></script><!-- End Cloudflare Web Analytics -->
+<button id="scroll-top-btn" onclick="document.getElementById('feed').scrollTop=0" style="display:none;position:fixed;bottom:1.2rem;right:1.2rem;width:32px;height:32px;border-radius:50%;background:#0ea5e9;border:none;color:#fff;font-size:1rem;cursor:pointer;z-index:500;box-shadow:0 4px 12px rgba(14,165,233,.4);transition:all .2s">↑</button>
+</body>
+</html>
