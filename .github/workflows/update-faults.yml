@@ -1,25 +1,38 @@
 name: Refresh GEM fault layer
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 3 * * 1'
+    - cron: "17 3 * * 1"
+
 permissions:
   contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: deprem
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
         with:
-          node-version: '22'
+          node-version: "24"
+          package-manager-cache: false
+
       - name: Fetch GEM Active Faults and clip Marmara subset
         run: node scripts/update-faults.mjs
+
       - name: Commit fault layer
         run: |
           git config user.name "seismic-watch-bot"
           git config user.email "seismic-watch-bot@users.noreply.github.com"
           git add data/faults.geojson
+
           if git diff --cached --quiet; then
             echo "No fault changes"
           else
