@@ -1,8 +1,170 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T11:30:54.305Z",
+  "updatedAt": "2026-08-24T13:33:39.912Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-90d45d90",
+      "source": "KANDILLI",
+      "sourceId": "k-90d45d90",
+      "time": "2026-08-24T16:06:36+03:00",
+      "latitude": 39.6223,
+      "longitude": 27.8938,
+      "depth": 3.2,
+      "magnitude": 3.3,
+      "place": "CAYIRHISAR-(BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T16:06:36+03:00",
+          "latitude": 39.6223,
+          "longitude": 27.8938,
+          "depth": 3.2,
+          "magnitude": 3.3,
+          "place": "CAYIRHISAR-(BALIKESIR)",
+          "ml": 3.3,
+          "mw": 3.1,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-26ea7565",
+      "source": "KANDILLI",
+      "sourceId": "k-26ea7565",
+      "time": "2026-08-24T15:23:21+03:00",
+      "latitude": 36.4503,
+      "longitude": 28.753,
+      "depth": 18,
+      "magnitude": 1.7,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T15:23:21+03:00",
+          "latitude": 36.4503,
+          "longitude": 28.753,
+          "depth": 18,
+          "magnitude": 1.7,
+          "place": "AKDENIZ",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-13cbf2c6",
+      "source": "KANDILLI",
+      "sourceId": "k-13cbf2c6",
+      "time": "2026-08-24T15:09:10+03:00",
+      "latitude": 40.1973,
+      "longitude": 31.6888,
+      "depth": 5,
+      "magnitude": 1.9,
+      "place": "SEKLI-BEYPAZARI (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T15:09:10+03:00",
+          "latitude": 40.1973,
+          "longitude": 31.6888,
+          "depth": 5,
+          "magnitude": 1.9,
+          "place": "SEKLI-BEYPAZARI (ANKARA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8168558d",
+      "source": "KANDILLI",
+      "sourceId": "k-8168558d",
+      "time": "2026-08-24T15:00:04+03:00",
+      "latitude": 35.6177,
+      "longitude": 24.2655,
+      "depth": 19.6,
+      "magnitude": 2.6,
+      "place": "GIRIT ADASI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T15:00:04+03:00",
+          "latitude": 35.6177,
+          "longitude": 24.2655,
+          "depth": 19.6,
+          "magnitude": 2.6,
+          "place": "GIRIT ADASI (AKDENIZ)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0e15c7e3",
+      "source": "KANDILLI",
+      "sourceId": "k-0e15c7e3",
+      "time": "2026-08-24T14:54:07+03:00",
+      "latitude": 39.7787,
+      "longitude": 33.4175,
+      "depth": 5,
+      "magnitude": 1.6,
+      "place": "CAMLICA-BAHSILI (KIRIKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T14:54:07+03:00",
+          "latitude": 39.7787,
+          "longitude": 33.4175,
+          "depth": 5,
+          "magnitude": 1.6,
+          "place": "CAMLICA-BAHSILI (KIRIKKALE)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b49342e0",
+      "source": "KANDILLI",
+      "sourceId": "k-b49342e0",
+      "time": "2026-08-24T14:50:54+03:00",
+      "latitude": 40.7733,
+      "longitude": 29.1388,
+      "depth": 5,
+      "magnitude": 1.4,
+      "place": "ADALAR (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T14:50:54+03:00",
+          "latitude": 40.7733,
+          "longitude": 29.1388,
+          "depth": 5,
+          "magnitude": 1.4,
+          "place": "ADALAR (ISTANBUL)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-4d3c197a",
       "source": "KANDILLI",
