@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T16:59:08.789Z",
+  "updatedAt": "2026-08-24T17:32:22.772Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-e3091fd1",
+      "source": "KANDILLI",
+      "sourceId": "k-e3091fd1",
+      "time": "2026-08-24T20:05:16+03:00",
+      "latitude": 38.5665,
+      "longitude": 26.8088,
+      "depth": 12.8,
+      "magnitude": 1.4,
+      "place": "IZMIR KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T20:05:16+03:00",
+          "latitude": 38.5665,
+          "longitude": 26.8088,
+          "depth": 12.8,
+          "magnitude": 1.4,
+          "place": "IZMIR KORFEZI (EGE DENIZI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b64c7a8d",
+      "source": "KANDILLI",
+      "sourceId": "k-b64c7a8d",
+      "time": "2026-08-24T19:50:50+03:00",
+      "latitude": 38.6213,
+      "longitude": 31.1215,
+      "depth": 2.2,
+      "magnitude": 1.5,
+      "place": "EBER-CAY (AFYONKARAHISAR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T19:50:50+03:00",
+          "latitude": 38.6213,
+          "longitude": 31.1215,
+          "depth": 2.2,
+          "magnitude": 1.5,
+          "place": "EBER-CAY (AFYONKARAHISAR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c7dbc342",
       "source": "KANDILLI",
