@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:16:28.208Z",
+  "generatedAt": "2026-08-24T08:06:36.965Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -1246,10 +1246,10 @@
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
       "events24h": 5,
-      "events7d": 159,
-      "events30d": 159,
+      "events7d": 160,
+      "events30d": 160,
       "maxMagnitude24h": 2,
-      "baselineDaily": 5.31,
+      "baselineDaily": 5.34,
       "rateRatio": 0.94,
       "baseAttention": 31,
       "advancedSignal": 28.9,
@@ -1308,17 +1308,17 @@
         "accelerationStrength": 0
       },
       "quiescence": {
-        "valid": true,
+        "valid": false,
         "score": 0,
-        "recent6h": 1,
-        "previous18h": 4,
-        "ratio": 0.75
+        "recent6h": 2,
+        "previous18h": 3,
+        "ratio": null
       },
       "bValue": {
         "recent": {
           "valid": true,
           "n": 68,
-          "total": 159,
+          "total": 160,
           "mc": 1.6,
           "b": 0.991,
           "sigma": 0.12
@@ -1345,9 +1345,9 @@
         "modelKm": 12,
         "bufferKm": 5,
         "kandilli24h": 5,
-        "kandilli7d": 151,
+        "kandilli7d": 152,
         "within24h": 4,
-        "within7d": 122,
+        "within7d": 123,
         "below24h": 1,
         "below7d": 29,
         "medianDepth24h": 5.4,
@@ -1460,5 +1460,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 174
+  "historyEvents": 175
 }
