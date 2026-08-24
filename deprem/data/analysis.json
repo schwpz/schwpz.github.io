@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T10:59:16.520Z",
+  "generatedAt": "2026-08-24T11:30:54.412Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -1308,11 +1308,11 @@
         "accelerationStrength": 0
       },
       "quiescence": {
-        "valid": false,
+        "valid": true,
         "score": 0,
-        "recent6h": 3,
-        "previous18h": 3,
-        "ratio": null
+        "recent6h": 2,
+        "previous18h": 4,
+        "ratio": 1.5
       },
       "bValue": {
         "recent": {

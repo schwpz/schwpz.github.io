@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-24T10:59:16.502Z",
+  "generatedAt": "2026-08-24T11:30:54.392Z",
   "source": "KANDILLI_API_MIRROR",
   "months": [
     {
       "month": "2026-08",
       "file": "2026-08.json",
-      "count": 525,
-      "updatedAt": "2026-08-24T10:59:16.495Z"
+      "count": 527,
+      "updatedAt": "2026-08-24T11:30:54.305Z"
     }
   ]
 }
