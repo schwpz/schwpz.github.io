@@ -3,7 +3,7 @@ name: Update seismic data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/1 * * * *"
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
