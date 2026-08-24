@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T00:00:30.488Z",
+  "generatedAt": "2026-08-24T00:10:27.589Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,11 +11,11 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 41,
+    "attention": 36,
     "label": "Hafif aktivite",
     "summary": "Prens Adaları / doğu MMF: swarm 75/100 · migration 1/100 · precursor resemblance 28/100. Olasılık değildir.",
-    "eventsNearLocked5km": 10,
-    "eventsInsideLockedDepth24h": 8,
+    "eventsNearLocked5km": 5,
+    "eventsInsideLockedDepth24h": 4,
     "leadSegmentId": "princes"
   },
   "segments": [
@@ -231,8 +231,8 @@
       "name": "Tekirdağ geçişi",
       "state": "transition",
       "events24h": 0,
-      "events7d": 1,
-      "events30d": 1,
+      "events7d": 0,
+      "events30d": 0,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,
       "rateRatio": 0,
@@ -295,7 +295,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 1,
+          "n": 0,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -435,8 +435,8 @@
       "name": "Central Basin / Western High",
       "state": "creep",
       "events24h": 0,
-      "events7d": 2,
-      "events30d": 2,
+      "events7d": 1,
+      "events30d": 1,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,
       "rateRatio": 0,
@@ -499,7 +499,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 2,
+          "n": 1,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -1050,8 +1050,8 @@
       "name": "Avcılar sessiz / geçiş zonu",
       "state": "transition",
       "events24h": 0,
-      "events7d": 2,
-      "events30d": 2,
+      "events7d": 1,
+      "events30d": 1,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,
       "rateRatio": 0,
@@ -1114,7 +1114,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 2,
+          "n": 1,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -1253,37 +1253,37 @@
       "id": "princes",
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
-      "events24h": 10,
-      "events7d": 316,
-      "events30d": 316,
+      "events24h": 5,
+      "events7d": 158,
+      "events30d": 158,
       "maxMagnitude24h": 1.8,
-      "baselineDaily": 10.55,
+      "baselineDaily": 5.28,
       "rateRatio": 0.95,
-      "baseAttention": 38,
+      "baseAttention": 30,
       "advancedSignal": 28.7,
       "analogueUplift": 0,
       "lockingDepthUplift": 6,
-      "attention": 41,
+      "attention": 36,
       "swarm": {
         "detected": true,
         "score": 75,
-        "count": 298,
+        "count": 149,
         "durationHours": 58.35,
         "radiusKm": 4.15,
-        "areaKm2": 54.1,
+        "areaKm2": 54.08,
         "maxMagnitude": 3.2,
         "secondMagnitude": 3,
-        "largestMomentFraction": 0.223,
+        "largestMomentFraction": 0.224,
         "centroid": {
-          "latitude": 40.77835234899333,
-          "longitude": 29.10054832214764
+          "latitude": 40.77835234899329,
+          "longitude": 29.100548322147635
         },
         "start": "2026-08-19T12:05:04.000Z",
         "end": "2026-08-21T22:26:09.000Z"
       },
       "migration": {
         "valid": true,
-        "count": 298,
+        "count": 149,
         "reason": null,
         "speedKmPerDay": 0.55,
         "displacementKm": 1.33,
@@ -1291,8 +1291,8 @@
         "r2": 0.018,
         "strength": 0.009,
         "centroid": {
-          "latitude": 40.77835234899333,
-          "longitude": 29.10054832214764
+          "latitude": 40.77835234899329,
+          "longitude": 29.100548322147635
         },
         "alongStrikeSpeedKmPerDay": 0.45,
         "alongStrikeR2": 0.014,
@@ -1300,7 +1300,7 @@
       },
       "depthMigration": {
         "valid": true,
-        "count": 298,
+        "count": 149,
         "slopeKmPerDay": 0.42,
         "r2": 0.004,
         "netChangeKm": 1.02,
@@ -1309,27 +1309,27 @@
       },
       "magnitudeTrend": {
         "valid": true,
-        "count": 298,
-        "slopePerDay": -0.116,
-        "r2": 0.004,
-        "netChange": -0.28,
+        "count": 149,
+        "slopePerDay": -0.233,
+        "r2": 0.055,
+        "netChange": -0.57,
         "accelerationStrength": 0
       },
       "quiescence": {
-        "valid": true,
+        "valid": false,
         "score": 0,
-        "recent6h": 6,
-        "previous18h": 4,
-        "ratio": 4.5
+        "recent6h": 3,
+        "previous18h": 2,
+        "ratio": null
       },
       "bValue": {
         "recent": {
           "valid": true,
-          "n": 158,
-          "total": 316,
-          "mc": 0.2,
-          "b": 0.304,
-          "sigma": 0.008
+          "n": 67,
+          "total": 158,
+          "mc": 1.6,
+          "b": 0.995,
+          "sigma": 0.122
         },
         "baseline": {
           "valid": false,
@@ -1352,17 +1352,17 @@
         "observedKm": 10,
         "modelKm": 12,
         "bufferKm": 5,
-        "kandilli24h": 10,
-        "kandilli7d": 300,
-        "within24h": 8,
-        "within7d": 242,
-        "below24h": 2,
-        "below7d": 58,
+        "kandilli24h": 5,
+        "kandilli7d": 150,
+        "within24h": 4,
+        "within7d": 121,
+        "below24h": 1,
+        "below7d": 29,
         "medianDepth24h": 9.3,
         "closest": {
           "eventId": "evt-7d71613ad4ad8e1a6d7e",
           "time": "2026-08-20T22:16:49+03:00",
-          "magnitude": 0,
+          "magnitude": 1.4,
           "depthKm": 7.7,
           "horizontalDistanceKm": 0.04,
           "relation": "within"

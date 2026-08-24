@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T00:00:30.486Z",
+  "generatedAt": "2026-08-24T00:10:27.587Z",
   "bbox": {
     "minLatitude": 40.25,
     "maxLatitude": 41.35,
@@ -42,30 +42,6 @@
       "latitude": 40.7923,
       "longitude": 29.1358,
       "depth": 4.8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "819dbf768bf8e9513378",
-          "time": "2026-08-24T00:56:24+03:00",
-          "latitude": 40.7923,
-          "longitude": 29.1358,
-          "depth": 4.8,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-5572ed0914f311dd887a",
-      "time": "2026-08-24T00:56:24+03:00",
-      "latitude": 40.7923,
-      "longitude": 29.1358,
-      "depth": 4.8,
       "magnitude": 1.8,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -80,30 +56,6 @@
           "depth": 4.8,
           "magnitude": 1.8,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d24756ba745eec989feb",
-      "time": "2026-08-24T00:44:12+03:00",
-      "latitude": 40.7682,
-      "longitude": 29.2362,
-      "depth": 4.8,
-      "magnitude": 0,
-      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "303f182eb6f0183d32c4",
-          "time": "2026-08-24T00:44:12+03:00",
-          "latitude": 40.7682,
-          "longitude": 29.2362,
-          "depth": 4.8,
-          "magnitude": 0,
-          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
           "url": null
         }
       }
@@ -138,30 +90,6 @@
       "latitude": 40.7768,
       "longitude": 29.1078,
       "depth": 13.6,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "04f24d2977721b2bc556",
-          "time": "2026-08-24T00:09:31+03:00",
-          "latitude": 40.7768,
-          "longitude": 29.1078,
-          "depth": 13.6,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f155ddda169dc073eb21",
-      "time": "2026-08-24T00:09:31+03:00",
-      "latitude": 40.7768,
-      "longitude": 29.1078,
-      "depth": 13.6,
       "magnitude": 1.7,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -175,30 +103,6 @@
           "longitude": 29.1078,
           "depth": 13.6,
           "magnitude": 1.7,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-1a25edfaa6b9eaa59a4a",
-      "time": "2026-08-23T11:04:04+03:00",
-      "latitude": 40.784,
-      "longitude": 29.0845,
-      "depth": 9.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "e34556d08cf4c0e59cd4",
-          "time": "2026-08-23T11:04:04+03:00",
-          "latitude": 40.784,
-          "longitude": 29.0845,
-          "depth": 9.3,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -234,30 +138,6 @@
       "latitude": 40.6498,
       "longitude": 27.8898,
       "depth": 6.2,
-      "magnitude": 0,
-      "place": "MARMARA DENIZI",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "4c9bf9d5e7f852bff93d",
-          "time": "2026-08-23T07:42:18+03:00",
-          "latitude": 40.6498,
-          "longitude": 27.8898,
-          "depth": 6.2,
-          "magnitude": 0,
-          "place": "MARMARA DENIZI",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-596992cd6d0f314c962d",
-      "time": "2026-08-23T07:42:18+03:00",
-      "latitude": 40.6498,
-      "longitude": 27.8898,
-      "depth": 6.2,
       "magnitude": 1.4,
       "place": "MARMARA DENIZI",
       "sources": [
@@ -272,30 +152,6 @@
           "depth": 6.2,
           "magnitude": 1.4,
           "place": "MARMARA DENIZI",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-823e89c7361f74457c3b",
-      "time": "2026-08-23T04:31:30+03:00",
-      "latitude": 40.3965,
-      "longitude": 27.1025,
-      "depth": 11.7,
-      "magnitude": 0,
-      "place": "BEKIRLI-BIGA (CANAKKALE)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "c0b7342afd54bbeb1547",
-          "time": "2026-08-23T04:31:30+03:00",
-          "latitude": 40.3965,
-          "longitude": 27.1025,
-          "depth": 11.7,
-          "magnitude": 0,
-          "place": "BEKIRLI-BIGA (CANAKKALE)",
           "url": null
         }
       }
@@ -330,30 +186,6 @@
       "latitude": 40.777,
       "longitude": 29.1085,
       "depth": 9.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "83c228d02bb182bb3703",
-          "time": "2026-08-23T03:46:44+03:00",
-          "latitude": 40.777,
-          "longitude": 29.1085,
-          "depth": 9.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f518df4565873beb3c0a",
-      "time": "2026-08-23T03:46:44+03:00",
-      "latitude": 40.777,
-      "longitude": 29.1085,
-      "depth": 9.3,
       "magnitude": 1,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -368,30 +200,6 @@
           "depth": 9.3,
           "magnitude": 1,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-07398b35adad6e18494a",
-      "time": "2026-08-22T20:28:27+03:00",
-      "latitude": 40.64,
-      "longitude": 29.16,
-      "depth": 9,
-      "magnitude": 0,
-      "place": "CALICA-CINARCIK (YALOVA)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "198ac53d2a3913c638e6",
-          "time": "2026-08-22T20:28:27+03:00",
-          "latitude": 40.64,
-          "longitude": 29.16,
-          "depth": 9,
-          "magnitude": 0,
-          "place": "CALICA-CINARCIK (YALOVA)",
           "url": null
         }
       }
@@ -426,30 +234,6 @@
       "latitude": 40.338,
       "longitude": 27.3542,
       "depth": 3.4,
-      "magnitude": 0,
-      "place": "BOZLAR-BIGA (CANAKKALE)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "fecfd1862d3ece6f75da",
-          "time": "2026-08-22T20:23:11+03:00",
-          "latitude": 40.338,
-          "longitude": 27.3542,
-          "depth": 3.4,
-          "magnitude": 0,
-          "place": "BOZLAR-BIGA (CANAKKALE)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-7c4f2cc82971db18d5a1",
-      "time": "2026-08-22T20:23:11+03:00",
-      "latitude": 40.338,
-      "longitude": 27.3542,
-      "depth": 3.4,
       "magnitude": 1.8,
       "place": "BOZLAR-BIGA (CANAKKALE)",
       "sources": [
@@ -464,30 +248,6 @@
           "depth": 3.4,
           "magnitude": 1.8,
           "place": "BOZLAR-BIGA (CANAKKALE)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-11b21b76e5a65e0feb22",
-      "time": "2026-08-22T17:45:31+03:00",
-      "latitude": 41.1153,
-      "longitude": 28.9668,
-      "depth": 0,
-      "magnitude": 0,
-      "place": "KAGITHANE (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "74f81cdadf85d50466f4",
-          "time": "2026-08-22T17:45:31+03:00",
-          "latitude": 41.1153,
-          "longitude": 28.9668,
-          "depth": 0,
-          "magnitude": 0,
-          "place": "KAGITHANE (ISTANBUL)",
           "url": null
         }
       }
@@ -522,30 +282,6 @@
       "latitude": 40.7755,
       "longitude": 29.1205,
       "depth": 11.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "d0f526b04d265061d351",
-          "time": "2026-08-22T01:26:09+03:00",
-          "latitude": 40.7755,
-          "longitude": 29.1205,
-          "depth": 11.2,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-cd652d2116751d5be810",
-      "time": "2026-08-22T01:26:09+03:00",
-      "latitude": 40.7755,
-      "longitude": 29.1205,
-      "depth": 11.2,
       "magnitude": 1.4,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -559,30 +295,6 @@
           "longitude": 29.1205,
           "depth": 11.2,
           "magnitude": 1.4,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-17f72e961321f7bb44fa",
-      "time": "2026-08-21T20:41:56+03:00",
-      "latitude": 40.7852,
-      "longitude": 29.1257,
-      "depth": 15.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "a14a01bdc1016c029044",
-          "time": "2026-08-21T20:41:56+03:00",
-          "latitude": 40.7852,
-          "longitude": 29.1257,
-          "depth": 15.2,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -618,30 +330,6 @@
       "latitude": 40.823,
       "longitude": 29.105,
       "depth": 22.9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "9e87ba86afde110e978a",
-          "time": "2026-08-21T13:34:10+03:00",
-          "latitude": 40.823,
-          "longitude": 29.105,
-          "depth": 22.9,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f8165af0a8a38160b9ed",
-      "time": "2026-08-21T13:34:10+03:00",
-      "latitude": 40.823,
-      "longitude": 29.105,
-      "depth": 22.9,
       "magnitude": 1.1,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -656,30 +344,6 @@
           "depth": 22.9,
           "magnitude": 1.1,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-50235f1838e5fb6c8e01",
-      "time": "2026-08-21T13:28:20+03:00",
-      "latitude": 40.4295,
-      "longitude": 30.0048,
-      "depth": 16.1,
-      "magnitude": 0,
-      "place": "ERICEK-OSMANELI (BILECIK)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "50db56b7747164d6b718",
-          "time": "2026-08-21T13:28:20+03:00",
-          "latitude": 40.4295,
-          "longitude": 30.0048,
-          "depth": 16.1,
-          "magnitude": 0,
-          "place": "ERICEK-OSMANELI (BILECIK)",
           "url": null
         }
       }
@@ -714,30 +378,6 @@
       "latitude": 40.8153,
       "longitude": 29.15,
       "depth": 13.4,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "579bf66ed1936b2d250e",
-          "time": "2026-08-21T10:32:31+03:00",
-          "latitude": 40.8153,
-          "longitude": 29.15,
-          "depth": 13.4,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-4ebc45f9e19a9d9870ef",
-      "time": "2026-08-21T10:32:31+03:00",
-      "latitude": 40.8153,
-      "longitude": 29.15,
-      "depth": 13.4,
       "magnitude": 0.8,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -752,30 +392,6 @@
           "depth": 13.4,
           "magnitude": 0.8,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-e89322fd9946858b32f8",
-      "time": "2026-08-21T10:29:20+03:00",
-      "latitude": 40.7562,
-      "longitude": 29.0428,
-      "depth": 13.4,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "af7ea7ede1e5c1245119",
-          "time": "2026-08-21T10:29:20+03:00",
-          "latitude": 40.7562,
-          "longitude": 29.0428,
-          "depth": 13.4,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
       }
@@ -810,30 +426,6 @@
       "latitude": 40.7775,
       "longitude": 29.1972,
       "depth": 14.8,
-      "magnitude": 0,
-      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "b3adc22cfe34e7f7843c",
-          "time": "2026-08-21T10:08:58+03:00",
-          "latitude": 40.7775,
-          "longitude": 29.1972,
-          "depth": 14.8,
-          "magnitude": 0,
-          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-acf701554a07878170b5",
-      "time": "2026-08-21T10:08:58+03:00",
-      "latitude": 40.7775,
-      "longitude": 29.1972,
-      "depth": 14.8,
       "magnitude": 1.4,
       "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
       "sources": [
@@ -858,30 +450,6 @@
       "latitude": 40.7668,
       "longitude": 29.124,
       "depth": 9.4,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "565dd1c6bbb0308b42ab",
-          "time": "2026-08-21T08:14:46+03:00",
-          "latitude": 40.7668,
-          "longitude": 29.124,
-          "depth": 9.4,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-b45c8e9e29b52d3c3af1",
-      "time": "2026-08-21T08:14:46+03:00",
-      "latitude": 40.7668,
-      "longitude": 29.124,
-      "depth": 9.4,
       "magnitude": 1.9,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -895,30 +463,6 @@
           "longitude": 29.124,
           "depth": 9.4,
           "magnitude": 1.9,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-0c0f728de7b6b31466ff",
-      "time": "2026-08-21T08:13:21+03:00",
-      "latitude": 40.7835,
-      "longitude": 29.1032,
-      "depth": 15.4,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "5a1b2f0c4cb7094c639a",
-          "time": "2026-08-21T08:13:21+03:00",
-          "latitude": 40.7835,
-          "longitude": 29.1032,
-          "depth": 15.4,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -954,30 +498,6 @@
       "latitude": 40.7672,
       "longitude": 29.088,
       "depth": 12.3,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "df61f79cfb8c5030d162",
-          "time": "2026-08-21T08:10:49+03:00",
-          "latitude": 40.7672,
-          "longitude": 29.088,
-          "depth": 12.3,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d73daf389ddc97028ec2",
-      "time": "2026-08-21T08:10:49+03:00",
-      "latitude": 40.7672,
-      "longitude": 29.088,
-      "depth": 12.3,
       "magnitude": 0.8,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -992,30 +512,6 @@
           "depth": 12.3,
           "magnitude": 0.8,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d23c288eda8a7f779aff",
-      "time": "2026-08-21T07:36:01+03:00",
-      "latitude": 40.7772,
-      "longitude": 29.0973,
-      "depth": 9.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "2297e6b01a7aca106674",
-          "time": "2026-08-21T07:36:01+03:00",
-          "latitude": 40.7772,
-          "longitude": 29.0973,
-          "depth": 9.2,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
           "url": null
         }
       }
@@ -1050,30 +546,6 @@
       "latitude": 40.7633,
       "longitude": 29.1427,
       "depth": 7.5,
-      "magnitude": 0,
-      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "2df82b2667fb794013cc",
-          "time": "2026-08-21T05:45:17+03:00",
-          "latitude": 40.7633,
-          "longitude": 29.1427,
-          "depth": 7.5,
-          "magnitude": 0,
-          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-79ce944c37d85444e4ca",
-      "time": "2026-08-21T05:45:17+03:00",
-      "latitude": 40.7633,
-      "longitude": 29.1427,
-      "depth": 7.5,
       "magnitude": 1.3,
       "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
       "sources": [
@@ -1088,30 +560,6 @@
           "depth": 7.5,
           "magnitude": 1.3,
           "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d2827da55b584ed2425e",
-      "time": "2026-08-21T05:41:02+03:00",
-      "latitude": 40.8707,
-      "longitude": 29.1423,
-      "depth": 11.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "315db5cfad9665498875",
-          "time": "2026-08-21T05:41:02+03:00",
-          "latitude": 40.8707,
-          "longitude": 29.1423,
-          "depth": 11.1,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
           "url": null
         }
       }
@@ -1146,30 +594,6 @@
       "latitude": 40.7623,
       "longitude": 29.133,
       "depth": 2.4,
-      "magnitude": 0,
-      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "8310cd413af8e4addc3e",
-          "time": "2026-08-21T05:06:34+03:00",
-          "latitude": 40.7623,
-          "longitude": 29.133,
-          "depth": 2.4,
-          "magnitude": 0,
-          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-c3afb7de0b7a584eb602",
-      "time": "2026-08-21T05:06:34+03:00",
-      "latitude": 40.7623,
-      "longitude": 29.133,
-      "depth": 2.4,
       "magnitude": 1.6,
       "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
       "sources": [
@@ -1184,30 +608,6 @@
           "depth": 2.4,
           "magnitude": 1.6,
           "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d3aaab09f50a74982d7f",
-      "time": "2026-08-21T04:50:34+03:00",
-      "latitude": 40.7785,
-      "longitude": 29.0977,
-      "depth": 10.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "f65728e9761ea518fc5a",
-          "time": "2026-08-21T04:50:34+03:00",
-          "latitude": 40.7785,
-          "longitude": 29.0977,
-          "depth": 10.5,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
           "url": null
         }
       }
@@ -1242,30 +642,6 @@
       "latitude": 40.777,
       "longitude": 29.0852,
       "depth": 11.5,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "9e1cadf88025192ec2a4",
-          "time": "2026-08-21T03:56:01+03:00",
-          "latitude": 40.777,
-          "longitude": 29.0852,
-          "depth": 11.5,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-b5b9e73862c83e7df556",
-      "time": "2026-08-21T03:56:01+03:00",
-      "latitude": 40.777,
-      "longitude": 29.0852,
-      "depth": 11.5,
       "magnitude": 1,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -1290,30 +666,6 @@
       "latitude": 40.7805,
       "longitude": 29.0967,
       "depth": 9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "09d9aa45d293ae0c7d24",
-          "time": "2026-08-21T01:27:15+03:00",
-          "latitude": 40.7805,
-          "longitude": 29.0967,
-          "depth": 9,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f65006db0fd9bf0a0f0a",
-      "time": "2026-08-21T01:27:15+03:00",
-      "latitude": 40.7805,
-      "longitude": 29.0967,
-      "depth": 9,
       "magnitude": 1.4,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -1327,30 +679,6 @@
           "longitude": 29.0967,
           "depth": 9,
           "magnitude": 1.4,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-94cbd3d64efc4761a2da",
-      "time": "2026-08-21T00:59:22+03:00",
-      "latitude": 40.7743,
-      "longitude": 29.0943,
-      "depth": 9.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "e9c597a08d287b3cf52e",
-          "time": "2026-08-21T00:59:22+03:00",
-          "latitude": 40.7743,
-          "longitude": 29.0943,
-          "depth": 9.5,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -1386,30 +714,6 @@
       "latitude": 40.7843,
       "longitude": 29.0648,
       "depth": 10.9,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "953981bf98deda452df7",
-          "time": "2026-08-21T00:57:11+03:00",
-          "latitude": 40.7843,
-          "longitude": 29.0648,
-          "depth": 10.9,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-46f1c40415dc046a580b",
-      "time": "2026-08-21T00:57:11+03:00",
-      "latitude": 40.7843,
-      "longitude": 29.0648,
-      "depth": 10.9,
       "magnitude": 1.1,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -1434,30 +738,6 @@
       "latitude": 40.7755,
       "longitude": 29.098,
       "depth": 13.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "895cc1b43f2238533ac5",
-          "time": "2026-08-21T00:51:35+03:00",
-          "latitude": 40.7755,
-          "longitude": 29.098,
-          "depth": 13.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-4a07c7791a38524bcf61",
-      "time": "2026-08-21T00:51:35+03:00",
-      "latitude": 40.7755,
-      "longitude": 29.098,
-      "depth": 13.3,
       "magnitude": 2.9,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -1471,30 +751,6 @@
           "longitude": 29.098,
           "depth": 13.3,
           "magnitude": 2.9,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d9469b768dc69fae4fb6",
-      "time": "2026-08-21T00:47:49+03:00",
-      "latitude": 40.7813,
-      "longitude": 29.101,
-      "depth": 13.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "419635ad56672fa843b8",
-          "time": "2026-08-21T00:47:49+03:00",
-          "latitude": 40.7813,
-          "longitude": 29.101,
-          "depth": 13.2,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -1530,30 +786,6 @@
       "latitude": 40.7783,
       "longitude": 29.0883,
       "depth": 11.8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "02e7996000ecc645d37c",
-          "time": "2026-08-21T00:47:05+03:00",
-          "latitude": 40.7783,
-          "longitude": 29.0883,
-          "depth": 11.8,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-93942972c3eb2fa023f2",
-      "time": "2026-08-21T00:47:05+03:00",
-      "latitude": 40.7783,
-      "longitude": 29.0883,
-      "depth": 11.8,
       "magnitude": 1.8,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -1568,30 +800,6 @@
           "depth": 11.8,
           "magnitude": 1.8,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-811d737a26daddc4b646",
-      "time": "2026-08-20T22:27:38+03:00",
-      "latitude": 40.753,
-      "longitude": 29.1088,
-      "depth": 1.4,
-      "magnitude": 0,
-      "place": "KORU-CINARCIK (YALOVA)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "0b3cbb7a23ddd2a4f227",
-          "time": "2026-08-20T22:27:38+03:00",
-          "latitude": 40.753,
-          "longitude": 29.1088,
-          "depth": 1.4,
-          "magnitude": 0,
-          "place": "KORU-CINARCIK (YALOVA)",
           "url": null
         }
       }
@@ -1626,30 +834,6 @@
       "latitude": 40.8005,
       "longitude": 29.1172,
       "depth": 7.7,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "a8419946d77a0b44e821",
-          "time": "2026-08-20T22:16:49+03:00",
-          "latitude": 40.8005,
-          "longitude": 29.1172,
-          "depth": 7.7,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-7d71613ad4ad8e1a6d7e",
-      "time": "2026-08-20T22:16:49+03:00",
-      "latitude": 40.8005,
-      "longitude": 29.1172,
-      "depth": 7.7,
       "magnitude": 1.4,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -1663,30 +847,6 @@
           "longitude": 29.1172,
           "depth": 7.7,
           "magnitude": 1.4,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d93bb7bcda3300040af6",
-      "time": "2026-08-20T22:16:13+03:00",
-      "latitude": 40.789,
-      "longitude": 29.0857,
-      "depth": 10.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "1ebfd9c15e9fc5c2c634",
-          "time": "2026-08-20T22:16:13+03:00",
-          "latitude": 40.789,
-          "longitude": 29.0857,
-          "depth": 10.1,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -1722,30 +882,6 @@
       "latitude": 40.7873,
       "longitude": 29.1337,
       "depth": 11.8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "c35b18e0c37bd08429f2",
-          "time": "2026-08-20T20:15:28+03:00",
-          "latitude": 40.7873,
-          "longitude": 29.1337,
-          "depth": 11.8,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-592d5fdd977913aad34e",
-      "time": "2026-08-20T20:15:28+03:00",
-      "latitude": 40.7873,
-      "longitude": 29.1337,
-      "depth": 11.8,
       "magnitude": 1.4,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -1759,30 +895,6 @@
           "longitude": 29.1337,
           "depth": 11.8,
           "magnitude": 1.4,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-af0e87ca446fac4cf8b4",
-      "time": "2026-08-20T19:32:48+03:00",
-      "latitude": 40.7927,
-      "longitude": 29.1005,
-      "depth": 13.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "9dbe3b1b9a32adf0c21a",
-          "time": "2026-08-20T19:32:48+03:00",
-          "latitude": 40.7927,
-          "longitude": 29.1005,
-          "depth": 13.1,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -1818,30 +930,6 @@
       "latitude": 40.7798,
       "longitude": 29.2175,
       "depth": 11.2,
-      "magnitude": 0,
-      "place": "TUZLA (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "50f9339f8ddbd897eb1e",
-          "time": "2026-08-20T18:55:09+03:00",
-          "latitude": 40.7798,
-          "longitude": 29.2175,
-          "depth": 11.2,
-          "magnitude": 0,
-          "place": "TUZLA (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-0b6463129d0e9c3b14ef",
-      "time": "2026-08-20T18:55:09+03:00",
-      "latitude": 40.7798,
-      "longitude": 29.2175,
-      "depth": 11.2,
       "magnitude": 1.4,
       "place": "TUZLA (ISTANBUL)",
       "sources": [
@@ -1866,30 +954,6 @@
       "latitude": 40.7572,
       "longitude": 29.0953,
       "depth": 8,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "2ba7939eee53512080cc",
-          "time": "2026-08-20T18:07:19+03:00",
-          "latitude": 40.7572,
-          "longitude": 29.0953,
-          "depth": 8,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-75c4baf83c8ba80c0ec9",
-      "time": "2026-08-20T18:07:19+03:00",
-      "latitude": 40.7572,
-      "longitude": 29.0953,
-      "depth": 8,
       "magnitude": 1.7,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -1903,30 +967,6 @@
           "longitude": 29.0953,
           "depth": 8,
           "magnitude": 1.7,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-4c4d65e93a943dc3074f",
-      "time": "2026-08-20T16:09:55+03:00",
-      "latitude": 40.796,
-      "longitude": 29.0185,
-      "depth": 14.6,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "eb2cfe2a7023931b2ce8",
-          "time": "2026-08-20T16:09:55+03:00",
-          "latitude": 40.796,
-          "longitude": 29.0185,
-          "depth": 14.6,
-          "magnitude": 0,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
@@ -1962,30 +1002,6 @@
       "latitude": 40.7527,
       "longitude": 29.1592,
       "depth": 3.3,
-      "magnitude": 0,
-      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "ef2bdcc3eba40bb0eb82",
-          "time": "2026-08-20T15:59:07+03:00",
-          "latitude": 40.7527,
-          "longitude": 29.1592,
-          "depth": 3.3,
-          "magnitude": 0,
-          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f9ade1b42e0bcd35a63e",
-      "time": "2026-08-20T15:59:07+03:00",
-      "latitude": 40.7527,
-      "longitude": 29.1592,
-      "depth": 3.3,
       "magnitude": 1.3,
       "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
       "sources": [
@@ -2010,30 +1026,6 @@
       "latitude": 40.78,
       "longitude": 29.0793,
       "depth": 7.2,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "ebf6595f8061037141c5",
-          "time": "2026-08-20T15:29:34+03:00",
-          "latitude": 40.78,
-          "longitude": 29.0793,
-          "depth": 7.2,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-31af46a5876599d33b0c",
-      "time": "2026-08-20T15:29:34+03:00",
-      "latitude": 40.78,
-      "longitude": 29.0793,
-      "depth": 7.2,
       "magnitude": 1.7,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -2047,30 +1039,6 @@
           "longitude": 29.0793,
           "depth": 7.2,
           "magnitude": 1.7,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-b67f77eb2b1151a2e991",
-      "time": "2026-08-20T15:24:51+03:00",
-      "latitude": 40.7612,
-      "longitude": 29.1013,
-      "depth": 8.9,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "f8b0e5b45e9d21095529",
-          "time": "2026-08-20T15:24:51+03:00",
-          "latitude": 40.7612,
-          "longitude": 29.1013,
-          "depth": 8.9,
-          "magnitude": 0,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
@@ -2106,30 +1074,6 @@
       "latitude": 40.7495,
       "longitude": 29.1453,
       "depth": 7,
-      "magnitude": 0,
-      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "e1849108af120fa5fb33",
-          "time": "2026-08-20T15:20:58+03:00",
-          "latitude": 40.7495,
-          "longitude": 29.1453,
-          "depth": 7,
-          "magnitude": 0,
-          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-83e6e2e78669354d2c13",
-      "time": "2026-08-20T15:20:58+03:00",
-      "latitude": 40.7495,
-      "longitude": 29.1453,
-      "depth": 7,
       "magnitude": 1.5,
       "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
       "sources": [
@@ -2154,30 +1098,6 @@
       "latitude": 40.7738,
       "longitude": 29.0925,
       "depth": 3.7,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "6c0b67ff044728533add",
-          "time": "2026-08-20T15:18:50+03:00",
-          "latitude": 40.7738,
-          "longitude": 29.0925,
-          "depth": 3.7,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-1f670e8f3967244392a6",
-      "time": "2026-08-20T15:18:50+03:00",
-      "latitude": 40.7738,
-      "longitude": 29.0925,
-      "depth": 3.7,
       "magnitude": 1.5,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -2191,30 +1111,6 @@
           "longitude": 29.0925,
           "depth": 3.7,
           "magnitude": 1.5,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-47be0a016cc6ad6e3466",
-      "time": "2026-08-20T14:59:49+03:00",
-      "latitude": 40.7732,
-      "longitude": 29.1042,
-      "depth": 6.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "7b5aa4b47480c5e43aba",
-          "time": "2026-08-20T14:59:49+03:00",
-          "latitude": 40.7732,
-          "longitude": 29.1042,
-          "depth": 6.3,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -2250,30 +1146,6 @@
       "latitude": 40.7708,
       "longitude": 29.0755,
       "depth": 3.5,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "6b2c070be20977016d88",
-          "time": "2026-08-20T14:59:26+03:00",
-          "latitude": 40.7708,
-          "longitude": 29.0755,
-          "depth": 3.5,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-8f28053986ed77b5d7f4",
-      "time": "2026-08-20T14:59:26+03:00",
-      "latitude": 40.7708,
-      "longitude": 29.0755,
-      "depth": 3.5,
       "magnitude": 1.4,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -2288,30 +1160,6 @@
           "depth": 3.5,
           "magnitude": 1.4,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-1426f6eb8c6e62c0a687",
-      "time": "2026-08-20T14:58:42+03:00",
-      "latitude": 40.801,
-      "longitude": 29.1453,
-      "depth": 9.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "5865dbbce89adef86462",
-          "time": "2026-08-20T14:58:42+03:00",
-          "latitude": 40.801,
-          "longitude": 29.1453,
-          "depth": 9.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
           "url": null
         }
       }
@@ -2346,30 +1194,6 @@
       "latitude": 40.7545,
       "longitude": 29.1067,
       "depth": 5,
-      "magnitude": 0,
-      "place": "CINARCIK (YALOVA)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "51dd5265c4293af5a21b",
-          "time": "2026-08-20T14:57:34+03:00",
-          "latitude": 40.7545,
-          "longitude": 29.1067,
-          "depth": 5,
-          "magnitude": 0,
-          "place": "CINARCIK (YALOVA)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-2b82b7f651e894427cd5",
-      "time": "2026-08-20T14:57:34+03:00",
-      "latitude": 40.7545,
-      "longitude": 29.1067,
-      "depth": 5,
       "magnitude": 1.6,
       "place": "CINARCIK (YALOVA)",
       "sources": [
@@ -2394,30 +1218,6 @@
       "latitude": 40.8877,
       "longitude": 28.9893,
       "depth": 3.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "1b3d1604cc3f69e34bd8",
-          "time": "2026-08-20T14:55:54+03:00",
-          "latitude": 40.8877,
-          "longitude": 28.9893,
-          "depth": 3.5,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-1a167efa1f5b03de69bb",
-      "time": "2026-08-20T14:55:54+03:00",
-      "latitude": 40.8877,
-      "longitude": 28.9893,
-      "depth": 3.5,
       "magnitude": 1.1,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -2431,30 +1231,6 @@
           "longitude": 28.9893,
           "depth": 3.5,
           "magnitude": 1.1,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f98fe818cff39cbb545b",
-      "time": "2026-08-20T14:54:51+03:00",
-      "latitude": 40.7717,
-      "longitude": 29.1377,
-      "depth": 9.6,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "59120cb9723d31101935",
-          "time": "2026-08-20T14:54:51+03:00",
-          "latitude": 40.7717,
-          "longitude": 29.1377,
-          "depth": 9.6,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -2490,30 +1266,6 @@
       "latitude": 40.777,
       "longitude": 29.0952,
       "depth": 10.9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "bd1db4309e7f4065af48",
-          "time": "2026-08-20T14:51:37+03:00",
-          "latitude": 40.777,
-          "longitude": 29.0952,
-          "depth": 10.9,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-06ef8d9b8caadda80963",
-      "time": "2026-08-20T14:51:37+03:00",
-      "latitude": 40.777,
-      "longitude": 29.0952,
-      "depth": 10.9,
       "magnitude": 2.7,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -2527,30 +1279,6 @@
           "longitude": 29.0952,
           "depth": 10.9,
           "magnitude": 2.7,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-b9b7a3355b76eb68694e",
-      "time": "2026-08-20T14:43:05+03:00",
-      "latitude": 40.7803,
-      "longitude": 29.1132,
-      "depth": 11.6,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "464b2b349cdf2f1fd768",
-          "time": "2026-08-20T14:43:05+03:00",
-          "latitude": 40.7803,
-          "longitude": 29.1132,
-          "depth": 11.6,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -2586,30 +1314,6 @@
       "latitude": 40.7778,
       "longitude": 29.1197,
       "depth": 9.8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "d4ba919efd8da17b53f9",
-          "time": "2026-08-20T14:37:17+03:00",
-          "latitude": 40.7778,
-          "longitude": 29.1197,
-          "depth": 9.8,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-644c04333401e42d253b",
-      "time": "2026-08-20T14:37:17+03:00",
-      "latitude": 40.7778,
-      "longitude": 29.1197,
-      "depth": 9.8,
       "magnitude": 1.4,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -2623,30 +1327,6 @@
           "longitude": 29.1197,
           "depth": 9.8,
           "magnitude": 1.4,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-8e77dd782a0f8b1c81b7",
-      "time": "2026-08-20T14:32:26+03:00",
-      "latitude": 40.7805,
-      "longitude": 29.1237,
-      "depth": 15.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "402cddc45a9d89ced6cd",
-          "time": "2026-08-20T14:32:26+03:00",
-          "latitude": 40.7805,
-          "longitude": 29.1237,
-          "depth": 15.1,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -2682,30 +1362,6 @@
       "latitude": 40.8608,
       "longitude": 29.2145,
       "depth": 13.4,
-      "magnitude": 0,
-      "place": "PENDIK (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "30b09e604c76a753b731",
-          "time": "2026-08-20T13:59:58+03:00",
-          "latitude": 40.8608,
-          "longitude": 29.2145,
-          "depth": 13.4,
-          "magnitude": 0,
-          "place": "PENDIK (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-5eb0b2e3850c70c1cfab",
-      "time": "2026-08-20T13:59:58+03:00",
-      "latitude": 40.8608,
-      "longitude": 29.2145,
-      "depth": 13.4,
       "magnitude": 1.1,
       "place": "PENDIK (ISTANBUL)",
       "sources": [
@@ -2730,30 +1386,6 @@
       "latitude": 40.7832,
       "longitude": 29.1215,
       "depth": 7.7,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "05a43b15b41c86e0997a",
-          "time": "2026-08-20T13:41:38+03:00",
-          "latitude": 40.7832,
-          "longitude": 29.1215,
-          "depth": 7.7,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-936abdc2fd1691815419",
-      "time": "2026-08-20T13:41:38+03:00",
-      "latitude": 40.7832,
-      "longitude": 29.1215,
-      "depth": 7.7,
       "magnitude": 1,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -2767,30 +1399,6 @@
           "longitude": 29.1215,
           "depth": 7.7,
           "magnitude": 1,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-5cc891b3274cf6079de3",
-      "time": "2026-08-20T13:38:14+03:00",
-      "latitude": 40.8245,
-      "longitude": 29.115,
-      "depth": 6.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "1d0abedb7f8af1e5e347",
-          "time": "2026-08-20T13:38:14+03:00",
-          "latitude": 40.8245,
-          "longitude": 29.115,
-          "depth": 6.2,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -2826,30 +1434,6 @@
       "latitude": 40.7742,
       "longitude": 29.093,
       "depth": 10.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "9c233ae943b8e3f66ae2",
-          "time": "2026-08-20T13:28:16+03:00",
-          "latitude": 40.7742,
-          "longitude": 29.093,
-          "depth": 10.1,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-bf3de3631fab052517d2",
-      "time": "2026-08-20T13:28:16+03:00",
-      "latitude": 40.7742,
-      "longitude": 29.093,
-      "depth": 10.1,
       "magnitude": 1.6,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -2874,30 +1458,6 @@
       "latitude": 40.7692,
       "longitude": 29.092,
       "depth": 8.3,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "31f66ca990493a025da7",
-          "time": "2026-08-20T13:08:27+03:00",
-          "latitude": 40.7692,
-          "longitude": 29.092,
-          "depth": 8.3,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-eefe49fadda1fdf3be36",
-      "time": "2026-08-20T13:08:27+03:00",
-      "latitude": 40.7692,
-      "longitude": 29.092,
-      "depth": 8.3,
       "magnitude": 1.4,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -2911,30 +1471,6 @@
           "longitude": 29.092,
           "depth": 8.3,
           "magnitude": 1.4,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-cfd0d45f4956f302b3c3",
-      "time": "2026-08-20T13:06:48+03:00",
-      "latitude": 40.7635,
-      "longitude": 29.0893,
-      "depth": 4.2,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "5fb6567576f4eaa1318d",
-          "time": "2026-08-20T13:06:48+03:00",
-          "latitude": 40.7635,
-          "longitude": 29.0893,
-          "depth": 4.2,
-          "magnitude": 0,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
@@ -2970,30 +1506,6 @@
       "latitude": 40.7728,
       "longitude": 29.1222,
       "depth": 7.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "cdb6066c03f9bb3f8ae2",
-          "time": "2026-08-20T13:05:51+03:00",
-          "latitude": 40.7728,
-          "longitude": 29.1222,
-          "depth": 7.5,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-4a3d7c78165b87a34a6a",
-      "time": "2026-08-20T13:05:51+03:00",
-      "latitude": 40.7728,
-      "longitude": 29.1222,
-      "depth": 7.5,
       "magnitude": 1.3,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -3007,30 +1519,6 @@
           "longitude": 29.1222,
           "depth": 7.5,
           "magnitude": 1.3,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-fce29d841125682a678e",
-      "time": "2026-08-20T12:57:43+03:00",
-      "latitude": 40.7898,
-      "longitude": 29.1023,
-      "depth": 8.8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "756cbf34320795a0df57",
-          "time": "2026-08-20T12:57:43+03:00",
-          "latitude": 40.7898,
-          "longitude": 29.1023,
-          "depth": 8.8,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -3066,30 +1554,6 @@
       "latitude": 40.7763,
       "longitude": 29.0937,
       "depth": 3.8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "06221f77dcc5f2480b7e",
-          "time": "2026-08-20T12:57:08+03:00",
-          "latitude": 40.7763,
-          "longitude": 29.0937,
-          "depth": 3.8,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-bef331207599a335ce4d",
-      "time": "2026-08-20T12:57:08+03:00",
-      "latitude": 40.7763,
-      "longitude": 29.0937,
-      "depth": 3.8,
       "magnitude": 1,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -3104,30 +1568,6 @@
           "depth": 3.8,
           "magnitude": 1,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-63519b63f48454893c58",
-      "time": "2026-08-20T12:55:53+03:00",
-      "latitude": 41.1285,
-      "longitude": 28.7783,
-      "depth": 0,
-      "magnitude": 0,
-      "place": "SAMLAR-BASAKSEHIR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "5dc09a3345c554a21c95",
-          "time": "2026-08-20T12:55:53+03:00",
-          "latitude": 41.1285,
-          "longitude": 28.7783,
-          "depth": 0,
-          "magnitude": 0,
-          "place": "SAMLAR-BASAKSEHIR (ISTANBUL)",
           "url": null
         }
       }
@@ -3162,30 +1602,6 @@
       "latitude": 40.7733,
       "longitude": 29.0783,
       "depth": 4.8,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "a076d33c96e48b15e70b",
-          "time": "2026-08-20T12:08:38+03:00",
-          "latitude": 40.7733,
-          "longitude": 29.0783,
-          "depth": 4.8,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-b5d274ea726a072e93cf",
-      "time": "2026-08-20T12:08:38+03:00",
-      "latitude": 40.7733,
-      "longitude": 29.0783,
-      "depth": 4.8,
       "magnitude": 1.3,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -3199,30 +1615,6 @@
           "longitude": 29.0783,
           "depth": 4.8,
           "magnitude": 1.3,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f0c9955146fb2b38baa5",
-      "time": "2026-08-20T11:58:12+03:00",
-      "latitude": 40.7833,
-      "longitude": 29.0715,
-      "depth": 5.2,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "c658f703a148579e7956",
-          "time": "2026-08-20T11:58:12+03:00",
-          "latitude": 40.7833,
-          "longitude": 29.0715,
-          "depth": 5.2,
-          "magnitude": 0,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
@@ -3258,30 +1650,6 @@
       "latitude": 40.7743,
       "longitude": 29.0515,
       "depth": 3.4,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "89e05fa303efde1649fb",
-          "time": "2026-08-20T11:50:35+03:00",
-          "latitude": 40.7743,
-          "longitude": 29.0515,
-          "depth": 3.4,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-b396c7e52cac62ed80c2",
-      "time": "2026-08-20T11:50:35+03:00",
-      "latitude": 40.7743,
-      "longitude": 29.0515,
-      "depth": 3.4,
       "magnitude": 1.3,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -3306,30 +1674,6 @@
       "latitude": 40.777,
       "longitude": 29.1005,
       "depth": 9.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "91b49a8cb5d2d46b6640",
-          "time": "2026-08-20T11:38:36+03:00",
-          "latitude": 40.777,
-          "longitude": 29.1005,
-          "depth": 9.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-5ac0aac1b93df3357d80",
-      "time": "2026-08-20T11:38:36+03:00",
-      "latitude": 40.777,
-      "longitude": 29.1005,
-      "depth": 9.3,
       "magnitude": 1.4,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -3343,30 +1687,6 @@
           "longitude": 29.1005,
           "depth": 9.3,
           "magnitude": 1.4,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-af8b43ce7110c431d0f7",
-      "time": "2026-08-20T11:30:59+03:00",
-      "latitude": 40.7813,
-      "longitude": 29.0983,
-      "depth": 11.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "e86294968024bf6140eb",
-          "time": "2026-08-20T11:30:59+03:00",
-          "latitude": 40.7813,
-          "longitude": 29.0983,
-          "depth": 11.2,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -3402,30 +1722,6 @@
       "latitude": 40.7847,
       "longitude": 29.0942,
       "depth": 11.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "12383c1c904c39a3690a",
-          "time": "2026-08-20T10:46:22+03:00",
-          "latitude": 40.7847,
-          "longitude": 29.0942,
-          "depth": 11.5,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-a237d356aa19b520a453",
-      "time": "2026-08-20T10:46:22+03:00",
-      "latitude": 40.7847,
-      "longitude": 29.0942,
-      "depth": 11.5,
       "magnitude": 1.2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -3440,30 +1736,6 @@
           "depth": 11.5,
           "magnitude": 1.2,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-6d406c697738b7f00d72",
-      "time": "2026-08-20T10:41:17+03:00",
-      "latitude": 40.7797,
-      "longitude": 29.0708,
-      "depth": 12.9,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "aeb9306d42c5af97fc30",
-          "time": "2026-08-20T10:41:17+03:00",
-          "latitude": 40.7797,
-          "longitude": 29.0708,
-          "depth": 12.9,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
       }
@@ -3498,30 +1770,6 @@
       "latitude": 40.7767,
       "longitude": 29.1038,
       "depth": 9.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "ab76cfa46bcbeee9cc3f",
-          "time": "2026-08-20T10:40:37+03:00",
-          "latitude": 40.7767,
-          "longitude": 29.1038,
-          "depth": 9.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d25e9b98d887a9deeb25",
-      "time": "2026-08-20T10:40:37+03:00",
-      "latitude": 40.7767,
-      "longitude": 29.1038,
-      "depth": 9.3,
       "magnitude": 2.2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -3535,30 +1783,6 @@
           "longitude": 29.1038,
           "depth": 9.3,
           "magnitude": 2.2,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-bb2499b8664eb76e5e36",
-      "time": "2026-08-20T10:17:22+03:00",
-      "latitude": 40.7908,
-      "longitude": 29.0737,
-      "depth": 6.7,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "761f8144b3b45d4d201e",
-          "time": "2026-08-20T10:17:22+03:00",
-          "latitude": 40.7908,
-          "longitude": 29.0737,
-          "depth": 6.7,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -3594,30 +1818,6 @@
       "latitude": 40.7677,
       "longitude": 29.0947,
       "depth": 4.6,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "20d8d01b0c372d620fd9",
-          "time": "2026-08-20T09:52:29+03:00",
-          "latitude": 40.7677,
-          "longitude": 29.0947,
-          "depth": 4.6,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-885337cb7dafd630e1bd",
-      "time": "2026-08-20T09:52:29+03:00",
-      "latitude": 40.7677,
-      "longitude": 29.0947,
-      "depth": 4.6,
       "magnitude": 1.4,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -3631,30 +1831,6 @@
           "longitude": 29.0947,
           "depth": 4.6,
           "magnitude": 1.4,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-886632532dbaa2020d3c",
-      "time": "2026-08-20T09:45:28+03:00",
-      "latitude": 40.7735,
-      "longitude": 29.0833,
-      "depth": 8.3,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "cc4559b012188563828e",
-          "time": "2026-08-20T09:45:28+03:00",
-          "latitude": 40.7735,
-          "longitude": 29.0833,
-          "depth": 8.3,
-          "magnitude": 0,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
@@ -3690,30 +1866,6 @@
       "latitude": 40.7678,
       "longitude": 29.0867,
       "depth": 4.9,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "6330980d1b1ba12db1e9",
-          "time": "2026-08-20T08:57:34+03:00",
-          "latitude": 40.7678,
-          "longitude": 29.0867,
-          "depth": 4.9,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-9741198a4f4ac90e0b0a",
-      "time": "2026-08-20T08:57:34+03:00",
-      "latitude": 40.7678,
-      "longitude": 29.0867,
-      "depth": 4.9,
       "magnitude": 1.4,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -3727,30 +1879,6 @@
           "longitude": 29.0867,
           "depth": 4.9,
           "magnitude": 1.4,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-08b0deef7a5b0b0a18ce",
-      "time": "2026-08-20T08:47:12+03:00",
-      "latitude": 40.781,
-      "longitude": 29.0695,
-      "depth": 7.8,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "de90e6f7b2b131e0753f",
-          "time": "2026-08-20T08:47:12+03:00",
-          "latitude": 40.781,
-          "longitude": 29.0695,
-          "depth": 7.8,
-          "magnitude": 0,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
@@ -3786,30 +1914,6 @@
       "latitude": 40.7727,
       "longitude": 29.1018,
       "depth": 2.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "a8138cefec82e85cb6ec",
-          "time": "2026-08-20T08:39:22+03:00",
-          "latitude": 40.7727,
-          "longitude": 29.1018,
-          "depth": 2.5,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-aeebf28c55a19d03cf3e",
-      "time": "2026-08-20T08:39:22+03:00",
-      "latitude": 40.7727,
-      "longitude": 29.1018,
-      "depth": 2.5,
       "magnitude": 1.1,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -3823,30 +1927,6 @@
           "longitude": 29.1018,
           "depth": 2.5,
           "magnitude": 1.1,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d24c414c678b9ca12b5e",
-      "time": "2026-08-20T08:14:33+03:00",
-      "latitude": 40.7772,
-      "longitude": 29.0973,
-      "depth": 10.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "13b54a7531a11185f610",
-          "time": "2026-08-20T08:14:33+03:00",
-          "latitude": 40.7772,
-          "longitude": 29.0973,
-          "depth": 10.2,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -3882,30 +1962,6 @@
       "latitude": 40.7878,
       "longitude": 29.0392,
       "depth": 7.8,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "5bf4a87123a555c1bf06",
-          "time": "2026-08-20T07:57:58+03:00",
-          "latitude": 40.7878,
-          "longitude": 29.0392,
-          "depth": 7.8,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-87fb47b6114a74c7cc9f",
-      "time": "2026-08-20T07:57:58+03:00",
-      "latitude": 40.7878,
-      "longitude": 29.0392,
-      "depth": 7.8,
       "magnitude": 1,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -3920,30 +1976,6 @@
           "depth": 7.8,
           "magnitude": 1,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-4e9b935a91f46f85e771",
-      "time": "2026-08-20T07:38:22+03:00",
-      "latitude": 40.7847,
-      "longitude": 29.0983,
-      "depth": 12.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "ea86d5d1f417439d6f33",
-          "time": "2026-08-20T07:38:22+03:00",
-          "latitude": 40.7847,
-          "longitude": 29.0983,
-          "depth": 12.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
           "url": null
         }
       }
@@ -3978,30 +2010,6 @@
       "latitude": 40.7692,
       "longitude": 29.1483,
       "depth": 5.4,
-      "magnitude": 0,
-      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "7add97f355d838304b83",
-          "time": "2026-08-20T07:26:06+03:00",
-          "latitude": 40.7692,
-          "longitude": 29.1483,
-          "depth": 5.4,
-          "magnitude": 0,
-          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-dbcc6a8fb1c72bda6d3d",
-      "time": "2026-08-20T07:26:06+03:00",
-      "latitude": 40.7692,
-      "longitude": 29.1483,
-      "depth": 5.4,
       "magnitude": 1,
       "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
       "sources": [
@@ -4016,30 +2024,6 @@
           "depth": 5.4,
           "magnitude": 1,
           "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f931eec70abcf81bca3f",
-      "time": "2026-08-20T07:18:08+03:00",
-      "latitude": 40.7728,
-      "longitude": 29.082,
-      "depth": 5.4,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "c5ad2a44ab97df6186b9",
-          "time": "2026-08-20T07:18:08+03:00",
-          "latitude": 40.7728,
-          "longitude": 29.082,
-          "depth": 5.4,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
       }
@@ -4074,30 +2058,6 @@
       "latitude": 40.7832,
       "longitude": 29.086,
       "depth": 9.4,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "4d983a2b410f54218fbb",
-          "time": "2026-08-20T06:19:50+03:00",
-          "latitude": 40.7832,
-          "longitude": 29.086,
-          "depth": 9.4,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-ce694bab99210989237f",
-      "time": "2026-08-20T06:19:50+03:00",
-      "latitude": 40.7832,
-      "longitude": 29.086,
-      "depth": 9.4,
       "magnitude": 2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -4112,30 +2072,6 @@
           "depth": 9.4,
           "magnitude": 2,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-11bfdd24464c31465f13",
-      "time": "2026-08-20T05:56:54+03:00",
-      "latitude": 40.7717,
-      "longitude": 29.0878,
-      "depth": 8.9,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "baafe8a3c8ba1b89249d",
-          "time": "2026-08-20T05:56:54+03:00",
-          "latitude": 40.7717,
-          "longitude": 29.0878,
-          "depth": 8.9,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
       }
@@ -4170,30 +2106,6 @@
       "latitude": 40.7875,
       "longitude": 29.1083,
       "depth": 10.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "567df5e28adbdf7f3586",
-          "time": "2026-08-20T05:55:21+03:00",
-          "latitude": 40.7875,
-          "longitude": 29.1083,
-          "depth": 10.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f9b81b3f20ee4fcb242f",
-      "time": "2026-08-20T05:55:21+03:00",
-      "latitude": 40.7875,
-      "longitude": 29.1083,
-      "depth": 10.3,
       "magnitude": 1.1,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -4207,30 +2119,6 @@
           "longitude": 29.1083,
           "depth": 10.3,
           "magnitude": 1.1,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-7ed1eca309290e3850a0",
-      "time": "2026-08-20T05:50:28+03:00",
-      "latitude": 40.7807,
-      "longitude": 29.0972,
-      "depth": 9.6,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "778cad7bffaed3ac5bd4",
-          "time": "2026-08-20T05:50:28+03:00",
-          "latitude": 40.7807,
-          "longitude": 29.0972,
-          "depth": 9.6,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -4266,30 +2154,6 @@
       "latitude": 40.785,
       "longitude": 29.1072,
       "depth": 9.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "d845ac87940e04737c64",
-          "time": "2026-08-20T05:45:14+03:00",
-          "latitude": 40.785,
-          "longitude": 29.1072,
-          "depth": 9.5,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-e194f6b20fb3af07e5a4",
-      "time": "2026-08-20T05:45:14+03:00",
-      "latitude": 40.785,
-      "longitude": 29.1072,
-      "depth": 9.5,
       "magnitude": 1.7,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -4303,30 +2167,6 @@
           "longitude": 29.1072,
           "depth": 9.5,
           "magnitude": 1.7,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-b6113b42047aa238bd9b",
-      "time": "2026-08-20T05:40:34+03:00",
-      "latitude": 40.7795,
-      "longitude": 29.1053,
-      "depth": 11.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "a01843abe11a0a710539",
-          "time": "2026-08-20T05:40:34+03:00",
-          "latitude": 40.7795,
-          "longitude": 29.1053,
-          "depth": 11.5,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -4362,30 +2202,6 @@
       "latitude": 40.7807,
       "longitude": 29.0677,
       "depth": 7.5,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "39cef9632b39a1762681",
-          "time": "2026-08-20T05:01:22+03:00",
-          "latitude": 40.7807,
-          "longitude": 29.0677,
-          "depth": 7.5,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f3a188956a07405f2d93",
-      "time": "2026-08-20T05:01:22+03:00",
-      "latitude": 40.7807,
-      "longitude": 29.0677,
-      "depth": 7.5,
       "magnitude": 1.7,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -4410,30 +2226,6 @@
       "latitude": 40.7738,
       "longitude": 29.1173,
       "depth": 10.4,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "38a05d03aecb7dc7f2b0",
-          "time": "2026-08-20T04:54:35+03:00",
-          "latitude": 40.7738,
-          "longitude": 29.1173,
-          "depth": 10.4,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-8910e2c70d0e53478a24",
-      "time": "2026-08-20T04:54:35+03:00",
-      "latitude": 40.7738,
-      "longitude": 29.1173,
-      "depth": 10.4,
       "magnitude": 1.2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -4447,30 +2239,6 @@
           "longitude": 29.1173,
           "depth": 10.4,
           "magnitude": 1.2,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-3ff50eb383cc7f08be53",
-      "time": "2026-08-20T04:43:55+03:00",
-      "latitude": 40.7732,
-      "longitude": 29.1128,
-      "depth": 8.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "4be82dd1a110aa3047e4",
-          "time": "2026-08-20T04:43:55+03:00",
-          "latitude": 40.7732,
-          "longitude": 29.1128,
-          "depth": 8.3,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -4506,30 +2274,6 @@
       "latitude": 40.8082,
       "longitude": 29.175,
       "depth": 5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "dc7b963ac6299b818721",
-          "time": "2026-08-20T04:43:17+03:00",
-          "latitude": 40.8082,
-          "longitude": 29.175,
-          "depth": 5,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-5418f63137c50b6fc6c9",
-      "time": "2026-08-20T04:43:17+03:00",
-      "latitude": 40.8082,
-      "longitude": 29.175,
-      "depth": 5,
       "magnitude": 1.7,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -4543,30 +2287,6 @@
           "longitude": 29.175,
           "depth": 5,
           "magnitude": 1.7,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-45a04b87c308284ca4f4",
-      "time": "2026-08-20T04:42:09+03:00",
-      "latitude": 40.7807,
-      "longitude": 29.1018,
-      "depth": 7.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "58fbcb51cf029683e737",
-          "time": "2026-08-20T04:42:09+03:00",
-          "latitude": 40.7807,
-          "longitude": 29.1018,
-          "depth": 7.1,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -4602,30 +2322,6 @@
       "latitude": 40.7802,
       "longitude": 29.0938,
       "depth": 10.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "205ddc3154c0ca140f62",
-          "time": "2026-08-20T04:31:38+03:00",
-          "latitude": 40.7802,
-          "longitude": 29.0938,
-          "depth": 10.5,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-ca8d5ab0cafcf8f90875",
-      "time": "2026-08-20T04:31:38+03:00",
-      "latitude": 40.7802,
-      "longitude": 29.0938,
-      "depth": 10.5,
       "magnitude": 2.8,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -4639,30 +2335,6 @@
           "longitude": 29.0938,
           "depth": 10.5,
           "magnitude": 2.8,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-70061d0d3e1bcd8d699c",
-      "time": "2026-08-20T04:25:54+03:00",
-      "latitude": 40.7813,
-      "longitude": 29.1035,
-      "depth": 10.9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "5a89a5e3c8ab72891bae",
-          "time": "2026-08-20T04:25:54+03:00",
-          "latitude": 40.7813,
-          "longitude": 29.1035,
-          "depth": 10.9,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -4698,30 +2370,6 @@
       "latitude": 40.779,
       "longitude": 29.089,
       "depth": 9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "c50148888c5a2f84897b",
-          "time": "2026-08-20T04:24:12+03:00",
-          "latitude": 40.779,
-          "longitude": 29.089,
-          "depth": 9,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-0a70f6d7932d5444cd6c",
-      "time": "2026-08-20T04:24:12+03:00",
-      "latitude": 40.779,
-      "longitude": 29.089,
-      "depth": 9,
       "magnitude": 1.6,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -4735,30 +2383,6 @@
           "longitude": 29.089,
           "depth": 9,
           "magnitude": 1.6,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-c0d81edbf8d207e135eb",
-      "time": "2026-08-20T04:22:08+03:00",
-      "latitude": 40.7823,
-      "longitude": 29.093,
-      "depth": 9.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "b08408e96ec278f9f26c",
-          "time": "2026-08-20T04:22:08+03:00",
-          "latitude": 40.7823,
-          "longitude": 29.093,
-          "depth": 9.2,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -4794,30 +2418,6 @@
       "latitude": 40.7738,
       "longitude": 29.0957,
       "depth": 8.9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "c7f4375a0f2256cb6334",
-          "time": "2026-08-20T03:45:39+03:00",
-          "latitude": 40.7738,
-          "longitude": 29.0957,
-          "depth": 8.9,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-9a2111cd4ff4d39d8a46",
-      "time": "2026-08-20T03:45:39+03:00",
-      "latitude": 40.7738,
-      "longitude": 29.0957,
-      "depth": 8.9,
       "magnitude": 2.5,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -4831,30 +2431,6 @@
           "longitude": 29.0957,
           "depth": 8.9,
           "magnitude": 2.5,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-7cf29bfefa175d16b347",
-      "time": "2026-08-20T03:44:21+03:00",
-      "latitude": 40.782,
-      "longitude": 29.116,
-      "depth": 11.9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "0a03590434f93874b89a",
-          "time": "2026-08-20T03:44:21+03:00",
-          "latitude": 40.782,
-          "longitude": 29.116,
-          "depth": 11.9,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -4890,30 +2466,6 @@
       "latitude": 40.7933,
       "longitude": 29.1002,
       "depth": 11,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "f99caf03845b0136c90e",
-          "time": "2026-08-20T03:42:14+03:00",
-          "latitude": 40.7933,
-          "longitude": 29.1002,
-          "depth": 11,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-9ab8dcc8b3ef97ed078a",
-      "time": "2026-08-20T03:42:14+03:00",
-      "latitude": 40.7933,
-      "longitude": 29.1002,
-      "depth": 11,
       "magnitude": 1.6,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -4927,30 +2479,6 @@
           "longitude": 29.1002,
           "depth": 11,
           "magnitude": 1.6,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-e0cc2f463ac83ae32915",
-      "time": "2026-08-20T03:41:43+03:00",
-      "latitude": 40.7757,
-      "longitude": 29.099,
-      "depth": 7.6,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "ca1aacd75d93cadbc0d7",
-          "time": "2026-08-20T03:41:43+03:00",
-          "latitude": 40.7757,
-          "longitude": 29.099,
-          "depth": 7.6,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -4986,30 +2514,6 @@
       "latitude": 40.7735,
       "longitude": 29.1028,
       "depth": 8.6,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "55e28cb801708cf3d864",
-          "time": "2026-08-20T03:40:00+03:00",
-          "latitude": 40.7735,
-          "longitude": 29.1028,
-          "depth": 8.6,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-230046cde71c95ef92b6",
-      "time": "2026-08-20T03:40:00+03:00",
-      "latitude": 40.7735,
-      "longitude": 29.1028,
-      "depth": 8.6,
       "magnitude": 1.9,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -5023,30 +2527,6 @@
           "longitude": 29.1028,
           "depth": 8.6,
           "magnitude": 1.9,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-4e1c0a8975e63a4f2b33",
-      "time": "2026-08-20T03:38:41+03:00",
-      "latitude": 40.7857,
-      "longitude": 29.085,
-      "depth": 11,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "94840857b7ed431d4448",
-          "time": "2026-08-20T03:38:41+03:00",
-          "latitude": 40.7857,
-          "longitude": 29.085,
-          "depth": 11,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -5082,30 +2562,6 @@
       "latitude": 40.7838,
       "longitude": 29.0793,
       "depth": 8.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "587ade2ad9cc8cd72bd4",
-          "time": "2026-08-20T03:36:16+03:00",
-          "latitude": 40.7838,
-          "longitude": 29.0793,
-          "depth": 8.1,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-b24b369e0102cce42052",
-      "time": "2026-08-20T03:36:16+03:00",
-      "latitude": 40.7838,
-      "longitude": 29.0793,
-      "depth": 8.1,
       "magnitude": 1.5,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -5119,30 +2575,6 @@
           "longitude": 29.0793,
           "depth": 8.1,
           "magnitude": 1.5,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-5984146ff411f23f01d1",
-      "time": "2026-08-20T03:35:45+03:00",
-      "latitude": 40.7845,
-      "longitude": 29.0995,
-      "depth": 10.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "16f533e1a3cd24b5a34e",
-          "time": "2026-08-20T03:35:45+03:00",
-          "latitude": 40.7845,
-          "longitude": 29.0995,
-          "depth": 10.3,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -5178,30 +2610,6 @@
       "latitude": 40.7945,
       "longitude": 29.118,
       "depth": 4.7,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "24e4f6e7a3379aa6a479",
-          "time": "2026-08-20T03:33:50+03:00",
-          "latitude": 40.7945,
-          "longitude": 29.118,
-          "depth": 4.7,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-9313fc27c7330b47928c",
-      "time": "2026-08-20T03:33:50+03:00",
-      "latitude": 40.7945,
-      "longitude": 29.118,
-      "depth": 4.7,
       "magnitude": 1.5,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -5215,30 +2623,6 @@
           "longitude": 29.118,
           "depth": 4.7,
           "magnitude": 1.5,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-1dd774c6df1587ffa583",
-      "time": "2026-08-20T03:33:33+03:00",
-      "latitude": 40.7772,
-      "longitude": 29.1003,
-      "depth": 10.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "d8e36e80ca176afbf7e9",
-          "time": "2026-08-20T03:33:33+03:00",
-          "latitude": 40.7772,
-          "longitude": 29.1003,
-          "depth": 10.2,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -5274,30 +2658,6 @@
       "latitude": 40.7897,
       "longitude": 29.0877,
       "depth": 11.4,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "e692827049c809851a5a",
-          "time": "2026-08-20T03:32:52+03:00",
-          "latitude": 40.7897,
-          "longitude": 29.0877,
-          "depth": 11.4,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-07c71ff65c3994f00346",
-      "time": "2026-08-20T03:32:52+03:00",
-      "latitude": 40.7897,
-      "longitude": 29.0877,
-      "depth": 11.4,
       "magnitude": 1.5,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -5311,30 +2671,6 @@
           "longitude": 29.0877,
           "depth": 11.4,
           "magnitude": 1.5,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-b32c54eb3e799c081235",
-      "time": "2026-08-20T03:28:11+03:00",
-      "latitude": 40.7932,
-      "longitude": 29.1033,
-      "depth": 9.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "026744d3b06076679de7",
-          "time": "2026-08-20T03:28:11+03:00",
-          "latitude": 40.7932,
-          "longitude": 29.1033,
-          "depth": 9.1,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -5370,30 +2706,6 @@
       "latitude": 40.7797,
       "longitude": 29.0817,
       "depth": 8,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "db024e318ab4ae5a95a6",
-          "time": "2026-08-20T03:03:25+03:00",
-          "latitude": 40.7797,
-          "longitude": 29.0817,
-          "depth": 8,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-560e8e972a6551d88f55",
-      "time": "2026-08-20T03:03:25+03:00",
-      "latitude": 40.7797,
-      "longitude": 29.0817,
-      "depth": 8,
       "magnitude": 1.6,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -5418,30 +2730,6 @@
       "latitude": 40.763,
       "longitude": 29.1117,
       "depth": 4.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "6d8dd842a438a6032d7b",
-          "time": "2026-08-20T02:53:31+03:00",
-          "latitude": 40.763,
-          "longitude": 29.1117,
-          "depth": 4.5,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-969f792fd910d447943a",
-      "time": "2026-08-20T02:53:31+03:00",
-      "latitude": 40.763,
-      "longitude": 29.1117,
-      "depth": 4.5,
       "magnitude": 1.1,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -5455,30 +2743,6 @@
           "longitude": 29.1117,
           "depth": 4.5,
           "magnitude": 1.1,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-9622dc3786036a520e00",
-      "time": "2026-08-20T02:45:37+03:00",
-      "latitude": 40.7853,
-      "longitude": 29.076,
-      "depth": 8.8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "274c36d4b6b7b621a754",
-          "time": "2026-08-20T02:45:37+03:00",
-          "latitude": 40.7853,
-          "longitude": 29.076,
-          "depth": 8.8,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -5514,30 +2778,6 @@
       "latitude": 40.793,
       "longitude": 29.0998,
       "depth": 10,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "28e78058dddad8d2ffd7",
-          "time": "2026-08-20T02:38:36+03:00",
-          "latitude": 40.793,
-          "longitude": 29.0998,
-          "depth": 10,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-90545ad7bde707135c08",
-      "time": "2026-08-20T02:38:36+03:00",
-      "latitude": 40.793,
-      "longitude": 29.0998,
-      "depth": 10,
       "magnitude": 1.4,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -5552,30 +2792,6 @@
           "depth": 10,
           "magnitude": 1.4,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-9a8a369a10de2c219734",
-      "time": "2026-08-20T02:37:21+03:00",
-      "latitude": 40.76,
-      "longitude": 29.1052,
-      "depth": 12.1,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "d3c48b910a73a5f5afa9",
-          "time": "2026-08-20T02:37:21+03:00",
-          "latitude": 40.76,
-          "longitude": 29.1052,
-          "depth": 12.1,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
       }
@@ -5610,30 +2826,6 @@
       "latitude": 40.7782,
       "longitude": 29.0933,
       "depth": 10.6,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "b03746ac6d43f91261d2",
-          "time": "2026-08-20T02:36:12+03:00",
-          "latitude": 40.7782,
-          "longitude": 29.0933,
-          "depth": 10.6,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-772cfe6ebc46eeada652",
-      "time": "2026-08-20T02:36:12+03:00",
-      "latitude": 40.7782,
-      "longitude": 29.0933,
-      "depth": 10.6,
       "magnitude": 2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -5647,30 +2839,6 @@
           "longitude": 29.0933,
           "depth": 10.6,
           "magnitude": 2,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-adda2bd944c16d276750",
-      "time": "2026-08-20T02:31:41+03:00",
-      "latitude": 40.7842,
-      "longitude": 29.0872,
-      "depth": 10.9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "16a69f985fc262dd3ef8",
-          "time": "2026-08-20T02:31:41+03:00",
-          "latitude": 40.7842,
-          "longitude": 29.0872,
-          "depth": 10.9,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -5706,30 +2874,6 @@
       "latitude": 40.777,
       "longitude": 29.0922,
       "depth": 10.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "235fa9bf37e09a5d847d",
-          "time": "2026-08-20T02:18:29+03:00",
-          "latitude": 40.777,
-          "longitude": 29.0922,
-          "depth": 10.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-25734d8d4cb3df6cb7fb",
-      "time": "2026-08-20T02:18:29+03:00",
-      "latitude": 40.777,
-      "longitude": 29.0922,
-      "depth": 10.3,
       "magnitude": 1.4,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -5743,30 +2887,6 @@
           "longitude": 29.0922,
           "depth": 10.3,
           "magnitude": 1.4,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-44ec8d4cc21a2f73e458",
-      "time": "2026-08-20T01:58:21+03:00",
-      "latitude": 40.7813,
-      "longitude": 29.0905,
-      "depth": 8.7,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "a02235f34262aff2d13c",
-          "time": "2026-08-20T01:58:21+03:00",
-          "latitude": 40.7813,
-          "longitude": 29.0905,
-          "depth": 8.7,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -5802,30 +2922,6 @@
       "latitude": 40.7728,
       "longitude": 29.0655,
       "depth": 4.5,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "0427c5b6ea7c217978ff",
-          "time": "2026-08-20T01:44:35+03:00",
-          "latitude": 40.7728,
-          "longitude": 29.0655,
-          "depth": 4.5,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-0815019c0035b29a2f68",
-      "time": "2026-08-20T01:44:35+03:00",
-      "latitude": 40.7728,
-      "longitude": 29.0655,
-      "depth": 4.5,
       "magnitude": 1.4,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -5850,30 +2946,6 @@
       "latitude": 40.7797,
       "longitude": 29.1005,
       "depth": 7.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "bdbf3be5fa87c60e69d1",
-          "time": "2026-08-20T01:32:47+03:00",
-          "latitude": 40.7797,
-          "longitude": 29.1005,
-          "depth": 7.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-ab776a8d10b48a901546",
-      "time": "2026-08-20T01:32:47+03:00",
-      "latitude": 40.7797,
-      "longitude": 29.1005,
-      "depth": 7.3,
       "magnitude": 1.8,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -5887,30 +2959,6 @@
           "longitude": 29.1005,
           "depth": 7.3,
           "magnitude": 1.8,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-2e46aab6c37dbea6a37f",
-      "time": "2026-08-20T01:32:23+03:00",
-      "latitude": 40.7728,
-      "longitude": 29.1068,
-      "depth": 8.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "3fd9737840d003d93d13",
-          "time": "2026-08-20T01:32:23+03:00",
-          "latitude": 40.7728,
-          "longitude": 29.1068,
-          "depth": 8.5,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -5946,30 +2994,6 @@
       "latitude": 40.7863,
       "longitude": 29.0845,
       "depth": 9.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "2d0b1f5ce25e507cf04e",
-          "time": "2026-08-20T01:28:24+03:00",
-          "latitude": 40.7863,
-          "longitude": 29.0845,
-          "depth": 9.1,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-ccbc5439bc213af9e128",
-      "time": "2026-08-20T01:28:24+03:00",
-      "latitude": 40.7863,
-      "longitude": 29.0845,
-      "depth": 9.1,
       "magnitude": 1.5,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -5983,30 +3007,6 @@
           "longitude": 29.0845,
           "depth": 9.1,
           "magnitude": 1.5,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-c16b4f62ebd0085004e2",
-      "time": "2026-08-20T01:23:00+03:00",
-      "latitude": 40.7767,
-      "longitude": 29.0952,
-      "depth": 9.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "bb16e3423c5597c8ae2b",
-          "time": "2026-08-20T01:23:00+03:00",
-          "latitude": 40.7767,
-          "longitude": 29.0952,
-          "depth": 9.2,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -6042,30 +3042,6 @@
       "latitude": 40.78,
       "longitude": 29.1663,
       "depth": 4.4,
-      "magnitude": 0,
-      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "075650467db5a5f63e11",
-          "time": "2026-08-20T01:18:46+03:00",
-          "latitude": 40.78,
-          "longitude": 29.1663,
-          "depth": 4.4,
-          "magnitude": 0,
-          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-ff21ac77fb1588c04f1c",
-      "time": "2026-08-20T01:18:46+03:00",
-      "latitude": 40.78,
-      "longitude": 29.1663,
-      "depth": 4.4,
       "magnitude": 1,
       "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
       "sources": [
@@ -6090,30 +3066,6 @@
       "latitude": 40.7773,
       "longitude": 29.1005,
       "depth": 7.8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "3f5e29bec0d7979b4830",
-          "time": "2026-08-20T01:12:27+03:00",
-          "latitude": 40.7773,
-          "longitude": 29.1005,
-          "depth": 7.8,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-0fc542d2cdbeceabd869",
-      "time": "2026-08-20T01:12:27+03:00",
-      "latitude": 40.7773,
-      "longitude": 29.1005,
-      "depth": 7.8,
       "magnitude": 1.7,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -6127,30 +3079,6 @@
           "longitude": 29.1005,
           "depth": 7.8,
           "magnitude": 1.7,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-09d3ef3323fa426cb33b",
-      "time": "2026-08-20T01:11:55+03:00",
-      "latitude": 40.7927,
-      "longitude": 29.0888,
-      "depth": 12.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "20be61a7e8743656257a",
-          "time": "2026-08-20T01:11:55+03:00",
-          "latitude": 40.7927,
-          "longitude": 29.0888,
-          "depth": 12.1,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -6186,30 +3114,6 @@
       "latitude": 40.7925,
       "longitude": 29.1162,
       "depth": 12,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "33b963289c4187b45d3d",
-          "time": "2026-08-20T01:08:10+03:00",
-          "latitude": 40.7925,
-          "longitude": 29.1162,
-          "depth": 12,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-e443a40ca0e55b58596d",
-      "time": "2026-08-20T01:08:10+03:00",
-      "latitude": 40.7925,
-      "longitude": 29.1162,
-      "depth": 12,
       "magnitude": 1.2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -6223,30 +3127,6 @@
           "longitude": 29.1162,
           "depth": 12,
           "magnitude": 1.2,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-837ff24e012644a75f0d",
-      "time": "2026-08-20T00:43:45+03:00",
-      "latitude": 40.7767,
-      "longitude": 29.1027,
-      "depth": 10.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "85f8525b8a897d2f30a7",
-          "time": "2026-08-20T00:43:45+03:00",
-          "latitude": 40.7767,
-          "longitude": 29.1027,
-          "depth": 10.1,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -6282,30 +3162,6 @@
       "latitude": 40.7758,
       "longitude": 29.0888,
       "depth": 12.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "9708c9a5a1b62498748b",
-          "time": "2026-08-20T00:41:45+03:00",
-          "latitude": 40.7758,
-          "longitude": 29.0888,
-          "depth": 12.2,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-7f2eebbef57f6a709a63",
-      "time": "2026-08-20T00:41:45+03:00",
-      "latitude": 40.7758,
-      "longitude": 29.0888,
-      "depth": 12.2,
       "magnitude": 2.9,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -6320,30 +3176,6 @@
           "depth": 12.2,
           "magnitude": 2.9,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-5f1187957f7161b0e88c",
-      "time": "2026-08-20T00:35:10+03:00",
-      "latitude": 40.7872,
-      "longitude": 27.9152,
-      "depth": 8.6,
-      "magnitude": 0,
-      "place": "MARMARA DENIZI",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "14a4be7e0bae500e1594",
-          "time": "2026-08-20T00:35:10+03:00",
-          "latitude": 40.7872,
-          "longitude": 27.9152,
-          "depth": 8.6,
-          "magnitude": 0,
-          "place": "MARMARA DENIZI",
           "url": null
         }
       }
@@ -6378,30 +3210,6 @@
       "latitude": 40.7792,
       "longitude": 29.0863,
       "depth": 8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "566d036365cf355ae655",
-          "time": "2026-08-19T23:45:15+03:00",
-          "latitude": 40.7792,
-          "longitude": 29.0863,
-          "depth": 8,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-54e7a1d2836a87af71d9",
-      "time": "2026-08-19T23:45:15+03:00",
-      "latitude": 40.7792,
-      "longitude": 29.0863,
-      "depth": 8,
       "magnitude": 1.2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -6415,30 +3223,6 @@
           "longitude": 29.0863,
           "depth": 8,
           "magnitude": 1.2,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-c26c5d4b5e22cbe4dd13",
-      "time": "2026-08-19T23:42:11+03:00",
-      "latitude": 40.7708,
-      "longitude": 29.1112,
-      "depth": 7.6,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "1929853009b3ad8ed099",
-          "time": "2026-08-19T23:42:11+03:00",
-          "latitude": 40.7708,
-          "longitude": 29.1112,
-          "depth": 7.6,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -6474,30 +3258,6 @@
       "latitude": 40.7817,
       "longitude": 29.0818,
       "depth": 9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "6a69a73886138f85a43e",
-          "time": "2026-08-19T23:39:11+03:00",
-          "latitude": 40.7817,
-          "longitude": 29.0818,
-          "depth": 9,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-58ee3e2fc2ed5899112c",
-      "time": "2026-08-19T23:39:11+03:00",
-      "latitude": 40.7817,
-      "longitude": 29.0818,
-      "depth": 9,
       "magnitude": 0.9,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -6512,30 +3272,6 @@
           "depth": 9,
           "magnitude": 0.9,
           "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-788b6793e761f2aa7701",
-      "time": "2026-08-19T23:12:32+03:00",
-      "latitude": 40.75,
-      "longitude": 29.0765,
-      "depth": 11.6,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "6c1ed908955ef708ec22",
-          "time": "2026-08-19T23:12:32+03:00",
-          "latitude": 40.75,
-          "longitude": 29.0765,
-          "depth": 11.6,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
       }
@@ -6570,30 +3306,6 @@
       "latitude": 40.7557,
       "longitude": 29.1173,
       "depth": 11.8,
-      "magnitude": 0,
-      "place": "KORU-CINARCIK (YALOVA)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "a1f7f991274c6db33b58",
-          "time": "2026-08-19T23:07:32+03:00",
-          "latitude": 40.7557,
-          "longitude": 29.1173,
-          "depth": 11.8,
-          "magnitude": 0,
-          "place": "KORU-CINARCIK (YALOVA)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-95c8a7c3beb6441035c6",
-      "time": "2026-08-19T23:07:32+03:00",
-      "latitude": 40.7557,
-      "longitude": 29.1173,
-      "depth": 11.8,
       "magnitude": 1.6,
       "place": "KORU-CINARCIK (YALOVA)",
       "sources": [
@@ -6608,30 +3320,6 @@
           "depth": 11.8,
           "magnitude": 1.6,
           "place": "KORU-CINARCIK (YALOVA)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-7ff2e525f70b30afd616",
-      "time": "2026-08-19T23:04:59+03:00",
-      "latitude": 40.7792,
-      "longitude": 29.0903,
-      "depth": 13.6,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "b0bb9bef065279f8827b",
-          "time": "2026-08-19T23:04:59+03:00",
-          "latitude": 40.7792,
-          "longitude": 29.0903,
-          "depth": 13.6,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
           "url": null
         }
       }
@@ -6666,30 +3354,6 @@
       "latitude": 40.756,
       "longitude": 29.1195,
       "depth": 9.5,
-      "magnitude": 0,
-      "place": "KORU-CINARCIK (YALOVA)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "5e85965cd7907e3aab84",
-          "time": "2026-08-19T22:51:58+03:00",
-          "latitude": 40.756,
-          "longitude": 29.1195,
-          "depth": 9.5,
-          "magnitude": 0,
-          "place": "KORU-CINARCIK (YALOVA)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f5f586a4620a351f294e",
-      "time": "2026-08-19T22:51:58+03:00",
-      "latitude": 40.756,
-      "longitude": 29.1195,
-      "depth": 9.5,
       "magnitude": 1.9,
       "place": "KORU-CINARCIK (YALOVA)",
       "sources": [
@@ -6714,30 +3378,6 @@
       "latitude": 40.7652,
       "longitude": 29.1137,
       "depth": 7.9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "d9c3441e164294e9d13a",
-          "time": "2026-08-19T22:28:51+03:00",
-          "latitude": 40.7652,
-          "longitude": 29.1137,
-          "depth": 7.9,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-5f329dc50aeed29fcaa4",
-      "time": "2026-08-19T22:28:51+03:00",
-      "latitude": 40.7652,
-      "longitude": 29.1137,
-      "depth": 7.9,
       "magnitude": 1.5,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -6751,30 +3391,6 @@
           "longitude": 29.1137,
           "depth": 7.9,
           "magnitude": 1.5,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-fe01abae765dd16ba1dd",
-      "time": "2026-08-19T22:14:38+03:00",
-      "latitude": 40.787,
-      "longitude": 29.1043,
-      "depth": 12.4,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "011ca570094a5444a1ad",
-          "time": "2026-08-19T22:14:38+03:00",
-          "latitude": 40.787,
-          "longitude": 29.1043,
-          "depth": 12.4,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -6810,30 +3426,6 @@
       "latitude": 40.7747,
       "longitude": 29.0915,
       "depth": 9.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "5b2f3e1c189f66edf112",
-          "time": "2026-08-19T21:36:04+03:00",
-          "latitude": 40.7747,
-          "longitude": 29.0915,
-          "depth": 9.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-09fab19935f3eece8688",
-      "time": "2026-08-19T21:36:04+03:00",
-      "latitude": 40.7747,
-      "longitude": 29.0915,
-      "depth": 9.3,
       "magnitude": 2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -6847,30 +3439,6 @@
           "longitude": 29.0915,
           "depth": 9.3,
           "magnitude": 2,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-0fc2aaa9f0352a6d4aa3",
-      "time": "2026-08-19T21:09:39+03:00",
-      "latitude": 40.7785,
-      "longitude": 29.0973,
-      "depth": 12.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "024e94d19f09e30e61cd",
-          "time": "2026-08-19T21:09:39+03:00",
-          "latitude": 40.7785,
-          "longitude": 29.0973,
-          "depth": 12.1,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -6906,30 +3474,6 @@
       "latitude": 40.7725,
       "longitude": 29.1003,
       "depth": 11.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "d971195e17091e40858d",
-          "time": "2026-08-19T20:58:26+03:00",
-          "latitude": 40.7725,
-          "longitude": 29.1003,
-          "depth": 11.2,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-2dfd2738859ebd30ad14",
-      "time": "2026-08-19T20:58:26+03:00",
-      "latitude": 40.7725,
-      "longitude": 29.1003,
-      "depth": 11.2,
       "magnitude": 2.5,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -6943,30 +3487,6 @@
           "longitude": 29.1003,
           "depth": 11.2,
           "magnitude": 2.5,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f758dca10e7a54143a8e",
-      "time": "2026-08-19T20:51:16+03:00",
-      "latitude": 40.7883,
-      "longitude": 29.0863,
-      "depth": 13.6,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "db035705f73e909df40d",
-          "time": "2026-08-19T20:51:16+03:00",
-          "latitude": 40.7883,
-          "longitude": 29.0863,
-          "depth": 13.6,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -7002,30 +3522,6 @@
       "latitude": 40.7725,
       "longitude": 29.1085,
       "depth": 10.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "c8d7750927fb19b67884",
-          "time": "2026-08-19T20:21:24+03:00",
-          "latitude": 40.7725,
-          "longitude": 29.1085,
-          "depth": 10.2,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-3723d4f8f00c9f607847",
-      "time": "2026-08-19T20:21:24+03:00",
-      "latitude": 40.7725,
-      "longitude": 29.1085,
-      "depth": 10.2,
       "magnitude": 1.2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -7039,30 +3535,6 @@
           "longitude": 29.1085,
           "depth": 10.2,
           "magnitude": 1.2,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d03795efaecb1ccd9e2a",
-      "time": "2026-08-19T20:04:58+03:00",
-      "latitude": 40.7745,
-      "longitude": 29.1035,
-      "depth": 4.4,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "3d0e3c4adfb894a985c2",
-          "time": "2026-08-19T20:04:58+03:00",
-          "latitude": 40.7745,
-          "longitude": 29.1035,
-          "depth": 4.4,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -7098,30 +3570,6 @@
       "latitude": 40.7722,
       "longitude": 29.0825,
       "depth": 10.6,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "a8132fe6f9e4bbc6f621",
-          "time": "2026-08-19T20:02:55+03:00",
-          "latitude": 40.7722,
-          "longitude": 29.0825,
-          "depth": 10.6,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-e3beed1d4cbd5fadba7b",
-      "time": "2026-08-19T20:02:55+03:00",
-      "latitude": 40.7722,
-      "longitude": 29.0825,
-      "depth": 10.6,
       "magnitude": 1.7,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -7136,30 +3584,6 @@
           "depth": 10.6,
           "magnitude": 1.7,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-a659ea747bf0252591e4",
-      "time": "2026-08-19T19:48:27+03:00",
-      "latitude": 40.7813,
-      "longitude": 29.0877,
-      "depth": 11.8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "dc7851bbfee57fc5af02",
-          "time": "2026-08-19T19:48:27+03:00",
-          "latitude": 40.7813,
-          "longitude": 29.0877,
-          "depth": 11.8,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
           "url": null
         }
       }
@@ -7194,30 +3618,6 @@
       "latitude": 40.7697,
       "longitude": 29.0927,
       "depth": 12.3,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "b8035bddf3b76263d82b",
-          "time": "2026-08-19T19:47:09+03:00",
-          "latitude": 40.7697,
-          "longitude": 29.0927,
-          "depth": 12.3,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-d370bbee7c2277f3f362",
-      "time": "2026-08-19T19:47:09+03:00",
-      "latitude": 40.7697,
-      "longitude": 29.0927,
-      "depth": 12.3,
       "magnitude": 1.4,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -7231,30 +3631,6 @@
           "longitude": 29.0927,
           "depth": 12.3,
           "magnitude": 1.4,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-2d519b4ffa684786ad57",
-      "time": "2026-08-19T19:32:19+03:00",
-      "latitude": 40.7707,
-      "longitude": 29.0817,
-      "depth": 8.8,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "d8851cb93b642c70f138",
-          "time": "2026-08-19T19:32:19+03:00",
-          "latitude": 40.7707,
-          "longitude": 29.0817,
-          "depth": 8.8,
-          "magnitude": 0,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
@@ -7290,30 +3666,6 @@
       "latitude": 40.7717,
       "longitude": 29.0918,
       "depth": 12.4,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "75322474371e3ca2b93c",
-          "time": "2026-08-19T19:28:12+03:00",
-          "latitude": 40.7717,
-          "longitude": 29.0918,
-          "depth": 12.4,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-2657a9b7071b9efe0bb5",
-      "time": "2026-08-19T19:28:12+03:00",
-      "latitude": 40.7717,
-      "longitude": 29.0918,
-      "depth": 12.4,
       "magnitude": 1.3,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -7327,30 +3679,6 @@
           "longitude": 29.0918,
           "depth": 12.4,
           "magnitude": 1.3,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-12d82766c2dd5e5fa34e",
-      "time": "2026-08-19T19:21:56+03:00",
-      "latitude": 40.7717,
-      "longitude": 29.0923,
-      "depth": 8.8,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "c76c27e2a691680c61ec",
-          "time": "2026-08-19T19:21:56+03:00",
-          "latitude": 40.7717,
-          "longitude": 29.0923,
-          "depth": 8.8,
-          "magnitude": 0,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "url": null
         }
@@ -7386,30 +3714,6 @@
       "latitude": 40.7803,
       "longitude": 29.1102,
       "depth": 10.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "926d672038d817ff6601",
-          "time": "2026-08-19T19:17:26+03:00",
-          "latitude": 40.7803,
-          "longitude": 29.1102,
-          "depth": 10.1,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-7c0381efe553fb303388",
-      "time": "2026-08-19T19:17:26+03:00",
-      "latitude": 40.7803,
-      "longitude": 29.1102,
-      "depth": 10.1,
       "magnitude": 2.7,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -7423,30 +3727,6 @@
           "longitude": 29.1102,
           "depth": 10.1,
           "magnitude": 2.7,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-8a3cc14c1a81bf7dd357",
-      "time": "2026-08-19T19:11:40+03:00",
-      "latitude": 40.7687,
-      "longitude": 29.1137,
-      "depth": 9.2,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "40666bc63018bd5c9c74",
-          "time": "2026-08-19T19:11:40+03:00",
-          "latitude": 40.7687,
-          "longitude": 29.1137,
-          "depth": 9.2,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -7482,30 +3762,6 @@
       "latitude": 40.4255,
       "longitude": 28.8468,
       "depth": 11,
-      "magnitude": 0,
-      "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "c12260e37945c774226a",
-          "time": "2026-08-19T18:56:07+03:00",
-          "latitude": 40.4255,
-          "longitude": 28.8468,
-          "depth": 11,
-          "magnitude": 0,
-          "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-5ea73d1aa444f75e39ef",
-      "time": "2026-08-19T18:56:07+03:00",
-      "latitude": 40.4255,
-      "longitude": 28.8468,
-      "depth": 11,
       "magnitude": 2,
       "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
       "sources": [
@@ -7520,30 +3776,6 @@
           "depth": 11,
           "magnitude": 2,
           "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-6a0deb45e4d5a182d0f9",
-      "time": "2026-08-19T18:42:56+03:00",
-      "latitude": 40.7752,
-      "longitude": 29.0992,
-      "depth": 10.1,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "ef6d6a9cb13bee7c3c09",
-          "time": "2026-08-19T18:42:56+03:00",
-          "latitude": 40.7752,
-          "longitude": 29.0992,
-          "depth": 10.1,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
           "url": null
         }
       }
@@ -7578,30 +3810,6 @@
       "latitude": 40.7797,
       "longitude": 29.0507,
       "depth": 17.3,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "cbadefc8cae37164170d",
-          "time": "2026-08-19T18:26:19+03:00",
-          "latitude": 40.7797,
-          "longitude": 29.0507,
-          "depth": 17.3,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-132df706144cc4021ecb",
-      "time": "2026-08-19T18:26:19+03:00",
-      "latitude": 40.7797,
-      "longitude": 29.0507,
-      "depth": 17.3,
       "magnitude": 1.4,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -7626,30 +3834,6 @@
       "latitude": 40.7665,
       "longitude": 29.1027,
       "depth": 12.7,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "d653c4e3adf892387780",
-          "time": "2026-08-19T18:18:43+03:00",
-          "latitude": 40.7665,
-          "longitude": 29.1027,
-          "depth": 12.7,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-1699ee1057c556244ecd",
-      "time": "2026-08-19T18:18:43+03:00",
-      "latitude": 40.7665,
-      "longitude": 29.1027,
-      "depth": 12.7,
       "magnitude": 1.5,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -7663,30 +3847,6 @@
           "longitude": 29.1027,
           "depth": 12.7,
           "magnitude": 1.5,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-2e8cb6e10f95721fa828",
-      "time": "2026-08-19T18:13:47+03:00",
-      "latitude": 40.768,
-      "longitude": 29.1123,
-      "depth": 8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "9bdd9686d553d9d12e9a",
-          "time": "2026-08-19T18:13:47+03:00",
-          "latitude": 40.768,
-          "longitude": 29.1123,
-          "depth": 8,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -7722,30 +3882,6 @@
       "latitude": 40.7785,
       "longitude": 29.1037,
       "depth": 11.4,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "3ef28572d5ff4dce5b76",
-          "time": "2026-08-19T17:43:46+03:00",
-          "latitude": 40.7785,
-          "longitude": 29.1037,
-          "depth": 11.4,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-cd0b6f0460a8084bcbc7",
-      "time": "2026-08-19T17:43:46+03:00",
-      "latitude": 40.7785,
-      "longitude": 29.1037,
-      "depth": 11.4,
       "magnitude": 3.2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -7759,30 +3895,6 @@
           "longitude": 29.1037,
           "depth": 11.4,
           "magnitude": 3.2,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-dadeecc69fe12cee3017",
-      "time": "2026-08-19T17:33:44+03:00",
-      "latitude": 40.7773,
-      "longitude": 29.1203,
-      "depth": 9.9,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "e0f9dddfee4086c44dc2",
-          "time": "2026-08-19T17:33:44+03:00",
-          "latitude": 40.7773,
-          "longitude": 29.1203,
-          "depth": 9.9,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -7818,30 +3930,6 @@
       "latitude": 40.7717,
       "longitude": 29.1022,
       "depth": 12.3,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "0a60d29739b41e1353b4",
-          "time": "2026-08-19T17:03:31+03:00",
-          "latitude": 40.7717,
-          "longitude": 29.1022,
-          "depth": 12.3,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-f3b260ce1548ebd87ac6",
-      "time": "2026-08-19T17:03:31+03:00",
-      "latitude": 40.7717,
-      "longitude": 29.1022,
-      "depth": 12.3,
       "magnitude": 2.5,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -7855,30 +3943,6 @@
           "longitude": 29.1022,
           "depth": 12.3,
           "magnitude": 2.5,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-bc23bdbd76abd4711d2d",
-      "time": "2026-08-19T16:25:43+03:00",
-      "latitude": 40.8018,
-      "longitude": 29.1252,
-      "depth": 12.4,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "0f364dbbb966b9f6d85c",
-          "time": "2026-08-19T16:25:43+03:00",
-          "latitude": 40.8018,
-          "longitude": 29.1252,
-          "depth": 12.4,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -7914,30 +3978,6 @@
       "latitude": 40.4898,
       "longitude": 29.1977,
       "depth": 0,
-      "magnitude": 0,
-      "place": "SAHINYURDU-GEMLIK (BURSA)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "e636d6e5a34ce0f0ed2b",
-          "time": "2026-08-19T16:24:39+03:00",
-          "latitude": 40.4898,
-          "longitude": 29.1977,
-          "depth": 0,
-          "magnitude": 0,
-          "place": "SAHINYURDU-GEMLIK (BURSA)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-ce1fd6de77df0d67fd48",
-      "time": "2026-08-19T16:24:39+03:00",
-      "latitude": 40.4898,
-      "longitude": 29.1977,
-      "depth": 0,
       "magnitude": 1.1,
       "place": "SAHINYURDU-GEMLIK (BURSA)",
       "sources": [
@@ -7962,30 +4002,6 @@
       "latitude": 40.8237,
       "longitude": 29.1467,
       "depth": 12.5,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "cb587385091d292f6491",
-          "time": "2026-08-19T16:10:16+03:00",
-          "latitude": 40.8237,
-          "longitude": 29.1467,
-          "depth": 12.5,
-          "magnitude": 0,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-71f13f41ba3292ede09b",
-      "time": "2026-08-19T16:10:16+03:00",
-      "latitude": 40.8237,
-      "longitude": 29.1467,
-      "depth": 12.5,
       "magnitude": 1.2,
       "place": "ADALAR (ISTANBUL)",
       "sources": [
@@ -7999,30 +4015,6 @@
           "longitude": 29.1467,
           "depth": 12.5,
           "magnitude": 1.2,
-          "place": "ADALAR (ISTANBUL)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-fc69bb4104d38162c733",
-      "time": "2026-08-19T16:08:18+03:00",
-      "latitude": 40.7805,
-      "longitude": 29.1123,
-      "depth": 5.8,
-      "magnitude": 0,
-      "place": "ADALAR (ISTANBUL)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "b8f80a63e3b1da1abbdf",
-          "time": "2026-08-19T16:08:18+03:00",
-          "latitude": 40.7805,
-          "longitude": 29.1123,
-          "depth": 5.8,
-          "magnitude": 0,
           "place": "ADALAR (ISTANBUL)",
           "url": null
         }
@@ -8058,30 +4050,6 @@
       "latitude": 40.7692,
       "longitude": 29.093,
       "depth": 20.5,
-      "magnitude": 0,
-      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "19e8444dae1f5593f10a",
-          "time": "2026-08-19T15:05:04+03:00",
-          "latitude": 40.7692,
-          "longitude": 29.093,
-          "depth": 20.5,
-          "magnitude": 0,
-          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-cbcccbcbc817810b8b5d",
-      "time": "2026-08-19T15:05:04+03:00",
-      "latitude": 40.7692,
-      "longitude": 29.093,
-      "depth": 20.5,
       "magnitude": 1.9,
       "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
       "sources": [
@@ -8096,30 +4064,6 @@
           "depth": 20.5,
           "magnitude": 1.9,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "evt-3c8c827195103c2f60aa",
-      "time": "2026-08-18T14:37:53+03:00",
-      "latitude": 40.6152,
-      "longitude": 27.2107,
-      "depth": 9.4,
-      "magnitude": 0,
-      "place": "ERIKLICE-SARKOY (TEKIRDAG)",
-      "sources": [
-        "KANDILLI"
-      ],
-      "catalogs": {
-        "KANDILLI": {
-          "sourceId": "c650a44e1b01343fd9ee",
-          "time": "2026-08-18T14:37:53+03:00",
-          "latitude": 40.6152,
-          "longitude": 27.2107,
-          "depth": 9.4,
-          "magnitude": 0,
-          "place": "ERIKLICE-SARKOY (TEKIRDAG)",
           "url": null
         }
       }
