@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T08:06:36.939Z",
+  "updatedAt": "2026-08-24T09:00:04.587Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-0d37b884",
+      "source": "KANDILLI",
+      "sourceId": "k-0d37b884",
+      "time": "2026-08-24T10:57:32+03:00",
+      "latitude": 38.2498,
+      "longitude": 37.7257,
+      "depth": 21.4,
+      "magnitude": 1.7,
+      "place": "HARUNUSAGI-AKCADAG (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T10:57:32+03:00",
+          "latitude": 38.2498,
+          "longitude": 37.7257,
+          "depth": 21.4,
+          "magnitude": 1.7,
+          "place": "HARUNUSAGI-AKCADAG (MALATYA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-07685142",
+      "source": "KANDILLI",
+      "sourceId": "k-07685142",
+      "time": "2026-08-24T10:09:37+03:00",
+      "latitude": 41.0092,
+      "longitude": 30.41,
+      "depth": 22.7,
+      "magnitude": 1.6,
+      "place": "KUCUKKISLA-KAYNARCA (SAKARYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T10:09:37+03:00",
+          "latitude": 41.0092,
+          "longitude": 30.41,
+          "depth": 22.7,
+          "magnitude": 1.6,
+          "place": "KUCUKKISLA-KAYNARCA (SAKARYA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-4d382172",
       "source": "KANDILLI",
