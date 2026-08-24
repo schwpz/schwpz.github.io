@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T10:24:13.280Z",
+  "generatedAt": "2026-08-24T10:59:16.520Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,11 +11,11 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 36,
+    "attention": 38,
     "label": "Hafif aktivite",
     "summary": "Prens Adaları / doğu MMF: swarm 76/100 · migration 1/100 · precursor resemblance 28/100. Olasılık değildir.",
-    "eventsNearLocked5km": 5,
-    "eventsInsideLockedDepth24h": 4,
+    "eventsNearLocked5km": 6,
+    "eventsInsideLockedDepth24h": 5,
     "leadSegmentId": "princes"
   },
   "segments": [
@@ -1245,17 +1245,17 @@
       "id": "princes",
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
-      "events24h": 5,
-      "events7d": 160,
-      "events30d": 160,
+      "events24h": 6,
+      "events7d": 161,
+      "events30d": 161,
       "maxMagnitude24h": 2,
       "baselineDaily": 5.34,
-      "rateRatio": 0.94,
-      "baseAttention": 31,
+      "rateRatio": 1.12,
+      "baseAttention": 33,
       "advancedSignal": 28.9,
       "analogueUplift": 0,
       "lockingDepthUplift": 6,
-      "attention": 36,
+      "attention": 38,
       "swarm": {
         "detected": true,
         "score": 76,
@@ -1310,7 +1310,7 @@
       "quiescence": {
         "valid": false,
         "score": 0,
-        "recent6h": 2,
+        "recent6h": 3,
         "previous18h": 3,
         "ratio": null
       },
@@ -1318,7 +1318,7 @@
         "recent": {
           "valid": true,
           "n": 68,
-          "total": 160,
+          "total": 161,
           "mc": 1.6,
           "b": 0.991,
           "sigma": 0.12
@@ -1344,13 +1344,13 @@
         "observedKm": 10,
         "modelKm": 12,
         "bufferKm": 5,
-        "kandilli24h": 5,
-        "kandilli7d": 152,
-        "within24h": 4,
-        "within7d": 123,
+        "kandilli24h": 6,
+        "kandilli7d": 153,
+        "within24h": 5,
+        "within7d": 124,
         "below24h": 1,
         "below7d": 29,
-        "medianDepth24h": 5.4,
+        "medianDepth24h": 5.2,
         "closest": {
           "eventId": "k-cb235033",
           "time": "2026-08-20T22:16:49+03:00",
@@ -1454,11 +1454,11 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0,
+        "rateAnomaly": 0.04184795842692352,
         "lockedContext": 1
       }
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 176
+  "historyEvents": 177
 }

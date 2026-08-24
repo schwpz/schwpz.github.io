@@ -1,8 +1,116 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T10:24:13.142Z",
+  "updatedAt": "2026-08-24T10:59:16.495Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-4d3c197a",
+      "source": "KANDILLI",
+      "sourceId": "k-4d3c197a",
+      "time": "2026-08-24T13:25:31+03:00",
+      "latitude": 39.3518,
+      "longitude": 26.27,
+      "depth": 9.9,
+      "magnitude": 2.3,
+      "place": "MIDILLI ADASI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T13:25:31+03:00",
+          "latitude": 39.3518,
+          "longitude": 26.27,
+          "depth": 9.9,
+          "magnitude": 2.3,
+          "place": "MIDILLI ADASI (EGE DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-06baf918",
+      "source": "KANDILLI",
+      "sourceId": "k-06baf918",
+      "time": "2026-08-24T13:10:33+03:00",
+      "latitude": 40.7852,
+      "longitude": 33.7605,
+      "depth": 14.2,
+      "magnitude": 1.8,
+      "place": "YAPRAKLI (CANKIRI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T13:10:33+03:00",
+          "latitude": 40.7852,
+          "longitude": 33.7605,
+          "depth": 14.2,
+          "magnitude": 1.8,
+          "place": "YAPRAKLI (CANKIRI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6698d11d",
+      "source": "KANDILLI",
+      "sourceId": "k-6698d11d",
+      "time": "2026-08-24T12:56:04+03:00",
+      "latitude": 37.3527,
+      "longitude": 27.0127,
+      "depth": 5,
+      "magnitude": 2.2,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T12:56:04+03:00",
+          "latitude": 37.3527,
+          "longitude": 27.0127,
+          "depth": 5,
+          "magnitude": 2.2,
+          "place": "EGE DENIZI",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-03f6615a",
+      "source": "KANDILLI",
+      "sourceId": "k-03f6615a",
+      "time": "2026-08-24T12:31:39+03:00",
+      "latitude": 40.8107,
+      "longitude": 29.1407,
+      "depth": 4.9,
+      "magnitude": 1.2,
+      "place": "ADALAR (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T12:31:39+03:00",
+          "latitude": 40.8107,
+          "longitude": 29.1407,
+          "depth": 4.9,
+          "magnitude": 1.2,
+          "place": "ADALAR (ISTANBUL)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-485f51bf",
       "source": "KANDILLI",
