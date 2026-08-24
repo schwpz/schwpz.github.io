@@ -1,8 +1,89 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T13:33:39.912Z",
+  "updatedAt": "2026-08-24T14:21:26.035Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-f7ccfab1",
+      "source": "KANDILLI",
+      "sourceId": "k-f7ccfab1",
+      "time": "2026-08-24T17:04:04+03:00",
+      "latitude": 41.4577,
+      "longitude": 44.0387,
+      "depth": 8.1,
+      "magnitude": 2.5,
+      "place": "GURCISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T17:04:04+03:00",
+          "latitude": 41.4577,
+          "longitude": 44.0387,
+          "depth": 8.1,
+          "magnitude": 2.5,
+          "place": "GURCISTAN",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-347acf7d",
+      "source": "KANDILLI",
+      "sourceId": "k-347acf7d",
+      "time": "2026-08-24T16:38:26+03:00",
+      "latitude": 37.1535,
+      "longitude": 29.411,
+      "depth": 21,
+      "magnitude": 1.7,
+      "place": "CUMAALANI-CAMELI (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T16:38:26+03:00",
+          "latitude": 37.1535,
+          "longitude": 29.411,
+          "depth": 21,
+          "magnitude": 1.7,
+          "place": "CUMAALANI-CAMELI (DENIZLI)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0536ae81",
+      "source": "KANDILLI",
+      "sourceId": "k-0536ae81",
+      "time": "2026-08-24T16:29:46+03:00",
+      "latitude": 38.2492,
+      "longitude": 38.4773,
+      "depth": 21.6,
+      "magnitude": 1.4,
+      "place": "GULUMUSAGI-(MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T16:29:46+03:00",
+          "latitude": 38.2492,
+          "longitude": 38.4773,
+          "depth": 21.6,
+          "magnitude": 1.4,
+          "place": "GULUMUSAGI-(MALATYA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-90d45d90",
       "source": "KANDILLI",
