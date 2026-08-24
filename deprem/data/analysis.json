@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:05:42.866Z",
+  "generatedAt": "2026-08-24T16:59:08.818Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -1252,7 +1252,7 @@
       "baselineDaily": 5.34,
       "rateRatio": 1.31,
       "baseAttention": 35,
-      "advancedSignal": 28.9,
+      "advancedSignal": 29.9,
       "analogueUplift": 0,
       "lockingDepthUplift": 6,
       "attention": 39,
@@ -1309,10 +1309,10 @@
       },
       "quiescence": {
         "valid": true,
-        "score": 0,
-        "recent6h": 2,
-        "previous18h": 5,
-        "ratio": 1.2
+        "score": 0.091,
+        "recent6h": 1,
+        "previous18h": 6,
+        "ratio": 0.5
       },
       "bValue": {
         "recent": {
@@ -1452,7 +1452,7 @@
         "migrationStrength": 0.009,
         "depthMigrationStrength": 0.002,
         "magnitudeAcceleration": 0,
-        "quiescence": 0,
+        "quiescence": 0.091,
         "bDrop": 0,
         "rateAnomaly": 0.09763694978576784,
         "lockedContext": 1
