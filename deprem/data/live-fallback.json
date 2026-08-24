@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T22:01:53.838Z",
+  "generatedAt": "2026-08-24T22:35:28.674Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -4719,33 +4719,6 @@
           "magnitude": 1.1,
           "place": "SAHINYURDU-GEMLIK (BURSA)",
           "ml": 1.1,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-24a51bca",
-      "source": "KANDILLI",
-      "sourceId": "k-24a51bca",
-      "time": "2026-08-19T16:10:16+03:00",
-      "latitude": 40.8237,
-      "longitude": 29.1467,
-      "depth": 12.5,
-      "magnitude": 1.2,
-      "place": "ADALAR (ISTANBUL)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-19T16:10:16+03:00",
-          "latitude": 40.8237,
-          "longitude": 29.1467,
-          "depth": 12.5,
-          "magnitude": 1.2,
-          "place": "ADALAR (ISTANBUL)",
-          "ml": 1.2,
           "mw": null,
           "md": null
         }
