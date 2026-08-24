@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T05:38:29.161Z",
+  "updatedAt": "2026-08-24T06:07:31.750Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-61caa382",
+      "source": "KANDILLI",
+      "sourceId": "k-61caa382",
+      "time": "2026-08-24T08:30:58+03:00",
+      "latitude": 39.686,
+      "longitude": 38.7822,
+      "depth": 5,
+      "magnitude": 1.8,
+      "place": "KARACA-KEMAH (ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T08:30:58+03:00",
+          "latitude": 39.686,
+          "longitude": 38.7822,
+          "depth": 5,
+          "magnitude": 1.8,
+          "place": "KARACA-KEMAH (ERZINCAN)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c6121578",
       "source": "KANDILLI",
