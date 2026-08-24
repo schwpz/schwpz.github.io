@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T04:58:47.283Z",
+  "generatedAt": "2026-08-24T05:38:29.188Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,11 +11,11 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 38,
+    "attention": 36,
     "label": "Hafif aktivite",
     "summary": "Prens Adaları / doğu MMF: swarm 76/100 · migration 1/100 · precursor resemblance 28/100. Olasılık değildir.",
-    "eventsNearLocked5km": 4,
-    "eventsInsideLockedDepth24h": 3,
+    "eventsNearLocked5km": 5,
+    "eventsInsideLockedDepth24h": 4,
     "leadSegmentId": "princes"
   },
   "segments": [
@@ -1245,17 +1245,17 @@
       "id": "princes",
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
-      "events24h": 4,
-      "events7d": 158,
-      "events30d": 158,
-      "maxMagnitude24h": 1.8,
+      "events24h": 5,
+      "events7d": 159,
+      "events30d": 159,
+      "maxMagnitude24h": 2,
       "baselineDaily": 5.31,
-      "rateRatio": 0.75,
-      "baseAttention": 28,
-      "advancedSignal": 40.9,
+      "rateRatio": 0.94,
+      "baseAttention": 31,
+      "advancedSignal": 28.9,
       "analogueUplift": 0,
-      "lockingDepthUplift": 5,
-      "attention": 38,
+      "lockingDepthUplift": 6,
+      "attention": 36,
       "swarm": {
         "detected": true,
         "score": 76,
@@ -1309,19 +1309,19 @@
       },
       "quiescence": {
         "valid": true,
-        "score": 1,
-        "recent6h": 0,
+        "score": 0,
+        "recent6h": 1,
         "previous18h": 4,
-        "ratio": 0
+        "ratio": 0.75
       },
       "bValue": {
         "recent": {
           "valid": true,
-          "n": 67,
-          "total": 158,
+          "n": 68,
+          "total": 159,
           "mc": 1.6,
           "b": 0.991,
-          "sigma": 0.122
+          "sigma": 0.12
         },
         "baseline": {
           "valid": false,
@@ -1344,13 +1344,13 @@
         "observedKm": 10,
         "modelKm": 12,
         "bufferKm": 5,
-        "kandilli24h": 4,
-        "kandilli7d": 150,
-        "within24h": 3,
-        "within7d": 121,
+        "kandilli24h": 5,
+        "kandilli7d": 151,
+        "within24h": 4,
+        "within7d": 122,
         "below24h": 1,
         "below7d": 29,
-        "medianDepth24h": 7.1,
+        "medianDepth24h": 5.4,
         "closest": {
           "eventId": "k-cb235033",
           "time": "2026-08-20T22:16:49+03:00",
@@ -1359,7 +1359,7 @@
           "horizontalDistanceKm": 0.04,
           "relation": "within"
         },
-        "strength": 0.838,
+        "strength": 1,
         "label": "0–10 km: doğrudan sismik boşluk/aseismik patch gözlemi; 2026 GNSS+InSAR bölgesel modelinde çoğunlukla ~12 km’ye kadar kilitli.",
         "citation": "Bohnhoff et al. 2013 Nat Commun; Schmittbuhl et al. 2016 G3; Klein et al. 2026 EGU26-18025",
         "confidence": "yüksek",
@@ -1376,7 +1376,7 @@
           "outcome": "large_mainshock_without_clear_catalog_precursor",
           "mainshockMagnitude": 6,
           "mechanism": "right_lateral",
-          "similarity": 0.563,
+          "similarity": 0.717,
           "featuresUsed": 4,
           "summary": "Dense monitoring and later high-resolution catalogs found no clear precursory signal at the rupture section; some weeks-prior activity and b-value decrease occurred ~30 km away in the creeping section.",
           "sources": [
@@ -1452,7 +1452,7 @@
         "migrationStrength": 0.009,
         "depthMigrationStrength": 0.002,
         "magnitudeAcceleration": 0,
-        "quiescence": 1,
+        "quiescence": 0,
         "bDrop": 0,
         "rateAnomaly": 0,
         "lockedContext": 1
@@ -1460,5 +1460,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 173
+  "historyEvents": 174
 }

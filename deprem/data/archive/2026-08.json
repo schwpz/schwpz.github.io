@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T04:58:47.252Z",
+  "updatedAt": "2026-08-24T05:38:29.161Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c6121578",
+      "source": "KANDILLI",
+      "sourceId": "k-c6121578",
+      "time": "2026-08-24T08:23:15+03:00",
+      "latitude": 39.1737,
+      "longitude": 28.174,
+      "depth": 9.9,
+      "magnitude": 1.4,
+      "place": "SINANDEDE-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T08:23:15+03:00",
+          "latitude": 39.1737,
+          "longitude": 28.174,
+          "depth": 9.9,
+          "magnitude": 1.4,
+          "place": "SINANDEDE-SINDIRGI (BALIKESIR)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b632da32",
+      "source": "KANDILLI",
+      "sourceId": "k-b632da32",
+      "time": "2026-08-24T08:11:35+03:00",
+      "latitude": 40.7845,
+      "longitude": 29.1172,
+      "depth": 5.4,
+      "magnitude": 2,
+      "place": "ADALAR (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T08:11:35+03:00",
+          "latitude": 40.7845,
+          "longitude": 29.1172,
+          "depth": 5.4,
+          "magnitude": 2,
+          "place": "ADALAR (ISTANBUL)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-42604e72",
       "source": "KANDILLI",
