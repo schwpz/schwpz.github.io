@@ -139,11 +139,9 @@ function normalizeKandilli(o) {
 
   // Magnitude'u ID'ye katmıyoruz.
   // Kandilli daha sonra ML değerini revize ederse aynı olay güncellensin.
-  const sourceId = rawId
-    ? String(rawId)
-    : sha(
-        `${time}|${lat.toFixed(4)}|${lon.toFixed(4)}|${place}`
-      );
+ const sourceId=rawId
+  ? String(rawId)
+  : sha(`${time}|${lat.toFixed(4)}|${lon.toFixed(4)}|${place}`);
 
   return {
     source: 'KANDILLI',
@@ -192,23 +190,110 @@ async function loadRecentArchive(days){
   return all;
 }
 function dedupe(raw){
-  const sorted=[...raw].sort((a,b)=>new Date(a.time)-new Date(b.time));const out=[];
+  const sorted=[...raw].sort((a,b)=>new Date(a.time)-new Date(b.time));
+  const out=[];
+
   for(const e of sorted){
     let match=null;
+    let sameCatalog=false;
+
     for(let i=out.length-1;i>=0;i--){
-      const o=out[i],dt=Math.abs(new Date(e.time)-new Date(o.time))/1000;
-      if(dt>75)break;
-      // Never collapse two events reported by the same catalog. Cross-catalog matching only.
-      if(o.sources?.includes(e.source))continue;
-      if(distanceKm(e,o)<=8&&Math.abs((e.magnitude||0)-(o.magnitude||0))<=0.5){match=o;break;}
+      const o=out[i];
+      const dt=Math.abs(new Date(e.time)-new Date(o.time))/1000;
+
+      if(dt>75) break;
+
+      const dist=distanceKm(e,o);
+
+      // Aynı katalogdaki aynı fiziksel olay.
+      // Kandilli magnitude/derinlik/konum revizyonlarını duplicate yapma.
+      if(o.sources?.includes(e.source)){
+        if(dt<=5 && dist<=0.5){
+          match=o;
+          sameCatalog=true;
+          break;
+        }
+        continue;
+      }
+
+      // Kandilli ↔ USGS eşleştirmesi
+      if(
+        dist<=8 &&
+        Math.abs((e.magnitude||0)-(o.magnitude||0))<=0.5
+      ){
+        match=o;
+        break;
+      }
     }
-    if(!match){out.push({id:`evt-${sha(`${e.time}|${e.latitude.toFixed(3)}|${e.longitude.toFixed(3)}`)}`,time:e.time,latitude:e.latitude,longitude:e.longitude,depth:e.depth,magnitude:e.magnitude,place:e.place,sources:[e.source],catalogs:{[e.source]:catalogView(e)}});}
-    else{
-      match.catalogs[e.source]=catalogView(e);if(!match.sources.includes(e.source))match.sources.push(e.source);
-      // Prefer Kandilli location/magnitude for local Marmara microseismicity when available.
-      if(e.source==='KANDILLI'){Object.assign(match,{time:e.time,latitude:e.latitude,longitude:e.longitude,depth:e.depth,magnitude:e.magnitude,place:e.place||match.place});}
+
+    if(!match){
+      out.push({
+        id:`evt-${sha(
+          `${e.time}|${e.latitude.toFixed(3)}|${e.longitude.toFixed(3)}`
+        )}`,
+        time:e.time,
+        latitude:e.latitude,
+        longitude:e.longitude,
+        depth:e.depth,
+        magnitude:e.magnitude,
+        place:e.place,
+        sources:[e.source],
+        catalogs:{
+          [e.source]:catalogView(e)
+        }
+      });
+
+      continue;
+    }
+
+    if(sameCatalog){
+      const prev=match.catalogs[e.source];
+
+      // M0/eski bozuk kayıt yerine gerçek magnitude'u tercih et.
+      const prevMag=Number(prev?.magnitude)||0;
+      const newMag=Number(e.magnitude)||0;
+
+      const useNew =
+        (prevMag<=0 && newMag>0) ||
+        (newMag>0 && prevMag>0);
+
+      if(useNew){
+        match.catalogs[e.source]=catalogView(e);
+
+        if(e.source==='KANDILLI'){
+          Object.assign(match,{
+            time:e.time,
+            latitude:e.latitude,
+            longitude:e.longitude,
+            depth:e.depth,
+            magnitude:e.magnitude,
+            place:e.place||match.place
+          });
+        }
+      }
+
+      continue;
+    }
+
+    // Cross-catalog merge
+    match.catalogs[e.source]=catalogView(e);
+
+    if(!match.sources.includes(e.source))
+      match.sources.push(e.source);
+
+    // Marmara mikro-sismisitesinde Kandilli'yi ana çözüm olarak göster.
+    if(e.source==='KANDILLI'){
+      Object.assign(match,{
+        time:e.time,
+        latitude:e.latitude,
+        longitude:e.longitude,
+        depth:e.depth,
+        magnitude:e.magnitude,
+        place:e.place||match.place
+      });
     }
   }
+
   return out;
 }
 function catalogView(e){return {sourceId:e.sourceId,time:e.time,latitude:e.latitude,longitude:e.longitude,depth:e.depth,magnitude:e.magnitude,place:e.place,url:e.url||null};}
