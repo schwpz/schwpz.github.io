@@ -1,8 +1,116 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T06:07:31.750Z",
+  "updatedAt": "2026-08-24T07:16:28.178Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c77848ef",
+      "source": "KANDILLI",
+      "sourceId": "k-c77848ef",
+      "time": "2026-08-24T09:41:28+03:00",
+      "latitude": 38.226,
+      "longitude": 38.653,
+      "depth": 2.5,
+      "magnitude": 2.6,
+      "place": "KAVAKLIDERE-PUTURGE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T09:41:28+03:00",
+          "latitude": 38.226,
+          "longitude": 38.653,
+          "depth": 2.5,
+          "magnitude": 2.6,
+          "place": "KAVAKLIDERE-PUTURGE (MALATYA)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d485bec0",
+      "source": "KANDILLI",
+      "sourceId": "k-d485bec0",
+      "time": "2026-08-24T09:16:38+03:00",
+      "latitude": 38.2715,
+      "longitude": 38.6875,
+      "depth": 8.8,
+      "magnitude": 1.6,
+      "place": "CAYKOY-PUTURGE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T09:16:38+03:00",
+          "latitude": 38.2715,
+          "longitude": 38.6875,
+          "depth": 8.8,
+          "magnitude": 1.6,
+          "place": "CAYKOY-PUTURGE (MALATYA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-09677572",
+      "source": "KANDILLI",
+      "sourceId": "k-09677572",
+      "time": "2026-08-24T09:13:38+03:00",
+      "latitude": 39.2273,
+      "longitude": 28.9322,
+      "depth": 14.4,
+      "magnitude": 2,
+      "place": "YENILER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T09:13:38+03:00",
+          "latitude": 39.2273,
+          "longitude": 28.9322,
+          "depth": 14.4,
+          "magnitude": 2,
+          "place": "YENILER-SIMAV (KUTAHYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-40529943",
+      "source": "KANDILLI",
+      "sourceId": "k-40529943",
+      "time": "2026-08-24T08:42:14+03:00",
+      "latitude": 38.0083,
+      "longitude": 36.411,
+      "depth": 9.1,
+      "magnitude": 2.4,
+      "place": "ACIELMA-GOKSUN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T08:42:14+03:00",
+          "latitude": 38.0083,
+          "longitude": 36.411,
+          "depth": 9.1,
+          "magnitude": 2.4,
+          "place": "ACIELMA-GOKSUN (KAHRAMANMARAS)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-61caa382",
       "source": "KANDILLI",
