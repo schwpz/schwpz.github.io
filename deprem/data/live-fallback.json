@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T00:53:07.875Z",
+  "generatedAt": "2026-08-24T02:13:55.655Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -4611,33 +4611,6 @@
           "magnitude": 1.9,
           "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
           "ml": 1.9,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-204f98c7",
-      "source": "KANDILLI",
-      "sourceId": "k-204f98c7",
-      "time": "2026-08-18T15:51:11+03:00",
-      "latitude": 40.1562,
-      "longitude": 27.426,
-      "depth": 8.5,
-      "magnitude": 1,
-      "place": "TAHTALI-GONEN (BALIKESIR)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-18T15:51:11+03:00",
-          "latitude": 40.1562,
-          "longitude": 27.426,
-          "depth": 8.5,
-          "magnitude": 1,
-          "place": "TAHTALI-GONEN (BALIKESIR)",
-          "ml": 1,
           "mw": null,
           "md": null
         }

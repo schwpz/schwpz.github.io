@@ -1,8 +1,89 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T00:53:07.873Z",
+  "updatedAt": "2026-08-24T02:13:55.652Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-b6f742eb",
+      "source": "KANDILLI",
+      "sourceId": "k-b6f742eb",
+      "time": "2026-08-24T04:45:38+03:00",
+      "latitude": 39.1628,
+      "longitude": 28.1598,
+      "depth": 11.9,
+      "magnitude": 2.3,
+      "place": "SINANDEDE-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T04:45:38+03:00",
+          "latitude": 39.1628,
+          "longitude": 28.1598,
+          "depth": 11.9,
+          "magnitude": 2.3,
+          "place": "SINANDEDE-SINDIRGI (BALIKESIR)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-90b809f1",
+      "source": "KANDILLI",
+      "sourceId": "k-90b809f1",
+      "time": "2026-08-24T04:03:22+03:00",
+      "latitude": 39.0315,
+      "longitude": 30.1965,
+      "depth": 8.4,
+      "magnitude": 1.9,
+      "place": "YOLCATI-ALTINTAS (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T04:03:22+03:00",
+          "latitude": 39.0315,
+          "longitude": 30.1965,
+          "depth": 8.4,
+          "magnitude": 1.9,
+          "place": "YOLCATI-ALTINTAS (KUTAHYA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-146d22d1",
+      "source": "KANDILLI",
+      "sourceId": "k-146d22d1",
+      "time": "2026-08-24T03:57:41+03:00",
+      "latitude": 38.2448,
+      "longitude": 37.7877,
+      "depth": 7.8,
+      "magnitude": 2.2,
+      "place": "DEDEYAZI-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T03:57:41+03:00",
+          "latitude": 38.2448,
+          "longitude": 37.7877,
+          "depth": 7.8,
+          "magnitude": 2.2,
+          "place": "DEDEYAZI-DOGANSEHIR (MALATYA)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c5ad5977",
       "source": "KANDILLI",
