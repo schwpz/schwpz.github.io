@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T22:35:28.670Z",
+  "updatedAt": "2026-08-24T22:56:57.853Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-78b3af11",
+      "source": "KANDILLI",
+      "sourceId": "k-78b3af11",
+      "time": "2026-08-25T01:30:59+03:00",
+      "latitude": 38.053,
+      "longitude": 29.044,
+      "depth": 7.4,
+      "magnitude": 1,
+      "place": "BELENARDIC-AKKOY (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T01:30:59+03:00",
+          "latitude": 38.053,
+          "longitude": 29.044,
+          "depth": 7.4,
+          "magnitude": 1,
+          "place": "BELENARDIC-AKKOY (DENIZLI)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-0bde88c3",
       "source": "KANDILLI",
