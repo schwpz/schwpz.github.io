@@ -1,8 +1,89 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T17:32:22.772Z",
+  "updatedAt": "2026-08-24T19:18:51.679Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-accca141",
+      "source": "KANDILLI",
+      "sourceId": "k-accca141",
+      "time": "2026-08-24T21:57:34+03:00",
+      "latitude": 39.1833,
+      "longitude": 29.4463,
+      "depth": 21.1,
+      "magnitude": 1.5,
+      "place": "PUSATLAR-CAVDARHISAR (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T21:57:34+03:00",
+          "latitude": 39.1833,
+          "longitude": 29.4463,
+          "depth": 21.1,
+          "magnitude": 1.5,
+          "place": "PUSATLAR-CAVDARHISAR (KUTAHYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c43a646f",
+      "source": "KANDILLI",
+      "sourceId": "k-c43a646f",
+      "time": "2026-08-24T21:47:51+03:00",
+      "latitude": 38.227,
+      "longitude": 37.7577,
+      "depth": 2.9,
+      "magnitude": 1.4,
+      "place": "CEVIRME-AKCADAG (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T21:47:51+03:00",
+          "latitude": 38.227,
+          "longitude": 37.7577,
+          "depth": 2.9,
+          "magnitude": 1.4,
+          "place": "CEVIRME-AKCADAG (MALATYA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5a6933db",
+      "source": "KANDILLI",
+      "sourceId": "k-5a6933db",
+      "time": "2026-08-24T21:47:21+03:00",
+      "latitude": 39.1967,
+      "longitude": 29.4052,
+      "depth": 5.5,
+      "magnitude": 2,
+      "place": "KARBASAN-HISARCIK (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T21:47:21+03:00",
+          "latitude": 39.1967,
+          "longitude": 29.4052,
+          "depth": 5.5,
+          "magnitude": 2,
+          "place": "KARBASAN-HISARCIK (KUTAHYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-e3091fd1",
       "source": "KANDILLI",
