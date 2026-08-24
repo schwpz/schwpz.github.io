@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T09:00:04.587Z",
+  "updatedAt": "2026-08-24T10:24:13.142Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-485f51bf",
+      "source": "KANDILLI",
+      "sourceId": "k-485f51bf",
+      "time": "2026-08-24T12:26:00+03:00",
+      "latitude": 36.267,
+      "longitude": 33.7118,
+      "depth": 0,
+      "magnitude": 1.3,
+      "place": "ISIKLI-SILIFKE (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T12:26:00+03:00",
+          "latitude": 36.267,
+          "longitude": 33.7118,
+          "depth": 0,
+          "magnitude": 1.3,
+          "place": "ISIKLI-SILIFKE (MERSIN)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-0d37b884",
       "source": "KANDILLI",
