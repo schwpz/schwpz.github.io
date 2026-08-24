@@ -66,14 +66,98 @@ function parseTR(o){
   if(m)return `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]||'00'}+03:00`;
   const parsed=new Date(s);return Number.isNaN(parsed.getTime())?null:parsed.toISOString();
 }
-function normalizeKandilli(o){
-  const lat=num(pick(o,['latitude','lat','enlem','ENLEM'])),lon=num(pick(o,['longitude','lon','lng','boylam','BOYLAM']));
-  const time=parseTR(o);if(lat===null||lon===null||!time)return null;
-  const md=num(pick(o,['md','MD'])),ml=num(pick(o,['ml','ML'])),mw=num(pick(o,['mw','MW'])),generic=num(pick(o,['magnitude','mag','buyukluk','büyüklük']));
-  const magnitude=mw??ml??md??generic??0, depth=num(pick(o,['depth','derinlik','DERINLIK']))??0,place=String(pick(o,['location','yer','place','title','region','YER'])||'');
-  const rawId=pick(o,['id','eventID','eventId','eventid','earthquake_id','earthquakeId']);
-  const sourceId=rawId?String(rawId):sha(`${time}|${lat.toFixed(4)}|${lon.toFixed(4)}|${magnitude.toFixed(2)}|${place}`);
-  return {source:'KANDILLI',sourceId,time,latitude:lat,longitude:lon,depth,magnitude,place,md,ml,mw};
+function normalizeKandilli(o) {
+  const lat = num(pick(o, [
+    'latitude','lat','enlem','ENLEM','Enlem'
+  ]));
+
+  const lon = num(pick(o, [
+    'longitude','lon','lng','boylam','BOYLAM','Boylam'
+  ]));
+
+  const time = parseTR(o);
+  if (lat === null || lon === null || !time) return null;
+
+  const md = num(pick(o, [
+    'md','MD',
+    'buyuklukMD','BuyuklukMD',
+    'buyukluk_md','büyüklükMD','BüyüklükMD'
+  ]));
+
+  const ml = num(pick(o, [
+    'ml','ML',
+    'buyuklukML','BuyuklukML',
+    'buyukluk_ml','büyüklükML','BüyüklükML'
+  ]));
+
+  const mw = num(pick(o, [
+    'mw','MW',
+    'buyuklukMW','BuyuklukMW',
+    'buyukluk_mw','büyüklükMW','BüyüklükMW'
+  ]));
+
+  const generic = num(pick(o, [
+    'magnitude','Magnitude',
+    'mag','Mag',
+    'buyukluk','Buyukluk',
+    'büyüklük','Büyüklük'
+  ]));
+
+  // Kandilli'de çoğu mikrodeprem ML olarak geliyor.
+  const magnitude =
+    mw ?? ml ?? md ?? generic;
+
+  // Büyüklüğü parse edemediğimiz kaydı 0 diye uydurma.
+  if (magnitude === null) {
+    console.warn(
+      'Kandilli magnitude parse failed. Keys:',
+      Object.keys(o)
+    );
+    return null;
+  }
+
+  const depth =
+    num(pick(o, [
+      'depth','Depth',
+      'derinlik','DERINLIK','Derinlik'
+    ])) ?? 0;
+
+  const place = String(
+    pick(o, [
+      'location','Location',
+      'yer','YER','Yer',
+      'place','Place',
+      'title','region'
+    ]) || ''
+  );
+
+  const rawId = pick(o, [
+    'id','ID',
+    'eventID','eventId','eventid',
+    'earthquake_id','earthquakeId'
+  ]);
+
+  // Magnitude'u ID'ye katmıyoruz.
+  // Kandilli daha sonra ML değerini revize ederse aynı olay güncellensin.
+  const sourceId = rawId
+    ? String(rawId)
+    : sha(
+        `${time}|${lat.toFixed(4)}|${lon.toFixed(4)}|${place}`
+      );
+
+  return {
+    source: 'KANDILLI',
+    sourceId,
+    time,
+    latitude: lat,
+    longitude: lon,
+    depth,
+    magnitude,
+    place,
+    md,
+    ml,
+    mw
+  };
 }
 function normalizeUSGS(f){
   const c=f.geometry?.coordinates||[],p=f.properties||{};if(c.length<2||!p.time)return null;
