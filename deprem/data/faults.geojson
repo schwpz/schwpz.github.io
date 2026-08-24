@@ -1,0 +1,7 @@
+{
+  "type":"FeatureCollection",
+  "metadata":{"source":"Fallback main Marmara trace. GitHub Action replaces this with GEM Active Faults subset.","license":"CC BY-SA 4.0 when GEM-derived"},
+  "features":[
+    {"type":"Feature","properties":{"name":"Main Marmara Fault (fallback)","source":"fallback"},"geometry":{"type":"LineString","coordinates":[[26.48,40.67],[27.12,40.70],[27.68,40.75],[28.18,40.81],[28.72,40.87],[29.00,40.84],[29.12,40.80],[29.39,40.70]]}}
+  ]
+}

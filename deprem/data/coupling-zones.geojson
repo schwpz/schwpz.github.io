@@ -1,0 +1,295 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Main Marmara Fault coupling interpretation",
+    "warning": "Approximate literature-based interpretation. Kumburgaz is split into a western transition/nucleation zone and an eastern locked section to avoid treating the whole basin as mechanically uniform.",
+    "reviewed": "2026-08-24",
+    "version": "6.0",
+    "depthModelWarning": "Locking-depth bands are literature-derived reference intervals, not exact 3-D rupture surfaces. Routine catalog depths may carry km-scale uncertainty."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ganos",
+        "name": "Ganos",
+        "state": "locked",
+        "confidence": "yüksek",
+        "note": "Onshore Ganos ucunda creep göstergeleri azalır; 2023 repeater çalışması segmenti kilitli uç olarak yorumlar.",
+        "citations": "Becker et al. 2023, GRL, doi:10.1029/2022GL101471",
+        "lockDepthBufferKm": 5,
+        "lockDepthMinKm": 0,
+        "lockDepthMaxKm": 12,
+        "lockDepthObservedKm": null,
+        "lockDepthModelKm": 12,
+        "lockDepthLabel": "0–12 km: 2026 GNSS+InSAR bölgesel modelinde 27.5°E batısı çoğunlukla kilitli.",
+        "lockDepthConfidence": "orta-yüksek",
+        "lockDepthScoreEligible": true,
+        "lockDepthCitation": "Klein et al. 2026, EGU26-18025"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            26.48,
+            40.67
+          ],
+          [
+            26.72,
+            40.68
+          ],
+          [
+            26.96,
+            40.69
+          ],
+          [
+            27.12,
+            40.7
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tekirdag",
+        "name": "Tekirdağ geçişi",
+        "state": "transition",
+        "confidence": "orta-yüksek",
+        "note": "Batı/orta Marmara'daki repeater-creep alanı Ganos'a doğru zayıflar; segment davranışı derinliğe göre değişebilir.",
+        "citations": "Becker et al. 2023; Schmittbuhl et al. 2016",
+        "lockDepthBufferKm": 5,
+        "lockDepthMinKm": null,
+        "lockDepthMaxKm": null,
+        "lockDepthObservedKm": null,
+        "lockDepthModelKm": null,
+        "lockDepthLabel": "Geçiş zonu; derinliğe bağlı davranış nedeniyle tek bir kilit derinliği bandı kullanılmıyor.",
+        "lockDepthConfidence": "—",
+        "lockDepthScoreEligible": false,
+        "lockDepthCitation": "Becker et al. 2023; Schmittbuhl et al. 2016"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.12,
+            40.7
+          ],
+          [
+            27.32,
+            40.71
+          ],
+          [
+            27.52,
+            40.73
+          ],
+          [
+            27.68,
+            40.75
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "central",
+        "name": "Central Basin / Western High",
+        "state": "creep",
+        "confidence": "yüksek",
+        "note": "Tekrarlayan depremler ve jeodezik çalışmalar merkezi-batı MMF'de belirgin kısmi creep gösterir.",
+        "citations": "Schmittbuhl et al. 2016; Becker et al. 2023; CEE 2025",
+        "lockDepthBufferKm": 5,
+        "lockDepthMinKm": null,
+        "lockDepthMaxKm": null,
+        "lockDepthObservedKm": null,
+        "lockDepthModelKm": null,
+        "lockDepthLabel": "Bölüm ağırlıklı creep; 2026 modelinde sığ kısımda slip-deficit bulunuyor ancak tek bir kilit derinliği bandı vermek uygun değil.",
+        "lockDepthConfidence": "—",
+        "lockDepthScoreEligible": false,
+        "lockDepthCitation": "Klein et al. 2026, EGU26-18025"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.68,
+            40.75
+          ],
+          [
+            27.88,
+            40.77
+          ],
+          [
+            28.06,
+            40.79
+          ],
+          [
+            28.18,
+            40.81
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kumburgaz-west-transition",
+        "name": "Silivri High / Batı Kumburgaz geçişi",
+        "state": "transition",
+        "confidence": "orta-yüksek",
+        "note": "23 Nisan 2025 Mw6.3 ana şoku, kısmen creep yapan Central Basin ile doğudaki kilitli Kumburgaz kesimi arasındaki mekanik geçişte çekirdeklendi. Bu koridor yaklaşık gösterilir ve kilitli Kumburgaz ile karıştırılmaz.",
+        "citations": "Eken et al. 2025, Journal of Seismology, doi:10.1007/s10950-025-10342-8; Martinez-Garzon et al. 2025/2026 GFZ/Science",
+        "lockDepthBufferKm": 5,
+        "lockDepthMinKm": null,
+        "lockDepthMaxKm": null,
+        "lockDepthObservedKm": null,
+        "lockDepthModelKm": null,
+        "lockDepthLabel": "Geçiş/nükleasyon zonu; tek bir kilit derinliği bandı uygulanmıyor.",
+        "lockDepthConfidence": "—",
+        "lockDepthScoreEligible": false,
+        "lockDepthCitation": "Eken et al. 2025, doi:10.1007/s10950-025-10342-8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.18,
+            40.81
+          ],
+          [
+            28.26,
+            40.83
+          ],
+          [
+            28.34,
+            40.84
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kumburgaz-locked",
+        "name": "Kumburgaz kilitli kesim",
+        "state": "locked",
+        "confidence": "yüksek",
+        "note": "2019 deniz tabanı jeodezisi Kumburgaz Basin altındaki NAF kesiminde ölçülebilir creep saptamadı ve segmenti fully locked olarak yorumladı. 2025 kaynak çalışması da ana şokun batıdaki geçişte çekirdeklendiğini ve doğudaki kilitli Kumburgaz kısmının sessiz kaldığını bildirir.",
+        "citations": "Geli et al. 2019 Nature Communications, doi:10.1038/s41467-019-11016-z; Eken et al. 2025, doi:10.1007/s10950-025-10342-8",
+        "lockDepthBufferKm": 5,
+        "lockDepthMinKm": 0,
+        "lockDepthMaxKm": 5.5,
+        "lockDepthObservedKm": 5.5,
+        "lockDepthModelKm": 10,
+        "lockDepthLabel": "Doğrudan deniz tabanı jeodezisi: en az 3 km ve muhtemelen ~5.5 km derinliğe kadar kilitli; daha derin kilitlenme mümkündür. Uygulama skoru için konservatif 0–5.5 km bandı kullanılır.",
+        "lockDepthConfidence": "yüksek (0–5.5 km için); daha derin için orta",
+        "lockDepthScoreEligible": true,
+        "lockDepthCitation": "Geli et al. 2019 Nat Commun; Schmittbuhl et al. 2016 G3"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.34,
+            40.84
+          ],
+          [
+            28.45,
+            40.85
+          ],
+          [
+            28.57,
+            40.86
+          ],
+          [
+            28.69,
+            40.87
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "avcilar-transition",
+        "name": "Avcılar sessiz / geçiş zonu",
+        "state": "transition",
+        "confidence": "orta",
+        "note": "2025 dizisinin artçıları doğuya ilerleyerek Kumburgaz ile kilitli Prens Adaları arasında yaklaşık 15 km uzunluğundaki sismik olarak sessiz Avcılar kesiminin yakınında sonlandı. Bu zonu tek tip locked veya creep diye sınıflandırmak yerine geçiş olarak gösteriyoruz.",
+        "citations": "Martinez-Garzon et al., Science / GFZ 2025-2026",
+        "lockDepthBufferKm": 5,
+        "lockDepthMinKm": null,
+        "lockDepthMaxKm": null,
+        "lockDepthObservedKm": null,
+        "lockDepthModelKm": null,
+        "lockDepthLabel": "Literatürde sessiz/geçiş zonu; tek bir kilit derinliği bandı uygulanmıyor.",
+        "lockDepthConfidence": "—",
+        "lockDepthScoreEligible": false,
+        "lockDepthCitation": "GFZ 2025, eastward rupture progression along the Main Marmara Fault"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.69,
+            40.87
+          ],
+          [
+            28.77,
+            40.87
+          ],
+          [
+            28.86,
+            40.86
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "princes",
+        "name": "Prens Adaları / doğu MMF",
+        "state": "locked",
+        "confidence": "yüksek",
+        "note": "Prens Adaları segmentinde yaklaşık 30 km uzunlukta, ~10 km derinliğe kadar aseismik patch kilitli olarak yorumlanmıştır; 2023 ve 2026 çalışmalarında doğu uç hâlâ kilitli kabul edilir.",
+        "citations": "Bohnhoff et al. 2013 Nat Commun; Becker et al. 2023 GRL; Martinez-Garzon et al. 2026 Science",
+        "lockDepthBufferKm": 5,
+        "lockDepthMinKm": 0,
+        "lockDepthMaxKm": 12,
+        "lockDepthObservedKm": 10,
+        "lockDepthModelKm": 12,
+        "lockDepthLabel": "0–10 km: doğrudan sismik boşluk/aseismik patch gözlemi; 2026 GNSS+InSAR bölgesel modelinde çoğunlukla ~12 km’ye kadar kilitli.",
+        "lockDepthConfidence": "yüksek",
+        "lockDepthScoreEligible": true,
+        "lockDepthCitation": "Bohnhoff et al. 2013 Nat Commun; Schmittbuhl et al. 2016 G3; Klein et al. 2026 EGU26-18025"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.86,
+            40.86
+          ],
+          [
+            29.0,
+            40.84
+          ],
+          [
+            29.12,
+            40.8
+          ],
+          [
+            29.25,
+            40.76
+          ],
+          [
+            29.39,
+            40.7
+          ]
+        ]
+      }
+    }
+  ]
+}

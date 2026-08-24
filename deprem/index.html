@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#071018" />
+  <meta name="description" content="Kandilli canlı verisiyle Marmara sismisite, fay kilitlenmesi ve kümelenme izleme paneli." />
+  <title>Marmara Seismic Watch</title>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40"><path d="M3 21h7l3-9 5 18 4-13 4 8h11"/></svg>
+        </div>
+        <div>
+          <div class="brand-title">Marmara Seismic Watch</div>
+          <div class="brand-sub">Kandilli LIVE · swarm / migration / b-value / locked-depth monitor</div>
+        </div>
+      </div>
+
+      <div class="topbar-center">
+        <div class="status-chip"><span class="status-dot" id="syncDot"></span><span id="syncText">Veri yükleniyor</span></div>
+        <div class="status-chip subtle">Canlı kontrol <strong id="lastUpdate">—</strong></div>
+        <div class="status-chip subtle">Analiz arşivi <strong id="analysisUpdate">—</strong></div>
+      </div>
+
+      <div class="top-actions">
+        <button class="icon-btn" id="fitBtn" title="Marmara görünümüne dön" aria-label="Marmara görünümüne dön">
+          <svg viewBox="0 0 24 24"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg>
+        </button>
+        <button class="primary-btn" id="alertBtn" title="M4.0+ yeni olaylarda sesli ve tarayıcı bildirimi">🔔 Alarmı etkinleştir</button>
+        <button class="primary-btn" id="refreshBtn">Veriyi yenile</button>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <aside class="left-panel panel-scroll">
+        <section class="panel-section overview">
+          <div class="section-head">
+            <div>
+              <div class="eyebrow">Marmara overview</div>
+              <h1>Aktivite İzleme</h1>
+            </div>
+            <span class="info-badge" title="Bu skor deprem olasılığı değildir.">i</span>
+          </div>
+          <div class="attention-card">
+            <div class="gauge" id="attentionGauge" style="--p:0">
+              <div class="gauge-inner"><strong id="attentionValue">—</strong><span>ATTENTION</span></div>
+            </div>
+            <div class="attention-copy">
+              <strong id="attentionLabel">Veri bekleniyor</strong>
+              <p id="attentionSummary">Son katalog davranışı yüklendiğinde hesaplanacak.</p>
+            </div>
+          </div>
+          <div class="mini-grid">
+            <div class="mini-stat"><span>24 saat</span><strong id="stat24">—</strong><small>olay</small></div>
+            <div class="mini-stat"><span>7 gün</span><strong id="stat7d">—</strong><small>olay</small></div>
+            <div class="mini-stat"><span>Maks.</span><strong id="statMax">—</strong><small>30 gün</small></div>
+            <div class="mini-stat"><span>Lock-depth</span><strong id="statLocked">—</strong><small>24s · Kandilli</small></div>
+          </div>
+        </section>
+
+        <section class="panel-section">
+          <div class="eyebrow">Filtreler</div>
+          <div class="segmented" id="timeFilter">
+            <button data-hours="24">24s</button>
+            <button data-hours="72" class="active">72s</button>
+            <button data-hours="168">7g</button>
+            <button data-hours="720">30g</button>
+          </div>
+          <div class="control-row">
+            <label>Min. magnitüd <span id="magLabel">0.0</span></label>
+            <input id="magRange" type="range" min="0" max="5" value="0" step="0.1" />
+          </div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-head compact"><div><div class="eyebrow">Katmanlar</div><h2>Harita</h2></div></div>
+          <div class="layer-list">
+            <label class="layer-toggle"><span><i class="swatch quake"></i>Depremler</span><input type="checkbox" data-layer="earthquakes" checked><b></b></label>
+            <label class="layer-toggle"><span><i class="swatch locked"></i>Kilitli / güçlü coupling</span><input type="checkbox" data-layer="couplingLocked" checked><b></b></label>
+            <label class="layer-toggle"><span><i class="swatch transition"></i>Geçiş / kısmi kırılma</span><input type="checkbox" data-layer="couplingTransition" checked><b></b></label>
+            <label class="layer-toggle"><span><i class="swatch creep"></i>Creep</span><input type="checkbox" data-layer="couplingCreep" checked><b></b></label>
+            <label class="layer-toggle"><span><i class="swatch fault"></i>GEM aktif fayları</span><input type="checkbox" data-layer="gemFaults" checked><b></b></label>
+            <label class="layer-toggle"><span><i class="swatch signal"></i>Swarm / göç sinyalleri</span><input type="checkbox" data-layer="signals" checked><b></b></label>
+          </div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-head compact">
+            <div><div class="eyebrow">Segment watch</div><h2>Ana Marmara Fayı</h2></div>
+          </div>
+          <div id="segmentCards" class="segment-cards"></div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-head compact"><div><div class="eyebrow">Signal engine v7</div><h2>Davranış analizi</h2></div></div>
+          <div id="signalPanel" class="signal-panel"><div class="empty">Analiz verisi bekleniyor.</div></div>
+        </section>
+
+        <section class="panel-section note-box">
+          <strong>Bilimsel sınır</strong>
+          <p>“Locked / creep / transition” katmanı canlı ölçüm değildir; yayımlanmış jeodezik ve sismolojik çalışmaların yaklaşık mekânsal yorumudur. Attention ve “öncü benzerliği” skorları deprem tahmini veya olasılığı değildir. Kilit-derinlik karşılaştırması Kandilli hiposantr derinliklerini kullanır; literatürdeki bantlar yaklaşık referanslardır ve katalog derinlik belirsizliği km mertebesinde olabilir. Canlı API üçüncü taraf bir Kandilli aynasıdır; resmi acil uyarı sistemi değildir.</p>
+        </section>
+      </aside>
+
+      <section class="map-shell">
+        <div id="map"></div>
+
+        <div class="map-overlay top-left">
+          <div class="map-legend">
+            <div><i class="line locked"></i><span>Kilitli</span></div>
+            <div><i class="line transition"></i><span>Geçiş</span></div>
+            <div><i class="line creep"></i><span>Creep</span></div>
+          </div>
+        </div>
+
+        <div class="map-overlay bottom-left source-legend">
+          <span><i class="dot kandilli"></i>Kandilli LIVE</span><span><i class="dot signal"></i>Göç vektörü</span><span><i class="dot lockdepth"></i>Lock-depth overlap</span>
+        </div>
+
+        <div class="map-overlay bottom-right zoom-note">Nokta boyutu magnitüd; turkuaz alan gerçek swarm r90 yarıçapını, turkuaz ok göç vektörünü; kırmızı halka kilit-derinlik çakışmasını gösterir.</div>
+      </section>
+
+      <aside class="right-panel panel-scroll">
+        <section class="panel-section">
+          <div class="section-head compact">
+            <div><div class="eyebrow">Canlı olay akışı</div><h2>Son depremler</h2></div>
+            <span class="count-badge" id="visibleCount">0</span>
+          </div>
+          <div id="eventList" class="event-list"></div>
+        </section>
+
+        <section class="panel-section" id="selectionPanel">
+          <div class="eyebrow">Seçili öğe</div>
+          <div id="selectionContent" class="selection-empty">Haritada bir deprem veya coupling segmenti seç.</div>
+        </section>
+
+        <section class="panel-section">
+          <div class="eyebrow">Kaynak ve metodoloji</div>
+          <div class="source-cards">
+            <article><span class="source-kicker">SEISMICITY</span><strong>Kandilli LIVE</strong><p>Demirhan API üzerindeki Kandilli Rasathanesi aynası. Tarayıcı açıkken 30 saniyede bir doğrudan sorgulanır; GitHub Action aynı son 1000 kaydı arşivler.</p></article>
+            <article><span class="source-kicker">FAULT TRACE</span><strong>GEM Active Faults</strong><p>Aktif fay geometrisi; coupling sınıflaması GEM’in özelliği değildir.</p></article>
+            <article><span class="source-kicker">COUPLING + DEPTH</span><strong>Literatür yorumu</strong><p>Prens Adaları: ~10 km aseismik patch, yeni bölgesel model ~12 km. Kumburgaz: batıdaki 2025 nükleasyon/geçiş zonu ayrı; doğudaki Kumburgaz kesimi kilitli. Deniz tabanı jeodezisi kilitlenmeyi en az 3 km, muhtemelen ~5.5 km derinliğe kadar doğrudan destekliyor. Prens Adaları: ~10 km aseismik patch, yeni bölgesel model ~12 km.</p></article>
+            <article><span class="source-kicker">ANALOGUES</span><strong>Sağ yanal referans kütüphanesi</strong><p>İzmit 1999, Prens Adaları 2007, Parkfield 2004 ve Kumamoto 2016. Benign/null örnekler özellikle skoru dengelemek için tutulur.</p></article>
+          </div>
+        </section>
+      </aside>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@5.7.0/dist/maplibre-gl.js"></script>
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
