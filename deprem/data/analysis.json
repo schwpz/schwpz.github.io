@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:13:55.675Z",
+  "generatedAt": "2026-08-24T04:58:47.283Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,7 +11,7 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 33,
+    "attention": 38,
     "label": "Hafif aktivite",
     "summary": "Prens Adaları / doğu MMF: swarm 76/100 · migration 1/100 · precursor resemblance 28/100. Olasılık değildir.",
     "eventsNearLocked5km": 4,
@@ -230,17 +230,17 @@
       "id": "tekirdag",
       "name": "Tekirdağ geçişi",
       "state": "transition",
-      "events24h": 0,
-      "events7d": 0,
-      "events30d": 0,
-      "maxMagnitude24h": 0,
+      "events24h": 1,
+      "events7d": 1,
+      "events30d": 1,
+      "maxMagnitude24h": 2.3,
       "baselineDaily": 0.15,
-      "rateRatio": 0,
-      "baseAttention": 8,
+      "rateRatio": 6.67,
+      "baseAttention": 39,
       "advancedSignal": 8.3,
       "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 8,
+      "attention": 28,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -257,7 +257,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 0,
+        "count": 1,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -271,7 +271,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 0,
+        "count": 1,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -280,211 +280,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 0,
-        "slopePerDay": null,
-        "r2": null,
-        "accelerationStrength": 0
-      },
-      "quiescence": {
-        "valid": false,
-        "score": 0,
-        "recent6h": 0,
-        "previous18h": 0,
-        "ratio": null
-      },
-      "bValue": {
-        "recent": {
-          "valid": false,
-          "n": 0,
-          "reason": "insufficient_events",
-          "mc": null,
-          "b": null,
-          "sigma": null
-        },
-        "baseline": {
-          "valid": false,
-          "n": 0,
-          "reason": "insufficient_events",
-          "mc": null,
-          "b": null,
-          "sigma": null
-        },
-        "delta": null,
-        "z": null,
-        "dropStrength": 0,
-        "source": "KANDILLI_ONLY"
-      },
-      "lockDepth": {
-        "available": false,
-        "source": "KANDILLI_ONLY",
-        "minKm": null,
-        "maxKm": null,
-        "bufferKm": 5,
-        "within24h": 0,
-        "within7d": 0,
-        "below24h": 0,
-        "below7d": 0,
-        "kandilli24h": 0,
-        "kandilli7d": 0,
-        "medianDepth24h": null,
-        "closest": null,
-        "strength": 0,
-        "label": "Geçiş zonu; derinliğe bağlı davranış nedeniyle tek bir kilit derinliği bandı kullanılmıyor.",
-        "citation": "Becker et al. 2023; Schmittbuhl et al. 2016",
-        "confidence": "—",
-        "scoreEligible": false
-      },
-      "precursorSimilarity": 42,
-      "benignSimilarity": 10,
-      "analogueEvidenceQuality": 0.15,
-      "analogues": [
-        {
-          "id": "parkfield-2004",
-          "name": "2004 Parkfield Mw6.0 — belirgin öncü yok",
-          "outcome": "large_mainshock_without_clear_catalog_precursor",
-          "mainshockMagnitude": 6,
-          "mechanism": "right_lateral",
-          "similarity": 0.985,
-          "featuresUsed": 4,
-          "summary": "Dense monitoring and later high-resolution catalogs found no clear precursory signal at the rupture section; some weeks-prior activity and b-value decrease occurred ~30 km away in the creeping section.",
-          "sources": [
-            {
-              "title": "Borcherdt et al. 2006, BSSA/USGS",
-              "doi": "10.1785/0120050827"
-            },
-            {
-              "title": "High-resolution Parkfield catalog, SRL 2023",
-              "doi": "10.1785/0220220206"
-            }
-          ]
-        },
-        {
-          "id": "marmara-2025-m62",
-          "name": "2025 Kumburgaz/Silivri Mw6.2 foreshock",
-          "outcome": "large_mainshock",
-          "mainshockMagnitude": 6.2,
-          "mechanism": "right_lateral",
-          "similarity": 0.416,
-          "featuresUsed": 6,
-          "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
-          "sources": [
-            {
-              "title": "Stein & Sevilgen 2025, Temblor",
-              "doi": "10.32858/temblor.361"
-            },
-            {
-              "title": "Alhan & Khabat 2026 preprint",
-              "doi": "10.31223/x5w78x"
-            }
-          ]
-        },
-        {
-          "id": "kumamoto-2016",
-          "name": "2016 Kumamoto M7.3 foreshock sequence",
-          "outcome": "large_mainshock",
-          "mainshockMagnitude": 7.3,
-          "mechanism": "right_lateral_oblique",
-          "similarity": 0.121,
-          "featuresUsed": 6,
-          "summary": "M6.5 and M6.4 foreshocks preceded the M7.3 by roughly 28 hours; studies reported relative quiescence and foreshock migration deeper toward the eventual hypocentre.",
-          "sources": [
-            {
-              "title": "Jishin Headquarters 2016",
-              "url": "https://www.jishin.go.jp/main/chousa/16may_kumamoto/index-e.htm"
-            },
-            {
-              "title": "Kumazawa et al. 2017, Earth Planets Space",
-              "doi": "10.1186/s40623-017-0756-6"
-            }
-          ]
-        },
-        {
-          "id": "princes-2007",
-          "name": "2007 Prens Adaları benign swarm",
-          "outcome": "no_large_mainshock",
-          "mainshockMagnitude": null,
-          "mechanism": "right_lateral_context",
-          "similarity": 0.095,
-          "featuresUsed": 8,
-          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
-          "sources": [
-            {
-              "title": "Bulut et al. 2011, BSSA",
-              "doi": "10.1785/0120100215"
-            }
-          ]
-        }
-      ],
-      "featureVector": {
-        "eventCountNorm": 0,
-        "maxMagnitudeNorm": 0,
-        "durationNorm": 0.8363633825103173,
-        "swarmness": 0,
-        "spatialConcentration": 0,
-        "migrationStrength": 0,
-        "depthMigrationStrength": 0,
-        "magnitudeAcceleration": 0,
-        "quiescence": 0,
-        "bDrop": 0,
-        "rateAnomaly": 0,
-        "lockedContext": 0.55
-      }
-    },
-    {
-      "id": "central",
-      "name": "Central Basin / Western High",
-      "state": "creep",
-      "events24h": 0,
-      "events7d": 1,
-      "events30d": 1,
-      "maxMagnitude24h": 0,
-      "baselineDaily": 0.15,
-      "rateRatio": 0,
-      "baseAttention": 0,
-      "advancedSignal": 2.3,
-      "analogueUplift": 0,
-      "lockingDepthUplift": 0,
-      "attention": 1,
-      "swarm": {
-        "detected": false,
-        "score": 0,
-        "count": 0,
-        "durationHours": 0,
-        "radiusKm": null,
-        "areaKm2": null,
-        "maxMagnitude": null,
-        "secondMagnitude": null,
-        "largestMomentFraction": null,
-        "centroid": null,
-        "start": null,
-        "end": null
-      },
-      "migration": {
-        "valid": false,
-        "count": 0,
-        "reason": "insufficient_events",
-        "speedKmPerDay": null,
-        "displacementKm": null,
-        "azimuthDeg": null,
-        "r2": null,
-        "strength": 0,
-        "centroid": null,
-        "alongStrikeSpeedKmPerDay": null,
-        "alongStrikeR2": null,
-        "durationHours": null
-      },
-      "depthMigration": {
-        "valid": false,
-        "count": 0,
-        "slopeKmPerDay": null,
-        "r2": null,
-        "netChangeKm": null,
-        "strength": 0,
-        "direction": null
-      },
-      "magnitudeTrend": {
-        "valid": false,
-        "count": 0,
+        "count": 1,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -533,13 +329,13 @@
         "medianDepth24h": null,
         "closest": null,
         "strength": 0,
-        "label": "Bölüm ağırlıklı creep; 2026 modelinde sığ kısımda slip-deficit bulunuyor ancak tek bir kilit derinliği bandı vermek uygun değil.",
-        "citation": "Klein et al. 2026, EGU26-18025",
+        "label": "Geçiş zonu; derinliğe bağlı davranış nedeniyle tek bir kilit derinliği bandı kullanılmıyor.",
+        "citation": "Becker et al. 2023; Schmittbuhl et al. 2016",
         "confidence": "—",
         "scoreEligible": false
       },
-      "precursorSimilarity": 42,
-      "benignSimilarity": 10,
+      "precursorSimilarity": 51,
+      "benignSimilarity": 20,
       "analogueEvidenceQuality": 0.15,
       "analogues": [
         {
@@ -568,7 +364,7 @@
           "outcome": "large_mainshock",
           "mainshockMagnitude": 6.2,
           "mechanism": "right_lateral",
-          "similarity": 0.416,
+          "similarity": 0.512,
           "featuresUsed": 6,
           "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
           "sources": [
@@ -583,22 +379,202 @@
           ]
         },
         {
-          "id": "kumamoto-2016",
-          "name": "2016 Kumamoto M7.3 foreshock sequence",
-          "outcome": "large_mainshock",
-          "mainshockMagnitude": 7.3,
-          "mechanism": "right_lateral_oblique",
-          "similarity": 0.121,
-          "featuresUsed": 6,
-          "summary": "M6.5 and M6.4 foreshocks preceded the M7.3 by roughly 28 hours; studies reported relative quiescence and foreshock migration deeper toward the eventual hypocentre.",
+          "id": "princes-2007",
+          "name": "2007 Prens Adaları benign swarm",
+          "outcome": "no_large_mainshock",
+          "mainshockMagnitude": null,
+          "mechanism": "right_lateral_context",
+          "similarity": 0.199,
+          "featuresUsed": 8,
+          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
           "sources": [
             {
-              "title": "Jishin Headquarters 2016",
-              "url": "https://www.jishin.go.jp/main/chousa/16may_kumamoto/index-e.htm"
+              "title": "Bulut et al. 2011, BSSA",
+              "doi": "10.1785/0120100215"
+            }
+          ]
+        },
+        {
+          "id": "izmit-1999",
+          "name": "1999 İzmit Mw7.6 foreshock cascade",
+          "outcome": "large_mainshock",
+          "mainshockMagnitude": 7.6,
+          "mechanism": "right_lateral",
+          "similarity": 0.129,
+          "featuresUsed": 7,
+          "summary": "26 M0.9–2.8 foreshocks in 44 minutes; intensity built toward the mainshock and ruptures migrated systematically west-to-east toward the hypocentre.",
+          "sources": [
+            {
+              "title": "Ellsworth & Bulut 2018, Nature Geoscience",
+              "doi": "10.1038/s41561-018-0145-1"
+            }
+          ]
+        }
+      ],
+      "featureVector": {
+        "eventCountNorm": 0,
+        "maxMagnitudeNorm": 0.3538461538461538,
+        "durationNorm": 0.8363633825103173,
+        "swarmness": 0,
+        "spatialConcentration": 0,
+        "migrationStrength": 0,
+        "depthMigrationStrength": 0,
+        "magnitudeAcceleration": 0,
+        "quiescence": 0,
+        "bDrop": 0,
+        "rateAnomaly": 0.686590617453599,
+        "lockedContext": 0.55
+      }
+    },
+    {
+      "id": "central",
+      "name": "Central Basin / Western High",
+      "state": "creep",
+      "events24h": 1,
+      "events7d": 2,
+      "events30d": 2,
+      "maxMagnitude24h": 2.3,
+      "baselineDaily": 0.15,
+      "rateRatio": 6.67,
+      "baseAttention": 31,
+      "advancedSignal": 2.3,
+      "analogueUplift": 0,
+      "lockingDepthUplift": 0,
+      "attention": 21,
+      "swarm": {
+        "detected": false,
+        "score": 0,
+        "count": 0,
+        "durationHours": 0,
+        "radiusKm": null,
+        "areaKm2": null,
+        "maxMagnitude": null,
+        "secondMagnitude": null,
+        "largestMomentFraction": null,
+        "centroid": null,
+        "start": null,
+        "end": null
+      },
+      "migration": {
+        "valid": false,
+        "count": 1,
+        "reason": "insufficient_events",
+        "speedKmPerDay": null,
+        "displacementKm": null,
+        "azimuthDeg": null,
+        "r2": null,
+        "strength": 0,
+        "centroid": null,
+        "alongStrikeSpeedKmPerDay": null,
+        "alongStrikeR2": null,
+        "durationHours": null
+      },
+      "depthMigration": {
+        "valid": false,
+        "count": 1,
+        "slopeKmPerDay": null,
+        "r2": null,
+        "netChangeKm": null,
+        "strength": 0,
+        "direction": null
+      },
+      "magnitudeTrend": {
+        "valid": false,
+        "count": 1,
+        "slopePerDay": null,
+        "r2": null,
+        "accelerationStrength": 0
+      },
+      "quiescence": {
+        "valid": false,
+        "score": 0,
+        "recent6h": 0,
+        "previous18h": 0,
+        "ratio": null
+      },
+      "bValue": {
+        "recent": {
+          "valid": false,
+          "n": 2,
+          "reason": "insufficient_events",
+          "mc": null,
+          "b": null,
+          "sigma": null
+        },
+        "baseline": {
+          "valid": false,
+          "n": 0,
+          "reason": "insufficient_events",
+          "mc": null,
+          "b": null,
+          "sigma": null
+        },
+        "delta": null,
+        "z": null,
+        "dropStrength": 0,
+        "source": "KANDILLI_ONLY"
+      },
+      "lockDepth": {
+        "available": false,
+        "source": "KANDILLI_ONLY",
+        "minKm": null,
+        "maxKm": null,
+        "bufferKm": 5,
+        "within24h": 0,
+        "within7d": 0,
+        "below24h": 0,
+        "below7d": 0,
+        "kandilli24h": 0,
+        "kandilli7d": 0,
+        "medianDepth24h": null,
+        "closest": null,
+        "strength": 0,
+        "label": "Bölüm ağırlıklı creep; 2026 modelinde sığ kısımda slip-deficit bulunuyor ancak tek bir kilit derinliği bandı vermek uygun değil.",
+        "citation": "Klein et al. 2026, EGU26-18025",
+        "confidence": "—",
+        "scoreEligible": false
+      },
+      "precursorSimilarity": 51,
+      "benignSimilarity": 20,
+      "analogueEvidenceQuality": 0.15,
+      "analogues": [
+        {
+          "id": "parkfield-2004",
+          "name": "2004 Parkfield Mw6.0 — belirgin öncü yok",
+          "outcome": "large_mainshock_without_clear_catalog_precursor",
+          "mainshockMagnitude": 6,
+          "mechanism": "right_lateral",
+          "similarity": 0.985,
+          "featuresUsed": 4,
+          "summary": "Dense monitoring and later high-resolution catalogs found no clear precursory signal at the rupture section; some weeks-prior activity and b-value decrease occurred ~30 km away in the creeping section.",
+          "sources": [
+            {
+              "title": "Borcherdt et al. 2006, BSSA/USGS",
+              "doi": "10.1785/0120050827"
             },
             {
-              "title": "Kumazawa et al. 2017, Earth Planets Space",
-              "doi": "10.1186/s40623-017-0756-6"
+              "title": "High-resolution Parkfield catalog, SRL 2023",
+              "doi": "10.1785/0220220206"
+            }
+          ]
+        },
+        {
+          "id": "marmara-2025-m62",
+          "name": "2025 Kumburgaz/Silivri Mw6.2 foreshock",
+          "outcome": "large_mainshock",
+          "mainshockMagnitude": 6.2,
+          "mechanism": "right_lateral",
+          "similarity": 0.512,
+          "featuresUsed": 6,
+          "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
+          "sources": [
+            {
+              "title": "Stein & Sevilgen 2025, Temblor",
+              "doi": "10.32858/temblor.361"
+            },
+            {
+              "title": "Alhan & Khabat 2026 preprint",
+              "doi": "10.31223/x5w78x"
             }
           ]
         },
@@ -608,7 +584,7 @@
           "outcome": "no_large_mainshock",
           "mainshockMagnitude": null,
           "mechanism": "right_lateral_context",
-          "similarity": 0.095,
+          "similarity": 0.199,
           "featuresUsed": 8,
           "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
           "sources": [
@@ -617,11 +593,27 @@
               "doi": "10.1785/0120100215"
             }
           ]
+        },
+        {
+          "id": "izmit-1999",
+          "name": "1999 İzmit Mw7.6 foreshock cascade",
+          "outcome": "large_mainshock",
+          "mainshockMagnitude": 7.6,
+          "mechanism": "right_lateral",
+          "similarity": 0.129,
+          "featuresUsed": 7,
+          "summary": "26 M0.9–2.8 foreshocks in 44 minutes; intensity built toward the mainshock and ruptures migrated systematically west-to-east toward the hypocentre.",
+          "sources": [
+            {
+              "title": "Ellsworth & Bulut 2018, Nature Geoscience",
+              "doi": "10.1038/s41561-018-0145-1"
+            }
+          ]
         }
       ],
       "featureVector": {
         "eventCountNorm": 0,
-        "maxMagnitudeNorm": 0,
+        "maxMagnitudeNorm": 0.3538461538461538,
         "durationNorm": 0.8363633825103173,
         "swarmness": 0,
         "spatialConcentration": 0,
@@ -630,7 +622,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0,
+        "rateAnomaly": 0.686590617453599,
         "lockedContext": 0.15
       }
     },
@@ -1260,10 +1252,10 @@
       "baselineDaily": 5.31,
       "rateRatio": 0.75,
       "baseAttention": 28,
-      "advancedSignal": 28.9,
+      "advancedSignal": 40.9,
       "analogueUplift": 0,
       "lockingDepthUplift": 5,
-      "attention": 33,
+      "attention": 38,
       "swarm": {
         "detected": true,
         "score": 76,
@@ -1316,11 +1308,11 @@
         "accelerationStrength": 0
       },
       "quiescence": {
-        "valid": false,
-        "score": 0,
-        "recent6h": 3,
-        "previous18h": 1,
-        "ratio": null
+        "valid": true,
+        "score": 1,
+        "recent6h": 0,
+        "previous18h": 4,
+        "ratio": 0
       },
       "bValue": {
         "recent": {
@@ -1384,7 +1376,7 @@
           "outcome": "large_mainshock_without_clear_catalog_precursor",
           "mainshockMagnitude": 6,
           "mechanism": "right_lateral",
-          "similarity": 0.717,
+          "similarity": 0.563,
           "featuresUsed": 4,
           "summary": "Dense monitoring and later high-resolution catalogs found no clear precursory signal at the rupture section; some weeks-prior activity and b-value decrease occurred ~30 km away in the creeping section.",
           "sources": [
@@ -1460,7 +1452,7 @@
         "migrationStrength": 0.009,
         "depthMigrationStrength": 0.002,
         "magnitudeAcceleration": 0,
-        "quiescence": 0,
+        "quiescence": 1,
         "bDrop": 0,
         "rateAnomaly": 0,
         "lockedContext": 1
@@ -1468,5 +1460,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 172
+  "historyEvents": 173
 }
