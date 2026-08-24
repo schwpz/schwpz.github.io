@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T20:12:00.312Z",
+  "updatedAt": "2026-08-24T20:47:43.504Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-4d7e87e5",
+      "source": "KANDILLI",
+      "sourceId": "k-4d7e87e5",
+      "time": "2026-08-24T22:23:21+03:00",
+      "latitude": 36.8857,
+      "longitude": 29.1147,
+      "depth": 3.7,
+      "magnitude": 2.2,
+      "place": "DARIYERI-DALAMAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-24T22:23:21+03:00",
+          "latitude": 36.8857,
+          "longitude": 29.1147,
+          "depth": 3.7,
+          "magnitude": 2.2,
+          "place": "DARIYERI-DALAMAN (MUGLA)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-accca141",
       "source": "KANDILLI",
