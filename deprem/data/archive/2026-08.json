@@ -1,8 +1,89 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T01:01:38.823Z",
+  "updatedAt": "2026-08-25T02:20:43.472Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-e483607c",
+      "source": "KANDILLI",
+      "sourceId": "k-e483607c",
+      "time": "2026-08-25T04:54:52+03:00",
+      "latitude": 39.458,
+      "longitude": 29.882,
+      "depth": 15.3,
+      "magnitude": 1.8,
+      "place": "CIVLI-(KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T04:54:52+03:00",
+          "latitude": 39.458,
+          "longitude": 29.882,
+          "depth": 15.3,
+          "magnitude": 1.8,
+          "place": "CIVLI-(KUTAHYA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f8cd3f4f",
+      "source": "KANDILLI",
+      "sourceId": "k-f8cd3f4f",
+      "time": "2026-08-25T04:46:11+03:00",
+      "latitude": 39.6903,
+      "longitude": 24.2407,
+      "depth": 26.6,
+      "magnitude": 2.3,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T04:46:11+03:00",
+          "latitude": 39.6903,
+          "longitude": 24.2407,
+          "depth": 26.6,
+          "magnitude": 2.3,
+          "place": "YUNANISTAN",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-454f1851",
+      "source": "KANDILLI",
+      "sourceId": "k-454f1851",
+      "time": "2026-08-25T04:44:20+03:00",
+      "latitude": 39.217,
+      "longitude": 28.0085,
+      "depth": 13.6,
+      "magnitude": 1.6,
+      "place": "SAHINKAYA-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T04:44:20+03:00",
+          "latitude": 39.217,
+          "longitude": 28.0085,
+          "depth": 13.6,
+          "magnitude": 1.6,
+          "place": "SAHINKAYA-SINDIRGI (BALIKESIR)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f00a0e86",
       "source": "KANDILLI",
