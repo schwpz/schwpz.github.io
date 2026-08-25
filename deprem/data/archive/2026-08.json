@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T02:20:43.472Z",
+  "updatedAt": "2026-08-25T03:16:01.144Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-6f1e9b05",
+      "source": "KANDILLI",
+      "sourceId": "k-6f1e9b05",
+      "time": "2026-08-25T05:52:38+03:00",
+      "latitude": 38.8708,
+      "longitude": 26.6362,
+      "depth": 12.8,
+      "magnitude": 3.3,
+      "place": "MIDILLI ADASI GUNEYI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T05:52:38+03:00",
+          "latitude": 38.8708,
+          "longitude": 26.6362,
+          "depth": 12.8,
+          "magnitude": 3.3,
+          "place": "MIDILLI ADASI GUNEYI (EGE DENIZI)",
+          "ml": 3.3,
+          "mw": 3,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e9f87b70",
+      "source": "KANDILLI",
+      "sourceId": "k-e9f87b70",
+      "time": "2026-08-25T05:17:12+03:00",
+      "latitude": 39.2145,
+      "longitude": 28.1213,
+      "depth": 12.1,
+      "magnitude": 1.4,
+      "place": "BAYIRLI-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T05:17:12+03:00",
+          "latitude": 39.2145,
+          "longitude": 28.1213,
+          "depth": 12.1,
+          "magnitude": 1.4,
+          "place": "BAYIRLI-SINDIRGI (BALIKESIR)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-e483607c",
       "source": "KANDILLI",
@@ -85,6 +139,33 @@
       ]
     },
     {
+      "id": "k-5ebc7f89",
+      "source": "KANDILLI",
+      "sourceId": "k-5ebc7f89",
+      "time": "2026-08-25T04:02:42+03:00",
+      "latitude": 38.9097,
+      "longitude": 27.1523,
+      "depth": 18.6,
+      "magnitude": 1.3,
+      "place": "YUKSEKKOY-ALIAGA (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T04:02:42+03:00",
+          "latitude": 38.9097,
+          "longitude": 27.1523,
+          "depth": 18.6,
+          "magnitude": 1.3,
+          "place": "YUKSEKKOY-ALIAGA (IZMIR)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
       "id": "k-f00a0e86",
       "source": "KANDILLI",
       "sourceId": "k-f00a0e86",
@@ -112,6 +193,33 @@
       ]
     },
     {
+      "id": "k-a625c747",
+      "source": "KANDILLI",
+      "sourceId": "k-a625c747",
+      "time": "2026-08-25T02:10:55+03:00",
+      "latitude": 38.8778,
+      "longitude": 39.092,
+      "depth": 5,
+      "magnitude": 2,
+      "place": "BALLIDUT-PERTEK (TUNCELI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T02:10:55+03:00",
+          "latitude": 38.8778,
+          "longitude": 39.092,
+          "depth": 5,
+          "magnitude": 2,
+          "place": "BALLIDUT-PERTEK (TUNCELI)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
       "id": "k-78b3af11",
       "source": "KANDILLI",
       "sourceId": "k-78b3af11",
@@ -130,6 +238,33 @@
           "magnitude": 1,
           "place": "BELENARDIC-AKKOY (DENIZLI)",
           "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1edeb1f4",
+      "source": "KANDILLI",
+      "sourceId": "k-1edeb1f4",
+      "time": "2026-08-25T01:06:59+03:00",
+      "latitude": 39.1132,
+      "longitude": 28.2947,
+      "depth": 12.7,
+      "magnitude": 1.6,
+      "place": "YUREGIL-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T01:06:59+03:00",
+          "latitude": 39.1132,
+          "longitude": 28.2947,
+          "depth": 12.7,
+          "magnitude": 1.6,
+          "place": "YUREGIL-SINDIRGI (BALIKESIR)",
+          "ml": 1.6,
           "mw": null,
           "md": null
         }
