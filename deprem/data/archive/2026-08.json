@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T21:37:36.088Z",
+  "updatedAt": "2026-08-25T22:50:19.966Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c73d8788",
+      "source": "KANDILLI",
+      "sourceId": "k-c73d8788",
+      "time": "2026-08-26T01:39:01+03:00",
+      "latitude": 38.109,
+      "longitude": 38.4515,
+      "depth": 9.3,
+      "magnitude": 1.6,
+      "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T01:39:01+03:00",
+          "latitude": 38.109,
+          "longitude": 38.4515,
+          "depth": 9.3,
+          "magnitude": 1.6,
+          "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-730f02d3",
+      "source": "KANDILLI",
+      "sourceId": "k-730f02d3",
+      "time": "2026-08-26T01:29:30+03:00",
+      "latitude": 37.9992,
+      "longitude": 30.2338,
+      "depth": 7.3,
+      "magnitude": 1.3,
+      "place": "AYDOGMUS-KECIBORLU (ISPARTA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T01:29:30+03:00",
+          "latitude": 37.9992,
+          "longitude": 30.2338,
+          "depth": 7.3,
+          "magnitude": 1.3,
+          "place": "AYDOGMUS-KECIBORLU (ISPARTA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-a0489f72",
       "source": "KANDILLI",
