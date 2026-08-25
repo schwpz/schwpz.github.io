@@ -1,8 +1,143 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T22:50:19.966Z",
+  "updatedAt": "2026-08-25T23:36:45.350Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-6d848785",
+      "source": "KANDILLI",
+      "sourceId": "k-6d848785",
+      "time": "2026-08-26T02:25:22+03:00",
+      "latitude": 38.0523,
+      "longitude": 37.4693,
+      "depth": 5,
+      "magnitude": 2.3,
+      "place": "TATLAR-NURHAK (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T02:25:22+03:00",
+          "latitude": 38.0523,
+          "longitude": 37.4693,
+          "depth": 5,
+          "magnitude": 2.3,
+          "place": "TATLAR-NURHAK (KAHRAMANMARAS)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-320ca580",
+      "source": "KANDILLI",
+      "sourceId": "k-320ca580",
+      "time": "2026-08-26T02:17:40+03:00",
+      "latitude": 39.6758,
+      "longitude": 39.5177,
+      "depth": 9.1,
+      "magnitude": 2.6,
+      "place": "CATALOREN-(ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T02:17:40+03:00",
+          "latitude": 39.6758,
+          "longitude": 39.5177,
+          "depth": 9.1,
+          "magnitude": 2.6,
+          "place": "CATALOREN-(ERZINCAN)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b3adaf67",
+      "source": "KANDILLI",
+      "sourceId": "k-b3adaf67",
+      "time": "2026-08-26T02:16:21+03:00",
+      "latitude": 37.1388,
+      "longitude": 36.6855,
+      "depth": 5.4,
+      "magnitude": 1.6,
+      "place": "KARABURCLU-NURDAGI (GAZIANTEP)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T02:16:21+03:00",
+          "latitude": 37.1388,
+          "longitude": 36.6855,
+          "depth": 5.4,
+          "magnitude": 1.6,
+          "place": "KARABURCLU-NURDAGI (GAZIANTEP)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1bfc3c9e",
+      "source": "KANDILLI",
+      "sourceId": "k-1bfc3c9e",
+      "time": "2026-08-26T02:10:57+03:00",
+      "latitude": 37.329,
+      "longitude": 30.6497,
+      "depth": 7.2,
+      "magnitude": 2.4,
+      "place": "KUYUBASI-BUCAK (BURDUR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T02:10:57+03:00",
+          "latitude": 37.329,
+          "longitude": 30.6497,
+          "depth": 7.2,
+          "magnitude": 2.4,
+          "place": "KUYUBASI-BUCAK (BURDUR)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4ecd8654",
+      "source": "KANDILLI",
+      "sourceId": "k-4ecd8654",
+      "time": "2026-08-26T02:05:50+03:00",
+      "latitude": 38.1208,
+      "longitude": 38.4332,
+      "depth": 7.8,
+      "magnitude": 2.6,
+      "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T02:05:50+03:00",
+          "latitude": 38.1208,
+          "longitude": 38.4332,
+          "depth": 7.8,
+          "magnitude": 2.6,
+          "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c73d8788",
       "source": "KANDILLI",
