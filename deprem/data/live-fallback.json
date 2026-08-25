@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T20:44:15.554Z",
+  "generatedAt": "2026-08-25T21:37:36.090Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -3828,33 +3828,6 @@
           "magnitude": 1.8,
           "place": "MARMARA DENIZI",
           "ml": 1.8,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-f202e0ef",
-      "source": "KANDILLI",
-      "sourceId": "k-f202e0ef",
-      "time": "2026-08-19T23:45:15+03:00",
-      "latitude": 40.7792,
-      "longitude": 29.0863,
-      "depth": 8,
-      "magnitude": 1.2,
-      "place": "ADALAR (ISTANBUL)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-19T23:45:15+03:00",
-          "latitude": 40.7792,
-          "longitude": 29.0863,
-          "depth": 8,
-          "magnitude": 1.2,
-          "place": "ADALAR (ISTANBUL)",
-          "ml": 1.2,
           "mw": null,
           "md": null
         }
