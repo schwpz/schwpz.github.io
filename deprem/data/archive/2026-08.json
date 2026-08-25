@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T16:58:57.773Z",
+  "updatedAt": "2026-08-25T17:32:37.383Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-8e53876c",
+      "source": "KANDILLI",
+      "sourceId": "k-8e53876c",
+      "time": "2026-08-25T19:46:16+03:00",
+      "latitude": 36.8963,
+      "longitude": 29.0872,
+      "depth": 17.3,
+      "magnitude": 1.7,
+      "place": "GURLEYIK-DALAMAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T19:46:16+03:00",
+          "latitude": 36.8963,
+          "longitude": 29.0872,
+          "depth": 17.3,
+          "magnitude": 1.7,
+          "place": "GURLEYIK-DALAMAN (MUGLA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b07fa646",
+      "source": "KANDILLI",
+      "sourceId": "k-b07fa646",
+      "time": "2026-08-25T18:32:31+03:00",
+      "latitude": 40.1245,
+      "longitude": 27.3882,
+      "depth": 1.5,
+      "magnitude": 1.6,
+      "place": "YOLINDI-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T18:32:31+03:00",
+          "latitude": 40.1245,
+          "longitude": 27.3882,
+          "depth": 1.5,
+          "magnitude": 1.6,
+          "place": "YOLINDI-BIGA (CANAKKALE)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-2ceb0b86",
       "source": "KANDILLI",
