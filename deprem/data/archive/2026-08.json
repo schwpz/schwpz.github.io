@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T07:13:24.452Z",
+  "updatedAt": "2026-08-25T09:19:27.065Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-845edf97",
+      "source": "KANDILLI",
+      "sourceId": "k-845edf97",
+      "time": "2026-08-25T11:53:28+03:00",
+      "latitude": 36.4693,
+      "longitude": 27.539,
+      "depth": 12.5,
+      "magnitude": 2.2,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T11:53:28+03:00",
+          "latitude": 36.4693,
+          "longitude": 27.539,
+          "depth": 12.5,
+          "magnitude": 2.2,
+          "place": "EGE DENIZI",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-95f26394",
+      "source": "KANDILLI",
+      "sourceId": "k-95f26394",
+      "time": "2026-08-25T11:43:34+03:00",
+      "latitude": 38.5715,
+      "longitude": 39.4443,
+      "depth": 20.7,
+      "magnitude": 2.1,
+      "place": "KOCKALE-(ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T11:43:34+03:00",
+          "latitude": 38.5715,
+          "longitude": 39.4443,
+          "depth": 20.7,
+          "magnitude": 2.1,
+          "place": "KOCKALE-(ELAZIG)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-77332783",
       "source": "KANDILLI",
