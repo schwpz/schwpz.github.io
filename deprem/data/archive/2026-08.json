@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-24T22:56:57.853Z",
+  "updatedAt": "2026-08-25T01:01:38.823Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-f00a0e86",
+      "source": "KANDILLI",
+      "sourceId": "k-f00a0e86",
+      "time": "2026-08-25T03:30:45+03:00",
+      "latitude": 38.1848,
+      "longitude": 38.0267,
+      "depth": 5.4,
+      "magnitude": 2.7,
+      "place": "GOZENE-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T03:30:45+03:00",
+          "latitude": 38.1848,
+          "longitude": 38.0267,
+          "depth": 5.4,
+          "magnitude": 2.7,
+          "place": "GOZENE-YESILYURT (MALATYA)",
+          "ml": 2.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-78b3af11",
       "source": "KANDILLI",
