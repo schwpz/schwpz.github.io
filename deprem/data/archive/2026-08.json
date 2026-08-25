@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T14:57:40.948Z",
+  "updatedAt": "2026-08-25T16:17:42.387Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-2e080c52",
+      "source": "KANDILLI",
+      "sourceId": "k-2e080c52",
+      "time": "2026-08-25T17:50:19+03:00",
+      "latitude": 36.3298,
+      "longitude": 35.9278,
+      "depth": 8.2,
+      "magnitude": 1.8,
+      "place": "AVCILARSUYU-ARSUZ (HATAY)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T17:50:19+03:00",
+          "latitude": 36.3298,
+          "longitude": 35.9278,
+          "depth": 8.2,
+          "magnitude": 1.8,
+          "place": "AVCILARSUYU-ARSUZ (HATAY)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-ba30ee03",
       "source": "KANDILLI",
