@@ -1,8 +1,89 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T05:51:16.671Z",
+  "updatedAt": "2026-08-25T06:20:14.971Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-d76d3912",
+      "source": "KANDILLI",
+      "sourceId": "k-d76d3912",
+      "time": "2026-08-25T08:44:01+03:00",
+      "latitude": 39.2215,
+      "longitude": 28.0207,
+      "depth": 15.6,
+      "magnitude": 1.7,
+      "place": "SAHINKAYA-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T08:44:01+03:00",
+          "latitude": 39.2215,
+          "longitude": 28.0207,
+          "depth": 15.6,
+          "magnitude": 1.7,
+          "place": "SAHINKAYA-SINDIRGI (BALIKESIR)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-792a7502",
+      "source": "KANDILLI",
+      "sourceId": "k-792a7502",
+      "time": "2026-08-25T08:38:10+03:00",
+      "latitude": 38.3858,
+      "longitude": 38.8567,
+      "depth": 14.6,
+      "magnitude": 1.5,
+      "place": "YENIDAMLAR-KALE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T08:38:10+03:00",
+          "latitude": 38.3858,
+          "longitude": 38.8567,
+          "depth": 14.6,
+          "magnitude": 1.5,
+          "place": "YENIDAMLAR-KALE (MALATYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cab744d5",
+      "source": "KANDILLI",
+      "sourceId": "k-cab744d5",
+      "time": "2026-08-25T08:27:58+03:00",
+      "latitude": 37.8523,
+      "longitude": 27.7475,
+      "depth": 17.6,
+      "magnitude": 1.6,
+      "place": "GERENKOVA-INCIRLIOVA (AYDIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T08:27:58+03:00",
+          "latitude": 37.8523,
+          "longitude": 27.7475,
+          "depth": 17.6,
+          "magnitude": 1.6,
+          "place": "GERENKOVA-INCIRLIOVA (AYDIN)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-75aea5ee",
       "source": "KANDILLI",
