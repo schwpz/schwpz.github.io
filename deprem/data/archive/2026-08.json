@@ -1,8 +1,116 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T05:18:52.978Z",
+  "updatedAt": "2026-08-25T05:51:16.671Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-75aea5ee",
+      "source": "KANDILLI",
+      "sourceId": "k-75aea5ee",
+      "time": "2026-08-25T08:21:49+03:00",
+      "latitude": 37.8888,
+      "longitude": 27.578,
+      "depth": 4.1,
+      "magnitude": 2.6,
+      "place": "HIDIRBEYLI-GERMENCIK (AYDIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T08:21:49+03:00",
+          "latitude": 37.8888,
+          "longitude": 27.578,
+          "depth": 4.1,
+          "magnitude": 2.6,
+          "place": "HIDIRBEYLI-GERMENCIK (AYDIN)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8404386f",
+      "source": "KANDILLI",
+      "sourceId": "k-8404386f",
+      "time": "2026-08-25T08:00:41+03:00",
+      "latitude": 39.3048,
+      "longitude": 25.4802,
+      "depth": 6.4,
+      "magnitude": 2.2,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T08:00:41+03:00",
+          "latitude": 39.3048,
+          "longitude": 25.4802,
+          "depth": 6.4,
+          "magnitude": 2.2,
+          "place": "EGE DENIZI",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8daf2d54",
+      "source": "KANDILLI",
+      "sourceId": "k-8daf2d54",
+      "time": "2026-08-25T07:50:49+03:00",
+      "latitude": 40.8018,
+      "longitude": 31.3842,
+      "depth": 3,
+      "magnitude": 1.4,
+      "place": "DARIYERIHASANBEY-KAYNASLI (DUZCE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T07:50:49+03:00",
+          "latitude": 40.8018,
+          "longitude": 31.3842,
+          "depth": 3,
+          "magnitude": 1.4,
+          "place": "DARIYERIHASANBEY-KAYNASLI (DUZCE)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-210a73da",
+      "source": "KANDILLI",
+      "sourceId": "k-210a73da",
+      "time": "2026-08-25T07:48:06+03:00",
+      "latitude": 40.833,
+      "longitude": 31.4208,
+      "depth": 8,
+      "magnitude": 1.7,
+      "place": "DARIYERIHASANBEY-KAYNASLI (DUZCE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T07:48:06+03:00",
+          "latitude": 40.833,
+          "longitude": 31.4208,
+          "depth": 8,
+          "magnitude": 1.7,
+          "place": "DARIYERIHASANBEY-KAYNASLI (DUZCE)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-55a390cf",
       "source": "KANDILLI",
