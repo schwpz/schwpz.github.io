@@ -1,6 +1,6 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T19:48:57.506Z",
+  "updatedAt": "2026-08-25T20:10:44.100Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -130,6 +130,33 @@
           "magnitude": 1.4,
           "place": "SAHINKAYA-SINDIRGI (BALIKESIR)",
           "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d967a349",
+      "source": "KANDILLI",
+      "sourceId": "k-d967a349",
+      "time": "2026-08-25T20:40:04+03:00",
+      "latitude": 37.793,
+      "longitude": 36.7127,
+      "depth": 9,
+      "magnitude": 1.6,
+      "place": "SUCATI-(KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T20:40:04+03:00",
+          "latitude": 37.793,
+          "longitude": 36.7127,
+          "depth": 9,
+          "magnitude": 1.6,
+          "place": "SUCATI-(KAHRAMANMARAS)",
+          "ml": 1.6,
           "mw": null,
           "md": null
         }
