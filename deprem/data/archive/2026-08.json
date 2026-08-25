@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T17:32:37.383Z",
+  "updatedAt": "2026-08-25T19:18:17.005Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-cd4bcee8",
+      "source": "KANDILLI",
+      "sourceId": "k-cd4bcee8",
+      "time": "2026-08-25T21:43:51+03:00",
+      "latitude": 38.1277,
+      "longitude": 38.367,
+      "depth": 5,
+      "magnitude": 4.1,
+      "place": "SALKONAK-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T21:43:51+03:00",
+          "latitude": 38.1277,
+          "longitude": 38.367,
+          "depth": 5,
+          "magnitude": 4.1,
+          "place": "SALKONAK-YESILYURT (MALATYA)",
+          "ml": 4.1,
+          "mw": 4,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a8786d9f",
+      "source": "KANDILLI",
+      "sourceId": "k-a8786d9f",
+      "time": "2026-08-25T21:40:33+03:00",
+      "latitude": 38.1215,
+      "longitude": 38.4017,
+      "depth": 5,
+      "magnitude": 3.6,
+      "place": "SALKONAK-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T21:40:33+03:00",
+          "latitude": 38.1215,
+          "longitude": 38.4017,
+          "depth": 5,
+          "magnitude": 3.6,
+          "place": "SALKONAK-YESILYURT (MALATYA)",
+          "ml": 3.6,
+          "mw": 3.7,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-8e53876c",
       "source": "KANDILLI",
