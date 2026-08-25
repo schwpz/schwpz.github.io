@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T19:18:17.005Z",
+  "updatedAt": "2026-08-25T19:48:57.506Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-f4fd17da",
+      "source": "KANDILLI",
+      "sourceId": "k-f4fd17da",
+      "time": "2026-08-25T22:27:11+03:00",
+      "latitude": 38.135,
+      "longitude": 38.3853,
+      "depth": 5,
+      "magnitude": 3.5,
+      "place": "SALKONAK-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T22:27:11+03:00",
+          "latitude": 38.135,
+          "longitude": 38.3853,
+          "depth": 5,
+          "magnitude": 3.5,
+          "place": "SALKONAK-YESILYURT (MALATYA)",
+          "ml": 3.5,
+          "mw": 3.6,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6bc81958",
+      "source": "KANDILLI",
+      "sourceId": "k-6bc81958",
+      "time": "2026-08-25T22:10:11+03:00",
+      "latitude": 38.1232,
+      "longitude": 38.4223,
+      "depth": 1.1,
+      "magnitude": 2.5,
+      "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T22:10:11+03:00",
+          "latitude": 38.1232,
+          "longitude": 38.4223,
+          "depth": 1.1,
+          "magnitude": 2.5,
+          "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-cd4bcee8",
       "source": "KANDILLI",
@@ -50,6 +104,33 @@
           "place": "SALKONAK-YESILYURT (MALATYA)",
           "ml": 3.6,
           "mw": 3.7,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ae2d0399",
+      "source": "KANDILLI",
+      "sourceId": "k-ae2d0399",
+      "time": "2026-08-25T20:47:55+03:00",
+      "latitude": 39.1975,
+      "longitude": 28.0103,
+      "depth": 9.3,
+      "magnitude": 1.4,
+      "place": "SAHINKAYA-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T20:47:55+03:00",
+          "latitude": 39.1975,
+          "longitude": 28.0103,
+          "depth": 9.3,
+          "magnitude": 1.4,
+          "place": "SAHINKAYA-SINDIRGI (BALIKESIR)",
+          "ml": 1.4,
+          "mw": null,
           "md": null
         }
       },
