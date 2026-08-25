@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T09:19:27.065Z",
+  "updatedAt": "2026-08-25T10:55:41.326Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-f08b2153",
+      "source": "KANDILLI",
+      "sourceId": "k-f08b2153",
+      "time": "2026-08-25T13:21:49+03:00",
+      "latitude": 39.2288,
+      "longitude": 28.101,
+      "depth": 11,
+      "magnitude": 1.7,
+      "place": "BAYIRLI-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T13:21:49+03:00",
+          "latitude": 39.2288,
+          "longitude": 28.101,
+          "depth": 11,
+          "magnitude": 1.7,
+          "place": "BAYIRLI-SINDIRGI (BALIKESIR)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-845edf97",
       "source": "KANDILLI",
