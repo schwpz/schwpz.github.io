@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T14:05:19.691Z",
+  "updatedAt": "2026-08-25T14:57:40.948Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-ba30ee03",
+      "source": "KANDILLI",
+      "sourceId": "k-ba30ee03",
+      "time": "2026-08-25T16:57:01+03:00",
+      "latitude": 38.7633,
+      "longitude": 27.1415,
+      "depth": 9,
+      "magnitude": 2.4,
+      "place": "DUZLEN-(MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T16:57:01+03:00",
+          "latitude": 38.7633,
+          "longitude": 27.1415,
+          "depth": 9,
+          "magnitude": 2.4,
+          "place": "DUZLEN-(MANISA)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-0bba466c",
       "source": "KANDILLI",
