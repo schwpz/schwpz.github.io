@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T10:55:41.326Z",
+  "updatedAt": "2026-08-25T11:20:00.785Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-01259c39",
+      "source": "KANDILLI",
+      "sourceId": "k-01259c39",
+      "time": "2026-08-25T13:59:09+03:00",
+      "latitude": 40.0573,
+      "longitude": 38.7042,
+      "depth": 3.6,
+      "magnitude": 3.1,
+      "place": "KARAYAKUP-GOLOVA (SIVAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T13:59:09+03:00",
+          "latitude": 40.0573,
+          "longitude": 38.7042,
+          "depth": 3.6,
+          "magnitude": 3.1,
+          "place": "KARAYAKUP-GOLOVA (SIVAS)",
+          "ml": 3.1,
+          "mw": 3.1,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f08b2153",
       "source": "KANDILLI",
