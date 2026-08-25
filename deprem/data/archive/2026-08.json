@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T06:20:14.971Z",
+  "updatedAt": "2026-08-25T07:13:24.452Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-77332783",
+      "source": "KANDILLI",
+      "sourceId": "k-77332783",
+      "time": "2026-08-25T08:52:01+03:00",
+      "latitude": 37.7252,
+      "longitude": 29.6562,
+      "depth": 2.4,
+      "magnitude": 1.4,
+      "place": "BEYLERLI-CARDAK (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T08:52:01+03:00",
+          "latitude": 37.7252,
+          "longitude": 29.6562,
+          "depth": 2.4,
+          "magnitude": 1.4,
+          "place": "BEYLERLI-CARDAK (DENIZLI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-d76d3912",
       "source": "KANDILLI",
