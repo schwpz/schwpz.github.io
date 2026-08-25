@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T16:17:42.387Z",
+  "updatedAt": "2026-08-25T16:58:57.773Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-2ceb0b86",
+      "source": "KANDILLI",
+      "sourceId": "k-2ceb0b86",
+      "time": "2026-08-25T18:09:25+03:00",
+      "latitude": 38.3778,
+      "longitude": 38.6862,
+      "depth": 18.5,
+      "magnitude": 1.3,
+      "place": "DARIPINAR-KALE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T18:09:25+03:00",
+          "latitude": 38.3778,
+          "longitude": 38.6862,
+          "depth": 18.5,
+          "magnitude": 1.3,
+          "place": "DARIPINAR-KALE (MALATYA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ebd01af6",
+      "source": "KANDILLI",
+      "sourceId": "k-ebd01af6",
+      "time": "2026-08-25T18:09:24+03:00",
+      "latitude": 33.9758,
+      "longitude": 25.4632,
+      "depth": 88.2,
+      "magnitude": 3,
+      "place": "GIRIT ADASI ACIKLARI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T18:09:24+03:00",
+          "latitude": 33.9758,
+          "longitude": 25.4632,
+          "depth": 88.2,
+          "magnitude": 3,
+          "place": "GIRIT ADASI ACIKLARI (AKDENIZ)",
+          "ml": 3,
+          "mw": 2.9,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-2e080c52",
       "source": "KANDILLI",
