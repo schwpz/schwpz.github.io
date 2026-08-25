@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T04:48:26.045Z",
+  "updatedAt": "2026-08-25T05:18:52.978Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-55a390cf",
+      "source": "KANDILLI",
+      "sourceId": "k-55a390cf",
+      "time": "2026-08-25T07:37:00+03:00",
+      "latitude": 35.8423,
+      "longitude": 31.3608,
+      "depth": 8.7,
+      "magnitude": 2.6,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T07:37:00+03:00",
+          "latitude": 35.8423,
+          "longitude": 31.3608,
+          "depth": 8.7,
+          "magnitude": 2.6,
+          "place": "AKDENIZ",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-4c9b9f3e",
       "source": "KANDILLI",
