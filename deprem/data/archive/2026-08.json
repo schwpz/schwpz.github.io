@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-25T11:20:00.785Z",
+  "updatedAt": "2026-08-25T14:05:19.691Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-0bba466c",
+      "source": "KANDILLI",
+      "sourceId": "k-0bba466c",
+      "time": "2026-08-25T16:19:42+03:00",
+      "latitude": 37.971,
+      "longitude": 37.6905,
+      "depth": 41.4,
+      "magnitude": 1.6,
+      "place": "KAPIDERE-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T16:19:42+03:00",
+          "latitude": 37.971,
+          "longitude": 37.6905,
+          "depth": 41.4,
+          "magnitude": 1.6,
+          "place": "KAPIDERE-DOGANSEHIR (MALATYA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e2b049de",
+      "source": "KANDILLI",
+      "sourceId": "k-e2b049de",
+      "time": "2026-08-25T15:53:43+03:00",
+      "latitude": 37.7763,
+      "longitude": 27.1537,
+      "depth": 4.1,
+      "magnitude": 1.9,
+      "place": "KUSADASI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-25T15:53:43+03:00",
+          "latitude": 37.7763,
+          "longitude": 27.1537,
+          "depth": 4.1,
+          "magnitude": 1.9,
+          "place": "KUSADASI KORFEZI (EGE DENIZI)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-01259c39",
       "source": "KANDILLI",
