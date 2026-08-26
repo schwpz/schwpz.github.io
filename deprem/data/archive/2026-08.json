@@ -1,8 +1,116 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-26T11:48:15.703Z",
+  "updatedAt": "2026-08-26T12:18:38.280Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-1cc416fe",
+      "source": "KANDILLI",
+      "sourceId": "k-1cc416fe",
+      "time": "2026-08-26T14:58:51+03:00",
+      "latitude": 38.7343,
+      "longitude": 36.5647,
+      "depth": 12.8,
+      "magnitude": 1.8,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T14:58:51+03:00",
+          "latitude": 38.7343,
+          "longitude": 36.5647,
+          "depth": 12.8,
+          "magnitude": 1.8,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-bfd8508f",
+      "source": "KANDILLI",
+      "sourceId": "k-bfd8508f",
+      "time": "2026-08-26T14:57:01+03:00",
+      "latitude": 38.7672,
+      "longitude": 36.5162,
+      "depth": 1,
+      "magnitude": 2.3,
+      "place": "ASAGIBORANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T14:57:01+03:00",
+          "latitude": 38.7672,
+          "longitude": 36.5162,
+          "depth": 1,
+          "magnitude": 2.3,
+          "place": "ASAGIBORANDERE-PINARBASI (KAYSERI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-32056989",
+      "source": "KANDILLI",
+      "sourceId": "k-32056989",
+      "time": "2026-08-26T14:53:58+03:00",
+      "latitude": 38.7537,
+      "longitude": 36.523,
+      "depth": 4.9,
+      "magnitude": 3.1,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T14:53:58+03:00",
+          "latitude": 38.7537,
+          "longitude": 36.523,
+          "depth": 4.9,
+          "magnitude": 3.1,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 3.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c9ab4187",
+      "source": "KANDILLI",
+      "sourceId": "k-c9ab4187",
+      "time": "2026-08-26T14:49:12+03:00",
+      "latitude": 39.5107,
+      "longitude": 40.1748,
+      "depth": 6.3,
+      "magnitude": 2.4,
+      "place": "DERINDERE-PULUMUR (TUNCELI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T14:49:12+03:00",
+          "latitude": 39.5107,
+          "longitude": 40.1748,
+          "depth": 6.3,
+          "magnitude": 2.4,
+          "place": "DERINDERE-PULUMUR (TUNCELI)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-2dde16b4",
       "source": "KANDILLI",
@@ -22,6 +130,33 @@
           "magnitude": 1.3,
           "place": "SALKONAK-YESILYURT (MALATYA)",
           "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c8bfeb6d",
+      "source": "KANDILLI",
+      "sourceId": "k-c8bfeb6d",
+      "time": "2026-08-26T14:25:28+03:00",
+      "latitude": 40.7037,
+      "longitude": 28.638,
+      "depth": 21.2,
+      "magnitude": 1.6,
+      "place": "MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T14:25:28+03:00",
+          "latitude": 40.7037,
+          "longitude": 28.638,
+          "depth": 21.2,
+          "magnitude": 1.6,
+          "place": "MARMARA DENIZI",
+          "ml": 1.6,
           "mw": null,
           "md": null
         }
