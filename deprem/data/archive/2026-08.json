@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-26T03:19:31.372Z",
+  "updatedAt": "2026-08-26T04:51:47.379Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-62d14bd1",
+      "source": "KANDILLI",
+      "sourceId": "k-62d14bd1",
+      "time": "2026-08-26T07:13:13+03:00",
+      "latitude": 39.6508,
+      "longitude": 38.7763,
+      "depth": 6.1,
+      "magnitude": 1.9,
+      "place": "SERINGOZE-KEMAH (ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T07:13:13+03:00",
+          "latitude": 39.6508,
+          "longitude": 38.7763,
+          "depth": 6.1,
+          "magnitude": 1.9,
+          "place": "SERINGOZE-KEMAH (ERZINCAN)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f5f5cd15",
       "source": "KANDILLI",
