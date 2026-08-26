@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-26T09:38:14.954Z",
+  "updatedAt": "2026-08-26T10:53:22.350Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-2d4dec59",
+      "source": "KANDILLI",
+      "sourceId": "k-2d4dec59",
+      "time": "2026-08-26T13:01:16+03:00",
+      "latitude": 37.0427,
+      "longitude": 29.1062,
+      "depth": 5,
+      "magnitude": 1.6,
+      "place": "SUCATI-ACIPAYAM (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T13:01:16+03:00",
+          "latitude": 37.0427,
+          "longitude": 29.1062,
+          "depth": 5,
+          "magnitude": 1.6,
+          "place": "SUCATI-ACIPAYAM (DENIZLI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-b201f83a",
       "source": "KANDILLI",
