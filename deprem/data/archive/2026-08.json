@@ -1,8 +1,35 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-26T04:51:47.379Z",
+  "updatedAt": "2026-08-26T05:20:07.443Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-d78fe079",
+      "source": "KANDILLI",
+      "sourceId": "k-d78fe079",
+      "time": "2026-08-26T07:51:43+03:00",
+      "latitude": 40.8353,
+      "longitude": 31.7362,
+      "depth": 14.5,
+      "magnitude": 1.5,
+      "place": "TETEMECELE-(BOLU)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T07:51:43+03:00",
+          "latitude": 40.8353,
+          "longitude": 31.7362,
+          "depth": 14.5,
+          "magnitude": 1.5,
+          "place": "TETEMECELE-(BOLU)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-62d14bd1",
       "source": "KANDILLI",
