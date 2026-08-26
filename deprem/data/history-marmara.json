@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-08-26T08:57:40.811Z",
+  "generatedAt": "2026-08-26T09:38:14.965Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-cb88db63",
+      "source": "KANDILLI",
+      "sourceId": "k-cb88db63",
+      "time": "2026-08-26T12:01:45+03:00",
+      "latitude": 40.4503,
+      "longitude": 29.5618,
+      "depth": 17.9,
+      "magnitude": 1,
+      "place": "BOYALICA-IZNIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T12:01:45+03:00",
+          "latitude": 40.4503,
+          "longitude": 29.5618,
+          "depth": 17.9,
+          "magnitude": 1,
+          "place": "BOYALICA-IZNIK (BURSA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-41fc5216",
       "source": "KANDILLI",

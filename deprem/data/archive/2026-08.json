@@ -1,8 +1,170 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-26T08:57:40.799Z",
+  "updatedAt": "2026-08-26T09:38:14.954Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-b201f83a",
+      "source": "KANDILLI",
+      "sourceId": "k-b201f83a",
+      "time": "2026-08-26T12:29:41+03:00",
+      "latitude": 35.3383,
+      "longitude": 33.6687,
+      "depth": 0,
+      "magnitude": 1.6,
+      "place": "KIBRIS-BESPARMAK",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T12:29:41+03:00",
+          "latitude": 35.3383,
+          "longitude": 33.6687,
+          "depth": 0,
+          "magnitude": 1.6,
+          "place": "KIBRIS-BESPARMAK",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-030877e0",
+      "source": "KANDILLI",
+      "sourceId": "k-030877e0",
+      "time": "2026-08-26T12:28:02+03:00",
+      "latitude": 37.035,
+      "longitude": 35.9208,
+      "depth": 5,
+      "magnitude": 1.3,
+      "place": "HAMDILLI-CEYHAN (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T12:28:02+03:00",
+          "latitude": 37.035,
+          "longitude": 35.9208,
+          "depth": 5,
+          "magnitude": 1.3,
+          "place": "HAMDILLI-CEYHAN (ADANA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ddfd1033",
+      "source": "KANDILLI",
+      "sourceId": "k-ddfd1033",
+      "time": "2026-08-26T12:24:19+03:00",
+      "latitude": 39.8305,
+      "longitude": 26.2608,
+      "depth": 5,
+      "magnitude": 0.6,
+      "place": "MECIDIYE-EZINE (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T12:24:19+03:00",
+          "latitude": 39.8305,
+          "longitude": 26.2608,
+          "depth": 5,
+          "magnitude": 0.6,
+          "place": "MECIDIYE-EZINE (CANAKKALE)",
+          "ml": 0.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0a2ad0c5",
+      "source": "KANDILLI",
+      "sourceId": "k-0a2ad0c5",
+      "time": "2026-08-26T12:16:34+03:00",
+      "latitude": 38.7485,
+      "longitude": 36.5583,
+      "depth": 5,
+      "magnitude": 2.4,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T12:16:34+03:00",
+          "latitude": 38.7485,
+          "longitude": 36.5583,
+          "depth": 5,
+          "magnitude": 2.4,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cb88db63",
+      "source": "KANDILLI",
+      "sourceId": "k-cb88db63",
+      "time": "2026-08-26T12:01:45+03:00",
+      "latitude": 40.4503,
+      "longitude": 29.5618,
+      "depth": 17.9,
+      "magnitude": 1,
+      "place": "BOYALICA-IZNIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T12:01:45+03:00",
+          "latitude": 40.4503,
+          "longitude": 29.5618,
+          "depth": 17.9,
+          "magnitude": 1,
+          "place": "BOYALICA-IZNIK (BURSA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-60444004",
+      "source": "KANDILLI",
+      "sourceId": "k-60444004",
+      "time": "2026-08-26T11:56:12+03:00",
+      "latitude": 36.2483,
+      "longitude": 33.7427,
+      "depth": 0,
+      "magnitude": 1.3,
+      "place": "AKDERE-SILIFKE (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T11:56:12+03:00",
+          "latitude": 36.2483,
+          "longitude": 33.7427,
+          "depth": 0,
+          "magnitude": 1.3,
+          "place": "AKDERE-SILIFKE (MERSIN)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-1d12b28a",
       "source": "KANDILLI",
