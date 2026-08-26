@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-08-26T05:54:24.046Z",
+  "generatedAt": "2026-08-26T06:28:00.498Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-41fc5216",
+      "source": "KANDILLI",
+      "sourceId": "k-41fc5216",
+      "time": "2026-08-26T08:54:39+03:00",
+      "latitude": 40.483,
+      "longitude": 29.2945,
+      "depth": 0,
+      "magnitude": 1.2,
+      "place": "ORHANGAZI (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T08:54:39+03:00",
+          "latitude": 40.483,
+          "longitude": 29.2945,
+          "depth": 0,
+          "magnitude": 1.2,
+          "place": "ORHANGAZI (BURSA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-ef908738",
       "source": "KANDILLI",
