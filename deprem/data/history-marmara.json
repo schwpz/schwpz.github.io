@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-08-26T16:33:15.133Z",
+  "generatedAt": "2026-08-26T18:20:53.257Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-278270b7",
+      "source": "KANDILLI",
+      "sourceId": "k-278270b7",
+      "time": "2026-08-26T19:49:49+03:00",
+      "latitude": 40.3577,
+      "longitude": 27.1927,
+      "depth": 12.6,
+      "magnitude": 2.5,
+      "place": "KOCAGUR-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T19:49:49+03:00",
+          "latitude": 40.3577,
+          "longitude": 27.1927,
+          "depth": 12.6,
+          "magnitude": 2.5,
+          "place": "KOCAGUR-BIGA (CANAKKALE)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c8bfeb6d",
       "source": "KANDILLI",

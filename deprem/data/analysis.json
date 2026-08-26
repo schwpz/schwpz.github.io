@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:33:15.148Z",
+  "generatedAt": "2026-08-26T18:20:53.268Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -1261,7 +1261,7 @@
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
       "events24h": 0,
-      "events7d": 147,
+      "events7d": 139,
       "events30d": 163,
       "maxMagnitude24h": 0,
       "baselineDaily": 5.62,
@@ -1273,53 +1273,53 @@
       "attention": 22,
       "swarm": {
         "detected": true,
-        "score": 76,
-        "count": 133,
-        "durationHours": 53.65,
-        "radiusKm": 4.09,
-        "areaKm2": 52.53,
+        "score": 75,
+        "count": 125,
+        "durationHours": 51.83,
+        "radiusKm": 4.15,
+        "areaKm2": 54.2,
         "maxMagnitude": 3.1,
         "secondMagnitude": 2.9,
-        "largestMomentFraction": 0.219,
+        "largestMomentFraction": 0.23,
         "centroid": {
-          "latitude": 40.77834060150375,
-          "longitude": 29.100178195488727
+          "latitude": 40.77847839999999,
+          "longitude": 29.10051920000001
         },
-        "start": "2026-08-19T16:47:09.000Z",
+        "start": "2026-08-19T18:36:04.000Z",
         "end": "2026-08-21T22:26:09.000Z"
       },
       "migration": {
         "valid": true,
-        "count": 133,
+        "count": 125,
         "reason": null,
         "speedKmPerDay": 0.8,
-        "displacementKm": 1.78,
-        "azimuthDeg": 89.6,
-        "r2": 0.033,
-        "strength": 0.023,
+        "displacementKm": 1.73,
+        "azimuthDeg": 89.5,
+        "r2": 0.03,
+        "strength": 0.021,
         "centroid": {
-          "latitude": 40.77834060150375,
-          "longitude": 29.100178195488727
+          "latitude": 40.77847839999999,
+          "longitude": 29.10051920000001
         },
-        "alongStrikeSpeedKmPerDay": 0.66,
-        "alongStrikeR2": 0.026,
-        "durationHours": 53.65
+        "alongStrikeSpeedKmPerDay": 0.68,
+        "alongStrikeR2": 0.024,
+        "durationHours": 51.83
       },
       "depthMigration": {
         "valid": true,
-        "count": 133,
-        "slopeKmPerDay": 1.31,
-        "r2": 0.036,
-        "netChangeKm": 2.93,
-        "strength": 0.036,
+        "count": 125,
+        "slopeKmPerDay": 1.76,
+        "r2": 0.061,
+        "netChangeKm": 3.8,
+        "strength": 0.061,
         "direction": "deeper"
       },
       "magnitudeTrend": {
         "valid": true,
-        "count": 133,
-        "slopePerDay": -0.178,
-        "r2": 0.033,
-        "netChange": -0.4,
+        "count": 125,
+        "slopePerDay": -0.17,
+        "r2": 0.029,
+        "netChange": -0.37,
         "accelerationStrength": 0
       },
       "quiescence": {
@@ -1360,11 +1360,11 @@
         "modelKm": 12,
         "bufferKm": 5,
         "kandilli24h": 0,
-        "kandilli7d": 139,
+        "kandilli7d": 131,
         "within24h": 0,
-        "within7d": 117,
+        "within7d": 112,
         "below24h": 0,
-        "below7d": 22,
+        "below7d": 19,
         "medianDepth24h": null,
         "closest": {
           "eventId": "k-cb235033",
@@ -1391,7 +1391,7 @@
           "outcome": "large_mainshock_without_clear_catalog_precursor",
           "mainshockMagnitude": 6,
           "mechanism": "right_lateral",
-          "similarity": 0.718,
+          "similarity": 0.719,
           "featuresUsed": 4,
           "summary": "Dense monitoring and later high-resolution catalogs found no clear precursory signal at the rupture section; some weeks-prior activity and b-value decrease occurred ~30 km away in the creeping section.",
           "sources": [
@@ -1411,7 +1411,7 @@
           "outcome": "no_large_mainshock",
           "mainshockMagnitude": null,
           "mechanism": "right_lateral_context",
-          "similarity": 0.427,
+          "similarity": 0.425,
           "featuresUsed": 8,
           "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
           "sources": [
@@ -1427,7 +1427,7 @@
           "outcome": "large_mainshock",
           "mainshockMagnitude": 7.6,
           "mechanism": "right_lateral",
-          "similarity": 0.276,
+          "similarity": 0.275,
           "featuresUsed": 7,
           "summary": "26 M0.9–2.8 foreshocks in 44 minutes; intensity built toward the mainshock and ruptures migrated systematically west-to-east toward the hypocentre.",
           "sources": [
@@ -1461,11 +1461,11 @@
       "featureVector": {
         "eventCountNorm": 1,
         "maxMagnitudeNorm": 0.47692307692307695,
-        "durationNorm": 0.7799275262460118,
-        "swarmness": 0.76,
-        "spatialConcentration": 0.31833333333333336,
-        "migrationStrength": 0.023,
-        "depthMigrationStrength": 0.036,
+        "durationNorm": 0.7733250560358702,
+        "swarmness": 0.75,
+        "spatialConcentration": 0.30833333333333324,
+        "migrationStrength": 0.021,
+        "depthMigrationStrength": 0.061,
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
@@ -1475,5 +1475,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 184
+  "historyEvents": 185
 }
