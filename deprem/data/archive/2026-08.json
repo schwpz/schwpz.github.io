@@ -1,8 +1,116 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-26T06:28:00.481Z",
+  "updatedAt": "2026-08-26T07:25:13.714Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-9959979b",
+      "source": "KANDILLI",
+      "sourceId": "k-9959979b",
+      "time": "2026-08-26T10:10:36+03:00",
+      "latitude": 38.729,
+      "longitude": 36.5363,
+      "depth": 7.7,
+      "magnitude": 2.4,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T10:10:36+03:00",
+          "latitude": 38.729,
+          "longitude": 36.5363,
+          "depth": 7.7,
+          "magnitude": 2.4,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-28af6ec5",
+      "source": "KANDILLI",
+      "sourceId": "k-28af6ec5",
+      "time": "2026-08-26T10:00:42+03:00",
+      "latitude": 38.7288,
+      "longitude": 36.4868,
+      "depth": 5.6,
+      "magnitude": 1.6,
+      "place": "GEBELEK-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T10:00:42+03:00",
+          "latitude": 38.7288,
+          "longitude": 36.4868,
+          "depth": 5.6,
+          "magnitude": 1.6,
+          "place": "GEBELEK-PINARBASI (KAYSERI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4f8f06b3",
+      "source": "KANDILLI",
+      "sourceId": "k-4f8f06b3",
+      "time": "2026-08-26T09:53:42+03:00",
+      "latitude": 38.7438,
+      "longitude": 36.5332,
+      "depth": 5,
+      "magnitude": 4,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T09:53:42+03:00",
+          "latitude": 38.7438,
+          "longitude": 36.5332,
+          "depth": 5,
+          "magnitude": 4,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 4,
+          "mw": 3.8,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3edf9096",
+      "source": "KANDILLI",
+      "sourceId": "k-3edf9096",
+      "time": "2026-08-26T09:41:53+03:00",
+      "latitude": 38.2537,
+      "longitude": 37.7372,
+      "depth": 3.1,
+      "magnitude": 2.5,
+      "place": "CEVIRME-AKCADAG (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T09:41:53+03:00",
+          "latitude": 38.2537,
+          "longitude": 37.7372,
+          "depth": 3.1,
+          "magnitude": 2.5,
+          "place": "CEVIRME-AKCADAG (MALATYA)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-41fc5216",
       "source": "KANDILLI",
