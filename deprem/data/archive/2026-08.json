@@ -1,8 +1,143 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-26T05:20:07.443Z",
+  "updatedAt": "2026-08-26T05:54:24.035Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-a1f57a77",
+      "source": "KANDILLI",
+      "sourceId": "k-a1f57a77",
+      "time": "2026-08-26T08:32:23+03:00",
+      "latitude": 39.2577,
+      "longitude": 28.9742,
+      "depth": 5.4,
+      "magnitude": 3,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T08:32:23+03:00",
+          "latitude": 39.2577,
+          "longitude": 28.9742,
+          "depth": 5.4,
+          "magnitude": 3,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-44217f09",
+      "source": "KANDILLI",
+      "sourceId": "k-44217f09",
+      "time": "2026-08-26T08:27:13+03:00",
+      "latitude": 39.2712,
+      "longitude": 28.9145,
+      "depth": 10.1,
+      "magnitude": 1.5,
+      "place": "KARAKOCA-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T08:27:13+03:00",
+          "latitude": 39.2712,
+          "longitude": 28.9145,
+          "depth": 10.1,
+          "magnitude": 1.5,
+          "place": "KARAKOCA-SIMAV (KUTAHYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-efaf6065",
+      "source": "KANDILLI",
+      "sourceId": "k-efaf6065",
+      "time": "2026-08-26T08:25:35+03:00",
+      "latitude": 35.2692,
+      "longitude": 24.5008,
+      "depth": 5.6,
+      "magnitude": 2.4,
+      "place": "GIRIT ADASI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T08:25:35+03:00",
+          "latitude": 35.2692,
+          "longitude": 24.5008,
+          "depth": 5.6,
+          "magnitude": 2.4,
+          "place": "GIRIT ADASI (AKDENIZ)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-bbf6f2e0",
+      "source": "KANDILLI",
+      "sourceId": "k-bbf6f2e0",
+      "time": "2026-08-26T08:17:41+03:00",
+      "latitude": 39.2303,
+      "longitude": 28.9062,
+      "depth": 4.2,
+      "magnitude": 2,
+      "place": "KOYUNOBA-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T08:17:41+03:00",
+          "latitude": 39.2303,
+          "longitude": 28.9062,
+          "depth": 4.2,
+          "magnitude": 2,
+          "place": "KOYUNOBA-SIMAV (KUTAHYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-41f95356",
+      "source": "KANDILLI",
+      "sourceId": "k-41f95356",
+      "time": "2026-08-26T08:08:44+03:00",
+      "latitude": 37.17,
+      "longitude": 28.4478,
+      "depth": 7.5,
+      "magnitude": 1.7,
+      "place": "YARAS-(MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T08:08:44+03:00",
+          "latitude": 37.17,
+          "longitude": 28.4478,
+          "depth": 7.5,
+          "magnitude": 1.7,
+          "place": "YARAS-(MUGLA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-d78fe079",
       "source": "KANDILLI",
