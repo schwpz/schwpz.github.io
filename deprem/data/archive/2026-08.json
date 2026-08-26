@@ -1,8 +1,143 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-26T14:10:33.655Z",
+  "updatedAt": "2026-08-26T16:33:15.119Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-0938120d",
+      "source": "KANDILLI",
+      "sourceId": "k-0938120d",
+      "time": "2026-08-26T19:18:40+03:00",
+      "latitude": 37.4747,
+      "longitude": 37.1758,
+      "depth": 6.9,
+      "magnitude": 1.6,
+      "place": "DOGANLIKARAHASAN-PAZARCIK (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T19:18:40+03:00",
+          "latitude": 37.4747,
+          "longitude": 37.1758,
+          "depth": 6.9,
+          "magnitude": 1.6,
+          "place": "DOGANLIKARAHASAN-PAZARCIK (KAHRAMANMARAS)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-756b0297",
+      "source": "KANDILLI",
+      "sourceId": "k-756b0297",
+      "time": "2026-08-26T19:16:59+03:00",
+      "latitude": 39.0722,
+      "longitude": 29.8208,
+      "depth": 5.2,
+      "magnitude": 1.9,
+      "place": "ASLIHANLAR-ASLANAPA (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T19:16:59+03:00",
+          "latitude": 39.0722,
+          "longitude": 29.8208,
+          "depth": 5.2,
+          "magnitude": 1.9,
+          "place": "ASLIHANLAR-ASLANAPA (KUTAHYA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2ec06dc2",
+      "source": "KANDILLI",
+      "sourceId": "k-2ec06dc2",
+      "time": "2026-08-26T19:15:10+03:00",
+      "latitude": 39.0473,
+      "longitude": 29.8177,
+      "depth": 7.3,
+      "magnitude": 2,
+      "place": "ISIKLAR-ALTINTAS (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T19:15:10+03:00",
+          "latitude": 39.0473,
+          "longitude": 29.8177,
+          "depth": 7.3,
+          "magnitude": 2,
+          "place": "ISIKLAR-ALTINTAS (KUTAHYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-78c95153",
+      "source": "KANDILLI",
+      "sourceId": "k-78c95153",
+      "time": "2026-08-26T19:15:03+03:00",
+      "latitude": 39.3437,
+      "longitude": 40.3048,
+      "depth": 5,
+      "magnitude": 2.5,
+      "place": "KIGI (BINGOL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T19:15:03+03:00",
+          "latitude": 39.3437,
+          "longitude": 40.3048,
+          "depth": 5,
+          "magnitude": 2.5,
+          "place": "KIGI (BINGOL)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c2bc90a5",
+      "source": "KANDILLI",
+      "sourceId": "k-c2bc90a5",
+      "time": "2026-08-26T19:07:40+03:00",
+      "latitude": 38.2307,
+      "longitude": 37.7795,
+      "depth": 12,
+      "magnitude": 2,
+      "place": "DEDEYAZI-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T19:07:40+03:00",
+          "latitude": 38.2307,
+          "longitude": 37.7795,
+          "depth": 12,
+          "magnitude": 2,
+          "place": "DEDEYAZI-DOGANSEHIR (MALATYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f915dc77",
       "source": "KANDILLI",
