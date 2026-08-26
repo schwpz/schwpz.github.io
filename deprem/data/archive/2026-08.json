@@ -1,8 +1,278 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-26T00:48:09.338Z",
+  "updatedAt": "2026-08-26T02:15:02.722Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-66a5ff1d",
+      "source": "KANDILLI",
+      "sourceId": "k-66a5ff1d",
+      "time": "2026-08-26T04:58:20+03:00",
+      "latitude": 38.1178,
+      "longitude": 38.4422,
+      "depth": 10.3,
+      "magnitude": 1.4,
+      "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T04:58:20+03:00",
+          "latitude": 38.1178,
+          "longitude": 38.4422,
+          "depth": 10.3,
+          "magnitude": 1.4,
+          "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6022f1b9",
+      "source": "KANDILLI",
+      "sourceId": "k-6022f1b9",
+      "time": "2026-08-26T04:56:38+03:00",
+      "latitude": 40.2108,
+      "longitude": 31.7148,
+      "depth": 15.8,
+      "magnitude": 1.7,
+      "place": "SEKLI-BEYPAZARI (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T04:56:38+03:00",
+          "latitude": 40.2108,
+          "longitude": 31.7148,
+          "depth": 15.8,
+          "magnitude": 1.7,
+          "place": "SEKLI-BEYPAZARI (ANKARA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a81a5595",
+      "source": "KANDILLI",
+      "sourceId": "k-a81a5595",
+      "time": "2026-08-26T04:22:33+03:00",
+      "latitude": 39.1558,
+      "longitude": 28.8685,
+      "depth": 5,
+      "magnitude": 1.1,
+      "place": "GOLKOY-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T04:22:33+03:00",
+          "latitude": 39.1558,
+          "longitude": 28.8685,
+          "depth": 5,
+          "magnitude": 1.1,
+          "place": "GOLKOY-SIMAV (KUTAHYA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c7b17c99",
+      "source": "KANDILLI",
+      "sourceId": "k-c7b17c99",
+      "time": "2026-08-26T04:22:19+03:00",
+      "latitude": 39.265,
+      "longitude": 28.9103,
+      "depth": 8.8,
+      "magnitude": 1.3,
+      "place": "KAYALIDERE-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T04:22:19+03:00",
+          "latitude": 39.265,
+          "longitude": 28.9103,
+          "depth": 8.8,
+          "magnitude": 1.3,
+          "place": "KAYALIDERE-SIMAV (KUTAHYA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d2d2933d",
+      "source": "KANDILLI",
+      "sourceId": "k-d2d2933d",
+      "time": "2026-08-26T04:21:41+03:00",
+      "latitude": 40.0045,
+      "longitude": 33.1742,
+      "depth": 10,
+      "magnitude": 1.2,
+      "place": "ELMADAG (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T04:21:41+03:00",
+          "latitude": 40.0045,
+          "longitude": 33.1742,
+          "depth": 10,
+          "magnitude": 1.2,
+          "place": "ELMADAG (ANKARA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0c42e019",
+      "source": "KANDILLI",
+      "sourceId": "k-0c42e019",
+      "time": "2026-08-26T04:19:12+03:00",
+      "latitude": 37.2702,
+      "longitude": 34.7392,
+      "depth": 11.6,
+      "magnitude": 1,
+      "place": "GULEK-TARSUS (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T04:19:12+03:00",
+          "latitude": 37.2702,
+          "longitude": 34.7392,
+          "depth": 11.6,
+          "magnitude": 1,
+          "place": "GULEK-TARSUS (MERSIN)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e4a9de48",
+      "source": "KANDILLI",
+      "sourceId": "k-e4a9de48",
+      "time": "2026-08-26T04:18:37+03:00",
+      "latitude": 38.1223,
+      "longitude": 38.4192,
+      "depth": 16.4,
+      "magnitude": 0.9,
+      "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T04:18:37+03:00",
+          "latitude": 38.1223,
+          "longitude": 38.4192,
+          "depth": 16.4,
+          "magnitude": 0.9,
+          "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7cd9d1d1",
+      "source": "KANDILLI",
+      "sourceId": "k-7cd9d1d1",
+      "time": "2026-08-26T03:56:01+03:00",
+      "latitude": 38.1348,
+      "longitude": 38.422,
+      "depth": 8.8,
+      "magnitude": 1.9,
+      "place": "SALKONAK-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T03:56:01+03:00",
+          "latitude": 38.1348,
+          "longitude": 38.422,
+          "depth": 8.8,
+          "magnitude": 1.9,
+          "place": "SALKONAK-YESILYURT (MALATYA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-138408ac",
+      "source": "KANDILLI",
+      "sourceId": "k-138408ac",
+      "time": "2026-08-26T03:40:14+03:00",
+      "latitude": 35.8717,
+      "longitude": 28.1405,
+      "depth": 8.5,
+      "magnitude": 1.8,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T03:40:14+03:00",
+          "latitude": 35.8717,
+          "longitude": 28.1405,
+          "depth": 8.5,
+          "magnitude": 1.8,
+          "place": "AKDENIZ",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-acbbe7cd",
+      "source": "KANDILLI",
+      "sourceId": "k-acbbe7cd",
+      "time": "2026-08-26T03:32:17+03:00",
+      "latitude": 39.4022,
+      "longitude": 40.1292,
+      "depth": 15.4,
+      "magnitude": 1.3,
+      "place": "AGASENLIGI-PULUMUR (TUNCELI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T03:32:17+03:00",
+          "latitude": 39.4022,
+          "longitude": 40.1292,
+          "depth": 15.4,
+          "magnitude": 1.3,
+          "place": "AGASENLIGI-PULUMUR (TUNCELI)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-0457e314",
       "source": "KANDILLI",
