@@ -1,8 +1,143 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-26T10:53:22.350Z",
+  "updatedAt": "2026-08-26T11:17:07.781Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-b6df9e26",
+      "source": "KANDILLI",
+      "sourceId": "k-b6df9e26",
+      "time": "2026-08-26T14:01:13+03:00",
+      "latitude": 37.0243,
+      "longitude": 29.3088,
+      "depth": 5.4,
+      "magnitude": 1.9,
+      "place": "CEVIZLI-CAMELI (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T14:01:13+03:00",
+          "latitude": 37.0243,
+          "longitude": 29.3088,
+          "depth": 5.4,
+          "magnitude": 1.9,
+          "place": "CEVIZLI-CAMELI (DENIZLI)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b8b7f008",
+      "source": "KANDILLI",
+      "sourceId": "k-b8b7f008",
+      "time": "2026-08-26T13:27:29+03:00",
+      "latitude": 38.6647,
+      "longitude": 39.7325,
+      "depth": 21.7,
+      "magnitude": 1.8,
+      "place": "HACISAM-KOVANCILAR (ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T13:27:29+03:00",
+          "latitude": 38.6647,
+          "longitude": 39.7325,
+          "depth": 21.7,
+          "magnitude": 1.8,
+          "place": "HACISAM-KOVANCILAR (ELAZIG)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-93ae062e",
+      "source": "KANDILLI",
+      "sourceId": "k-93ae062e",
+      "time": "2026-08-26T13:20:56+03:00",
+      "latitude": 36.6318,
+      "longitude": 29.806,
+      "depth": 12.9,
+      "magnitude": 1.5,
+      "place": "SARILAR-ELMALI (ANTALYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T13:20:56+03:00",
+          "latitude": 36.6318,
+          "longitude": 29.806,
+          "depth": 12.9,
+          "magnitude": 1.5,
+          "place": "SARILAR-ELMALI (ANTALYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0186f7db",
+      "source": "KANDILLI",
+      "sourceId": "k-0186f7db",
+      "time": "2026-08-26T13:12:03+03:00",
+      "latitude": 37.0515,
+      "longitude": 29.3182,
+      "depth": 6.1,
+      "magnitude": 2,
+      "place": "BICAKCI-CAMELI (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T13:12:03+03:00",
+          "latitude": 37.0515,
+          "longitude": 29.3182,
+          "depth": 6.1,
+          "magnitude": 2,
+          "place": "BICAKCI-CAMELI (DENIZLI)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-eb068343",
+      "source": "KANDILLI",
+      "sourceId": "k-eb068343",
+      "time": "2026-08-26T13:08:30+03:00",
+      "latitude": 39.256,
+      "longitude": 28.966,
+      "depth": 2.1,
+      "magnitude": 1.8,
+      "place": "YENILER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-26T13:08:30+03:00",
+          "latitude": 39.256,
+          "longitude": 28.966,
+          "depth": 2.1,
+          "magnitude": 1.8,
+          "place": "YENILER-SIMAV (KUTAHYA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-2d4dec59",
       "source": "KANDILLI",
