@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T15:30:12.080Z",
+  "generatedAt": "2026-08-28T00:32:13.107Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,7 +11,7 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 30,
+    "attention": 37,
     "label": "Hafif aktivite",
     "summary": "Silivri High / Batı Kumburgaz geçişi: swarm 0/100 · migration 0/100 · precursor resemblance 55/100. Olasılık değildir.",
     "eventsNearLocked5km": 0,
@@ -434,17 +434,17 @@
       "id": "central",
       "name": "Central Basin / Western High",
       "state": "creep",
-      "events24h": 1,
-      "events7d": 2,
-      "events30d": 3,
+      "events24h": 2,
+      "events7d": 3,
+      "events30d": 4,
       "maxMagnitude24h": 2.7,
       "baselineDaily": 0.15,
-      "rateRatio": 6.67,
-      "baseAttention": 33,
+      "rateRatio": 13.33,
+      "baseAttention": 43,
       "advancedSignal": 2.3,
       "analogueUplift": 1,
       "lockingDepthUplift": 0,
-      "attention": 23,
+      "attention": 29,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -461,7 +461,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -475,7 +475,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -484,7 +484,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -499,7 +499,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 3,
+          "n": 4,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -540,7 +540,7 @@
       },
       "precursorSimilarity": 55,
       "benignSimilarity": 20,
-      "analogueEvidenceQuality": 0.15,
+      "analogueEvidenceQuality": 0.16,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -626,7 +626,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0.686590617453599,
+        "rateAnomaly": 0.9374489471735833,
         "lockedContext": 0.15
       }
     },
@@ -634,17 +634,17 @@
       "id": "kumburgaz-west-transition",
       "name": "Silivri High / Batı Kumburgaz geçişi",
       "state": "transition",
-      "events24h": 1,
-      "events7d": 1,
-      "events30d": 1,
+      "events24h": 2,
+      "events7d": 2,
+      "events30d": 2,
       "maxMagnitude24h": 2.7,
       "baselineDaily": 0.15,
-      "rateRatio": 6.67,
-      "baseAttention": 41,
+      "rateRatio": 13.33,
+      "baseAttention": 51,
       "advancedSignal": 8.3,
       "analogueUplift": 1,
       "lockingDepthUplift": 0,
-      "attention": 30,
+      "attention": 37,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -661,7 +661,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -675,7 +675,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -684,7 +684,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -699,7 +699,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 1,
+          "n": 2,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -740,7 +740,7 @@
       },
       "precursorSimilarity": 55,
       "benignSimilarity": 20,
-      "analogueEvidenceQuality": 0.15,
+      "analogueEvidenceQuality": 0.16,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -826,7 +826,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0.686590617453599,
+        "rateAnomaly": 0.9374489471735833,
         "lockedContext": 0.55
       }
     },
@@ -1253,65 +1253,65 @@
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
       "events24h": 0,
-      "events7d": 37,
+      "events7d": 25,
       "events30d": 163,
       "maxMagnitude24h": 0,
       "baselineDaily": 5.62,
       "rateRatio": 0,
       "baseAttention": 15,
-      "advancedSignal": 25.1,
+      "advancedSignal": 25,
       "analogueUplift": 0,
       "lockingDepthUplift": 2,
       "attention": 21,
       "swarm": {
         "detected": true,
-        "score": 45,
-        "count": 25,
-        "durationHours": 29.89,
-        "radiusKm": 5.06,
-        "areaKm2": 80.55,
-        "maxMagnitude": 2.9,
+        "score": 50,
+        "count": 14,
+        "durationHours": 21.5,
+        "radiusKm": 6.12,
+        "areaKm2": 117.57,
+        "maxMagnitude": 1.9,
         "secondMagnitude": 1.9,
-        "largestMomentFraction": 0.828,
+        "largestMomentFraction": 0.275,
         "centroid": {
-          "latitude": 40.780207999999995,
-          "longitude": 29.108051999999994
+          "latitude": 40.77917857142857,
+          "longitude": 29.115164285714282
         },
-        "start": "2026-08-20T16:32:48.000Z",
+        "start": "2026-08-21T00:56:01.000Z",
         "end": "2026-08-21T22:26:09.000Z"
       },
       "migration": {
         "valid": true,
-        "count": 25,
+        "count": 14,
         "reason": null,
-        "speedKmPerDay": 1.94,
-        "displacementKm": 2.42,
-        "azimuthDeg": 78.1,
-        "r2": 0.052,
-        "strength": 0.05,
+        "speedKmPerDay": 1.81,
+        "displacementKm": 1.63,
+        "azimuthDeg": 75.3,
+        "r2": 0.022,
+        "strength": 0.01,
         "centroid": {
-          "latitude": 40.780207999999995,
-          "longitude": 29.108051999999994
+          "latitude": 40.77917857142857,
+          "longitude": 29.115164285714282
         },
-        "alongStrikeSpeedKmPerDay": 1.63,
-        "alongStrikeR2": 0.046,
-        "durationHours": 29.89
+        "alongStrikeSpeedKmPerDay": 0.37,
+        "alongStrikeR2": 0.001,
+        "durationHours": 21.5
       },
       "depthMigration": {
         "valid": true,
-        "count": 25,
-        "slopeKmPerDay": 5.26,
-        "r2": 0.143,
-        "netChangeKm": 6.55,
-        "strength": 0.143,
+        "count": 14,
+        "slopeKmPerDay": 7.11,
+        "r2": 0.151,
+        "netChangeKm": 6.37,
+        "strength": 0.106,
         "direction": "deeper"
       },
       "magnitudeTrend": {
         "valid": true,
-        "count": 25,
-        "slopePerDay": -0.286,
-        "r2": 0.041,
-        "netChange": -0.36,
+        "count": 14,
+        "slopePerDay": -0.014,
+        "r2": 0,
+        "netChange": -0.01,
         "accelerationStrength": 0
       },
       "quiescence": {
@@ -1352,11 +1352,11 @@
         "modelKm": 12,
         "bufferKm": 5,
         "kandilli24h": 0,
-        "kandilli7d": 34,
+        "kandilli7d": 23,
         "within24h": 0,
-        "within7d": 24,
+        "within7d": 16,
         "below24h": 0,
-        "below7d": 10,
+        "below7d": 7,
         "medianDepth24h": null,
         "closest": {
           "eventId": "k-cb235033",
@@ -1373,9 +1373,9 @@
         "scoreEligible": true,
         "warning": "Kandilli routine catalog depth; km-scale location/depth uncertainty may move an event across a nominal locking-depth boundary."
       },
-      "precursorSimilarity": 34,
-      "benignSimilarity": 33,
-      "analogueEvidenceQuality": 0.79,
+      "precursorSimilarity": 27,
+      "benignSimilarity": 31,
+      "analogueEvidenceQuality": 0.44,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -1383,7 +1383,7 @@
           "outcome": "large_mainshock_without_clear_catalog_precursor",
           "mainshockMagnitude": 6,
           "mechanism": "right_lateral",
-          "similarity": 0.792,
+          "similarity": 0.767,
           "featuresUsed": 4,
           "summary": "Dense monitoring and later high-resolution catalogs found no clear precursory signal at the rupture section; some weeks-prior activity and b-value decrease occurred ~30 km away in the creeping section.",
           "sources": [
@@ -1398,32 +1398,12 @@
           ]
         },
         {
-          "id": "marmara-2025-m62",
-          "name": "2025 Kumburgaz/Silivri Mw6.2 foreshock",
-          "outcome": "large_mainshock",
-          "mainshockMagnitude": 6.2,
-          "mechanism": "right_lateral",
-          "similarity": 0.343,
-          "featuresUsed": 6,
-          "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
-          "sources": [
-            {
-              "title": "Stein & Sevilgen 2025, Temblor",
-              "doi": "10.32858/temblor.361"
-            },
-            {
-              "title": "Alhan & Khabat 2026 preprint",
-              "doi": "10.31223/x5w78x"
-            }
-          ]
-        },
-        {
           "id": "princes-2007",
           "name": "2007 Prens Adaları benign swarm",
           "outcome": "no_large_mainshock",
           "mainshockMagnitude": null,
           "mechanism": "right_lateral_context",
-          "similarity": 0.334,
+          "similarity": 0.311,
           "featuresUsed": 8,
           "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
           "sources": [
@@ -1439,7 +1419,7 @@
           "outcome": "large_mainshock",
           "mainshockMagnitude": 7.6,
           "mechanism": "right_lateral",
-          "similarity": 0.303,
+          "similarity": 0.274,
           "featuresUsed": 7,
           "summary": "26 M0.9–2.8 foreshocks in 44 minutes; intensity built toward the mainshock and ruptures migrated systematically west-to-east toward the hypocentre.",
           "sources": [
@@ -1448,16 +1428,36 @@
               "doi": "10.1038/s41561-018-0145-1"
             }
           ]
+        },
+        {
+          "id": "marmara-2025-m62",
+          "name": "2025 Kumburgaz/Silivri Mw6.2 foreshock",
+          "outcome": "large_mainshock",
+          "mainshockMagnitude": 6.2,
+          "mechanism": "right_lateral",
+          "similarity": 0.266,
+          "featuresUsed": 6,
+          "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
+          "sources": [
+            {
+              "title": "Stein & Sevilgen 2025, Temblor",
+              "doi": "10.32858/temblor.361"
+            },
+            {
+              "title": "Alhan & Khabat 2026 preprint",
+              "doi": "10.31223/x5w78x"
+            }
+          ]
         }
       ],
       "featureVector": {
-        "eventCountNorm": 0.707486673985409,
-        "maxMagnitudeNorm": 0.4461538461538461,
-        "durationNorm": 0.6687134966137304,
-        "swarmness": 0.45,
-        "spatialConcentration": 0.15666666666666673,
-        "migrationStrength": 0.05,
-        "depthMigrationStrength": 0.143,
+        "eventCountNorm": 0.5880456295278407,
+        "maxMagnitudeNorm": 0.29230769230769227,
+        "durationNorm": 0.6069350453553866,
+        "swarmness": 0.5,
+        "spatialConcentration": 0,
+        "migrationStrength": 0.01,
+        "depthMigrationStrength": 0.106,
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
@@ -1467,5 +1467,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 186
+  "historyEvents": 187
 }
