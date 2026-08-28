@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T12:05:28.635Z",
+  "generatedAt": "2026-08-28T22:13:33.886Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,7 +11,7 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 38,
+    "attention": 37,
     "label": "Hafif aktivite",
     "summary": "Silivri High / Batı Kumburgaz geçişi: swarm 0/100 · migration 0/100 · precursor resemblance 55/100. Olasılık değildir.",
     "eventsNearLocked5km": 0,
@@ -434,17 +434,17 @@
       "id": "central",
       "name": "Central Basin / Western High",
       "state": "creep",
-      "events24h": 3,
+      "events24h": 2,
       "events7d": 5,
       "events30d": 6,
       "maxMagnitude24h": 2.7,
       "baselineDaily": 0.15,
-      "rateRatio": 20,
-      "baseAttention": 45,
+      "rateRatio": 13.33,
+      "baseAttention": 43,
       "advancedSignal": 2.3,
       "analogueUplift": 1,
       "lockingDepthUplift": 0,
-      "attention": 31,
+      "attention": 29,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -626,7 +626,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 1,
+        "rateAnomaly": 0.9374489471735833,
         "lockedContext": 0.15
       }
     },
@@ -634,17 +634,17 @@
       "id": "kumburgaz-west-transition",
       "name": "Silivri High / Batı Kumburgaz geçişi",
       "state": "transition",
-      "events24h": 3,
+      "events24h": 2,
       "events7d": 4,
       "events30d": 4,
       "maxMagnitude24h": 2.7,
       "baselineDaily": 0.15,
-      "rateRatio": 20,
-      "baseAttention": 53,
+      "rateRatio": 13.33,
+      "baseAttention": 51,
       "advancedSignal": 8.3,
       "analogueUplift": 1,
       "lockingDepthUplift": 0,
-      "attention": 38,
+      "attention": 37,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -826,7 +826,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 1,
+        "rateAnomaly": 0.9374489471735833,
         "lockedContext": 0.55
       }
     },
@@ -1253,7 +1253,7 @@
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
       "events24h": 0,
-      "events7d": 12,
+      "events7d": 11,
       "events30d": 163,
       "maxMagnitude24h": 0,
       "baselineDaily": 5.62,
@@ -1345,11 +1345,11 @@
         "modelKm": 12,
         "bufferKm": 5,
         "kandilli24h": 0,
-        "kandilli7d": 12,
+        "kandilli7d": 11,
         "within24h": 0,
         "within7d": 10,
         "below24h": 0,
-        "below7d": 2,
+        "below7d": 1,
         "medianDepth24h": null,
         "closest": {
           "eventId": "k-cb235033",
@@ -1464,5 +1464,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 191
+  "historyEvents": 193
 }
