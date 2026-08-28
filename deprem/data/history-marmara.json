@@ -1,8 +1,116 @@
 {
-  "generatedAt": "2026-08-28T00:32:13.089Z",
+  "generatedAt": "2026-08-28T12:05:28.628Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-ed147cd6",
+      "source": "KANDILLI",
+      "sourceId": "k-ed147cd6",
+      "time": "2026-08-28T13:09:38+03:00",
+      "latitude": 40.4555,
+      "longitude": 29.266,
+      "depth": 0,
+      "magnitude": 0.6,
+      "place": "GEDELEK-ORHANGAZI (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-28T13:09:38+03:00",
+          "latitude": 40.4555,
+          "longitude": 29.266,
+          "depth": 0,
+          "magnitude": 0.6,
+          "place": "GEDELEK-ORHANGAZI (BURSA)",
+          "ml": 0.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ce7491b6",
+      "source": "KANDILLI",
+      "sourceId": "k-ce7491b6",
+      "time": "2026-08-28T08:19:07+03:00",
+      "latitude": 40.8053,
+      "longitude": 28.075,
+      "depth": 14.7,
+      "magnitude": 2.7,
+      "place": "MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-28T08:19:07+03:00",
+          "latitude": 40.8053,
+          "longitude": 28.075,
+          "depth": 14.7,
+          "magnitude": 2.7,
+          "place": "MARMARA DENIZI",
+          "ml": 2.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-934d3a47",
+      "source": "KANDILLI",
+      "sourceId": "k-934d3a47",
+      "time": "2026-08-28T06:52:32+03:00",
+      "latitude": 40.7985,
+      "longitude": 28.09,
+      "depth": 12.7,
+      "magnitude": 2.4,
+      "place": "MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-28T06:52:32+03:00",
+          "latitude": 40.7985,
+          "longitude": 28.09,
+          "depth": 12.7,
+          "magnitude": 2.4,
+          "place": "MARMARA DENIZI",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-08f3efe9",
+      "source": "KANDILLI",
+      "sourceId": "k-08f3efe9",
+      "time": "2026-08-28T05:25:10+03:00",
+      "latitude": 40.275,
+      "longitude": 27.2402,
+      "depth": 6.8,
+      "magnitude": 1.4,
+      "place": "GULEC-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-28T05:25:10+03:00",
+          "latitude": 40.275,
+          "longitude": 27.2402,
+          "depth": 6.8,
+          "magnitude": 1.4,
+          "place": "GULEC-BIGA (CANAKKALE)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-8057c2ee",
       "source": "KANDILLI",
