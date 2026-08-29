@@ -1,8 +1,62 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-29T18:25:54.291Z",
+  "updatedAt": "2026-08-29T21:02:56.645Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-006e79da",
+      "source": "KANDILLI",
+      "sourceId": "k-006e79da",
+      "time": "2026-08-29T22:20:51+03:00",
+      "latitude": 39.1947,
+      "longitude": 28.076,
+      "depth": 4.9,
+      "magnitude": 1.4,
+      "place": "KERTIL-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T22:20:51+03:00",
+          "latitude": 39.1947,
+          "longitude": 28.076,
+          "depth": 4.9,
+          "magnitude": 1.4,
+          "place": "KERTIL-SINDIRGI (BALIKESIR)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-473e7770",
+      "source": "KANDILLI",
+      "sourceId": "k-473e7770",
+      "time": "2026-08-29T21:43:02+03:00",
+      "latitude": 38.5607,
+      "longitude": 42.252,
+      "depth": 5.4,
+      "magnitude": 1.9,
+      "place": "CEKMECE-TATVAN (BITLIS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T21:43:02+03:00",
+          "latitude": 38.5607,
+          "longitude": 42.252,
+          "depth": 5.4,
+          "magnitude": 1.9,
+          "place": "CEKMECE-TATVAN (BITLIS)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-5583ee7d",
       "source": "KANDILLI",
@@ -76,6 +130,33 @@
           "magnitude": 1.8,
           "place": "KARAKUTUK-KADIRLI (OSMANIYE)",
           "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-39c46925",
+      "source": "KANDILLI",
+      "sourceId": "k-39c46925",
+      "time": "2026-08-29T19:51:36+03:00",
+      "latitude": 38.2825,
+      "longitude": 37.79,
+      "depth": 11.4,
+      "magnitude": 0.8,
+      "place": "ORTAKOY-AKCADAG (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T19:51:36+03:00",
+          "latitude": 38.2825,
+          "longitude": 37.79,
+          "depth": 11.4,
+          "magnitude": 0.8,
+          "place": "ORTAKOY-AKCADAG (MALATYA)",
+          "ml": 0.8,
           "mw": null,
           "md": null
         }
