@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T03:43:07.305Z",
+  "generatedAt": "2026-08-29T10:25:52.882Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -858,60 +858,6 @@
           "magnitude": 1,
           "place": "ADALAR (ISTANBUL)",
           "ml": 1,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-e92d392f",
-      "source": "KANDILLI",
-      "sourceId": "k-e92d392f",
-      "time": "2026-08-22T20:28:27+03:00",
-      "latitude": 40.64,
-      "longitude": 29.16,
-      "depth": 9,
-      "magnitude": 2,
-      "place": "CALICA-CINARCIK (YALOVA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-22T20:28:27+03:00",
-          "latitude": 40.64,
-          "longitude": 29.16,
-          "depth": 9,
-          "magnitude": 2,
-          "place": "CALICA-CINARCIK (YALOVA)",
-          "ml": 2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-a2b89809",
-      "source": "KANDILLI",
-      "sourceId": "k-a2b89809",
-      "time": "2026-08-22T20:23:11+03:00",
-      "latitude": 40.338,
-      "longitude": 27.3542,
-      "depth": 3.4,
-      "magnitude": 1.8,
-      "place": "BOZLAR-BIGA (CANAKKALE)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-22T20:23:11+03:00",
-          "latitude": 40.338,
-          "longitude": 27.3542,
-          "depth": 3.4,
-          "magnitude": 1.8,
-          "place": "BOZLAR-BIGA (CANAKKALE)",
-          "ml": 1.8,
           "mw": null,
           "md": null
         }
