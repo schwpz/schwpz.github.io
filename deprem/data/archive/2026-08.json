@@ -1,8 +1,278 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-29T10:25:52.878Z",
+  "updatedAt": "2026-08-29T15:09:18.440Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-08594a5d",
+      "source": "KANDILLI",
+      "sourceId": "k-08594a5d",
+      "time": "2026-08-29T17:49:12+03:00",
+      "latitude": 37.0012,
+      "longitude": 28.2782,
+      "depth": 1.7,
+      "magnitude": 1.9,
+      "place": "CETIBELI-MARMARIS (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T17:49:12+03:00",
+          "latitude": 37.0012,
+          "longitude": 28.2782,
+          "depth": 1.7,
+          "magnitude": 1.9,
+          "place": "CETIBELI-MARMARIS (MUGLA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-336d474c",
+      "source": "KANDILLI",
+      "sourceId": "k-336d474c",
+      "time": "2026-08-29T17:27:46+03:00",
+      "latitude": 39.8437,
+      "longitude": 27.855,
+      "depth": 7.6,
+      "magnitude": 3,
+      "place": "BOGAZKOY-(BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T17:27:46+03:00",
+          "latitude": 39.8437,
+          "longitude": 27.855,
+          "depth": 7.6,
+          "magnitude": 3,
+          "place": "BOGAZKOY-(BALIKESIR)",
+          "ml": 3,
+          "mw": 2.8,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e5bf6527",
+      "source": "KANDILLI",
+      "sourceId": "k-e5bf6527",
+      "time": "2026-08-29T17:05:26+03:00",
+      "latitude": 39.198,
+      "longitude": 29.0237,
+      "depth": 21.7,
+      "magnitude": 1.2,
+      "place": "EGIRLER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T17:05:26+03:00",
+          "latitude": 39.198,
+          "longitude": 29.0237,
+          "depth": 21.7,
+          "magnitude": 1.2,
+          "place": "EGIRLER-SIMAV (KUTAHYA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7595435b",
+      "source": "KANDILLI",
+      "sourceId": "k-7595435b",
+      "time": "2026-08-29T16:51:05+03:00",
+      "latitude": 39.2498,
+      "longitude": 28.9173,
+      "depth": 7.2,
+      "magnitude": 3.1,
+      "place": "KAYALIDERE-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T16:51:05+03:00",
+          "latitude": 39.2498,
+          "longitude": 28.9173,
+          "depth": 7.2,
+          "magnitude": 3.1,
+          "place": "KAYALIDERE-SIMAV (KUTAHYA)",
+          "ml": 3.1,
+          "mw": 2.9,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d928b6a8",
+      "source": "KANDILLI",
+      "sourceId": "k-d928b6a8",
+      "time": "2026-08-29T16:15:17+03:00",
+      "latitude": 36.6683,
+      "longitude": 25.7432,
+      "depth": 2.1,
+      "magnitude": 2.1,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T16:15:17+03:00",
+          "latitude": 36.6683,
+          "longitude": 25.7432,
+          "depth": 2.1,
+          "magnitude": 2.1,
+          "place": "EGE DENIZI",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3a901206",
+      "source": "KANDILLI",
+      "sourceId": "k-3a901206",
+      "time": "2026-08-29T15:39:46+03:00",
+      "latitude": 37.3968,
+      "longitude": 36.1453,
+      "depth": 7.5,
+      "magnitude": 1.8,
+      "place": "SOGUTLUDERE-KADIRLI (OSMANIYE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T15:39:46+03:00",
+          "latitude": 37.3968,
+          "longitude": 36.1453,
+          "depth": 7.5,
+          "magnitude": 1.8,
+          "place": "SOGUTLUDERE-KADIRLI (OSMANIYE)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-52b72d9a",
+      "source": "KANDILLI",
+      "sourceId": "k-52b72d9a",
+      "time": "2026-08-29T15:32:50+03:00",
+      "latitude": 36.1562,
+      "longitude": 27.5443,
+      "depth": 5,
+      "magnitude": 4.2,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T15:32:50+03:00",
+          "latitude": 36.1562,
+          "longitude": 27.5443,
+          "depth": 5,
+          "magnitude": 4.2,
+          "place": "EGE DENIZI",
+          "ml": 4.2,
+          "mw": 4.1,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4680d669",
+      "source": "KANDILLI",
+      "sourceId": "k-4680d669",
+      "time": "2026-08-29T15:15:17+03:00",
+      "latitude": 39.5715,
+      "longitude": 39.669,
+      "depth": 5,
+      "magnitude": 2.1,
+      "place": "TATLISU-(ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T15:15:17+03:00",
+          "latitude": 39.5715,
+          "longitude": 39.669,
+          "depth": 5,
+          "magnitude": 2.1,
+          "place": "TATLISU-(ERZINCAN)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-75baea83",
+      "source": "KANDILLI",
+      "sourceId": "k-75baea83",
+      "time": "2026-08-29T14:52:07+03:00",
+      "latitude": 40.6228,
+      "longitude": 36.878,
+      "depth": 9.5,
+      "magnitude": 2.2,
+      "place": "YESILHISAR-NIKSAR (TOKAT)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T14:52:07+03:00",
+          "latitude": 40.6228,
+          "longitude": 36.878,
+          "depth": 9.5,
+          "magnitude": 2.2,
+          "place": "YESILHISAR-NIKSAR (TOKAT)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-95bfd1cf",
+      "source": "KANDILLI",
+      "sourceId": "k-95bfd1cf",
+      "time": "2026-08-29T12:54:23+03:00",
+      "latitude": 39.177,
+      "longitude": 28.0937,
+      "depth": 11.7,
+      "magnitude": 1.4,
+      "place": "KERTIL-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T12:54:23+03:00",
+          "latitude": 39.177,
+          "longitude": 28.0937,
+          "depth": 11.7,
+          "magnitude": 1.4,
+          "place": "KERTIL-SINDIRGI (BALIKESIR)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-d7b53a74",
       "source": "KANDILLI",
@@ -112,6 +382,33 @@
       ]
     },
     {
+      "id": "k-cc75cd3d",
+      "source": "KANDILLI",
+      "sourceId": "k-cc75cd3d",
+      "time": "2026-08-29T12:08:26+03:00",
+      "latitude": 38.5933,
+      "longitude": 38.186,
+      "depth": 4.9,
+      "magnitude": 1,
+      "place": "YAZIHAN (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T12:08:26+03:00",
+          "latitude": 38.5933,
+          "longitude": 38.186,
+          "depth": 4.9,
+          "magnitude": 1,
+          "place": "YAZIHAN (MALATYA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
       "id": "k-904a2c2a",
       "source": "KANDILLI",
       "sourceId": "k-904a2c2a",
@@ -130,6 +427,33 @@
           "magnitude": 2.3,
           "place": "AKSU-SINCIK (ADIYAMAN)",
           "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f6cc76ca",
+      "source": "KANDILLI",
+      "sourceId": "k-f6cc76ca",
+      "time": "2026-08-29T11:47:52+03:00",
+      "latitude": 39.2165,
+      "longitude": 29.0347,
+      "depth": 10.7,
+      "magnitude": 1.5,
+      "place": "EGIRLER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T11:47:52+03:00",
+          "latitude": 39.2165,
+          "longitude": 29.0347,
+          "depth": 10.7,
+          "magnitude": 1.5,
+          "place": "EGIRLER-SIMAV (KUTAHYA)",
+          "ml": 1.5,
           "mw": null,
           "md": null
         }
