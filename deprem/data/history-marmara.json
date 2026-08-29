@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-08-29T15:09:18.457Z",
+  "generatedAt": "2026-08-29T18:25:54.303Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-7242f7e8",
+      "source": "KANDILLI",
+      "sourceId": "k-7242f7e8",
+      "time": "2026-08-29T20:38:13+03:00",
+      "latitude": 40.5883,
+      "longitude": 27.2268,
+      "depth": 15,
+      "magnitude": 1.6,
+      "place": "ERIKLICE-SARKOY (TEKIRDAG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-29T20:38:13+03:00",
+          "latitude": 40.5883,
+          "longitude": 27.2268,
+          "depth": 15,
+          "magnitude": 1.6,
+          "place": "ERIKLICE-SARKOY (TEKIRDAG)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-eec9f6ec",
       "source": "KANDILLI",
