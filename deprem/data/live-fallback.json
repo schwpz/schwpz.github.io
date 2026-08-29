@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-08-29T18:25:54.296Z",
+  "generatedAt": "2026-08-29T23:13:10.052Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-db209eea",
+      "source": "KANDILLI",
+      "sourceId": "k-db209eea",
+      "time": "2026-08-30T00:41:11+03:00",
+      "latitude": 40.7698,
+      "longitude": 26.8762,
+      "depth": 15.4,
+      "magnitude": 1.7,
+      "place": "YENIDIBEK-MALKARA (TEKIRDAG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T00:41:11+03:00",
+          "latitude": 40.7698,
+          "longitude": 26.8762,
+          "depth": 15.4,
+          "magnitude": 1.7,
+          "place": "YENIDIBEK-MALKARA (TEKIRDAG)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-7242f7e8",
       "source": "KANDILLI",

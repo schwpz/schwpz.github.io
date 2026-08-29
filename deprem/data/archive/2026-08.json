@@ -1,8 +1,116 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-29T21:02:56.645Z",
+  "updatedAt": "2026-08-29T23:13:10.048Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-db209eea",
+      "source": "KANDILLI",
+      "sourceId": "k-db209eea",
+      "time": "2026-08-30T00:41:11+03:00",
+      "latitude": 40.7698,
+      "longitude": 26.8762,
+      "depth": 15.4,
+      "magnitude": 1.7,
+      "place": "YENIDIBEK-MALKARA (TEKIRDAG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T00:41:11+03:00",
+          "latitude": 40.7698,
+          "longitude": 26.8762,
+          "depth": 15.4,
+          "magnitude": 1.7,
+          "place": "YENIDIBEK-MALKARA (TEKIRDAG)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ddc8be4d",
+      "source": "KANDILLI",
+      "sourceId": "k-ddc8be4d",
+      "time": "2026-08-30T00:28:51+03:00",
+      "latitude": 38.7718,
+      "longitude": 27.114,
+      "depth": 16.7,
+      "magnitude": 2,
+      "place": "KARAKUZU-ALIAGA (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T00:28:51+03:00",
+          "latitude": 38.7718,
+          "longitude": 27.114,
+          "depth": 16.7,
+          "magnitude": 2,
+          "place": "KARAKUZU-ALIAGA (IZMIR)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e6a7f47e",
+      "source": "KANDILLI",
+      "sourceId": "k-e6a7f47e",
+      "time": "2026-08-30T00:13:13+03:00",
+      "latitude": 36.3057,
+      "longitude": 28.3737,
+      "depth": 29.3,
+      "magnitude": 1.7,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T00:13:13+03:00",
+          "latitude": 36.3057,
+          "longitude": 28.3737,
+          "depth": 29.3,
+          "magnitude": 1.7,
+          "place": "AKDENIZ",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3148f6bc",
+      "source": "KANDILLI",
+      "sourceId": "k-3148f6bc",
+      "time": "2026-08-30T00:07:34+03:00",
+      "latitude": 36.1092,
+      "longitude": 29.61,
+      "depth": 7.6,
+      "magnitude": 2.4,
+      "place": "KAS (ANTALYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T00:07:34+03:00",
+          "latitude": 36.1092,
+          "longitude": 29.61,
+          "depth": 7.6,
+          "magnitude": 2.4,
+          "place": "KAS (ANTALYA)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-006e79da",
       "source": "KANDILLI",
