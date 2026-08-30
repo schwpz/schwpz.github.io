@@ -1,8 +1,332 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-30T12:14:12.091Z",
+  "updatedAt": "2026-08-30T16:41:58.366Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-62a7791a",
+      "source": "KANDILLI",
+      "sourceId": "k-62a7791a",
+      "time": "2026-08-30T19:19:00+03:00",
+      "latitude": 36.8927,
+      "longitude": 29.0865,
+      "depth": 3.2,
+      "magnitude": 2.2,
+      "place": "DARIYERI-DALAMAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T19:19:00+03:00",
+          "latitude": 36.8927,
+          "longitude": 29.0865,
+          "depth": 3.2,
+          "magnitude": 2.2,
+          "place": "DARIYERI-DALAMAN (MUGLA)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-eea2b61a",
+      "source": "KANDILLI",
+      "sourceId": "k-eea2b61a",
+      "time": "2026-08-30T18:17:22+03:00",
+      "latitude": 39.246,
+      "longitude": 28.9048,
+      "depth": 8.2,
+      "magnitude": 1.5,
+      "place": "KAYALIDERE-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T18:17:22+03:00",
+          "latitude": 39.246,
+          "longitude": 28.9048,
+          "depth": 8.2,
+          "magnitude": 1.5,
+          "place": "KAYALIDERE-SIMAV (KUTAHYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9903633a",
+      "source": "KANDILLI",
+      "sourceId": "k-9903633a",
+      "time": "2026-08-30T17:50:36+03:00",
+      "latitude": 37.971,
+      "longitude": 37.4212,
+      "depth": 5,
+      "magnitude": 1.1,
+      "place": "NURHAK (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T17:50:36+03:00",
+          "latitude": 37.971,
+          "longitude": 37.4212,
+          "depth": 5,
+          "magnitude": 1.1,
+          "place": "NURHAK (KAHRAMANMARAS)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-17b9f734",
+      "source": "KANDILLI",
+      "sourceId": "k-17b9f734",
+      "time": "2026-08-30T16:40:34+03:00",
+      "latitude": 36.8738,
+      "longitude": 29.081,
+      "depth": 17.4,
+      "magnitude": 1.5,
+      "place": "DARIYERI-DALAMAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T16:40:34+03:00",
+          "latitude": 36.8738,
+          "longitude": 29.081,
+          "depth": 17.4,
+          "magnitude": 1.5,
+          "place": "DARIYERI-DALAMAN (MUGLA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ed9219f4",
+      "source": "KANDILLI",
+      "sourceId": "k-ed9219f4",
+      "time": "2026-08-30T16:31:14+03:00",
+      "latitude": 36.871,
+      "longitude": 29.1303,
+      "depth": 11.5,
+      "magnitude": 2.1,
+      "place": "DARIYERI-DALAMAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T16:31:14+03:00",
+          "latitude": 36.871,
+          "longitude": 29.1303,
+          "depth": 11.5,
+          "magnitude": 2.1,
+          "place": "DARIYERI-DALAMAN (MUGLA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a8fe13f4",
+      "source": "KANDILLI",
+      "sourceId": "k-a8fe13f4",
+      "time": "2026-08-30T15:50:09+03:00",
+      "latitude": 37.8233,
+      "longitude": 27.4787,
+      "depth": 14.2,
+      "magnitude": 2.2,
+      "place": "ARGAVLI-SOKE (AYDIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T15:50:09+03:00",
+          "latitude": 37.8233,
+          "longitude": 27.4787,
+          "depth": 14.2,
+          "magnitude": 2.2,
+          "place": "ARGAVLI-SOKE (AYDIN)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b8104a9d",
+      "source": "KANDILLI",
+      "sourceId": "k-b8104a9d",
+      "time": "2026-08-30T15:49:46+03:00",
+      "latitude": 38.7995,
+      "longitude": 23.2897,
+      "depth": 22.6,
+      "magnitude": 2.8,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T15:49:46+03:00",
+          "latitude": 38.7995,
+          "longitude": 23.2897,
+          "depth": 22.6,
+          "magnitude": 2.8,
+          "place": "YUNANISTAN",
+          "ml": 2.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cef90567",
+      "source": "KANDILLI",
+      "sourceId": "k-cef90567",
+      "time": "2026-08-30T15:07:24+03:00",
+      "latitude": 37.9433,
+      "longitude": 37.8263,
+      "depth": 5.1,
+      "magnitude": 1.4,
+      "place": "KARANLIKDERE-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T15:07:24+03:00",
+          "latitude": 37.9433,
+          "longitude": 37.8263,
+          "depth": 5.1,
+          "magnitude": 1.4,
+          "place": "KARANLIKDERE-DOGANSEHIR (MALATYA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e79d179c",
+      "source": "KANDILLI",
+      "sourceId": "k-e79d179c",
+      "time": "2026-08-30T15:07:19+03:00",
+      "latitude": 39.272,
+      "longitude": 28.13,
+      "depth": 14.6,
+      "magnitude": 1.5,
+      "place": "IBILLER-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T15:07:19+03:00",
+          "latitude": 39.272,
+          "longitude": 28.13,
+          "depth": 14.6,
+          "magnitude": 1.5,
+          "place": "IBILLER-SINDIRGI (BALIKESIR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-77cffc6e",
+      "source": "KANDILLI",
+      "sourceId": "k-77cffc6e",
+      "time": "2026-08-30T14:41:53+03:00",
+      "latitude": 37.104,
+      "longitude": 37.006,
+      "depth": 9.3,
+      "magnitude": 1.6,
+      "place": "KARTALKOY-NURDAGI (GAZIANTEP)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T14:41:53+03:00",
+          "latitude": 37.104,
+          "longitude": 37.006,
+          "depth": 9.3,
+          "magnitude": 1.6,
+          "place": "KARTALKOY-NURDAGI (GAZIANTEP)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-550c7cd5",
+      "source": "KANDILLI",
+      "sourceId": "k-550c7cd5",
+      "time": "2026-08-30T14:33:29+03:00",
+      "latitude": 39.1915,
+      "longitude": 40.2745,
+      "depth": 21.2,
+      "magnitude": 2,
+      "place": "DARKOPRU-KIGI (BINGOL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T14:33:29+03:00",
+          "latitude": 39.1915,
+          "longitude": 40.2745,
+          "depth": 21.2,
+          "magnitude": 2,
+          "place": "DARKOPRU-KIGI (BINGOL)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-08aee826",
+      "source": "KANDILLI",
+      "sourceId": "k-08aee826",
+      "time": "2026-08-30T14:32:12+03:00",
+      "latitude": 39.2033,
+      "longitude": 40.2013,
+      "depth": 5.4,
+      "magnitude": 2,
+      "place": "ZEYNELLI-YAYLADERE (BINGOL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T14:32:12+03:00",
+          "latitude": 39.2033,
+          "longitude": 40.2013,
+          "depth": 5.4,
+          "magnitude": 2,
+          "place": "ZEYNELLI-YAYLADERE (BINGOL)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c84dadd0",
       "source": "KANDILLI",
