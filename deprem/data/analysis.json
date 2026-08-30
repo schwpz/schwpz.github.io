@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T23:13:10.064Z",
+  "generatedAt": "2026-08-30T01:15:17.330Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -1261,7 +1261,7 @@
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
       "events24h": 0,
-      "events7d": 10,
+      "events7d": 9,
       "events30d": 163,
       "maxMagnitude24h": 0,
       "baselineDaily": 5.62,
@@ -1269,8 +1269,8 @@
       "baseAttention": 15,
       "advancedSignal": 15,
       "analogueUplift": 0,
-      "lockingDepthUplift": 2,
-      "attention": 17,
+      "lockingDepthUplift": 1,
+      "attention": 16,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -1353,9 +1353,9 @@
         "modelKm": 12,
         "bufferKm": 5,
         "kandilli24h": 0,
-        "kandilli7d": 10,
+        "kandilli7d": 9,
         "within24h": 0,
-        "within7d": 9,
+        "within7d": 8,
         "below24h": 0,
         "below7d": 1,
         "medianDepth24h": null,
@@ -1367,7 +1367,7 @@
           "horizontalDistanceKm": 0.04,
           "relation": "within"
         },
-        "strength": 0.262,
+        "strength": 0.233,
         "label": "0–10 km: doğrudan sismik boşluk/aseismik patch gözlemi; 2026 GNSS+InSAR bölgesel modelinde çoğunlukla ~12 km’ye kadar kilitli.",
         "citation": "Bohnhoff et al. 2013 Nat Commun; Schmittbuhl et al. 2016 G3; Klein et al. 2026 EGU26-18025",
         "confidence": "yüksek",
