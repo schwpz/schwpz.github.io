@@ -1,8 +1,170 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-30T16:41:58.366Z",
+  "updatedAt": "2026-08-30T19:26:50.518Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c596cbbe",
+      "source": "KANDILLI",
+      "sourceId": "k-c596cbbe",
+      "time": "2026-08-30T22:00:25+03:00",
+      "latitude": 36.9012,
+      "longitude": 29.0797,
+      "depth": 7.3,
+      "magnitude": 1.7,
+      "place": "GURLEYIK-DALAMAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T22:00:25+03:00",
+          "latitude": 36.9012,
+          "longitude": 29.0797,
+          "depth": 7.3,
+          "magnitude": 1.7,
+          "place": "GURLEYIK-DALAMAN (MUGLA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4e72e285",
+      "source": "KANDILLI",
+      "sourceId": "k-4e72e285",
+      "time": "2026-08-30T21:33:05+03:00",
+      "latitude": 40.8732,
+      "longitude": 31.7258,
+      "depth": 4.6,
+      "magnitude": 1.5,
+      "place": "TETEMECELE-(BOLU)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T21:33:05+03:00",
+          "latitude": 40.8732,
+          "longitude": 31.7258,
+          "depth": 4.6,
+          "magnitude": 1.5,
+          "place": "TETEMECELE-(BOLU)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3a260f82",
+      "source": "KANDILLI",
+      "sourceId": "k-3a260f82",
+      "time": "2026-08-30T21:19:15+03:00",
+      "latitude": 39.1757,
+      "longitude": 28.1523,
+      "depth": 8.3,
+      "magnitude": 1.7,
+      "place": "SINANDEDE-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T21:19:15+03:00",
+          "latitude": 39.1757,
+          "longitude": 28.1523,
+          "depth": 8.3,
+          "magnitude": 1.7,
+          "place": "SINANDEDE-SINDIRGI (BALIKESIR)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b452e820",
+      "source": "KANDILLI",
+      "sourceId": "k-b452e820",
+      "time": "2026-08-30T20:08:24+03:00",
+      "latitude": 36.0343,
+      "longitude": 27.2505,
+      "depth": 9.2,
+      "magnitude": 3.2,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T20:08:24+03:00",
+          "latitude": 36.0343,
+          "longitude": 27.2505,
+          "depth": 9.2,
+          "magnitude": 3.2,
+          "place": "EGE DENIZI",
+          "ml": 3.2,
+          "mw": 3.3,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0d607bc5",
+      "source": "KANDILLI",
+      "sourceId": "k-0d607bc5",
+      "time": "2026-08-30T20:08:14+03:00",
+      "latitude": 38.1577,
+      "longitude": 38.5502,
+      "depth": 5.3,
+      "magnitude": 1.8,
+      "place": "ULUKOY-(MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T20:08:14+03:00",
+          "latitude": 38.1577,
+          "longitude": 38.5502,
+          "depth": 5.3,
+          "magnitude": 1.8,
+          "place": "ULUKOY-(MALATYA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b285ca22",
+      "source": "KANDILLI",
+      "sourceId": "k-b285ca22",
+      "time": "2026-08-30T19:46:11+03:00",
+      "latitude": 37.151,
+      "longitude": 31.9445,
+      "depth": 9.5,
+      "magnitude": 1.9,
+      "place": "KARAKISLA-AKSEKI (ANTALYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T19:46:11+03:00",
+          "latitude": 37.151,
+          "longitude": 31.9445,
+          "depth": 9.5,
+          "magnitude": 1.9,
+          "place": "KARAKISLA-AKSEKI (ANTALYA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-62a7791a",
       "source": "KANDILLI",
