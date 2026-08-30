@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-08-30T01:15:17.314Z",
+  "generatedAt": "2026-08-30T06:42:15.256Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-40979d32",
+      "source": "KANDILLI",
+      "sourceId": "k-40979d32",
+      "time": "2026-08-30T06:46:07+03:00",
+      "latitude": 40.6387,
+      "longitude": 28.9745,
+      "depth": 5.3,
+      "magnitude": 1.6,
+      "place": "ESENKOY-CINARCIK (YALOVA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T06:46:07+03:00",
+          "latitude": 40.6387,
+          "longitude": 28.9745,
+          "depth": 5.3,
+          "magnitude": 1.6,
+          "place": "ESENKOY-CINARCIK (YALOVA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-db209eea",
       "source": "KANDILLI",
@@ -831,33 +858,6 @@
           "magnitude": 1.5,
           "place": "ADALAR (ISTANBUL)",
           "ml": 1.5,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-9de33309",
-      "source": "KANDILLI",
-      "sourceId": "k-9de33309",
-      "time": "2026-08-23T07:42:18+03:00",
-      "latitude": 40.6498,
-      "longitude": 27.8898,
-      "depth": 6.2,
-      "magnitude": 1.4,
-      "place": "MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-23T07:42:18+03:00",
-          "latitude": 40.6498,
-          "longitude": 27.8898,
-          "depth": 6.2,
-          "magnitude": 1.4,
-          "place": "MARMARA DENIZI",
-          "ml": 1.4,
           "mw": null,
           "md": null
         }

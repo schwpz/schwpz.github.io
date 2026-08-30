@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-08-30T01:15:17.322Z",
+  "generatedAt": "2026-08-30T06:42:15.273Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-40979d32",
+      "source": "KANDILLI",
+      "sourceId": "k-40979d32",
+      "time": "2026-08-30T06:46:07+03:00",
+      "latitude": 40.6387,
+      "longitude": 28.9745,
+      "depth": 5.3,
+      "magnitude": 1.6,
+      "place": "ESENKOY-CINARCIK (YALOVA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T06:46:07+03:00",
+          "latitude": 40.6387,
+          "longitude": 28.9745,
+          "depth": 5.3,
+          "magnitude": 1.6,
+          "place": "ESENKOY-CINARCIK (YALOVA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-db209eea",
       "source": "KANDILLI",
