@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T06:42:15.281Z",
+  "generatedAt": "2026-08-30T12:14:12.121Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -442,9 +442,9 @@
       "rateRatio": 0,
       "baseAttention": 0,
       "advancedSignal": 2.3,
-      "analogueUplift": 1,
+      "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 2,
+      "attention": 1,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -461,7 +461,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 4,
+        "count": 3,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -475,7 +475,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 4,
+        "count": 3,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -484,7 +484,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 4,
+        "count": 3,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -540,7 +540,7 @@
       },
       "precursorSimilarity": 42,
       "benignSimilarity": 10,
-      "analogueEvidenceQuality": 0.18,
+      "analogueEvidenceQuality": 0.17,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -646,9 +646,9 @@
       "rateRatio": 0,
       "baseAttention": 8,
       "advancedSignal": 8.3,
-      "analogueUplift": 1,
+      "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 9,
+      "attention": 8,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -665,7 +665,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 4,
+        "count": 3,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -679,7 +679,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 4,
+        "count": 3,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -688,7 +688,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 4,
+        "count": 3,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -744,7 +744,7 @@
       },
       "precursorSimilarity": 42,
       "benignSimilarity": 10,
-      "analogueEvidenceQuality": 0.18,
+      "analogueEvidenceQuality": 0.17,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -1261,7 +1261,7 @@
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
       "events24h": 0,
-      "events7d": 9,
+      "events7d": 8,
       "events30d": 163,
       "maxMagnitude24h": 0,
       "baselineDaily": 5.62,
@@ -1353,9 +1353,9 @@
         "modelKm": 12,
         "bufferKm": 5,
         "kandilli24h": 0,
-        "kandilli7d": 9,
+        "kandilli7d": 8,
         "within24h": 0,
-        "within7d": 8,
+        "within7d": 7,
         "below24h": 0,
         "below7d": 1,
         "medianDepth24h": null,
@@ -1367,7 +1367,7 @@
           "horizontalDistanceKm": 0.04,
           "relation": "within"
         },
-        "strength": 0.233,
+        "strength": 0.204,
         "label": "0–10 km: doğrudan sismik boşluk/aseismik patch gözlemi; 2026 GNSS+InSAR bölgesel modelinde çoğunlukla ~12 km’ye kadar kilitli.",
         "citation": "Bohnhoff et al. 2013 Nat Commun; Schmittbuhl et al. 2016 G3; Klein et al. 2026 EGU26-18025",
         "confidence": "yüksek",
@@ -1472,5 +1472,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 197
+  "historyEvents": 198
 }

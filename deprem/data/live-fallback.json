@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-08-30T06:42:15.256Z",
+  "generatedAt": "2026-08-30T12:14:12.095Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-024cedd9",
+      "source": "KANDILLI",
+      "sourceId": "k-024cedd9",
+      "time": "2026-08-30T10:48:01+03:00",
+      "latitude": 40.4645,
+      "longitude": 26.316,
+      "depth": 7.2,
+      "magnitude": 1.6,
+      "place": "SAROS KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-30T10:48:01+03:00",
+          "latitude": 40.4645,
+          "longitude": 26.316,
+          "depth": 7.2,
+          "magnitude": 1.6,
+          "place": "SAROS KORFEZI (EGE DENIZI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-40979d32",
       "source": "KANDILLI",
@@ -831,33 +858,6 @@
           "magnitude": 1.7,
           "place": "ADALAR (ISTANBUL)",
           "ml": 1.7,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-dd697642",
-      "source": "KANDILLI",
-      "sourceId": "k-dd697642",
-      "time": "2026-08-23T11:04:04+03:00",
-      "latitude": 40.784,
-      "longitude": 29.0845,
-      "depth": 9.3,
-      "magnitude": 1.5,
-      "place": "ADALAR (ISTANBUL)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-23T11:04:04+03:00",
-          "latitude": 40.784,
-          "longitude": 29.0845,
-          "depth": 9.3,
-          "magnitude": 1.5,
-          "place": "ADALAR (ISTANBUL)",
-          "ml": 1.5,
           "mw": null,
           "md": null
         }
