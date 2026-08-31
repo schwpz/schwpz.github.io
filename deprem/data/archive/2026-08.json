@@ -1,8 +1,332 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-31T00:10:42.629Z",
+  "updatedAt": "2026-08-31T05:28:56.374Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-f3d06ad6",
+      "source": "KANDILLI",
+      "sourceId": "k-f3d06ad6",
+      "time": "2026-08-31T07:13:21+03:00",
+      "latitude": 40.0382,
+      "longitude": 23.7017,
+      "depth": 24.7,
+      "magnitude": 2,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T07:13:21+03:00",
+          "latitude": 40.0382,
+          "longitude": 23.7017,
+          "depth": 24.7,
+          "magnitude": 2,
+          "place": "YUNANISTAN",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3031d8b7",
+      "source": "KANDILLI",
+      "sourceId": "k-3031d8b7",
+      "time": "2026-08-31T06:18:30+03:00",
+      "latitude": 38.1163,
+      "longitude": 32.5405,
+      "depth": 5.4,
+      "magnitude": 0.7,
+      "place": "CALTI-SELCUKLU (KONYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T06:18:30+03:00",
+          "latitude": 38.1163,
+          "longitude": 32.5405,
+          "depth": 5.4,
+          "magnitude": 0.7,
+          "place": "CALTI-SELCUKLU (KONYA)",
+          "ml": 0.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-648df15a",
+      "source": "KANDILLI",
+      "sourceId": "k-648df15a",
+      "time": "2026-08-31T06:11:38+03:00",
+      "latitude": 38.9185,
+      "longitude": 23.6627,
+      "depth": 5,
+      "magnitude": 1.8,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T06:11:38+03:00",
+          "latitude": 38.9185,
+          "longitude": 23.6627,
+          "depth": 5,
+          "magnitude": 1.8,
+          "place": "YUNANISTAN",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-67839637",
+      "source": "KANDILLI",
+      "sourceId": "k-67839637",
+      "time": "2026-08-31T06:03:11+03:00",
+      "latitude": 38.2408,
+      "longitude": 37.7775,
+      "depth": 12.1,
+      "magnitude": 1.9,
+      "place": "CEVIRME-AKCADAG (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T06:03:11+03:00",
+          "latitude": 38.2408,
+          "longitude": 37.7775,
+          "depth": 12.1,
+          "magnitude": 1.9,
+          "place": "CEVIRME-AKCADAG (MALATYA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2dadcb30",
+      "source": "KANDILLI",
+      "sourceId": "k-2dadcb30",
+      "time": "2026-08-31T05:56:11+03:00",
+      "latitude": 38.5005,
+      "longitude": 26.4515,
+      "depth": 9.5,
+      "magnitude": 1.8,
+      "place": "YAYLAKOY-KARABURUN (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T05:56:11+03:00",
+          "latitude": 38.5005,
+          "longitude": 26.4515,
+          "depth": 9.5,
+          "magnitude": 1.8,
+          "place": "YAYLAKOY-KARABURUN (IZMIR)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-689000ab",
+      "source": "KANDILLI",
+      "sourceId": "k-689000ab",
+      "time": "2026-08-31T05:23:12+03:00",
+      "latitude": 40.9325,
+      "longitude": 41.7693,
+      "depth": 5.1,
+      "magnitude": 1.4,
+      "place": "CAGLIYAN-YUSUFELI (ARTVIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T05:23:12+03:00",
+          "latitude": 40.9325,
+          "longitude": 41.7693,
+          "depth": 5.1,
+          "magnitude": 1.4,
+          "place": "CAGLIYAN-YUSUFELI (ARTVIN)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-dc88ff72",
+      "source": "KANDILLI",
+      "sourceId": "k-dc88ff72",
+      "time": "2026-08-31T05:06:37+03:00",
+      "latitude": 37.8678,
+      "longitude": 29.4663,
+      "depth": 10.7,
+      "magnitude": 1,
+      "place": "YOKUSBASI-HONAZ (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T05:06:37+03:00",
+          "latitude": 37.8678,
+          "longitude": 29.4663,
+          "depth": 10.7,
+          "magnitude": 1,
+          "place": "YOKUSBASI-HONAZ (DENIZLI)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-28f5dfa2",
+      "source": "KANDILLI",
+      "sourceId": "k-28f5dfa2",
+      "time": "2026-08-31T05:01:10+03:00",
+      "latitude": 38.8523,
+      "longitude": 37.456,
+      "depth": 8.2,
+      "magnitude": 1.8,
+      "place": "ESKIHAMAL-GURUN (SIVAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T05:01:10+03:00",
+          "latitude": 38.8523,
+          "longitude": 37.456,
+          "depth": 8.2,
+          "magnitude": 1.8,
+          "place": "ESKIHAMAL-GURUN (SIVAS)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b56e20d9",
+      "source": "KANDILLI",
+      "sourceId": "k-b56e20d9",
+      "time": "2026-08-31T04:10:30+03:00",
+      "latitude": 38.8285,
+      "longitude": 37.4852,
+      "depth": 5,
+      "magnitude": 2.8,
+      "place": "BAGLICAY-GURUN (SIVAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T04:10:30+03:00",
+          "latitude": 38.8285,
+          "longitude": 37.4852,
+          "depth": 5,
+          "magnitude": 2.8,
+          "place": "BAGLICAY-GURUN (SIVAS)",
+          "ml": 2.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e6e4e9ba",
+      "source": "KANDILLI",
+      "sourceId": "k-e6e4e9ba",
+      "time": "2026-08-31T03:33:26+03:00",
+      "latitude": 40.9913,
+      "longitude": 26.6703,
+      "depth": 13.9,
+      "magnitude": 0.6,
+      "place": "KARACAALI-KESAN (EDIRNE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T03:33:26+03:00",
+          "latitude": 40.9913,
+          "longitude": 26.6703,
+          "depth": 13.9,
+          "magnitude": 0.6,
+          "place": "KARACAALI-KESAN (EDIRNE)",
+          "ml": 0.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7c11f80f",
+      "source": "KANDILLI",
+      "sourceId": "k-7c11f80f",
+      "time": "2026-08-31T03:09:04+03:00",
+      "latitude": 40.4028,
+      "longitude": 27.22,
+      "depth": 5,
+      "magnitude": 1.8,
+      "place": "ORTULUCE-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T03:09:04+03:00",
+          "latitude": 40.4028,
+          "longitude": 27.22,
+          "depth": 5,
+          "magnitude": 1.8,
+          "place": "ORTULUCE-BIGA (CANAKKALE)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9a6090f9",
+      "source": "KANDILLI",
+      "sourceId": "k-9a6090f9",
+      "time": "2026-08-31T03:07:06+03:00",
+      "latitude": 39.2527,
+      "longitude": 28.9938,
+      "depth": 10.7,
+      "magnitude": 1,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T03:07:06+03:00",
+          "latitude": 39.2527,
+          "longitude": 28.9938,
+          "depth": 10.7,
+          "magnitude": 1,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-d18e99cc",
       "source": "KANDILLI",
