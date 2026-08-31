@@ -1,8 +1,305 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-30T21:57:10.754Z",
+  "updatedAt": "2026-08-31T00:10:42.629Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-d18e99cc",
+      "source": "KANDILLI",
+      "sourceId": "k-d18e99cc",
+      "time": "2026-08-31T02:51:10+03:00",
+      "latitude": 38.3233,
+      "longitude": 28.1953,
+      "depth": 3.6,
+      "magnitude": 0.9,
+      "place": "CATAK-KIRAZ (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T02:51:10+03:00",
+          "latitude": 38.3233,
+          "longitude": 28.1953,
+          "depth": 3.6,
+          "magnitude": 0.9,
+          "place": "CATAK-KIRAZ (IZMIR)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2a8f1f72",
+      "source": "KANDILLI",
+      "sourceId": "k-2a8f1f72",
+      "time": "2026-08-31T02:41:33+03:00",
+      "latitude": 37.7818,
+      "longitude": 30.8632,
+      "depth": 5,
+      "magnitude": 1.6,
+      "place": "EYUPLER-EGIRDIR (ISPARTA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T02:41:33+03:00",
+          "latitude": 37.7818,
+          "longitude": 30.8632,
+          "depth": 5,
+          "magnitude": 1.6,
+          "place": "EYUPLER-EGIRDIR (ISPARTA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c34ae74c",
+      "source": "KANDILLI",
+      "sourceId": "k-c34ae74c",
+      "time": "2026-08-31T02:31:02+03:00",
+      "latitude": 39.2345,
+      "longitude": 29.0113,
+      "depth": 14.3,
+      "magnitude": 0.8,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T02:31:02+03:00",
+          "latitude": 39.2345,
+          "longitude": 29.0113,
+          "depth": 14.3,
+          "magnitude": 0.8,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 0.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0fa6c400",
+      "source": "KANDILLI",
+      "sourceId": "k-0fa6c400",
+      "time": "2026-08-31T02:31:00+03:00",
+      "latitude": 40.0418,
+      "longitude": 41.3962,
+      "depth": 5,
+      "magnitude": 1.2,
+      "place": "GOKCEYAMAC-YAKUTIYE (ERZURUM)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T02:31:00+03:00",
+          "latitude": 40.0418,
+          "longitude": 41.3962,
+          "depth": 5,
+          "magnitude": 1.2,
+          "place": "GOKCEYAMAC-YAKUTIYE (ERZURUM)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-558faf22",
+      "source": "KANDILLI",
+      "sourceId": "k-558faf22",
+      "time": "2026-08-31T02:18:09+03:00",
+      "latitude": 38.6243,
+      "longitude": 23.873,
+      "depth": 23.7,
+      "magnitude": 1.3,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T02:18:09+03:00",
+          "latitude": 38.6243,
+          "longitude": 23.873,
+          "depth": 23.7,
+          "magnitude": 1.3,
+          "place": "YUNANISTAN",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ad00e740",
+      "source": "KANDILLI",
+      "sourceId": "k-ad00e740",
+      "time": "2026-08-31T01:54:34+03:00",
+      "latitude": 38.7088,
+      "longitude": 26.5127,
+      "depth": 8,
+      "magnitude": 2.2,
+      "place": "IZMIR KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T01:54:34+03:00",
+          "latitude": 38.7088,
+          "longitude": 26.5127,
+          "depth": 8,
+          "magnitude": 2.2,
+          "place": "IZMIR KORFEZI (EGE DENIZI)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c0abbfe4",
+      "source": "KANDILLI",
+      "sourceId": "k-c0abbfe4",
+      "time": "2026-08-31T01:47:40+03:00",
+      "latitude": 38.1332,
+      "longitude": 38.4382,
+      "depth": 15.3,
+      "magnitude": 1.1,
+      "place": "AKSU-SINCIK (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T01:47:40+03:00",
+          "latitude": 38.1332,
+          "longitude": 38.4382,
+          "depth": 15.3,
+          "magnitude": 1.1,
+          "place": "AKSU-SINCIK (ADIYAMAN)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2fbc8a64",
+      "source": "KANDILLI",
+      "sourceId": "k-2fbc8a64",
+      "time": "2026-08-31T01:42:31+03:00",
+      "latitude": 39.2043,
+      "longitude": 29.0505,
+      "depth": 13.8,
+      "magnitude": 0.9,
+      "place": "KARACAOREN-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T01:42:31+03:00",
+          "latitude": 39.2043,
+          "longitude": 29.0505,
+          "depth": 13.8,
+          "magnitude": 0.9,
+          "place": "KARACAOREN-SIMAV (KUTAHYA)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e8e2b046",
+      "source": "KANDILLI",
+      "sourceId": "k-e8e2b046",
+      "time": "2026-08-31T01:19:39+03:00",
+      "latitude": 38.7503,
+      "longitude": 23.399,
+      "depth": 11.3,
+      "magnitude": 1.4,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T01:19:39+03:00",
+          "latitude": 38.7503,
+          "longitude": 23.399,
+          "depth": 11.3,
+          "magnitude": 1.4,
+          "place": "YUNANISTAN",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-47034a29",
+      "source": "KANDILLI",
+      "sourceId": "k-47034a29",
+      "time": "2026-08-31T01:16:09+03:00",
+      "latitude": 39.2232,
+      "longitude": 23.6302,
+      "depth": 2.7,
+      "magnitude": 1.4,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T01:16:09+03:00",
+          "latitude": 39.2232,
+          "longitude": 23.6302,
+          "depth": 2.7,
+          "magnitude": 1.4,
+          "place": "YUNANISTAN",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fd49dc58",
+      "source": "KANDILLI",
+      "sourceId": "k-fd49dc58",
+      "time": "2026-08-31T01:14:55+03:00",
+      "latitude": 38.2097,
+      "longitude": 37.691,
+      "depth": 4,
+      "magnitude": 1.5,
+      "place": "ATMALIKASANLI-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T01:14:55+03:00",
+          "latitude": 38.2097,
+          "longitude": 37.691,
+          "depth": 4,
+          "magnitude": 1.5,
+          "place": "ATMALIKASANLI-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-505c553b",
       "source": "KANDILLI",

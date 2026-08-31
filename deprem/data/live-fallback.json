@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T21:57:10.764Z",
+  "generatedAt": "2026-08-31T00:10:42.633Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -669,60 +669,6 @@
           "magnitude": 0.9,
           "place": "ADALAR (ISTANBUL)",
           "ml": 0.9,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-b632da32",
-      "source": "KANDILLI",
-      "sourceId": "k-b632da32",
-      "time": "2026-08-24T08:11:35+03:00",
-      "latitude": 40.7845,
-      "longitude": 29.1172,
-      "depth": 5.4,
-      "magnitude": 2,
-      "place": "ADALAR (ISTANBUL)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-24T08:11:35+03:00",
-          "latitude": 40.7845,
-          "longitude": 29.1172,
-          "depth": 5.4,
-          "magnitude": 2,
-          "place": "ADALAR (ISTANBUL)",
-          "ml": 2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-42604e72",
-      "source": "KANDILLI",
-      "sourceId": "k-42604e72",
-      "time": "2026-08-24T07:20:03+03:00",
-      "latitude": 40.8237,
-      "longitude": 27.7393,
-      "depth": 6,
-      "magnitude": 2.3,
-      "place": "MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-24T07:20:03+03:00",
-          "latitude": 40.8237,
-          "longitude": 27.7393,
-          "depth": 6,
-          "magnitude": 2.3,
-          "place": "MARMARA DENIZI",
-          "ml": 2.3,
           "mw": null,
           "md": null
         }
