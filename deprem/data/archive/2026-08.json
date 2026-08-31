@@ -1,8 +1,170 @@
 {
   "month": "2026-08",
-  "updatedAt": "2026-08-31T05:28:56.374Z",
+  "updatedAt": "2026-08-31T11:45:23.251Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-9bf5edb2",
+      "source": "KANDILLI",
+      "sourceId": "k-9bf5edb2",
+      "time": "2026-08-31T12:59:51+03:00",
+      "latitude": 40.0813,
+      "longitude": 29.0403,
+      "depth": 5.3,
+      "magnitude": 1.4,
+      "place": "GUNEYBAYIRI-OSMANGAZI (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T12:59:51+03:00",
+          "latitude": 40.0813,
+          "longitude": 29.0403,
+          "depth": 5.3,
+          "magnitude": 1.4,
+          "place": "GUNEYBAYIRI-OSMANGAZI (BURSA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cca91db7",
+      "source": "KANDILLI",
+      "sourceId": "k-cca91db7",
+      "time": "2026-08-31T11:04:52+03:00",
+      "latitude": 38.678,
+      "longitude": 27.1917,
+      "depth": 26.6,
+      "magnitude": 2.3,
+      "place": "SARINASUHLAR-(MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T11:04:52+03:00",
+          "latitude": 38.678,
+          "longitude": 27.1917,
+          "depth": 26.6,
+          "magnitude": 2.3,
+          "place": "SARINASUHLAR-(MANISA)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-177b4aa6",
+      "source": "KANDILLI",
+      "sourceId": "k-177b4aa6",
+      "time": "2026-08-31T10:45:21+03:00",
+      "latitude": 39.8577,
+      "longitude": 27.8923,
+      "depth": 12.5,
+      "magnitude": 1.3,
+      "place": "YAGCILAR-(BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T10:45:21+03:00",
+          "latitude": 39.8577,
+          "longitude": 27.8923,
+          "depth": 12.5,
+          "magnitude": 1.3,
+          "place": "YAGCILAR-(BALIKESIR)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b1cc8fcf",
+      "source": "KANDILLI",
+      "sourceId": "k-b1cc8fcf",
+      "time": "2026-08-31T10:32:20+03:00",
+      "latitude": 36.249,
+      "longitude": 28.5083,
+      "depth": 55.6,
+      "magnitude": 1.9,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T10:32:20+03:00",
+          "latitude": 36.249,
+          "longitude": 28.5083,
+          "depth": 55.6,
+          "magnitude": 1.9,
+          "place": "AKDENIZ",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b5d68d8c",
+      "source": "KANDILLI",
+      "sourceId": "k-b5d68d8c",
+      "time": "2026-08-31T10:31:27+03:00",
+      "latitude": 38.7512,
+      "longitude": 36.547,
+      "depth": 5,
+      "magnitude": 3.3,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T10:31:27+03:00",
+          "latitude": 38.7512,
+          "longitude": 36.547,
+          "depth": 5,
+          "magnitude": 3.3,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 3.3,
+          "mw": 3.2,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-79ddb827",
+      "source": "KANDILLI",
+      "sourceId": "k-79ddb827",
+      "time": "2026-08-31T09:30:25+03:00",
+      "latitude": 39.4635,
+      "longitude": 26.156,
+      "depth": 12.5,
+      "magnitude": 1.6,
+      "place": "BADEMLI-AYVACIK (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-08-31T09:30:25+03:00",
+          "latitude": 39.4635,
+          "longitude": 26.156,
+          "depth": 12.5,
+          "magnitude": 1.6,
+          "place": "BADEMLI-AYVACIK (CANAKKALE)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f3d06ad6",
       "source": "KANDILLI",

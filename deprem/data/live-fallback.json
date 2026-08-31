@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T05:28:56.378Z",
+  "generatedAt": "2026-08-31T11:45:23.257Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -615,33 +615,6 @@
           "magnitude": 1.2,
           "place": "ADALAR (ISTANBUL)",
           "ml": 1.2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-b49342e0",
-      "source": "KANDILLI",
-      "sourceId": "k-b49342e0",
-      "time": "2026-08-24T14:50:54+03:00",
-      "latitude": 40.7733,
-      "longitude": 29.1388,
-      "depth": 5,
-      "magnitude": 1.4,
-      "place": "ADALAR (ISTANBUL)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-24T14:50:54+03:00",
-          "latitude": 40.7733,
-          "longitude": 29.1388,
-          "depth": 5,
-          "magnitude": 1.4,
-          "place": "ADALAR (ISTANBUL)",
-          "ml": 1.4,
           "mw": null,
           "md": null
         }

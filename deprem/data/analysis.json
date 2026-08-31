@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T05:28:56.395Z",
+  "generatedAt": "2026-08-31T11:45:23.278Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,12 +11,12 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 16,
+    "attention": 15,
     "label": "Arka plan seviyesi",
-    "summary": "Prens Adaları / doğu MMF: swarm 0/100 · migration 0/100 · precursor resemblance 42/100. Olasılık değildir.",
+    "summary": "Ganos: swarm 0/100 · migration 0/100 · precursor resemblance 42/100. Olasılık değildir.",
     "eventsNearLocked5km": 0,
     "eventsInsideLockedDepth24h": 0,
-    "leadSegmentId": "princes"
+    "leadSegmentId": "ganos"
   },
   "segments": [
     {
@@ -1261,7 +1261,7 @@
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
       "events24h": 0,
-      "events7d": 4,
+      "events7d": 2,
       "events30d": 163,
       "maxMagnitude24h": 0,
       "baselineDaily": 5.62,
@@ -1269,8 +1269,8 @@
       "baseAttention": 15,
       "advancedSignal": 15,
       "analogueUplift": 0,
-      "lockingDepthUplift": 1,
-      "attention": 16,
+      "lockingDepthUplift": 0,
+      "attention": 15,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -1353,9 +1353,9 @@
         "modelKm": 12,
         "bufferKm": 5,
         "kandilli24h": 0,
-        "kandilli7d": 4,
+        "kandilli7d": 2,
         "within24h": 0,
-        "within7d": 4,
+        "within7d": 2,
         "below24h": 0,
         "below7d": 0,
         "medianDepth24h": null,
@@ -1367,7 +1367,7 @@
           "horizontalDistanceKm": 0.04,
           "relation": "within"
         },
-        "strength": 0.117,
+        "strength": 0.058,
         "label": "0–10 km: doğrudan sismik boşluk/aseismik patch gözlemi; 2026 GNSS+InSAR bölgesel modelinde çoğunlukla ~12 km’ye kadar kilitli.",
         "citation": "Bohnhoff et al. 2013 Nat Commun; Schmittbuhl et al. 2016 G3; Klein et al. 2026 EGU26-18025",
         "confidence": "yüksek",
