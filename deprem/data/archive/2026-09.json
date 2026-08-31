@@ -1,0 +1,142 @@
+{
+  "month": "2026-09",
+  "updatedAt": "2026-08-31T22:47:26.927Z",
+  "source": "KANDILLI_API_MIRROR",
+  "events": [
+    {
+      "id": "k-60e2b3ef",
+      "source": "KANDILLI",
+      "sourceId": "k-60e2b3ef",
+      "time": "2026-09-01T00:42:14+03:00",
+      "latitude": 39.217,
+      "longitude": 27.9822,
+      "depth": 8.2,
+      "magnitude": 1.4,
+      "place": "HACET-KIRKAGAC (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T00:42:14+03:00",
+          "latitude": 39.217,
+          "longitude": 27.9822,
+          "depth": 8.2,
+          "magnitude": 1.4,
+          "place": "HACET-KIRKAGAC (MANISA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8c2b842f",
+      "source": "KANDILLI",
+      "sourceId": "k-8c2b842f",
+      "time": "2026-09-01T00:19:08+03:00",
+      "latitude": 37.0602,
+      "longitude": 31.0825,
+      "depth": 11.8,
+      "magnitude": 2,
+      "place": "GOKCEPINAR-SERIK (ANTALYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T00:19:08+03:00",
+          "latitude": 37.0602,
+          "longitude": 31.0825,
+          "depth": 11.8,
+          "magnitude": 2,
+          "place": "GOKCEPINAR-SERIK (ANTALYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f6e76d9f",
+      "source": "KANDILLI",
+      "sourceId": "k-f6e76d9f",
+      "time": "2026-09-01T00:13:11+03:00",
+      "latitude": 39.2255,
+      "longitude": 28.1547,
+      "depth": 7.7,
+      "magnitude": 1.1,
+      "place": "MANDIRA-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T00:13:11+03:00",
+          "latitude": 39.2255,
+          "longitude": 28.1547,
+          "depth": 7.7,
+          "magnitude": 1.1,
+          "place": "MANDIRA-SINDIRGI (BALIKESIR)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-51ce8e15",
+      "source": "KANDILLI",
+      "sourceId": "k-51ce8e15",
+      "time": "2026-09-01T00:10:57+03:00",
+      "latitude": 39.9363,
+      "longitude": 39.3125,
+      "depth": 3.4,
+      "magnitude": 2.4,
+      "place": "YESILYURT-KELKIT (GUMUSHANE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T00:10:57+03:00",
+          "latitude": 39.9363,
+          "longitude": 39.3125,
+          "depth": 3.4,
+          "magnitude": 2.4,
+          "place": "YESILYURT-KELKIT (GUMUSHANE)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-dbffb07a",
+      "source": "KANDILLI",
+      "sourceId": "k-dbffb07a",
+      "time": "2026-09-01T00:08:30+03:00",
+      "latitude": 39.925,
+      "longitude": 39.2878,
+      "depth": 5,
+      "magnitude": 2.5,
+      "place": "AGILOZU-(ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T00:08:30+03:00",
+          "latitude": 39.925,
+          "longitude": 39.2878,
+          "depth": 5,
+          "magnitude": 2.5,
+          "place": "AGILOZU-(ERZINCAN)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    }
+  ]
+}

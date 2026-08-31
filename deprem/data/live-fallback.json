@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T11:45:23.257Z",
+  "generatedAt": "2026-08-31T22:47:26.960Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -588,33 +588,6 @@
           "magnitude": 1.7,
           "place": "AVCILAR ACIKLARI-ISTANBUL (MARMARA DENIZI",
           "ml": 1.7,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-ced451d6",
-      "source": "KANDILLI",
-      "sourceId": "k-ced451d6",
-      "time": "2026-08-24T22:49:51+03:00",
-      "latitude": 40.7907,
-      "longitude": 29.1132,
-      "depth": 10.3,
-      "magnitude": 1.2,
-      "place": "ADALAR (ISTANBUL)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-24T22:49:51+03:00",
-          "latitude": 40.7907,
-          "longitude": 29.1132,
-          "depth": 10.3,
-          "magnitude": 1.2,
-          "place": "ADALAR (ISTANBUL)",
-          "ml": 1.2,
           "mw": null,
           "md": null
         }
