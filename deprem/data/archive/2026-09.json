@@ -1,8 +1,251 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-01T01:24:59.583Z",
+  "updatedAt": "2026-09-01T06:23:16.487Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-fc9381f4",
+      "source": "KANDILLI",
+      "sourceId": "k-fc9381f4",
+      "time": "2026-09-01T08:18:01+03:00",
+      "latitude": 38.743,
+      "longitude": 36.5273,
+      "depth": 6.5,
+      "magnitude": 1.6,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T08:18:01+03:00",
+          "latitude": 38.743,
+          "longitude": 36.5273,
+          "depth": 6.5,
+          "magnitude": 1.6,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a3580e90",
+      "source": "KANDILLI",
+      "sourceId": "k-a3580e90",
+      "time": "2026-09-01T08:06:29+03:00",
+      "latitude": 40.1977,
+      "longitude": 31.8025,
+      "depth": 4.2,
+      "magnitude": 2.7,
+      "place": "SARIAGIL-BEYPAZARI (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T08:06:29+03:00",
+          "latitude": 40.1977,
+          "longitude": 31.8025,
+          "depth": 4.2,
+          "magnitude": 2.7,
+          "place": "SARIAGIL-BEYPAZARI (ANKARA)",
+          "ml": 2.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-64f37ab2",
+      "source": "KANDILLI",
+      "sourceId": "k-64f37ab2",
+      "time": "2026-09-01T06:58:55+03:00",
+      "latitude": 39.4282,
+      "longitude": 39.1027,
+      "depth": 15.8,
+      "magnitude": 1.6,
+      "place": "KOSELER-OVACIK (TUNCELI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T06:58:55+03:00",
+          "latitude": 39.4282,
+          "longitude": 39.1027,
+          "depth": 15.8,
+          "magnitude": 1.6,
+          "place": "KOSELER-OVACIK (TUNCELI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-85aca4ef",
+      "source": "KANDILLI",
+      "sourceId": "k-85aca4ef",
+      "time": "2026-09-01T06:52:42+03:00",
+      "latitude": 40.3645,
+      "longitude": 27.1078,
+      "depth": 14.4,
+      "magnitude": 1.1,
+      "place": "ESKIBALIKLI-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T06:52:42+03:00",
+          "latitude": 40.3645,
+          "longitude": 27.1078,
+          "depth": 14.4,
+          "magnitude": 1.1,
+          "place": "ESKIBALIKLI-BIGA (CANAKKALE)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2d3b40ad",
+      "source": "KANDILLI",
+      "sourceId": "k-2d3b40ad",
+      "time": "2026-09-01T06:44:42+03:00",
+      "latitude": 36.958,
+      "longitude": 28.2762,
+      "depth": 9.4,
+      "magnitude": 1,
+      "place": "CAMLI-MARMARIS (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T06:44:42+03:00",
+          "latitude": 36.958,
+          "longitude": 28.2762,
+          "depth": 9.4,
+          "magnitude": 1,
+          "place": "CAMLI-MARMARIS (MUGLA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-318372a7",
+      "source": "KANDILLI",
+      "sourceId": "k-318372a7",
+      "time": "2026-09-01T06:31:33+03:00",
+      "latitude": 38.1223,
+      "longitude": 38.4145,
+      "depth": 18.3,
+      "magnitude": 1.1,
+      "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T06:31:33+03:00",
+          "latitude": 38.1223,
+          "longitude": 38.4145,
+          "depth": 18.3,
+          "magnitude": 1.1,
+          "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3e3eef58",
+      "source": "KANDILLI",
+      "sourceId": "k-3e3eef58",
+      "time": "2026-09-01T06:13:38+03:00",
+      "latitude": 39.1012,
+      "longitude": 28.2298,
+      "depth": 14.8,
+      "magnitude": 1.3,
+      "place": "KINIK-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T06:13:38+03:00",
+          "latitude": 39.1012,
+          "longitude": 28.2298,
+          "depth": 14.8,
+          "magnitude": 1.3,
+          "place": "KINIK-SINDIRGI (BALIKESIR)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9254a359",
+      "source": "KANDILLI",
+      "sourceId": "k-9254a359",
+      "time": "2026-09-01T05:29:10+03:00",
+      "latitude": 36.6558,
+      "longitude": 29.3525,
+      "depth": 5,
+      "magnitude": 2.2,
+      "place": "KEMER-FETHIYE (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T05:29:10+03:00",
+          "latitude": 36.6558,
+          "longitude": 29.3525,
+          "depth": 5,
+          "magnitude": 2.2,
+          "place": "KEMER-FETHIYE (MUGLA)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8108a384",
+      "source": "KANDILLI",
+      "sourceId": "k-8108a384",
+      "time": "2026-09-01T04:59:50+03:00",
+      "latitude": 40.1375,
+      "longitude": 42.5092,
+      "depth": 15.5,
+      "magnitude": 1.5,
+      "place": "UZUNGAZI-SARIKAMIS (KARS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T04:59:50+03:00",
+          "latitude": 40.1375,
+          "longitude": 42.5092,
+          "depth": 15.5,
+          "magnitude": 1.5,
+          "place": "UZUNGAZI-SARIKAMIS (KARS)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-7c17f800",
       "source": "KANDILLI",
