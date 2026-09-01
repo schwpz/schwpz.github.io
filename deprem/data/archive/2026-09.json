@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-01T15:34:14.813Z",
+  "updatedAt": "2026-09-01T18:46:57.177Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-e3072561",
+      "source": "KANDILLI",
+      "sourceId": "k-e3072561",
+      "time": "2026-09-01T21:12:37+03:00",
+      "latitude": 39.5625,
+      "longitude": 26.0045,
+      "depth": 9.2,
+      "magnitude": 1.6,
+      "place": "GULPINAR ACIKLARI-CANAKKALE (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T21:12:37+03:00",
+          "latitude": 39.5625,
+          "longitude": 26.0045,
+          "depth": 9.2,
+          "magnitude": 1.6,
+          "place": "GULPINAR ACIKLARI-CANAKKALE (EGE DENIZI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b58f345a",
+      "source": "KANDILLI",
+      "sourceId": "k-b58f345a",
+      "time": "2026-09-01T20:55:42+03:00",
+      "latitude": 38.6952,
+      "longitude": 26.5365,
+      "depth": 6.6,
+      "magnitude": 1.4,
+      "place": "IZMIR KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T20:55:42+03:00",
+          "latitude": 38.6952,
+          "longitude": 26.5365,
+          "depth": 6.6,
+          "magnitude": 1.4,
+          "place": "IZMIR KORFEZI (EGE DENIZI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2bf31027",
+      "source": "KANDILLI",
+      "sourceId": "k-2bf31027",
+      "time": "2026-09-01T20:51:28+03:00",
+      "latitude": 38.6972,
+      "longitude": 26.55,
+      "depth": 13.4,
+      "magnitude": 3.5,
+      "place": "IZMIR KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T20:51:28+03:00",
+          "latitude": 38.6972,
+          "longitude": 26.55,
+          "depth": 13.4,
+          "magnitude": 3.5,
+          "place": "IZMIR KORFEZI (EGE DENIZI)",
+          "ml": 3.5,
+          "mw": 3.3,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5aa20dd0",
+      "source": "KANDILLI",
+      "sourceId": "k-5aa20dd0",
+      "time": "2026-09-01T20:34:48+03:00",
+      "latitude": 39.2397,
+      "longitude": 28.123,
+      "depth": 10.8,
+      "magnitude": 1.8,
+      "place": "BAYIRLI-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T20:34:48+03:00",
+          "latitude": 39.2397,
+          "longitude": 28.123,
+          "depth": 10.8,
+          "magnitude": 1.8,
+          "place": "BAYIRLI-SINDIRGI (BALIKESIR)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-98d7c491",
+      "source": "KANDILLI",
+      "sourceId": "k-98d7c491",
+      "time": "2026-09-01T19:09:53+03:00",
+      "latitude": 38.0258,
+      "longitude": 36.451,
+      "depth": 3.8,
+      "magnitude": 1.8,
+      "place": "CAGLAYAN-GOKSUN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T19:09:53+03:00",
+          "latitude": 38.0258,
+          "longitude": 36.451,
+          "depth": 3.8,
+          "magnitude": 1.8,
+          "place": "CAGLAYAN-GOKSUN (KAHRAMANMARAS)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ec9c4cad",
+      "source": "KANDILLI",
+      "sourceId": "k-ec9c4cad",
+      "time": "2026-09-01T18:33:05+03:00",
+      "latitude": 39.0197,
+      "longitude": 36.181,
+      "depth": 6.9,
+      "magnitude": 1.6,
+      "place": "AKKISLA (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T18:33:05+03:00",
+          "latitude": 39.0197,
+          "longitude": 36.181,
+          "depth": 6.9,
+          "magnitude": 1.6,
+          "place": "AKKISLA (KAYSERI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-3434ec1b",
       "source": "KANDILLI",
