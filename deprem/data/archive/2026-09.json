@@ -1,8 +1,251 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-01T18:46:57.177Z",
+  "updatedAt": "2026-09-01T21:25:00.518Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-e565860c",
+      "source": "KANDILLI",
+      "sourceId": "k-e565860c",
+      "time": "2026-09-01T23:34:26+03:00",
+      "latitude": 35.7125,
+      "longitude": 26.2958,
+      "depth": 18.5,
+      "magnitude": 1.9,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T23:34:26+03:00",
+          "latitude": 35.7125,
+          "longitude": 26.2958,
+          "depth": 18.5,
+          "magnitude": 1.9,
+          "place": "EGE DENIZI",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-30cb7be3",
+      "source": "KANDILLI",
+      "sourceId": "k-30cb7be3",
+      "time": "2026-09-01T22:49:45+03:00",
+      "latitude": 39.17,
+      "longitude": 27.7848,
+      "depth": 9.8,
+      "magnitude": 2.4,
+      "place": "YAGMURLU-KIRKAGAC (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T22:49:45+03:00",
+          "latitude": 39.17,
+          "longitude": 27.7848,
+          "depth": 9.8,
+          "magnitude": 2.4,
+          "place": "YAGMURLU-KIRKAGAC (MANISA)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2bb73fcc",
+      "source": "KANDILLI",
+      "sourceId": "k-2bb73fcc",
+      "time": "2026-09-01T22:41:48+03:00",
+      "latitude": 38.2662,
+      "longitude": 37.7893,
+      "depth": 5.1,
+      "magnitude": 2,
+      "place": "CEVIRME-AKCADAG (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T22:41:48+03:00",
+          "latitude": 38.2662,
+          "longitude": 37.7893,
+          "depth": 5.1,
+          "magnitude": 2,
+          "place": "CEVIRME-AKCADAG (MALATYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a6f7f0c4",
+      "source": "KANDILLI",
+      "sourceId": "k-a6f7f0c4",
+      "time": "2026-09-01T22:41:18+03:00",
+      "latitude": 37.716,
+      "longitude": 36.0537,
+      "depth": 12.5,
+      "magnitude": 1.8,
+      "place": "TOKMANAKLI-FEKE (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T22:41:18+03:00",
+          "latitude": 37.716,
+          "longitude": 36.0537,
+          "depth": 12.5,
+          "magnitude": 1.8,
+          "place": "TOKMANAKLI-FEKE (ADANA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-673dade8",
+      "source": "KANDILLI",
+      "sourceId": "k-673dade8",
+      "time": "2026-09-01T21:41:06+03:00",
+      "latitude": 37.2233,
+      "longitude": 30.1862,
+      "depth": 5.9,
+      "magnitude": 1.3,
+      "place": "YELTEN-KORKUTELI (ANTALYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T21:41:06+03:00",
+          "latitude": 37.2233,
+          "longitude": 30.1862,
+          "depth": 5.9,
+          "magnitude": 1.3,
+          "place": "YELTEN-KORKUTELI (ANTALYA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b3ee37e4",
+      "source": "KANDILLI",
+      "sourceId": "k-b3ee37e4",
+      "time": "2026-09-01T21:38:03+03:00",
+      "latitude": 37.2467,
+      "longitude": 30.136,
+      "depth": 6,
+      "magnitude": 2,
+      "place": "TASKESIGI-KORKUTELI (ANTALYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T21:38:03+03:00",
+          "latitude": 37.2467,
+          "longitude": 30.136,
+          "depth": 6,
+          "magnitude": 2,
+          "place": "TASKESIGI-KORKUTELI (ANTALYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1a0f147b",
+      "source": "KANDILLI",
+      "sourceId": "k-1a0f147b",
+      "time": "2026-09-01T21:37:27+03:00",
+      "latitude": 37.9768,
+      "longitude": 37.4745,
+      "depth": 4.8,
+      "magnitude": 1.8,
+      "place": "NURHAK (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T21:37:27+03:00",
+          "latitude": 37.9768,
+          "longitude": 37.4745,
+          "depth": 4.8,
+          "magnitude": 1.8,
+          "place": "NURHAK (KAHRAMANMARAS)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-40aca950",
+      "source": "KANDILLI",
+      "sourceId": "k-40aca950",
+      "time": "2026-09-01T21:35:17+03:00",
+      "latitude": 38.2353,
+      "longitude": 37.7467,
+      "depth": 9.9,
+      "magnitude": 1.8,
+      "place": "CEVIRME-AKCADAG (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T21:35:17+03:00",
+          "latitude": 38.2353,
+          "longitude": 37.7467,
+          "depth": 9.9,
+          "magnitude": 1.8,
+          "place": "CEVIRME-AKCADAG (MALATYA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-836b4d04",
+      "source": "KANDILLI",
+      "sourceId": "k-836b4d04",
+      "time": "2026-09-01T21:33:24+03:00",
+      "latitude": 39.2177,
+      "longitude": 27.9808,
+      "depth": 11,
+      "magnitude": 1.3,
+      "place": "HACET-KIRKAGAC (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-01T21:33:24+03:00",
+          "latitude": 39.2177,
+          "longitude": 27.9808,
+          "depth": 11,
+          "magnitude": 1.3,
+          "place": "HACET-KIRKAGAC (MANISA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-e3072561",
       "source": "KANDILLI",
