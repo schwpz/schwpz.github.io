@@ -1,8 +1,143 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-02T14:03:42.661Z",
+  "updatedAt": "2026-09-02T17:50:21.900Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-e60e675d",
+      "source": "KANDILLI",
+      "sourceId": "k-e60e675d",
+      "time": "2026-09-02T19:21:36+03:00",
+      "latitude": 39.2352,
+      "longitude": 29.0085,
+      "depth": 11.7,
+      "magnitude": 1.6,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T19:21:36+03:00",
+          "latitude": 39.2352,
+          "longitude": 29.0085,
+          "depth": 11.7,
+          "magnitude": 1.6,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-54b41862",
+      "source": "KANDILLI",
+      "sourceId": "k-54b41862",
+      "time": "2026-09-02T17:46:34+03:00",
+      "latitude": 40.889,
+      "longitude": 31.5398,
+      "depth": 15.7,
+      "magnitude": 1.7,
+      "place": "BEKIRLER-YIGILCA (DUZCE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T17:46:34+03:00",
+          "latitude": 40.889,
+          "longitude": 31.5398,
+          "depth": 15.7,
+          "magnitude": 1.7,
+          "place": "BEKIRLER-YIGILCA (DUZCE)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-186ef482",
+      "source": "KANDILLI",
+      "sourceId": "k-186ef482",
+      "time": "2026-09-02T17:43:26+03:00",
+      "latitude": 37.0397,
+      "longitude": 36.6847,
+      "depth": 4.9,
+      "magnitude": 1.9,
+      "place": "ORTULU-ISLAHIYE (GAZIANTEP)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T17:43:26+03:00",
+          "latitude": 37.0397,
+          "longitude": 36.6847,
+          "depth": 4.9,
+          "magnitude": 1.9,
+          "place": "ORTULU-ISLAHIYE (GAZIANTEP)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ee6ac965",
+      "source": "KANDILLI",
+      "sourceId": "k-ee6ac965",
+      "time": "2026-09-02T17:19:36+03:00",
+      "latitude": 38.4038,
+      "longitude": 26.7525,
+      "depth": 2.8,
+      "magnitude": 2.3,
+      "place": "IZMIR KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T17:19:36+03:00",
+          "latitude": 38.4038,
+          "longitude": 26.7525,
+          "depth": 2.8,
+          "magnitude": 2.3,
+          "place": "IZMIR KORFEZI (EGE DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2619431a",
+      "source": "KANDILLI",
+      "sourceId": "k-2619431a",
+      "time": "2026-09-02T16:47:52+03:00",
+      "latitude": 38.2408,
+      "longitude": 37.7425,
+      "depth": 6.8,
+      "magnitude": 1.8,
+      "place": "CEVIRME-AKCADAG (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T16:47:52+03:00",
+          "latitude": 38.2408,
+          "longitude": 37.7425,
+          "depth": 6.8,
+          "magnitude": 1.8,
+          "place": "CEVIRME-AKCADAG (MALATYA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-3f618ffc",
       "source": "KANDILLI",
