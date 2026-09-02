@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-02T05:47:48.404Z",
+  "generatedAt": "2026-09-02T09:57:29.845Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-f9bf2798",
+      "source": "KANDILLI",
+      "sourceId": "k-f9bf2798",
+      "time": "2026-09-02T12:07:32+03:00",
+      "latitude": 41.0488,
+      "longitude": 28.9993,
+      "depth": 0,
+      "magnitude": 0.9,
+      "place": "BESIKTAS (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T12:07:32+03:00",
+          "latitude": 41.0488,
+          "longitude": 28.9993,
+          "depth": 0,
+          "magnitude": 0.9,
+          "place": "BESIKTAS (ISTANBUL)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f29b47b9",
       "source": "KANDILLI",
@@ -696,33 +723,6 @@
           "magnitude": 2.9,
           "place": "MARMARA DENIZI",
           "ml": 2.9,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-cb88db63",
-      "source": "KANDILLI",
-      "sourceId": "k-cb88db63",
-      "time": "2026-08-26T12:01:45+03:00",
-      "latitude": 40.4503,
-      "longitude": 29.5618,
-      "depth": 17.9,
-      "magnitude": 1,
-      "place": "BOYALICA-IZNIK (BURSA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-26T12:01:45+03:00",
-          "latitude": 40.4503,
-          "longitude": 29.5618,
-          "depth": 17.9,
-          "magnitude": 1,
-          "place": "BOYALICA-IZNIK (BURSA)",
-          "ml": 1,
           "mw": null,
           "md": null
         }
