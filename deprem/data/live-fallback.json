@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T09:57:29.845Z",
+  "generatedAt": "2026-09-02T14:03:42.692Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -669,60 +669,6 @@
           "magnitude": 2.5,
           "place": "KOCAGUR-BIGA (CANAKKALE)",
           "ml": 2.5,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-c8bfeb6d",
-      "source": "KANDILLI",
-      "sourceId": "k-c8bfeb6d",
-      "time": "2026-08-26T14:25:28+03:00",
-      "latitude": 40.7037,
-      "longitude": 28.638,
-      "depth": 21.2,
-      "magnitude": 1.6,
-      "place": "MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-26T14:25:28+03:00",
-          "latitude": 40.7037,
-          "longitude": 28.638,
-          "depth": 21.2,
-          "magnitude": 1.6,
-          "place": "MARMARA DENIZI",
-          "ml": 1.6,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-6b550464",
-      "source": "KANDILLI",
-      "sourceId": "k-6b550464",
-      "time": "2026-08-26T14:24:05+03:00",
-      "latitude": 40.667,
-      "longitude": 28.6778,
-      "depth": 10.5,
-      "magnitude": 2.9,
-      "place": "MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-26T14:24:05+03:00",
-          "latitude": 40.667,
-          "longitude": 28.6778,
-          "depth": 10.5,
-          "magnitude": 2.9,
-          "place": "MARMARA DENIZI",
-          "ml": 2.9,
           "mw": null,
           "md": null
         }
