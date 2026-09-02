@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-02T20:08:26.182Z",
+  "updatedAt": "2026-09-02T22:35:01.390Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-0d253f88",
+      "source": "KANDILLI",
+      "sourceId": "k-0d253f88",
+      "time": "2026-09-03T00:15:59+03:00",
+      "latitude": 39.9905,
+      "longitude": 39.6718,
+      "depth": 5.5,
+      "magnitude": 2,
+      "place": "DOGANKAVAK-KELKIT (GUMUSHANE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T00:15:59+03:00",
+          "latitude": 39.9905,
+          "longitude": 39.6718,
+          "depth": 5.5,
+          "magnitude": 2,
+          "place": "DOGANKAVAK-KELKIT (GUMUSHANE)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ebcb4c20",
+      "source": "KANDILLI",
+      "sourceId": "k-ebcb4c20",
+      "time": "2026-09-03T00:09:16+03:00",
+      "latitude": 38.0602,
+      "longitude": 25.8665,
+      "depth": 8.2,
+      "magnitude": 2.2,
+      "place": "SAKIZ ADASI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T00:09:16+03:00",
+          "latitude": 38.0602,
+          "longitude": 25.8665,
+          "depth": 8.2,
+          "magnitude": 2.2,
+          "place": "SAKIZ ADASI (EGE DENIZI)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a5d49e2b",
+      "source": "KANDILLI",
+      "sourceId": "k-a5d49e2b",
+      "time": "2026-09-03T00:06:41+03:00",
+      "latitude": 37.8477,
+      "longitude": 27.005,
+      "depth": 2.4,
+      "magnitude": 1.3,
+      "place": "KUSADASI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T00:06:41+03:00",
+          "latitude": 37.8477,
+          "longitude": 27.005,
+          "depth": 2.4,
+          "magnitude": 1.3,
+          "place": "KUSADASI KORFEZI (EGE DENIZI)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2bd4692c",
+      "source": "KANDILLI",
+      "sourceId": "k-2bd4692c",
+      "time": "2026-09-02T23:45:52+03:00",
+      "latitude": 39.2703,
+      "longitude": 25.8862,
+      "depth": 15,
+      "magnitude": 1.6,
+      "place": "MIDILLI ADASI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T23:45:52+03:00",
+          "latitude": 39.2703,
+          "longitude": 25.8862,
+          "depth": 15,
+          "magnitude": 1.6,
+          "place": "MIDILLI ADASI (EGE DENIZI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-26988fdd",
+      "source": "KANDILLI",
+      "sourceId": "k-26988fdd",
+      "time": "2026-09-02T23:40:53+03:00",
+      "latitude": 36.5442,
+      "longitude": 28.8035,
+      "depth": 13.2,
+      "magnitude": 1.5,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T23:40:53+03:00",
+          "latitude": 36.5442,
+          "longitude": 28.8035,
+          "depth": 13.2,
+          "magnitude": 1.5,
+          "place": "AKDENIZ",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2d5aa0c0",
+      "source": "KANDILLI",
+      "sourceId": "k-2d5aa0c0",
+      "time": "2026-09-02T22:58:21+03:00",
+      "latitude": 40.8378,
+      "longitude": 27.7477,
+      "depth": 8,
+      "magnitude": 1.8,
+      "place": "MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T22:58:21+03:00",
+          "latitude": 40.8378,
+          "longitude": 27.7477,
+          "depth": 8,
+          "magnitude": 1.8,
+          "place": "MARMARA DENIZI",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-d58acd55",
       "source": "KANDILLI",
