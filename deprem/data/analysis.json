@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T23:25:52.515Z",
+  "generatedAt": "2026-09-02T01:10:38.229Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -839,7 +839,7 @@
       "name": "Kumburgaz kilitli kesim",
       "state": "locked",
       "events24h": 1,
-      "events7d": 2,
+      "events7d": 1,
       "events30d": 2,
       "maxMagnitude24h": 2.2,
       "baselineDaily": 0.15,
@@ -931,11 +931,11 @@
         "modelKm": 10,
         "bufferKm": 5,
         "kandilli24h": 1,
-        "kandilli7d": 2,
+        "kandilli7d": 1,
         "within24h": 0,
         "within7d": 0,
         "below24h": 1,
-        "below7d": 2,
+        "below7d": 1,
         "medianDepth24h": 15.8,
         "closest": {
           "eventId": "k-5310572a",
@@ -1049,7 +1049,7 @@
       "name": "Avcılar sessiz / geçiş zonu",
       "state": "transition",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 2,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,

@@ -1,8 +1,197 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-01T23:25:52.383Z",
+  "updatedAt": "2026-09-02T01:10:38.179Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-65bd459d",
+      "source": "KANDILLI",
+      "sourceId": "k-65bd459d",
+      "time": "2026-09-02T03:55:36+03:00",
+      "latitude": 39.1835,
+      "longitude": 28.9213,
+      "depth": 9.2,
+      "magnitude": 1.9,
+      "place": "GUNEY-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T03:55:36+03:00",
+          "latitude": 39.1835,
+          "longitude": 28.9213,
+          "depth": 9.2,
+          "magnitude": 1.9,
+          "place": "GUNEY-SIMAV (KUTAHYA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3fab12c5",
+      "source": "KANDILLI",
+      "sourceId": "k-3fab12c5",
+      "time": "2026-09-02T03:55:22+03:00",
+      "latitude": 39.2373,
+      "longitude": 28.9797,
+      "depth": 16.4,
+      "magnitude": 1.9,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T03:55:22+03:00",
+          "latitude": 39.2373,
+          "longitude": 28.9797,
+          "depth": 16.4,
+          "magnitude": 1.9,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7d469dfa",
+      "source": "KANDILLI",
+      "sourceId": "k-7d469dfa",
+      "time": "2026-09-02T03:48:53+03:00",
+      "latitude": 39.1597,
+      "longitude": 29.4715,
+      "depth": 11.7,
+      "magnitude": 1.1,
+      "place": "DOGANCILAR-CAVDARHISAR (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T03:48:53+03:00",
+          "latitude": 39.1597,
+          "longitude": 29.4715,
+          "depth": 11.7,
+          "magnitude": 1.1,
+          "place": "DOGANCILAR-CAVDARHISAR (KUTAHYA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ae36727f",
+      "source": "KANDILLI",
+      "sourceId": "k-ae36727f",
+      "time": "2026-09-02T03:41:49+03:00",
+      "latitude": 39.1912,
+      "longitude": 28.9782,
+      "depth": 20.8,
+      "magnitude": 1,
+      "place": "EGIRLER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T03:41:49+03:00",
+          "latitude": 39.1912,
+          "longitude": 28.9782,
+          "depth": 20.8,
+          "magnitude": 1,
+          "place": "EGIRLER-SIMAV (KUTAHYA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-bd7ebb53",
+      "source": "KANDILLI",
+      "sourceId": "k-bd7ebb53",
+      "time": "2026-09-02T03:02:45+03:00",
+      "latitude": 38.0968,
+      "longitude": 37.2905,
+      "depth": 2.6,
+      "magnitude": 1.5,
+      "place": "OZCANLI-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T03:02:45+03:00",
+          "latitude": 38.0968,
+          "longitude": 37.2905,
+          "depth": 2.6,
+          "magnitude": 1.5,
+          "place": "OZCANLI-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c9cc61fe",
+      "source": "KANDILLI",
+      "sourceId": "k-c9cc61fe",
+      "time": "2026-09-02T02:55:24+03:00",
+      "latitude": 36.6125,
+      "longitude": 36.3903,
+      "depth": 6.6,
+      "magnitude": 1.9,
+      "place": "ALIBEYCAGILI-KIRIKHAN (HATAY)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T02:55:24+03:00",
+          "latitude": 36.6125,
+          "longitude": 36.3903,
+          "depth": 6.6,
+          "magnitude": 1.9,
+          "place": "ALIBEYCAGILI-KIRIKHAN (HATAY)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3572062a",
+      "source": "KANDILLI",
+      "sourceId": "k-3572062a",
+      "time": "2026-09-02T02:27:38+03:00",
+      "latitude": 39.1847,
+      "longitude": 27.9832,
+      "depth": 9.7,
+      "magnitude": 1.9,
+      "place": "AKKOCALI-AKHISAR (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-02T02:27:38+03:00",
+          "latitude": 39.1847,
+          "longitude": 27.9832,
+          "depth": 9.7,
+          "magnitude": 1.9,
+          "place": "AKKOCALI-AKHISAR (MANISA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-7a3e7d48",
       "source": "KANDILLI",
