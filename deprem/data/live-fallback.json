@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T23:25:52.496Z",
+  "generatedAt": "2026-09-02T05:47:48.404Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -723,33 +723,6 @@
           "magnitude": 1,
           "place": "BOYALICA-IZNIK (BURSA)",
           "ml": 1,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-41fc5216",
-      "source": "KANDILLI",
-      "sourceId": "k-41fc5216",
-      "time": "2026-08-26T08:54:39+03:00",
-      "latitude": 40.483,
-      "longitude": 29.2945,
-      "depth": 0,
-      "magnitude": 1.2,
-      "place": "ORHANGAZI (BURSA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-26T08:54:39+03:00",
-          "latitude": 40.483,
-          "longitude": 29.2945,
-          "depth": 0,
-          "magnitude": 1.2,
-          "place": "ORHANGAZI (BURSA)",
-          "ml": 1.2,
           "mw": null,
           "md": null
         }
