@@ -1,8 +1,251 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-02T22:35:01.390Z",
+  "updatedAt": "2026-09-03T00:34:50.628Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-2f7cf620",
+      "source": "KANDILLI",
+      "sourceId": "k-2f7cf620",
+      "time": "2026-09-03T03:02:26+03:00",
+      "latitude": 38.0905,
+      "longitude": 36.5733,
+      "depth": 8.9,
+      "magnitude": 1.6,
+      "place": "YAGMURLU-GOKSUN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T03:02:26+03:00",
+          "latitude": 38.0905,
+          "longitude": 36.5733,
+          "depth": 8.9,
+          "magnitude": 1.6,
+          "place": "YAGMURLU-GOKSUN (KAHRAMANMARAS)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-76d63df6",
+      "source": "KANDILLI",
+      "sourceId": "k-76d63df6",
+      "time": "2026-09-03T02:42:48+03:00",
+      "latitude": 41.379,
+      "longitude": 43.8493,
+      "depth": 2.1,
+      "magnitude": 1.7,
+      "place": "GURCISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T02:42:48+03:00",
+          "latitude": 41.379,
+          "longitude": 43.8493,
+          "depth": 2.1,
+          "magnitude": 1.7,
+          "place": "GURCISTAN",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5d1d0a89",
+      "source": "KANDILLI",
+      "sourceId": "k-5d1d0a89",
+      "time": "2026-09-03T02:28:42+03:00",
+      "latitude": 41.419,
+      "longitude": 43.9605,
+      "depth": 5,
+      "magnitude": 2.9,
+      "place": "GURCISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T02:28:42+03:00",
+          "latitude": 41.419,
+          "longitude": 43.9605,
+          "depth": 5,
+          "magnitude": 2.9,
+          "place": "GURCISTAN",
+          "ml": 2.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-21e21699",
+      "source": "KANDILLI",
+      "sourceId": "k-21e21699",
+      "time": "2026-09-03T02:20:30+03:00",
+      "latitude": 39.1832,
+      "longitude": 26.8107,
+      "depth": 14.5,
+      "magnitude": 2.4,
+      "place": "BAHCELI-DIKILI (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T02:20:30+03:00",
+          "latitude": 39.1832,
+          "longitude": 26.8107,
+          "depth": 14.5,
+          "magnitude": 2.4,
+          "place": "BAHCELI-DIKILI (IZMIR)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-bb5ae13c",
+      "source": "KANDILLI",
+      "sourceId": "k-bb5ae13c",
+      "time": "2026-09-03T01:09:34+03:00",
+      "latitude": 39.4278,
+      "longitude": 26.3237,
+      "depth": 13.7,
+      "magnitude": 0.9,
+      "place": "EDREMIT KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T01:09:34+03:00",
+          "latitude": 39.4278,
+          "longitude": 26.3237,
+          "depth": 13.7,
+          "magnitude": 0.9,
+          "place": "EDREMIT KORFEZI (EGE DENIZI)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b5e1bf40",
+      "source": "KANDILLI",
+      "sourceId": "k-b5e1bf40",
+      "time": "2026-09-03T01:07:28+03:00",
+      "latitude": 40.4842,
+      "longitude": 35.8248,
+      "depth": 7.8,
+      "magnitude": 2.7,
+      "place": "KIZOGLU-(AMASYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T01:07:28+03:00",
+          "latitude": 40.4842,
+          "longitude": 35.8248,
+          "depth": 7.8,
+          "magnitude": 2.7,
+          "place": "KIZOGLU-(AMASYA)",
+          "ml": 2.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cb97046c",
+      "source": "KANDILLI",
+      "sourceId": "k-cb97046c",
+      "time": "2026-09-03T01:06:07+03:00",
+      "latitude": 38.001,
+      "longitude": 37.9953,
+      "depth": 5.7,
+      "magnitude": 1.5,
+      "place": "SURGU-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T01:06:07+03:00",
+          "latitude": 38.001,
+          "longitude": 37.9953,
+          "depth": 5.7,
+          "magnitude": 1.5,
+          "place": "SURGU-DOGANSEHIR (MALATYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-67ce94c7",
+      "source": "KANDILLI",
+      "sourceId": "k-67ce94c7",
+      "time": "2026-09-03T01:03:57+03:00",
+      "latitude": 39.2465,
+      "longitude": 28.9197,
+      "depth": 3.8,
+      "magnitude": 2.3,
+      "place": "YENILER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T01:03:57+03:00",
+          "latitude": 39.2465,
+          "longitude": 28.9197,
+          "depth": 3.8,
+          "magnitude": 2.3,
+          "place": "YENILER-SIMAV (KUTAHYA)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-779687d6",
+      "source": "KANDILLI",
+      "sourceId": "k-779687d6",
+      "time": "2026-09-03T01:01:51+03:00",
+      "latitude": 39.7138,
+      "longitude": 26.5752,
+      "depth": 5.2,
+      "magnitude": 1.1,
+      "place": "ALAKECI-BAYRAMIC (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T01:01:51+03:00",
+          "latitude": 39.7138,
+          "longitude": 26.5752,
+          "depth": 5.2,
+          "magnitude": 1.1,
+          "place": "ALAKECI-BAYRAMIC (CANAKKALE)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-0d253f88",
       "source": "KANDILLI",
