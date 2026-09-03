@@ -1,8 +1,197 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-03T09:26:32.091Z",
+  "updatedAt": "2026-09-03T13:44:19.086Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-852babc0",
+      "source": "KANDILLI",
+      "sourceId": "k-852babc0",
+      "time": "2026-09-03T15:54:16+03:00",
+      "latitude": 39.1885,
+      "longitude": 28.4392,
+      "depth": 16.1,
+      "magnitude": 1.8,
+      "place": "SAPCI-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T15:54:16+03:00",
+          "latitude": 39.1885,
+          "longitude": 28.4392,
+          "depth": 16.1,
+          "magnitude": 1.8,
+          "place": "SAPCI-SINDIRGI (BALIKESIR)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b1e5e551",
+      "source": "KANDILLI",
+      "sourceId": "k-b1e5e551",
+      "time": "2026-09-03T15:14:51+03:00",
+      "latitude": 38.7798,
+      "longitude": 27.1347,
+      "depth": 13.4,
+      "magnitude": 3.3,
+      "place": "DUZLEN-(MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T15:14:51+03:00",
+          "latitude": 38.7798,
+          "longitude": 27.1347,
+          "depth": 13.4,
+          "magnitude": 3.3,
+          "place": "DUZLEN-(MANISA)",
+          "ml": 3.3,
+          "mw": 3.3,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5243af66",
+      "source": "KANDILLI",
+      "sourceId": "k-5243af66",
+      "time": "2026-09-03T14:11:06+03:00",
+      "latitude": 36.7385,
+      "longitude": 28.9143,
+      "depth": 0,
+      "magnitude": 1.5,
+      "place": "GOCEK-FETHIYE (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T14:11:06+03:00",
+          "latitude": 36.7385,
+          "longitude": 28.9143,
+          "depth": 0,
+          "magnitude": 1.5,
+          "place": "GOCEK-FETHIYE (MUGLA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6afa2334",
+      "source": "KANDILLI",
+      "sourceId": "k-6afa2334",
+      "time": "2026-09-03T13:57:03+03:00",
+      "latitude": 37.9628,
+      "longitude": 32.358,
+      "depth": 0,
+      "magnitude": 2,
+      "place": "KUCUKMUHSINE-SELCUKLU (KONYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T13:57:03+03:00",
+          "latitude": 37.9628,
+          "longitude": 32.358,
+          "depth": 0,
+          "magnitude": 2,
+          "place": "KUCUKMUHSINE-SELCUKLU (KONYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-bcd2f4b6",
+      "source": "KANDILLI",
+      "sourceId": "k-bcd2f4b6",
+      "time": "2026-09-03T13:20:47+03:00",
+      "latitude": 38.7867,
+      "longitude": 27.137,
+      "depth": 14.8,
+      "magnitude": 3.8,
+      "place": "DUZLEN-(MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T13:20:47+03:00",
+          "latitude": 38.7867,
+          "longitude": 27.137,
+          "depth": 14.8,
+          "magnitude": 3.8,
+          "place": "DUZLEN-(MANISA)",
+          "ml": 3.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3eaf9e6e",
+      "source": "KANDILLI",
+      "sourceId": "k-3eaf9e6e",
+      "time": "2026-09-03T13:10:03+03:00",
+      "latitude": 36.0512,
+      "longitude": 29.8417,
+      "depth": 38.9,
+      "magnitude": 2.3,
+      "place": "KAS ACIKLARI-ANTALYA (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T13:10:03+03:00",
+          "latitude": 36.0512,
+          "longitude": 29.8417,
+          "depth": 38.9,
+          "magnitude": 2.3,
+          "place": "KAS ACIKLARI-ANTALYA (AKDENIZ)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-057172fb",
+      "source": "KANDILLI",
+      "sourceId": "k-057172fb",
+      "time": "2026-09-03T12:41:19+03:00",
+      "latitude": 40.013,
+      "longitude": 27.0163,
+      "depth": 4.8,
+      "magnitude": 1.7,
+      "place": "CEKICLER-CAN (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T12:41:19+03:00",
+          "latitude": 40.013,
+          "longitude": 27.0163,
+          "depth": 4.8,
+          "magnitude": 1.7,
+          "place": "CEKICLER-CAN (CANAKKALE)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-4e30903b",
       "source": "KANDILLI",
