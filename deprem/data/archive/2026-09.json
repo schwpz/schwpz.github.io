@@ -1,8 +1,251 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-03T19:52:59.223Z",
+  "updatedAt": "2026-09-03T21:56:17.465Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-0fc34805",
+      "source": "KANDILLI",
+      "sourceId": "k-0fc34805",
+      "time": "2026-09-04T00:43:01+03:00",
+      "latitude": 37.2597,
+      "longitude": 37.1248,
+      "depth": 5.4,
+      "magnitude": 1.5,
+      "place": "COCELLI-PAZARCIK (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T00:43:01+03:00",
+          "latitude": 37.2597,
+          "longitude": 37.1248,
+          "depth": 5.4,
+          "magnitude": 1.5,
+          "place": "COCELLI-PAZARCIK (KAHRAMANMARAS)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c36cc10a",
+      "source": "KANDILLI",
+      "sourceId": "k-c36cc10a",
+      "time": "2026-09-04T00:41:27+03:00",
+      "latitude": 36.613,
+      "longitude": 36.157,
+      "depth": 8.6,
+      "magnitude": 1.4,
+      "place": "ISKENDERUN (HATAY)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T00:41:27+03:00",
+          "latitude": 36.613,
+          "longitude": 36.157,
+          "depth": 8.6,
+          "magnitude": 1.4,
+          "place": "ISKENDERUN (HATAY)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c30a2e89",
+      "source": "KANDILLI",
+      "sourceId": "k-c30a2e89",
+      "time": "2026-09-04T00:38:27+03:00",
+      "latitude": 38.2532,
+      "longitude": 38.5972,
+      "depth": 19.8,
+      "magnitude": 1.3,
+      "place": "PELITLI-(MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T00:38:27+03:00",
+          "latitude": 38.2532,
+          "longitude": 38.5972,
+          "depth": 19.8,
+          "magnitude": 1.3,
+          "place": "PELITLI-(MALATYA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-831d3361",
+      "source": "KANDILLI",
+      "sourceId": "k-831d3361",
+      "time": "2026-09-04T00:25:03+03:00",
+      "latitude": 36.0422,
+      "longitude": 35.8843,
+      "depth": 8.3,
+      "magnitude": 1.7,
+      "place": "SAMANDAG (HATAY)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T00:25:03+03:00",
+          "latitude": 36.0422,
+          "longitude": 35.8843,
+          "depth": 8.3,
+          "magnitude": 1.7,
+          "place": "SAMANDAG (HATAY)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d2b53b43",
+      "source": "KANDILLI",
+      "sourceId": "k-d2b53b43",
+      "time": "2026-09-04T00:10:40+03:00",
+      "latitude": 39.3533,
+      "longitude": 39.0963,
+      "depth": 9.5,
+      "magnitude": 1.9,
+      "place": "ADAKOY-OVACIK (TUNCELI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T00:10:40+03:00",
+          "latitude": 39.3533,
+          "longitude": 39.0963,
+          "depth": 9.5,
+          "magnitude": 1.9,
+          "place": "ADAKOY-OVACIK (TUNCELI)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b8941e90",
+      "source": "KANDILLI",
+      "sourceId": "k-b8941e90",
+      "time": "2026-09-04T00:10:12+03:00",
+      "latitude": 39.1803,
+      "longitude": 28.1053,
+      "depth": 12.1,
+      "magnitude": 1.8,
+      "place": "ORMANICI-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T00:10:12+03:00",
+          "latitude": 39.1803,
+          "longitude": 28.1053,
+          "depth": 12.1,
+          "magnitude": 1.8,
+          "place": "ORMANICI-SINDIRGI (BALIKESIR)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5b4a3f37",
+      "source": "KANDILLI",
+      "sourceId": "k-5b4a3f37",
+      "time": "2026-09-03T23:57:51+03:00",
+      "latitude": 38.7155,
+      "longitude": 27.8717,
+      "depth": 6.5,
+      "magnitude": 1.3,
+      "place": "KAYAALTI-GOLMARMARA (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T23:57:51+03:00",
+          "latitude": 38.7155,
+          "longitude": 27.8717,
+          "depth": 6.5,
+          "magnitude": 1.3,
+          "place": "KAYAALTI-GOLMARMARA (MANISA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-07f17d15",
+      "source": "KANDILLI",
+      "sourceId": "k-07f17d15",
+      "time": "2026-09-03T23:45:50+03:00",
+      "latitude": 40.8012,
+      "longitude": 27.7477,
+      "depth": 7.7,
+      "magnitude": 1.6,
+      "place": "MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T23:45:50+03:00",
+          "latitude": 40.8012,
+          "longitude": 27.7477,
+          "depth": 7.7,
+          "magnitude": 1.6,
+          "place": "MARMARA DENIZI",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2b32dd21",
+      "source": "KANDILLI",
+      "sourceId": "k-2b32dd21",
+      "time": "2026-09-03T23:02:56+03:00",
+      "latitude": 40.3495,
+      "longitude": 25.7737,
+      "depth": 20.1,
+      "magnitude": 1.4,
+      "place": "KALEKOY-GOKCEADA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-03T23:02:56+03:00",
+          "latitude": 40.3495,
+          "longitude": 25.7737,
+          "depth": 20.1,
+          "magnitude": 1.4,
+          "place": "KALEKOY-GOKCEADA (CANAKKALE)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-8288acad",
       "source": "KANDILLI",
