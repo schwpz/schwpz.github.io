@@ -1,8 +1,89 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-03T21:56:17.465Z",
+  "updatedAt": "2026-09-03T23:44:07.996Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-7cb01bbc",
+      "source": "KANDILLI",
+      "sourceId": "k-7cb01bbc",
+      "time": "2026-09-04T01:58:09+03:00",
+      "latitude": 39.3545,
+      "longitude": 39.0792,
+      "depth": 5.9,
+      "magnitude": 1.7,
+      "place": "YESILYAZI-OVACIK (TUNCELI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T01:58:09+03:00",
+          "latitude": 39.3545,
+          "longitude": 39.0792,
+          "depth": 5.9,
+          "magnitude": 1.7,
+          "place": "YESILYAZI-OVACIK (TUNCELI)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-db042b82",
+      "source": "KANDILLI",
+      "sourceId": "k-db042b82",
+      "time": "2026-09-04T01:47:48+03:00",
+      "latitude": 39.5153,
+      "longitude": 27.6105,
+      "depth": 7.3,
+      "magnitude": 2.6,
+      "place": "KARAPINAR-SAVASTEPE (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T01:47:48+03:00",
+          "latitude": 39.5153,
+          "longitude": 27.6105,
+          "depth": 7.3,
+          "magnitude": 2.6,
+          "place": "KARAPINAR-SAVASTEPE (BALIKESIR)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7731ee13",
+      "source": "KANDILLI",
+      "sourceId": "k-7731ee13",
+      "time": "2026-09-04T01:06:47+03:00",
+      "latitude": 37.6867,
+      "longitude": 35.35,
+      "depth": 9.9,
+      "magnitude": 1.3,
+      "place": "YETIMLI-ALADAG (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T01:06:47+03:00",
+          "latitude": 37.6867,
+          "longitude": 35.35,
+          "depth": 9.9,
+          "magnitude": 1.3,
+          "place": "YETIMLI-ALADAG (ADANA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-0fc34805",
       "source": "KANDILLI",
