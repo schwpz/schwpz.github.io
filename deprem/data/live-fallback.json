@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T04:57:28.754Z",
+  "generatedAt": "2026-09-03T19:52:59.256Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -696,33 +696,6 @@
           "magnitude": 1.9,
           "place": "MARMARA DENIZI",
           "ml": 1.9,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-e5bee99a",
-      "source": "KANDILLI",
-      "sourceId": "k-e5bee99a",
-      "time": "2026-08-27T14:16:09+03:00",
-      "latitude": 40.805,
-      "longitude": 28.0587,
-      "depth": 10.2,
-      "magnitude": 2.7,
-      "place": "MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-27T14:16:09+03:00",
-          "latitude": 40.805,
-          "longitude": 28.0587,
-          "depth": 10.2,
-          "magnitude": 2.7,
-          "place": "MARMARA DENIZI",
-          "ml": 2.7,
           "mw": null,
           "md": null
         }
