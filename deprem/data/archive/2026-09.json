@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-04T14:55:07.567Z",
+  "updatedAt": "2026-09-04T17:54:19.879Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c6bffdf1",
+      "source": "KANDILLI",
+      "sourceId": "k-c6bffdf1",
+      "time": "2026-09-04T18:42:56+03:00",
+      "latitude": 38.8378,
+      "longitude": 23.5365,
+      "depth": 7.2,
+      "magnitude": 2.4,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T18:42:56+03:00",
+          "latitude": 38.8378,
+          "longitude": 23.5365,
+          "depth": 7.2,
+          "magnitude": 2.4,
+          "place": "YUNANISTAN",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-aba907ca",
+      "source": "KANDILLI",
+      "sourceId": "k-aba907ca",
+      "time": "2026-09-04T18:38:43+03:00",
+      "latitude": 38.7485,
+      "longitude": 36.5195,
+      "depth": 5,
+      "magnitude": 1.9,
+      "place": "YUKARIKARAGOZ-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T18:38:43+03:00",
+          "latitude": 38.7485,
+          "longitude": 36.5195,
+          "depth": 5,
+          "magnitude": 1.9,
+          "place": "YUKARIKARAGOZ-PINARBASI (KAYSERI)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b9169fc2",
+      "source": "KANDILLI",
+      "sourceId": "k-b9169fc2",
+      "time": "2026-09-04T18:23:16+03:00",
+      "latitude": 38.1325,
+      "longitude": 38.428,
+      "depth": 14,
+      "magnitude": 1.5,
+      "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T18:23:16+03:00",
+          "latitude": 38.1325,
+          "longitude": 38.428,
+          "depth": 14,
+          "magnitude": 1.5,
+          "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-40604840",
+      "source": "KANDILLI",
+      "sourceId": "k-40604840",
+      "time": "2026-09-04T17:39:04+03:00",
+      "latitude": 38.2248,
+      "longitude": 38.165,
+      "depth": 12.7,
+      "magnitude": 1.2,
+      "place": "ATALAR-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T17:39:04+03:00",
+          "latitude": 38.2248,
+          "longitude": 38.165,
+          "depth": 12.7,
+          "magnitude": 1.2,
+          "place": "ATALAR-YESILYURT (MALATYA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-34e5f83b",
       "source": "KANDILLI",
