@@ -1,8 +1,251 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-04T19:59:23.422Z",
+  "updatedAt": "2026-09-04T22:12:23.777Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-1df48c9e",
+      "source": "KANDILLI",
+      "sourceId": "k-1df48c9e",
+      "time": "2026-09-05T00:53:28+03:00",
+      "latitude": 38.6497,
+      "longitude": 26.7467,
+      "depth": 12.8,
+      "magnitude": 2.1,
+      "place": "FOCA (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T00:53:28+03:00",
+          "latitude": 38.6497,
+          "longitude": 26.7467,
+          "depth": 12.8,
+          "magnitude": 2.1,
+          "place": "FOCA (IZMIR)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-18d9bd66",
+      "source": "KANDILLI",
+      "sourceId": "k-18d9bd66",
+      "time": "2026-09-05T00:43:39+03:00",
+      "latitude": 39.1638,
+      "longitude": 28.167,
+      "depth": 9.4,
+      "magnitude": 1.4,
+      "place": "SINANDEDE-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T00:43:39+03:00",
+          "latitude": 39.1638,
+          "longitude": 28.167,
+          "depth": 9.4,
+          "magnitude": 1.4,
+          "place": "SINANDEDE-SINDIRGI (BALIKESIR)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-adf5ed98",
+      "source": "KANDILLI",
+      "sourceId": "k-adf5ed98",
+      "time": "2026-09-05T00:36:36+03:00",
+      "latitude": 39.1505,
+      "longitude": 28.3818,
+      "depth": 8.4,
+      "magnitude": 1.5,
+      "place": "YAYLABAYIR-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T00:36:36+03:00",
+          "latitude": 39.1505,
+          "longitude": 28.3818,
+          "depth": 8.4,
+          "magnitude": 1.5,
+          "place": "YAYLABAYIR-SINDIRGI (BALIKESIR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5c41b11c",
+      "source": "KANDILLI",
+      "sourceId": "k-5c41b11c",
+      "time": "2026-09-04T23:53:40+03:00",
+      "latitude": 39.2347,
+      "longitude": 28.0188,
+      "depth": 9.6,
+      "magnitude": 2.7,
+      "place": "KIZILGUR-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T23:53:40+03:00",
+          "latitude": 39.2347,
+          "longitude": 28.0188,
+          "depth": 9.6,
+          "magnitude": 2.7,
+          "place": "KIZILGUR-SINDIRGI (BALIKESIR)",
+          "ml": 2.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-74c6fbde",
+      "source": "KANDILLI",
+      "sourceId": "k-74c6fbde",
+      "time": "2026-09-04T23:48:04+03:00",
+      "latitude": 36.8905,
+      "longitude": 29.084,
+      "depth": 8.5,
+      "magnitude": 1.6,
+      "place": "DARIYERI-DALAMAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T23:48:04+03:00",
+          "latitude": 36.8905,
+          "longitude": 29.084,
+          "depth": 8.5,
+          "magnitude": 1.6,
+          "place": "DARIYERI-DALAMAN (MUGLA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ce073304",
+      "source": "KANDILLI",
+      "sourceId": "k-ce073304",
+      "time": "2026-09-04T23:32:23+03:00",
+      "latitude": 37.7067,
+      "longitude": 29.2403,
+      "depth": 13.4,
+      "magnitude": 2.1,
+      "place": "HONAZ (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T23:32:23+03:00",
+          "latitude": 37.7067,
+          "longitude": 29.2403,
+          "depth": 13.4,
+          "magnitude": 2.1,
+          "place": "HONAZ (DENIZLI)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1375c355",
+      "source": "KANDILLI",
+      "sourceId": "k-1375c355",
+      "time": "2026-09-04T23:06:33+03:00",
+      "latitude": 37.7008,
+      "longitude": 29.1957,
+      "depth": 13.8,
+      "magnitude": 1.4,
+      "place": "KARATAS-(DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T23:06:33+03:00",
+          "latitude": 37.7008,
+          "longitude": 29.1957,
+          "depth": 13.8,
+          "magnitude": 1.4,
+          "place": "KARATAS-(DENIZLI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0065c4b0",
+      "source": "KANDILLI",
+      "sourceId": "k-0065c4b0",
+      "time": "2026-09-04T23:04:52+03:00",
+      "latitude": 37.7043,
+      "longitude": 29.2007,
+      "depth": 12.7,
+      "magnitude": 1.4,
+      "place": "KARATAS-(DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T23:04:52+03:00",
+          "latitude": 37.7043,
+          "longitude": 29.2007,
+          "depth": 12.7,
+          "magnitude": 1.4,
+          "place": "KARATAS-(DENIZLI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f3b47d75",
+      "source": "KANDILLI",
+      "sourceId": "k-f3b47d75",
+      "time": "2026-09-04T22:56:48+03:00",
+      "latitude": 38.4747,
+      "longitude": 39.2648,
+      "depth": 5,
+      "magnitude": 1.8,
+      "place": "BEKCITEPE-SIVRICE (ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T22:56:48+03:00",
+          "latitude": 38.4747,
+          "longitude": 39.2648,
+          "depth": 5,
+          "magnitude": 1.8,
+          "place": "BEKCITEPE-SIVRICE (ELAZIG)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-d9d21d5d",
       "source": "KANDILLI",
