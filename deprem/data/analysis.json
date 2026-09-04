@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T01:22:46.177Z",
+  "generatedAt": "2026-09-04T06:02:34.452Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -435,7 +435,7 @@
       "name": "Central Basin / Western High",
       "state": "creep",
       "events24h": 1,
-      "events7d": 4,
+      "events7d": 2,
       "events30d": 8,
       "maxMagnitude24h": 1.6,
       "baselineDaily": 0.24,
@@ -639,7 +639,7 @@
       "name": "Silivri High / Batı Kumburgaz geçişi",
       "state": "transition",
       "events24h": 0,
-      "events7d": 3,
+      "events7d": 1,
       "events30d": 5,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.17,
@@ -1472,5 +1472,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 213
+  "historyEvents": 214
 }

@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-04T01:22:46.170Z",
+  "generatedAt": "2026-09-04T06:02:34.389Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-739a36b1",
+      "source": "KANDILLI",
+      "sourceId": "k-739a36b1",
+      "time": "2026-09-04T05:15:13+03:00",
+      "latitude": 40.4267,
+      "longitude": 28.4425,
+      "depth": 18.3,
+      "magnitude": 3.1,
+      "place": "BAYRAMDERE-KARACABEY (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T05:15:13+03:00",
+          "latitude": 40.4267,
+          "longitude": 28.4425,
+          "depth": 18.3,
+          "magnitude": 3.1,
+          "place": "BAYRAMDERE-KARACABEY (BURSA)",
+          "ml": 3.1,
+          "mw": 2.8,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-07f17d15",
       "source": "KANDILLI",
