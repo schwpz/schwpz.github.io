@@ -1,8 +1,143 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-04T17:54:19.879Z",
+  "updatedAt": "2026-09-04T19:59:23.422Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-d9d21d5d",
+      "source": "KANDILLI",
+      "sourceId": "k-d9d21d5d",
+      "time": "2026-09-04T22:51:12+03:00",
+      "latitude": 37.7068,
+      "longitude": 29.2163,
+      "depth": 11,
+      "magnitude": 1.2,
+      "place": "KARATAS-(DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T22:51:12+03:00",
+          "latitude": 37.7068,
+          "longitude": 29.2163,
+          "depth": 11,
+          "magnitude": 1.2,
+          "place": "KARATAS-(DENIZLI)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ad4ff250",
+      "source": "KANDILLI",
+      "sourceId": "k-ad4ff250",
+      "time": "2026-09-04T22:41:08+03:00",
+      "latitude": 37.7122,
+      "longitude": 29.2165,
+      "depth": 11.3,
+      "magnitude": 2.8,
+      "place": "KARATAS-(DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T22:41:08+03:00",
+          "latitude": 37.7122,
+          "longitude": 29.2165,
+          "depth": 11.3,
+          "magnitude": 2.8,
+          "place": "KARATAS-(DENIZLI)",
+          "ml": 2.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e944b393",
+      "source": "KANDILLI",
+      "sourceId": "k-e944b393",
+      "time": "2026-09-04T22:09:45+03:00",
+      "latitude": 37.7117,
+      "longitude": 29.213,
+      "depth": 10.4,
+      "magnitude": 2.9,
+      "place": "KARATAS-(DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T22:09:45+03:00",
+          "latitude": 37.7117,
+          "longitude": 29.213,
+          "depth": 10.4,
+          "magnitude": 2.9,
+          "place": "KARATAS-(DENIZLI)",
+          "ml": 2.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-174864b0",
+      "source": "KANDILLI",
+      "sourceId": "k-174864b0",
+      "time": "2026-09-04T21:51:08+03:00",
+      "latitude": 35.7498,
+      "longitude": 31.0975,
+      "depth": 25,
+      "magnitude": 3.6,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T21:51:08+03:00",
+          "latitude": 35.7498,
+          "longitude": 31.0975,
+          "depth": 25,
+          "magnitude": 3.6,
+          "place": "AKDENIZ",
+          "ml": 3.6,
+          "mw": 3.6,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-31dea3f3",
+      "source": "KANDILLI",
+      "sourceId": "k-31dea3f3",
+      "time": "2026-09-04T21:49:51+03:00",
+      "latitude": 39.9572,
+      "longitude": 28.1458,
+      "depth": 10.2,
+      "magnitude": 2.1,
+      "place": "BALIKLIDERE-SUSURLUK (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-04T21:49:51+03:00",
+          "latitude": 39.9572,
+          "longitude": 28.1458,
+          "depth": 10.2,
+          "magnitude": 2.1,
+          "place": "BALIKLIDERE-SUSURLUK (BALIKESIR)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c6bffdf1",
       "source": "KANDILLI",
