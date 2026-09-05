@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T08:22:43.634Z",
+  "generatedAt": "2026-09-05T14:01:35.135Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -534,33 +534,6 @@
           "magnitude": 1.6,
           "place": "ERIKLICE-SARKOY (TEKIRDAG)",
           "ml": 1.6,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-eec9f6ec",
-      "source": "KANDILLI",
-      "sourceId": "k-eec9f6ec",
-      "time": "2026-08-29T04:49:27+03:00",
-      "latitude": 40.4605,
-      "longitude": 26.2993,
-      "depth": 10.2,
-      "magnitude": 1.1,
-      "place": "SAROS KORFEZI (EGE DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-29T04:49:27+03:00",
-          "latitude": 40.4605,
-          "longitude": 26.2993,
-          "depth": 10.2,
-          "magnitude": 1.1,
-          "place": "SAROS KORFEZI (EGE DENIZI)",
-          "ml": 1.1,
           "mw": null,
           "md": null
         }
