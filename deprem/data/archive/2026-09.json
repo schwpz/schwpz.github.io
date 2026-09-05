@@ -1,8 +1,62 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-05T22:16:57.574Z",
+  "updatedAt": "2026-09-05T23:56:37.955Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-7952f662",
+      "source": "KANDILLI",
+      "sourceId": "k-7952f662",
+      "time": "2026-09-06T01:28:58+03:00",
+      "latitude": 38.135,
+      "longitude": 37.4533,
+      "depth": 5.1,
+      "magnitude": 1.5,
+      "place": "SUNNETKOY-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T01:28:58+03:00",
+          "latitude": 38.135,
+          "longitude": 37.4533,
+          "depth": 5.1,
+          "magnitude": 1.5,
+          "place": "SUNNETKOY-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0b61c43d",
+      "source": "KANDILLI",
+      "sourceId": "k-0b61c43d",
+      "time": "2026-09-06T01:06:41+03:00",
+      "latitude": 38.7333,
+      "longitude": 40.2115,
+      "depth": 7.4,
+      "magnitude": 1.6,
+      "place": "BURGUDERE-PALU (ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T01:06:41+03:00",
+          "latitude": 38.7333,
+          "longitude": 40.2115,
+          "depth": 7.4,
+          "magnitude": 1.6,
+          "place": "BURGUDERE-PALU (ELAZIG)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-d332cbbd",
       "source": "KANDILLI",
