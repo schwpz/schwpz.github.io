@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T04:16:27.568Z",
+  "generatedAt": "2026-09-05T08:22:43.634Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -561,33 +561,6 @@
           "magnitude": 1.1,
           "place": "SAROS KORFEZI (EGE DENIZI)",
           "ml": 1.1,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-9b3bc13d",
-      "source": "KANDILLI",
-      "sourceId": "k-9b3bc13d",
-      "time": "2026-08-29T00:25:54+03:00",
-      "latitude": 40.2922,
-      "longitude": 29.5572,
-      "depth": 6.4,
-      "magnitude": 1.8,
-      "place": "KARACAALI-YENISEHIR (BURSA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-29T00:25:54+03:00",
-          "latitude": 40.2922,
-          "longitude": 29.5572,
-          "depth": 6.4,
-          "magnitude": 1.8,
-          "place": "KARACAALI-YENISEHIR (BURSA)",
-          "ml": 1.8,
           "mw": null,
           "md": null
         }

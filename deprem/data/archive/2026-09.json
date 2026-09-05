@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-05T04:16:27.364Z",
+  "updatedAt": "2026-09-05T08:22:43.615Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-2f4b369d",
+      "source": "KANDILLI",
+      "sourceId": "k-2f4b369d",
+      "time": "2026-09-05T10:06:50+03:00",
+      "latitude": 37.7122,
+      "longitude": 29.203,
+      "depth": 3.6,
+      "magnitude": 1.9,
+      "place": "KARATAS-(DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T10:06:50+03:00",
+          "latitude": 37.7122,
+          "longitude": 29.203,
+          "depth": 3.6,
+          "magnitude": 1.9,
+          "place": "KARATAS-(DENIZLI)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d5d4f19a",
+      "source": "KANDILLI",
+      "sourceId": "k-d5d4f19a",
+      "time": "2026-09-05T08:43:16+03:00",
+      "latitude": 37.7263,
+      "longitude": 29.2137,
+      "depth": 0,
+      "magnitude": 2.5,
+      "place": "KARATEKE-HONAZ (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T08:43:16+03:00",
+          "latitude": 37.7263,
+          "longitude": 29.2137,
+          "depth": 0,
+          "magnitude": 2.5,
+          "place": "KARATEKE-HONAZ (DENIZLI)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8f3c11ec",
+      "source": "KANDILLI",
+      "sourceId": "k-8f3c11ec",
+      "time": "2026-09-05T07:52:38+03:00",
+      "latitude": 38.2867,
+      "longitude": 38.6122,
+      "depth": 12.2,
+      "magnitude": 1.9,
+      "place": "PELITLI-(MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T07:52:38+03:00",
+          "latitude": 38.2867,
+          "longitude": 38.6122,
+          "depth": 12.2,
+          "magnitude": 1.9,
+          "place": "PELITLI-(MALATYA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e38b6ffe",
+      "source": "KANDILLI",
+      "sourceId": "k-e38b6ffe",
+      "time": "2026-09-05T07:15:48+03:00",
+      "latitude": 39.2387,
+      "longitude": 28.1592,
+      "depth": 6.6,
+      "magnitude": 1.8,
+      "place": "SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T07:15:48+03:00",
+          "latitude": 39.2387,
+          "longitude": 28.1592,
+          "depth": 6.6,
+          "magnitude": 1.8,
+          "place": "SINDIRGI (BALIKESIR)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-b6b09103",
       "source": "KANDILLI",
