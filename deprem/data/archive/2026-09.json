@@ -1,8 +1,62 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-05T20:40:53.100Z",
+  "updatedAt": "2026-09-05T22:16:57.574Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-d332cbbd",
+      "source": "KANDILLI",
+      "sourceId": "k-d332cbbd",
+      "time": "2026-09-05T23:52:12+03:00",
+      "latitude": 39.0038,
+      "longitude": 28.2737,
+      "depth": 13.8,
+      "magnitude": 1,
+      "place": "BOREZ-GORDES (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T23:52:12+03:00",
+          "latitude": 39.0038,
+          "longitude": 28.2737,
+          "depth": 13.8,
+          "magnitude": 1,
+          "place": "BOREZ-GORDES (MANISA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8aea2fc2",
+      "source": "KANDILLI",
+      "sourceId": "k-8aea2fc2",
+      "time": "2026-09-05T23:40:23+03:00",
+      "latitude": 35.158,
+      "longitude": 25.2245,
+      "depth": 9.5,
+      "magnitude": 2.8,
+      "place": "GIRIT ADASI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T23:40:23+03:00",
+          "latitude": 35.158,
+          "longitude": 25.2245,
+          "depth": 9.5,
+          "magnitude": 2.8,
+          "place": "GIRIT ADASI (AKDENIZ)",
+          "ml": 2.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-27f71e17",
       "source": "KANDILLI",

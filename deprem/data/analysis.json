@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T20:40:53.154Z",
+  "generatedAt": "2026-09-05T22:16:57.630Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -24,7 +24,7 @@
       "name": "Ganos",
       "state": "locked",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 1,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,
