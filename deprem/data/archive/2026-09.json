@@ -1,8 +1,35 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-05T14:01:34.367Z",
+  "updatedAt": "2026-09-05T16:43:48.688Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-163ed767",
+      "source": "KANDILLI",
+      "sourceId": "k-163ed767",
+      "time": "2026-09-05T19:16:06+03:00",
+      "latitude": 38.0165,
+      "longitude": 37.5308,
+      "depth": 9.3,
+      "magnitude": 1.6,
+      "place": "TATLAR-NURHAK (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T19:16:06+03:00",
+          "latitude": 38.0165,
+          "longitude": 37.5308,
+          "depth": 9.3,
+          "magnitude": 1.6,
+          "place": "TATLAR-NURHAK (KAHRAMANMARAS)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-753019cc",
       "source": "KANDILLI",
