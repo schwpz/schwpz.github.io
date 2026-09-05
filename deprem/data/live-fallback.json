@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T19:59:23.453Z",
+  "generatedAt": "2026-09-05T04:16:27.568Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -588,33 +588,6 @@
           "magnitude": 1.8,
           "place": "KARACAALI-YENISEHIR (BURSA)",
           "ml": 1.8,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-cb7ede99",
-      "source": "KANDILLI",
-      "sourceId": "k-cb7ede99",
-      "time": "2026-08-28T21:11:36+03:00",
-      "latitude": 40.7698,
-      "longitude": 30.6773,
-      "depth": 22.3,
-      "magnitude": 1.7,
-      "place": "UZUNCAORMAN-HENDEK (SAKARYA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-28T21:11:36+03:00",
-          "latitude": 40.7698,
-          "longitude": 30.6773,
-          "depth": 22.3,
-          "magnitude": 1.7,
-          "place": "UZUNCAORMAN-HENDEK (SAKARYA)",
-          "ml": 1.7,
           "mw": null,
           "md": null
         }
