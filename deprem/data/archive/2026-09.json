@@ -1,8 +1,35 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-05T16:43:48.688Z",
+  "updatedAt": "2026-09-05T18:34:50.177Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-089305e3",
+      "source": "KANDILLI",
+      "sourceId": "k-089305e3",
+      "time": "2026-09-05T20:51:46+03:00",
+      "latitude": 40.7128,
+      "longitude": 30.5722,
+      "depth": 7.5,
+      "magnitude": 2.4,
+      "place": "BEDILTAHIRBEY-AKYAZI (SAKARYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T20:51:46+03:00",
+          "latitude": 40.7128,
+          "longitude": 30.5722,
+          "depth": 7.5,
+          "magnitude": 2.4,
+          "place": "BEDILTAHIRBEY-AKYAZI (SAKARYA)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-163ed767",
       "source": "KANDILLI",
@@ -22,6 +49,87 @@
           "magnitude": 1.6,
           "place": "TATLAR-NURHAK (KAHRAMANMARAS)",
           "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-725be516",
+      "source": "KANDILLI",
+      "sourceId": "k-725be516",
+      "time": "2026-09-05T19:11:02+03:00",
+      "latitude": 41.0873,
+      "longitude": 28.9593,
+      "depth": 0,
+      "magnitude": 0.8,
+      "place": "KAGITHANE (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T19:11:02+03:00",
+          "latitude": 41.0873,
+          "longitude": 28.9593,
+          "depth": 0,
+          "magnitude": 0.8,
+          "place": "KAGITHANE (ISTANBUL)",
+          "ml": 0.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-edb88cf8",
+      "source": "KANDILLI",
+      "sourceId": "k-edb88cf8",
+      "time": "2026-09-05T18:55:06+03:00",
+      "latitude": 40.3178,
+      "longitude": 29.374,
+      "depth": 5,
+      "magnitude": 0.9,
+      "place": "PASAYAYLA-YENISEHIR (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T18:55:06+03:00",
+          "latitude": 40.3178,
+          "longitude": 29.374,
+          "depth": 5,
+          "magnitude": 0.9,
+          "place": "PASAYAYLA-YENISEHIR (BURSA)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1f447748",
+      "source": "KANDILLI",
+      "sourceId": "k-1f447748",
+      "time": "2026-09-05T18:28:41+03:00",
+      "latitude": 37.7215,
+      "longitude": 29.1877,
+      "depth": 4.9,
+      "magnitude": 1.5,
+      "place": "KARATAS-(DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-05T18:28:41+03:00",
+          "latitude": 37.7215,
+          "longitude": 29.1877,
+          "depth": 4.9,
+          "magnitude": 1.5,
+          "place": "KARATAS-(DENIZLI)",
+          "ml": 1.5,
           "mw": null,
           "md": null
         }
