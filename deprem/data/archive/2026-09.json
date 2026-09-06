@@ -1,8 +1,62 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-06T19:07:33.580Z",
+  "updatedAt": "2026-09-06T21:16:48.561Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-5289a3c7",
+      "source": "KANDILLI",
+      "sourceId": "k-5289a3c7",
+      "time": "2026-09-06T23:33:42+03:00",
+      "latitude": 38.3645,
+      "longitude": 37.43,
+      "depth": 6.5,
+      "magnitude": 1.7,
+      "place": "YALINTAS-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T23:33:42+03:00",
+          "latitude": 38.3645,
+          "longitude": 37.43,
+          "depth": 6.5,
+          "magnitude": 1.7,
+          "place": "YALINTAS-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c882f491",
+      "source": "KANDILLI",
+      "sourceId": "k-c882f491",
+      "time": "2026-09-06T22:55:48+03:00",
+      "latitude": 38.2667,
+      "longitude": 38.8682,
+      "depth": 1.6,
+      "magnitude": 1.7,
+      "place": "CENGELLI-PUTURGE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T22:55:48+03:00",
+          "latitude": 38.2667,
+          "longitude": 38.8682,
+          "depth": 1.6,
+          "magnitude": 1.7,
+          "place": "CENGELLI-PUTURGE (MALATYA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-3d5a3d0c",
       "source": "KANDILLI",
