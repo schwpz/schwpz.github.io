@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-06T11:40:11.981Z",
+  "updatedAt": "2026-09-06T14:23:23.837Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-a638190f",
+      "source": "KANDILLI",
+      "sourceId": "k-a638190f",
+      "time": "2026-09-06T16:54:40+03:00",
+      "latitude": 39.1875,
+      "longitude": 27.9623,
+      "depth": 18.8,
+      "magnitude": 1.6,
+      "place": "AKKOCALI-AKHISAR (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T16:54:40+03:00",
+          "latitude": 39.1875,
+          "longitude": 27.9623,
+          "depth": 18.8,
+          "magnitude": 1.6,
+          "place": "AKKOCALI-AKHISAR (MANISA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0f1ac9cf",
+      "source": "KANDILLI",
+      "sourceId": "k-0f1ac9cf",
+      "time": "2026-09-06T16:52:44+03:00",
+      "latitude": 39.4232,
+      "longitude": 26.4897,
+      "depth": 12.9,
+      "magnitude": 1.8,
+      "place": "EDREMIT KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T16:52:44+03:00",
+          "latitude": 39.4232,
+          "longitude": 26.4897,
+          "depth": 12.9,
+          "magnitude": 1.8,
+          "place": "EDREMIT KORFEZI (EGE DENIZI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e7c87dd0",
+      "source": "KANDILLI",
+      "sourceId": "k-e7c87dd0",
+      "time": "2026-09-06T16:05:15+03:00",
+      "latitude": 40.6478,
+      "longitude": 36.7985,
+      "depth": 5.6,
+      "magnitude": 2.4,
+      "place": "BUZKOY-NIKSAR (TOKAT)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T16:05:15+03:00",
+          "latitude": 40.6478,
+          "longitude": 36.7985,
+          "depth": 5.6,
+          "magnitude": 2.4,
+          "place": "BUZKOY-NIKSAR (TOKAT)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2d6b019a",
+      "source": "KANDILLI",
+      "sourceId": "k-2d6b019a",
+      "time": "2026-09-06T15:19:31+03:00",
+      "latitude": 38.0653,
+      "longitude": 35.516,
+      "depth": 5,
+      "magnitude": 1.5,
+      "place": "SAZAK-YAHYALI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T15:19:31+03:00",
+          "latitude": 38.0653,
+          "longitude": 35.516,
+          "depth": 5,
+          "magnitude": 1.5,
+          "place": "SAZAK-YAHYALI (KAYSERI)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7198307f",
+      "source": "KANDILLI",
+      "sourceId": "k-7198307f",
+      "time": "2026-09-06T15:07:26+03:00",
+      "latitude": 38.2037,
+      "longitude": 36.8982,
+      "depth": 5,
+      "magnitude": 2.2,
+      "place": "HUYUKLU-AFSIN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T15:07:26+03:00",
+          "latitude": 38.2037,
+          "longitude": 36.8982,
+          "depth": 5,
+          "magnitude": 2.2,
+          "place": "HUYUKLU-AFSIN (KAHRAMANMARAS)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2c397bee",
+      "source": "KANDILLI",
+      "sourceId": "k-2c397bee",
+      "time": "2026-09-06T15:02:01+03:00",
+      "latitude": 39.5148,
+      "longitude": 27.6018,
+      "depth": 5.3,
+      "magnitude": 3.1,
+      "place": "CUKUROBA-IVRINDI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T15:02:01+03:00",
+          "latitude": 39.5148,
+          "longitude": 27.6018,
+          "depth": 5.3,
+          "magnitude": 3.1,
+          "place": "CUKUROBA-IVRINDI (BALIKESIR)",
+          "ml": 3.1,
+          "mw": 3,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-2af11b0c",
       "source": "KANDILLI",
