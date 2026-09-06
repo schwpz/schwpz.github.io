@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-05T18:34:50.219Z",
+  "generatedAt": "2026-09-06T02:31:57.690Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-bbdaf112",
+      "source": "KANDILLI",
+      "sourceId": "k-bbdaf112",
+      "time": "2026-09-06T03:07:33+03:00",
+      "latitude": 40.6808,
+      "longitude": 30.5832,
+      "depth": 10,
+      "magnitude": 1.7,
+      "place": "HARMANLI-KARAPURCEK (SAKARYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T03:07:33+03:00",
+          "latitude": 40.6808,
+          "longitude": 30.5832,
+          "depth": 10,
+          "magnitude": 1.7,
+          "place": "HARMANLI-KARAPURCEK (SAKARYA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-089305e3",
       "source": "KANDILLI",
