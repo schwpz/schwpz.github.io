@@ -1,7 +1,88 @@
 {
-  "generatedAt": "2026-09-06T11:40:12.052Z",
+  "generatedAt": "2026-09-06T17:09:34.066Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-6a638414",
+      "source": "KANDILLI",
+      "sourceId": "k-6a638414",
+      "time": "2026-09-06T18:27:44+03:00",
+      "latitude": 40.4345,
+      "longitude": 30.3102,
+      "depth": 7,
+      "magnitude": 1.7,
+      "place": "ALIPLAR-GEYVE (SAKARYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T18:27:44+03:00",
+          "latitude": 40.4345,
+          "longitude": 30.3102,
+          "depth": 7,
+          "magnitude": 1.7,
+          "place": "ALIPLAR-GEYVE (SAKARYA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2402584d",
+      "source": "KANDILLI",
+      "sourceId": "k-2402584d",
+      "time": "2026-09-06T18:20:10+03:00",
+      "latitude": 40.312,
+      "longitude": 29.3667,
+      "depth": 5.2,
+      "magnitude": 1.5,
+      "place": "PASAYAYLA-YENISEHIR (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T18:20:10+03:00",
+          "latitude": 40.312,
+          "longitude": 29.3667,
+          "depth": 5.2,
+          "magnitude": 1.5,
+          "place": "PASAYAYLA-YENISEHIR (BURSA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-11bc0c0f",
+      "source": "KANDILLI",
+      "sourceId": "k-11bc0c0f",
+      "time": "2026-09-06T17:40:49+03:00",
+      "latitude": 40.4925,
+      "longitude": 29.1945,
+      "depth": 5.2,
+      "magnitude": 1.7,
+      "place": "SAHINYURDU-GEMLIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T17:40:49+03:00",
+          "latitude": 40.4925,
+          "longitude": 29.1945,
+          "depth": 5.2,
+          "magnitude": 1.7,
+          "place": "SAHINYURDU-GEMLIK (BURSA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-ba82a6d8",
       "source": "KANDILLI",
@@ -641,33 +722,6 @@
           "depth": 7.2,
           "magnitude": 1.6,
           "place": "SAROS KORFEZI (EGE DENIZI)",
-          "ml": 1.6,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-40979d32",
-      "source": "KANDILLI",
-      "sourceId": "k-40979d32",
-      "time": "2026-08-30T06:46:07+03:00",
-      "latitude": 40.6387,
-      "longitude": 28.9745,
-      "depth": 5.3,
-      "magnitude": 1.6,
-      "place": "ESENKOY-CINARCIK (YALOVA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-30T06:46:07+03:00",
-          "latitude": 40.6387,
-          "longitude": 28.9745,
-          "depth": 5.3,
-          "magnitude": 1.6,
-          "place": "ESENKOY-CINARCIK (YALOVA)",
           "ml": 1.6,
           "mw": null,
           "md": null
