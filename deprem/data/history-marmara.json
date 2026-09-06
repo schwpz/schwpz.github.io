@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-06T17:09:34.079Z",
+  "generatedAt": "2026-09-06T19:07:33.631Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c1f50cb8",
+      "source": "KANDILLI",
+      "sourceId": "k-c1f50cb8",
+      "time": "2026-09-06T21:08:32+03:00",
+      "latitude": 40.4762,
+      "longitude": 29.2088,
+      "depth": 8.4,
+      "magnitude": 1.1,
+      "place": "SAHINYURDU-GEMLIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T21:08:32+03:00",
+          "latitude": 40.4762,
+          "longitude": 29.2088,
+          "depth": 8.4,
+          "magnitude": 1.1,
+          "place": "SAHINYURDU-GEMLIK (BURSA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-6a638414",
       "source": "KANDILLI",

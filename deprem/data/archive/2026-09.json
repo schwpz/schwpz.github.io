@@ -1,8 +1,89 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-06T17:09:34.032Z",
+  "updatedAt": "2026-09-06T19:07:33.580Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-3d5a3d0c",
+      "source": "KANDILLI",
+      "sourceId": "k-3d5a3d0c",
+      "time": "2026-09-06T21:28:16+03:00",
+      "latitude": 39.1532,
+      "longitude": 28.192,
+      "depth": 12.8,
+      "magnitude": 1.6,
+      "place": "AKTAS-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T21:28:16+03:00",
+          "latitude": 39.1532,
+          "longitude": 28.192,
+          "depth": 12.8,
+          "magnitude": 1.6,
+          "place": "AKTAS-SINDIRGI (BALIKESIR)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0ecc8786",
+      "source": "KANDILLI",
+      "sourceId": "k-0ecc8786",
+      "time": "2026-09-06T21:18:55+03:00",
+      "latitude": 35.0635,
+      "longitude": 23.851,
+      "depth": 58.5,
+      "magnitude": 2.2,
+      "place": "GIRIT ADASI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T21:18:55+03:00",
+          "latitude": 35.0635,
+          "longitude": 23.851,
+          "depth": 58.5,
+          "magnitude": 2.2,
+          "place": "GIRIT ADASI (AKDENIZ)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c1f50cb8",
+      "source": "KANDILLI",
+      "sourceId": "k-c1f50cb8",
+      "time": "2026-09-06T21:08:32+03:00",
+      "latitude": 40.4762,
+      "longitude": 29.2088,
+      "depth": 8.4,
+      "magnitude": 1.1,
+      "place": "SAHINYURDU-GEMLIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-06T21:08:32+03:00",
+          "latitude": 40.4762,
+          "longitude": 29.2088,
+          "depth": 8.4,
+          "magnitude": 1.1,
+          "place": "SAHINYURDU-GEMLIK (BURSA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-23facdbc",
       "source": "KANDILLI",
