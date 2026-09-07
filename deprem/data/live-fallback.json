@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T00:28:25.264Z",
+  "generatedAt": "2026-09-07T19:24:26.941Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -723,33 +723,6 @@
           "magnitude": 1.8,
           "place": "ORTULUCE-BIGA (CANAKKALE)",
           "ml": 1.8,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-a38af619",
-      "source": "KANDILLI",
-      "sourceId": "k-a38af619",
-      "time": "2026-08-30T22:23:24+03:00",
-      "latitude": 40.6443,
-      "longitude": 27.8123,
-      "depth": 11.8,
-      "magnitude": 1.6,
-      "place": "MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-30T22:23:24+03:00",
-          "latitude": 40.6443,
-          "longitude": 27.8123,
-          "depth": 11.8,
-          "magnitude": 1.6,
-          "place": "MARMARA DENIZI",
-          "ml": 1.6,
           "mw": null,
           "md": null
         }

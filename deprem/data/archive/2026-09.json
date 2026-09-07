@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-07T15:49:36.412Z",
+  "updatedAt": "2026-09-07T19:24:26.906Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-bcd8466a",
+      "source": "KANDILLI",
+      "sourceId": "k-bcd8466a",
+      "time": "2026-09-07T21:23:15+03:00",
+      "latitude": 39.123,
+      "longitude": 28.335,
+      "depth": 7.8,
+      "magnitude": 2.1,
+      "place": "YUREGIL-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T21:23:15+03:00",
+          "latitude": 39.123,
+          "longitude": 28.335,
+          "depth": 7.8,
+          "magnitude": 2.1,
+          "place": "YUREGIL-SINDIRGI (BALIKESIR)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2b1f59da",
+      "source": "KANDILLI",
+      "sourceId": "k-2b1f59da",
+      "time": "2026-09-07T21:09:31+03:00",
+      "latitude": 38.4273,
+      "longitude": 37.5003,
+      "depth": 6,
+      "magnitude": 2,
+      "place": "SUGUL-DARENDE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T21:09:31+03:00",
+          "latitude": 38.4273,
+          "longitude": 37.5003,
+          "depth": 6,
+          "magnitude": 2,
+          "place": "SUGUL-DARENDE (MALATYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4bae84b2",
+      "source": "KANDILLI",
+      "sourceId": "k-4bae84b2",
+      "time": "2026-09-07T20:17:45+03:00",
+      "latitude": 39.7125,
+      "longitude": 40.664,
+      "depth": 5,
+      "magnitude": 2,
+      "place": "TOZLUCA-ASKALE (ERZURUM)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T20:17:45+03:00",
+          "latitude": 39.7125,
+          "longitude": 40.664,
+          "depth": 5,
+          "magnitude": 2,
+          "place": "TOZLUCA-ASKALE (ERZURUM)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ba4f803b",
+      "source": "KANDILLI",
+      "sourceId": "k-ba4f803b",
+      "time": "2026-09-07T18:43:47+03:00",
+      "latitude": 37.6053,
+      "longitude": 29.068,
+      "depth": 2.7,
+      "magnitude": 1.4,
+      "place": "TAVAS (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T18:43:47+03:00",
+          "latitude": 37.6053,
+          "longitude": 29.068,
+          "depth": 2.7,
+          "magnitude": 1.4,
+          "place": "TAVAS (DENIZLI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0219db4e",
+      "source": "KANDILLI",
+      "sourceId": "k-0219db4e",
+      "time": "2026-09-07T18:33:06+03:00",
+      "latitude": 39.1828,
+      "longitude": 28.1935,
+      "depth": 7.9,
+      "magnitude": 1.6,
+      "place": "AKTAS-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T18:33:06+03:00",
+          "latitude": 39.1828,
+          "longitude": 28.1935,
+          "depth": 7.9,
+          "magnitude": 1.6,
+          "place": "AKTAS-SINDIRGI (BALIKESIR)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-192a80b2",
+      "source": "KANDILLI",
+      "sourceId": "k-192a80b2",
+      "time": "2026-09-07T18:20:40+03:00",
+      "latitude": 38.6742,
+      "longitude": 40.6463,
+      "depth": 2.5,
+      "magnitude": 1.4,
+      "place": "CEVIRME-GENC (BINGOL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T18:20:40+03:00",
+          "latitude": 38.6742,
+          "longitude": 40.6463,
+          "depth": 2.5,
+          "magnitude": 1.4,
+          "place": "CEVIRME-GENC (BINGOL)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-b51cb553",
       "source": "KANDILLI",
