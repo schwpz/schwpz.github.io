@@ -1,8 +1,143 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-07T10:08:24.864Z",
+  "updatedAt": "2026-09-07T15:49:36.412Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-b51cb553",
+      "source": "KANDILLI",
+      "sourceId": "k-b51cb553",
+      "time": "2026-09-07T18:02:32+03:00",
+      "latitude": 38.3498,
+      "longitude": 37.3607,
+      "depth": 5.2,
+      "magnitude": 1.6,
+      "place": "INCECIK-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T18:02:32+03:00",
+          "latitude": 38.3498,
+          "longitude": 37.3607,
+          "depth": 5.2,
+          "magnitude": 1.6,
+          "place": "INCECIK-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f32e3cc0",
+      "source": "KANDILLI",
+      "sourceId": "k-f32e3cc0",
+      "time": "2026-09-07T16:45:53+03:00",
+      "latitude": 38.4088,
+      "longitude": 31.1463,
+      "depth": 5.2,
+      "magnitude": 2,
+      "place": "BAGLARBASI-YALVAC (ISPARTA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T16:45:53+03:00",
+          "latitude": 38.4088,
+          "longitude": 31.1463,
+          "depth": 5.2,
+          "magnitude": 2,
+          "place": "BAGLARBASI-YALVAC (ISPARTA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-71bd5fc4",
+      "source": "KANDILLI",
+      "sourceId": "k-71bd5fc4",
+      "time": "2026-09-07T14:44:01+03:00",
+      "latitude": 40.1332,
+      "longitude": 32.9877,
+      "depth": 0,
+      "magnitude": 2.1,
+      "place": "AKYURT (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T14:44:01+03:00",
+          "latitude": 40.1332,
+          "longitude": 32.9877,
+          "depth": 0,
+          "magnitude": 2.1,
+          "place": "AKYURT (ANKARA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c475adb9",
+      "source": "KANDILLI",
+      "sourceId": "k-c475adb9",
+      "time": "2026-09-07T14:10:59+03:00",
+      "latitude": 39.9942,
+      "longitude": 23.386,
+      "depth": 15.3,
+      "magnitude": 2.2,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T14:10:59+03:00",
+          "latitude": 39.9942,
+          "longitude": 23.386,
+          "depth": 15.3,
+          "magnitude": 2.2,
+          "place": "YUNANISTAN",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8b1cb1ca",
+      "source": "KANDILLI",
+      "sourceId": "k-8b1cb1ca",
+      "time": "2026-09-07T13:07:36+03:00",
+      "latitude": 39.6918,
+      "longitude": 40.7232,
+      "depth": 8.4,
+      "magnitude": 2.1,
+      "place": "YUMRUVEREN-ASKALE (ERZURUM)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T13:07:36+03:00",
+          "latitude": 39.6918,
+          "longitude": 40.7232,
+          "depth": 8.4,
+          "magnitude": 2.1,
+          "place": "YUMRUVEREN-ASKALE (ERZURUM)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-8d8a02de",
       "source": "KANDILLI",
