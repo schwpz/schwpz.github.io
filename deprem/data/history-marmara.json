@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-06T22:54:37.103Z",
+  "generatedAt": "2026-09-07T00:28:25.277Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-652e01d0",
+      "source": "KANDILLI",
+      "sourceId": "k-652e01d0",
+      "time": "2026-09-07T01:56:14+03:00",
+      "latitude": 40.4465,
+      "longitude": 28.7087,
+      "depth": 5.4,
+      "magnitude": 1.8,
+      "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T01:56:14+03:00",
+          "latitude": 40.4465,
+          "longitude": 28.7087,
+          "depth": 5.4,
+          "magnitude": 1.8,
+          "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c1f50cb8",
       "source": "KANDILLI",
