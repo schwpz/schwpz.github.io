@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-07T05:03:18.782Z",
+  "updatedAt": "2026-09-07T10:08:24.864Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-8d8a02de",
+      "source": "KANDILLI",
+      "sourceId": "k-8d8a02de",
+      "time": "2026-09-07T12:43:16+03:00",
+      "latitude": 38.386,
+      "longitude": 37.3482,
+      "depth": 6.4,
+      "magnitude": 2,
+      "place": "INCECIK-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T12:43:16+03:00",
+          "latitude": 38.386,
+          "longitude": 37.3482,
+          "depth": 6.4,
+          "magnitude": 2,
+          "place": "INCECIK-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-103a3e40",
+      "source": "KANDILLI",
+      "sourceId": "k-103a3e40",
+      "time": "2026-09-07T11:25:34+03:00",
+      "latitude": 39.1808,
+      "longitude": 28.193,
+      "depth": 10.8,
+      "magnitude": 2,
+      "place": "AKTAS-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T11:25:34+03:00",
+          "latitude": 39.1808,
+          "longitude": 28.193,
+          "depth": 10.8,
+          "magnitude": 2,
+          "place": "AKTAS-SINDIRGI (BALIKESIR)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cfd0892b",
+      "source": "KANDILLI",
+      "sourceId": "k-cfd0892b",
+      "time": "2026-09-07T10:32:25+03:00",
+      "latitude": 36.602,
+      "longitude": 29.1635,
+      "depth": 26,
+      "magnitude": 1.5,
+      "place": "OLUDENIZ-FETHIYE (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T10:32:25+03:00",
+          "latitude": 36.602,
+          "longitude": 29.1635,
+          "depth": 26,
+          "magnitude": 1.5,
+          "place": "OLUDENIZ-FETHIYE (MUGLA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-10246eb5",
+      "source": "KANDILLI",
+      "sourceId": "k-10246eb5",
+      "time": "2026-09-07T10:02:41+03:00",
+      "latitude": 39.9775,
+      "longitude": 39.8667,
+      "depth": 25.8,
+      "magnitude": 1.6,
+      "place": "AVCICAYIRI-OTLUKBELI (ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T10:02:41+03:00",
+          "latitude": 39.9775,
+          "longitude": 39.8667,
+          "depth": 25.8,
+          "magnitude": 1.6,
+          "place": "AVCICAYIRI-OTLUKBELI (ERZINCAN)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-651107cb",
+      "source": "KANDILLI",
+      "sourceId": "k-651107cb",
+      "time": "2026-09-07T09:41:35+03:00",
+      "latitude": 39.1818,
+      "longitude": 28.1107,
+      "depth": 22.7,
+      "magnitude": 1.8,
+      "place": "ORMANICI-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T09:41:35+03:00",
+          "latitude": 39.1818,
+          "longitude": 28.1107,
+          "depth": 22.7,
+          "magnitude": 1.8,
+          "place": "ORMANICI-SINDIRGI (BALIKESIR)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-38c04c6f",
+      "source": "KANDILLI",
+      "sourceId": "k-38c04c6f",
+      "time": "2026-09-07T08:47:58+03:00",
+      "latitude": 40.8838,
+      "longitude": 31.6435,
+      "depth": 8.4,
+      "magnitude": 1.6,
+      "place": "YESILCELE-(BOLU)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-07T08:47:58+03:00",
+          "latitude": 40.8838,
+          "longitude": 31.6435,
+          "depth": 8.4,
+          "magnitude": 1.6,
+          "place": "YESILCELE-(BOLU)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-1468394c",
       "source": "KANDILLI",
