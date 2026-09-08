@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T19:24:26.941Z",
+  "generatedAt": "2026-09-08T04:48:59.599Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -669,60 +669,6 @@
           "magnitude": 1.1,
           "place": "ESKIBALIKLI-BIGA (CANAKKALE)",
           "ml": 1.1,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-e6e4e9ba",
-      "source": "KANDILLI",
-      "sourceId": "k-e6e4e9ba",
-      "time": "2026-08-31T03:33:26+03:00",
-      "latitude": 40.9913,
-      "longitude": 26.6703,
-      "depth": 13.9,
-      "magnitude": 0.6,
-      "place": "KARACAALI-KESAN (EDIRNE)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-31T03:33:26+03:00",
-          "latitude": 40.9913,
-          "longitude": 26.6703,
-          "depth": 13.9,
-          "magnitude": 0.6,
-          "place": "KARACAALI-KESAN (EDIRNE)",
-          "ml": 0.6,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-7c11f80f",
-      "source": "KANDILLI",
-      "sourceId": "k-7c11f80f",
-      "time": "2026-08-31T03:09:04+03:00",
-      "latitude": 40.4028,
-      "longitude": 27.22,
-      "depth": 5,
-      "magnitude": 1.8,
-      "place": "ORTULUCE-BIGA (CANAKKALE)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-08-31T03:09:04+03:00",
-          "latitude": 40.4028,
-          "longitude": 27.22,
-          "depth": 5,
-          "magnitude": 1.8,
-          "place": "ORTULUCE-BIGA (CANAKKALE)",
-          "ml": 1.8,
           "mw": null,
           "md": null
         }
