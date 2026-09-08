@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-07T22:08:06.220Z",
+  "updatedAt": "2026-09-08T00:18:56.392Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-0a65780f",
+      "source": "KANDILLI",
+      "sourceId": "k-0a65780f",
+      "time": "2026-09-08T03:08:55+03:00",
+      "latitude": 36.012,
+      "longitude": 27.3297,
+      "depth": 7.5,
+      "magnitude": 1.8,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T03:08:55+03:00",
+          "latitude": 36.012,
+          "longitude": 27.3297,
+          "depth": 7.5,
+          "magnitude": 1.8,
+          "place": "EGE DENIZI",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2a94d418",
+      "source": "KANDILLI",
+      "sourceId": "k-2a94d418",
+      "time": "2026-09-08T02:51:17+03:00",
+      "latitude": 39.1993,
+      "longitude": 28.1692,
+      "depth": 14.6,
+      "magnitude": 1.5,
+      "place": "YAYLACIK-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T02:51:17+03:00",
+          "latitude": 39.1993,
+          "longitude": 28.1692,
+          "depth": 14.6,
+          "magnitude": 1.5,
+          "place": "YAYLACIK-SINDIRGI (BALIKESIR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-86a84a34",
+      "source": "KANDILLI",
+      "sourceId": "k-86a84a34",
+      "time": "2026-09-08T01:49:30+03:00",
+      "latitude": 36.9127,
+      "longitude": 27.2357,
+      "depth": 11.7,
+      "magnitude": 1.6,
+      "place": "KOS ADASI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T01:49:30+03:00",
+          "latitude": 36.9127,
+          "longitude": 27.2357,
+          "depth": 11.7,
+          "magnitude": 1.6,
+          "place": "KOS ADASI (EGE DENIZI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1deef8b5",
+      "source": "KANDILLI",
+      "sourceId": "k-1deef8b5",
+      "time": "2026-09-08T01:33:44+03:00",
+      "latitude": 37.5598,
+      "longitude": 35.572,
+      "depth": 7.4,
+      "magnitude": 2.3,
+      "place": "ENIZCAKIRI-KOZAN (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T01:33:44+03:00",
+          "latitude": 37.5598,
+          "longitude": 35.572,
+          "depth": 7.4,
+          "magnitude": 2.3,
+          "place": "ENIZCAKIRI-KOZAN (ADANA)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f0de4442",
       "source": "KANDILLI",
