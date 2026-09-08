@@ -1,8 +1,89 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-08T13:33:57.293Z",
+  "updatedAt": "2026-09-08T17:25:38.212Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-3de060b6",
+      "source": "KANDILLI",
+      "sourceId": "k-3de060b6",
+      "time": "2026-09-08T17:25:57+03:00",
+      "latitude": 39.0042,
+      "longitude": 30.2058,
+      "depth": 4.3,
+      "magnitude": 1.7,
+      "place": "BESKARIS-ALTINTAS (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T17:25:57+03:00",
+          "latitude": 39.0042,
+          "longitude": 30.2058,
+          "depth": 4.3,
+          "magnitude": 1.7,
+          "place": "BESKARIS-ALTINTAS (KUTAHYA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1d50bde8",
+      "source": "KANDILLI",
+      "sourceId": "k-1d50bde8",
+      "time": "2026-09-08T17:08:32+03:00",
+      "latitude": 37.8467,
+      "longitude": 26.9712,
+      "depth": 7.9,
+      "magnitude": 2.3,
+      "place": "KUSADASI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T17:08:32+03:00",
+          "latitude": 37.8467,
+          "longitude": 26.9712,
+          "depth": 7.9,
+          "magnitude": 2.3,
+          "place": "KUSADASI KORFEZI (EGE DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-81fc0a66",
+      "source": "KANDILLI",
+      "sourceId": "k-81fc0a66",
+      "time": "2026-09-08T17:05:11+03:00",
+      "latitude": 39.1455,
+      "longitude": 28.201,
+      "depth": 13.8,
+      "magnitude": 1.7,
+      "place": "AKTAS-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T17:05:11+03:00",
+          "latitude": 39.1455,
+          "longitude": 28.201,
+          "depth": 13.8,
+          "magnitude": 1.7,
+          "place": "AKTAS-SINDIRGI (BALIKESIR)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-13d537f3",
       "source": "KANDILLI",

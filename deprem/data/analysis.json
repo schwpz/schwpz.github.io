@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T13:33:57.347Z",
+  "generatedAt": "2026-09-08T17:25:38.280Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -639,7 +639,7 @@
       "name": "Silivri High / Batı Kumburgaz geçişi",
       "state": "transition",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 5,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.17,
@@ -843,7 +843,7 @@
       "name": "Kumburgaz kilitli kesim",
       "state": "locked",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 2,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,
@@ -935,11 +935,11 @@
         "modelKm": 10,
         "bufferKm": 5,
         "kandilli24h": 0,
-        "kandilli7d": 1,
+        "kandilli7d": 0,
         "within24h": 0,
         "within7d": 0,
         "below24h": 0,
-        "below7d": 1,
+        "below7d": 0,
         "medianDepth24h": null,
         "closest": {
           "eventId": "k-5310572a",
