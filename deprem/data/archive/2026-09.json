@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-08T20:00:16.840Z",
+  "updatedAt": "2026-09-08T22:29:10.810Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-e41b856a",
+      "source": "KANDILLI",
+      "sourceId": "k-e41b856a",
+      "time": "2026-09-09T00:33:41+03:00",
+      "latitude": 38.1072,
+      "longitude": 37.8618,
+      "depth": 1.6,
+      "magnitude": 1.7,
+      "place": "TOPRAKTEPE-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T00:33:41+03:00",
+          "latitude": 38.1072,
+          "longitude": 37.8618,
+          "depth": 1.6,
+          "magnitude": 1.7,
+          "place": "TOPRAKTEPE-DOGANSEHIR (MALATYA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-31720e3e",
+      "source": "KANDILLI",
+      "sourceId": "k-31720e3e",
+      "time": "2026-09-08T23:47:58+03:00",
+      "latitude": 38.2805,
+      "longitude": 39.146,
+      "depth": 5.3,
+      "magnitude": 1,
+      "place": "BEHRAMLI-DOGANYOL (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T23:47:58+03:00",
+          "latitude": 38.2805,
+          "longitude": 39.146,
+          "depth": 5.3,
+          "magnitude": 1,
+          "place": "BEHRAMLI-DOGANYOL (MALATYA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fc2c4997",
+      "source": "KANDILLI",
+      "sourceId": "k-fc2c4997",
+      "time": "2026-09-08T23:46:03+03:00",
+      "latitude": 38.7545,
+      "longitude": 36.5393,
+      "depth": 6.1,
+      "magnitude": 1.7,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T23:46:03+03:00",
+          "latitude": 38.7545,
+          "longitude": 36.5393,
+          "depth": 6.1,
+          "magnitude": 1.7,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6b6a4ae7",
+      "source": "KANDILLI",
+      "sourceId": "k-6b6a4ae7",
+      "time": "2026-09-08T23:10:22+03:00",
+      "latitude": 37.2082,
+      "longitude": 31.1208,
+      "depth": 7.2,
+      "magnitude": 2.5,
+      "place": "YESILVADI-SERIK (ANTALYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T23:10:22+03:00",
+          "latitude": 37.2082,
+          "longitude": 31.1208,
+          "depth": 7.2,
+          "magnitude": 2.5,
+          "place": "YESILVADI-SERIK (ANTALYA)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-dbe007f5",
+      "source": "KANDILLI",
+      "sourceId": "k-dbe007f5",
+      "time": "2026-09-08T22:38:07+03:00",
+      "latitude": 38.2845,
+      "longitude": 38.5128,
+      "depth": 14.2,
+      "magnitude": 1,
+      "place": "YAYGIN-(MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T22:38:07+03:00",
+          "latitude": 38.2845,
+          "longitude": 38.5128,
+          "depth": 14.2,
+          "magnitude": 1,
+          "place": "YAYGIN-(MALATYA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e3c363c9",
+      "source": "KANDILLI",
+      "sourceId": "k-e3c363c9",
+      "time": "2026-09-08T22:36:29+03:00",
+      "latitude": 39.1375,
+      "longitude": 28.2533,
+      "depth": 18,
+      "magnitude": 1.1,
+      "place": "BAYRAKLI-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T22:36:29+03:00",
+          "latitude": 39.1375,
+          "longitude": 28.2533,
+          "depth": 18,
+          "magnitude": 1.1,
+          "place": "BAYRAKLI-SINDIRGI (BALIKESIR)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-8296bee7",
       "source": "KANDILLI",
@@ -49,6 +211,33 @@
           "magnitude": 1.5,
           "place": "AKCAKOY-MENDERES (IZMIR)",
           "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a8f174f8",
+      "source": "KANDILLI",
+      "sourceId": "k-a8f174f8",
+      "time": "2026-09-08T22:16:28+03:00",
+      "latitude": 35.0758,
+      "longitude": 26.0958,
+      "depth": 7.6,
+      "magnitude": 2,
+      "place": "GIRIT ADASI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T22:16:28+03:00",
+          "latitude": 35.0758,
+          "longitude": 26.0958,
+          "depth": 7.6,
+          "magnitude": 2,
+          "place": "GIRIT ADASI (AKDENIZ)",
+          "ml": 2,
           "mw": null,
           "md": null
         }
