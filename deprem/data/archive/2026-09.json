@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-08T04:48:59.560Z",
+  "updatedAt": "2026-09-08T09:09:15.981Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c9fdd085",
+      "source": "KANDILLI",
+      "sourceId": "k-c9fdd085",
+      "time": "2026-09-08T08:52:42+03:00",
+      "latitude": 37.9147,
+      "longitude": 26.9333,
+      "depth": 2.1,
+      "magnitude": 2.3,
+      "place": "KUSADASI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T08:52:42+03:00",
+          "latitude": 37.9147,
+          "longitude": 26.9333,
+          "depth": 2.1,
+          "magnitude": 2.3,
+          "place": "KUSADASI KORFEZI (EGE DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1c7ea2f0",
+      "source": "KANDILLI",
+      "sourceId": "k-1c7ea2f0",
+      "time": "2026-09-08T08:48:58+03:00",
+      "latitude": 38.1233,
+      "longitude": 36.5835,
+      "depth": 5,
+      "magnitude": 2.9,
+      "place": "CAMDERE-GOKSUN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T08:48:58+03:00",
+          "latitude": 38.1233,
+          "longitude": 36.5835,
+          "depth": 5,
+          "magnitude": 2.9,
+          "place": "CAMDERE-GOKSUN (KAHRAMANMARAS)",
+          "ml": 2.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-be364bca",
+      "source": "KANDILLI",
+      "sourceId": "k-be364bca",
+      "time": "2026-09-08T08:09:09+03:00",
+      "latitude": 41.5987,
+      "longitude": 43.5927,
+      "depth": 5.1,
+      "magnitude": 2.5,
+      "place": "GURCISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T08:09:09+03:00",
+          "latitude": 41.5987,
+          "longitude": 43.5927,
+          "depth": 5.1,
+          "magnitude": 2.5,
+          "place": "GURCISTAN",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f65a3f69",
+      "source": "KANDILLI",
+      "sourceId": "k-f65a3f69",
+      "time": "2026-09-08T07:59:31+03:00",
+      "latitude": 38.513,
+      "longitude": 39.3617,
+      "depth": 5.2,
+      "magnitude": 1.8,
+      "place": "CEVIZDERE-(ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T07:59:31+03:00",
+          "latitude": 38.513,
+          "longitude": 39.3617,
+          "depth": 5.2,
+          "magnitude": 1.8,
+          "place": "CEVIZDERE-(ELAZIG)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-73838c9a",
+      "source": "KANDILLI",
+      "sourceId": "k-73838c9a",
+      "time": "2026-09-08T07:55:35+03:00",
+      "latitude": 41.5802,
+      "longitude": 43.5713,
+      "depth": 6.6,
+      "magnitude": 2.3,
+      "place": "GURCISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T07:55:35+03:00",
+          "latitude": 41.5802,
+          "longitude": 43.5713,
+          "depth": 6.6,
+          "magnitude": 2.3,
+          "place": "GURCISTAN",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-72340682",
+      "source": "KANDILLI",
+      "sourceId": "k-72340682",
+      "time": "2026-09-08T07:52:15+03:00",
+      "latitude": 41.6187,
+      "longitude": 43.5782,
+      "depth": 6,
+      "magnitude": 3.9,
+      "place": "GURCISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-08T07:52:15+03:00",
+          "latitude": 41.6187,
+          "longitude": 43.5782,
+          "depth": 6,
+          "magnitude": 3.9,
+          "place": "GURCISTAN",
+          "ml": 3.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-a18a21d5",
       "source": "KANDILLI",
