@@ -1,8 +1,305 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-09T00:26:59.935Z",
+  "updatedAt": "2026-09-09T04:57:54.998Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-561b0f57",
+      "source": "KANDILLI",
+      "sourceId": "k-561b0f57",
+      "time": "2026-09-09T07:08:07+03:00",
+      "latitude": 38.8648,
+      "longitude": 37.7703,
+      "depth": 6.4,
+      "magnitude": 1.5,
+      "place": "KARACAYIR-KULUNCAK (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T07:08:07+03:00",
+          "latitude": 38.8648,
+          "longitude": 37.7703,
+          "depth": 6.4,
+          "magnitude": 1.5,
+          "place": "KARACAYIR-KULUNCAK (MALATYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-738ba4c6",
+      "source": "KANDILLI",
+      "sourceId": "k-738ba4c6",
+      "time": "2026-09-09T06:18:46+03:00",
+      "latitude": 37.5698,
+      "longitude": 35.5607,
+      "depth": 6.6,
+      "magnitude": 1.9,
+      "place": "KISLAK-ALADAG (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T06:18:46+03:00",
+          "latitude": 37.5698,
+          "longitude": 35.5607,
+          "depth": 6.6,
+          "magnitude": 1.9,
+          "place": "KISLAK-ALADAG (ADANA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b17e69a1",
+      "source": "KANDILLI",
+      "sourceId": "k-b17e69a1",
+      "time": "2026-09-09T05:57:14+03:00",
+      "latitude": 38.7707,
+      "longitude": 27.1395,
+      "depth": 4.5,
+      "magnitude": 2,
+      "place": "DUZLEN-(MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T05:57:14+03:00",
+          "latitude": 38.7707,
+          "longitude": 27.1395,
+          "depth": 4.5,
+          "magnitude": 2,
+          "place": "DUZLEN-(MANISA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3e30e0d2",
+      "source": "KANDILLI",
+      "sourceId": "k-3e30e0d2",
+      "time": "2026-09-09T05:55:28+03:00",
+      "latitude": 40.187,
+      "longitude": 31.7548,
+      "depth": 11.7,
+      "magnitude": 2.1,
+      "place": "HIRKATEPE-BEYPAZARI (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T05:55:28+03:00",
+          "latitude": 40.187,
+          "longitude": 31.7548,
+          "depth": 11.7,
+          "magnitude": 2.1,
+          "place": "HIRKATEPE-BEYPAZARI (ANKARA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c2641e67",
+      "source": "KANDILLI",
+      "sourceId": "k-c2641e67",
+      "time": "2026-09-09T05:29:46+03:00",
+      "latitude": 39.1093,
+      "longitude": 27.7583,
+      "depth": 4.9,
+      "magnitude": 1.6,
+      "place": "ILYASLAR-KIRKAGAC (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T05:29:46+03:00",
+          "latitude": 39.1093,
+          "longitude": 27.7583,
+          "depth": 4.9,
+          "magnitude": 1.6,
+          "place": "ILYASLAR-KIRKAGAC (MANISA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3d617838",
+      "source": "KANDILLI",
+      "sourceId": "k-3d617838",
+      "time": "2026-09-09T04:33:40+03:00",
+      "latitude": 36.8993,
+      "longitude": 29.0712,
+      "depth": 4.4,
+      "magnitude": 1.6,
+      "place": "GURLEYIK-DALAMAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T04:33:40+03:00",
+          "latitude": 36.8993,
+          "longitude": 29.0712,
+          "depth": 4.4,
+          "magnitude": 1.6,
+          "place": "GURLEYIK-DALAMAN (MUGLA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1542521d",
+      "source": "KANDILLI",
+      "sourceId": "k-1542521d",
+      "time": "2026-09-09T04:20:25+03:00",
+      "latitude": 39.107,
+      "longitude": 27.7332,
+      "depth": 7.8,
+      "magnitude": 1.1,
+      "place": "BAKIR-KIRKAGAC (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T04:20:25+03:00",
+          "latitude": 39.107,
+          "longitude": 27.7332,
+          "depth": 7.8,
+          "magnitude": 1.1,
+          "place": "BAKIR-KIRKAGAC (MANISA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3ab490e6",
+      "source": "KANDILLI",
+      "sourceId": "k-3ab490e6",
+      "time": "2026-09-09T03:30:40+03:00",
+      "latitude": 39.1118,
+      "longitude": 27.781,
+      "depth": 3.9,
+      "magnitude": 2.6,
+      "place": "KARAKURT-KIRKAGAC (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T03:30:40+03:00",
+          "latitude": 39.1118,
+          "longitude": 27.781,
+          "depth": 3.9,
+          "magnitude": 2.6,
+          "place": "KARAKURT-KIRKAGAC (MANISA)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f774d5b8",
+      "source": "KANDILLI",
+      "sourceId": "k-f774d5b8",
+      "time": "2026-09-09T02:41:32+03:00",
+      "latitude": 36.4925,
+      "longitude": 28.6318,
+      "depth": 7.9,
+      "magnitude": 2.8,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T02:41:32+03:00",
+          "latitude": 36.4925,
+          "longitude": 28.6318,
+          "depth": 7.9,
+          "magnitude": 2.8,
+          "place": "AKDENIZ",
+          "ml": 2.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5fed6b00",
+      "source": "KANDILLI",
+      "sourceId": "k-5fed6b00",
+      "time": "2026-09-09T02:40:21+03:00",
+      "latitude": 38.9177,
+      "longitude": 37.6347,
+      "depth": 7,
+      "magnitude": 1.3,
+      "place": "ALVAR-KULUNCAK (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T02:40:21+03:00",
+          "latitude": 38.9177,
+          "longitude": 37.6347,
+          "depth": 7,
+          "magnitude": 1.3,
+          "place": "ALVAR-KULUNCAK (MALATYA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3f4da0b2",
+      "source": "KANDILLI",
+      "sourceId": "k-3f4da0b2",
+      "time": "2026-09-09T02:36:14+03:00",
+      "latitude": 39.1772,
+      "longitude": 27.7632,
+      "depth": 6,
+      "magnitude": 1.4,
+      "place": "KUCUKYAYA-KIRKAGAC (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T02:36:14+03:00",
+          "latitude": 39.1772,
+          "longitude": 27.7632,
+          "depth": 6,
+          "magnitude": 1.4,
+          "place": "KUCUKYAYA-KIRKAGAC (MANISA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-21061454",
       "source": "KANDILLI",
