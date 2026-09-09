@@ -1,8 +1,197 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-08T22:29:10.810Z",
+  "updatedAt": "2026-09-09T00:26:59.935Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-21061454",
+      "source": "KANDILLI",
+      "sourceId": "k-21061454",
+      "time": "2026-09-09T01:39:26+03:00",
+      "latitude": 38.7552,
+      "longitude": 27.1165,
+      "depth": 7.5,
+      "magnitude": 1.7,
+      "place": "KARAKUZU-ALIAGA (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T01:39:26+03:00",
+          "latitude": 38.7552,
+          "longitude": 27.1165,
+          "depth": 7.5,
+          "magnitude": 1.7,
+          "place": "KARAKUZU-ALIAGA (IZMIR)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d52276e8",
+      "source": "KANDILLI",
+      "sourceId": "k-d52276e8",
+      "time": "2026-09-09T01:28:27+03:00",
+      "latitude": 38.7665,
+      "longitude": 27.1337,
+      "depth": 15.8,
+      "magnitude": 1.3,
+      "place": "DUZLEN-(MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T01:28:27+03:00",
+          "latitude": 38.7665,
+          "longitude": 27.1337,
+          "depth": 15.8,
+          "magnitude": 1.3,
+          "place": "DUZLEN-(MANISA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d5d0df20",
+      "source": "KANDILLI",
+      "sourceId": "k-d5d0df20",
+      "time": "2026-09-09T01:26:21+03:00",
+      "latitude": 39.188,
+      "longitude": 28.9738,
+      "depth": 16.6,
+      "magnitude": 0.9,
+      "place": "EGIRLER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T01:26:21+03:00",
+          "latitude": 39.188,
+          "longitude": 28.9738,
+          "depth": 16.6,
+          "magnitude": 0.9,
+          "place": "EGIRLER-SIMAV (KUTAHYA)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4f8ebab1",
+      "source": "KANDILLI",
+      "sourceId": "k-4f8ebab1",
+      "time": "2026-09-09T01:25:48+03:00",
+      "latitude": 39.213,
+      "longitude": 29.0327,
+      "depth": 11.4,
+      "magnitude": 1.6,
+      "place": "EGIRLER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T01:25:48+03:00",
+          "latitude": 39.213,
+          "longitude": 29.0327,
+          "depth": 11.4,
+          "magnitude": 1.6,
+          "place": "EGIRLER-SIMAV (KUTAHYA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4c86580e",
+      "source": "KANDILLI",
+      "sourceId": "k-4c86580e",
+      "time": "2026-09-09T01:13:59+03:00",
+      "latitude": 38.159,
+      "longitude": 38.5758,
+      "depth": 5,
+      "magnitude": 1.2,
+      "place": "ULUKOY-(MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T01:13:59+03:00",
+          "latitude": 38.159,
+          "longitude": 38.5758,
+          "depth": 5,
+          "magnitude": 1.2,
+          "place": "ULUKOY-(MALATYA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8f83a48a",
+      "source": "KANDILLI",
+      "sourceId": "k-8f83a48a",
+      "time": "2026-09-09T01:08:51+03:00",
+      "latitude": 39.7783,
+      "longitude": 30.7107,
+      "depth": 5,
+      "magnitude": 1.4,
+      "place": "YORUKKARACAOREN-ODUNPAZARI (ESKISEHIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T01:08:51+03:00",
+          "latitude": 39.7783,
+          "longitude": 30.7107,
+          "depth": 5,
+          "magnitude": 1.4,
+          "place": "YORUKKARACAOREN-ODUNPAZARI (ESKISEHIR)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6c4f85cb",
+      "source": "KANDILLI",
+      "sourceId": "k-6c4f85cb",
+      "time": "2026-09-09T01:02:16+03:00",
+      "latitude": 38.7767,
+      "longitude": 27.1492,
+      "depth": 8.4,
+      "magnitude": 2.2,
+      "place": "DUZLEN-(MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T01:02:16+03:00",
+          "latitude": 38.7767,
+          "longitude": 27.1492,
+          "depth": 8.4,
+          "magnitude": 2.2,
+          "place": "DUZLEN-(MANISA)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-e41b856a",
       "source": "KANDILLI",
