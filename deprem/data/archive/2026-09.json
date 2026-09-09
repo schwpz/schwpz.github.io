@@ -1,8 +1,197 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-09T19:50:33.158Z",
+  "updatedAt": "2026-09-09T21:59:53.857Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-098cd7f6",
+      "source": "KANDILLI",
+      "sourceId": "k-098cd7f6",
+      "time": "2026-09-10T00:31:16+03:00",
+      "latitude": 35.986,
+      "longitude": 23.3543,
+      "depth": 6.9,
+      "magnitude": 2.9,
+      "place": "GIRIT ADASI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T00:31:16+03:00",
+          "latitude": 35.986,
+          "longitude": 23.3543,
+          "depth": 6.9,
+          "magnitude": 2.9,
+          "place": "GIRIT ADASI (AKDENIZ)",
+          "ml": 2.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-61afb3d0",
+      "source": "KANDILLI",
+      "sourceId": "k-61afb3d0",
+      "time": "2026-09-10T00:11:22+03:00",
+      "latitude": 35.3653,
+      "longitude": 28.578,
+      "depth": 17.6,
+      "magnitude": 2.1,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T00:11:22+03:00",
+          "latitude": 35.3653,
+          "longitude": 28.578,
+          "depth": 17.6,
+          "magnitude": 2.1,
+          "place": "AKDENIZ",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5ce7e0a1",
+      "source": "KANDILLI",
+      "sourceId": "k-5ce7e0a1",
+      "time": "2026-09-10T00:03:39+03:00",
+      "latitude": 36.3313,
+      "longitude": 26.5478,
+      "depth": 4,
+      "magnitude": 2.8,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T00:03:39+03:00",
+          "latitude": 36.3313,
+          "longitude": 26.5478,
+          "depth": 4,
+          "magnitude": 2.8,
+          "place": "EGE DENIZI",
+          "ml": 2.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-152a4999",
+      "source": "KANDILLI",
+      "sourceId": "k-152a4999",
+      "time": "2026-09-09T23:39:14+03:00",
+      "latitude": 37.8645,
+      "longitude": 36.6622,
+      "depth": 9.5,
+      "magnitude": 1.9,
+      "place": "DONGEL-(KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T23:39:14+03:00",
+          "latitude": 37.8645,
+          "longitude": 36.6622,
+          "depth": 9.5,
+          "magnitude": 1.9,
+          "place": "DONGEL-(KAHRAMANMARAS)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9cf88966",
+      "source": "KANDILLI",
+      "sourceId": "k-9cf88966",
+      "time": "2026-09-09T23:30:27+03:00",
+      "latitude": 39.2495,
+      "longitude": 29.0095,
+      "depth": 12,
+      "magnitude": 0.8,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T23:30:27+03:00",
+          "latitude": 39.2495,
+          "longitude": 29.0095,
+          "depth": 12,
+          "magnitude": 0.8,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 0.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-75fbd99d",
+      "source": "KANDILLI",
+      "sourceId": "k-75fbd99d",
+      "time": "2026-09-09T23:20:27+03:00",
+      "latitude": 39.3772,
+      "longitude": 40.6522,
+      "depth": 4.1,
+      "magnitude": 2.4,
+      "place": "ELMALI-YEDISU (BINGOL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T23:20:27+03:00",
+          "latitude": 39.3772,
+          "longitude": 40.6522,
+          "depth": 4.1,
+          "magnitude": 2.4,
+          "place": "ELMALI-YEDISU (BINGOL)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2b84711d",
+      "source": "KANDILLI",
+      "sourceId": "k-2b84711d",
+      "time": "2026-09-09T23:02:18+03:00",
+      "latitude": 38.0433,
+      "longitude": 37.5867,
+      "depth": 5,
+      "magnitude": 2.4,
+      "place": "GOVDELI-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T23:02:18+03:00",
+          "latitude": 38.0433,
+          "longitude": 37.5867,
+          "depth": 5,
+          "magnitude": 2.4,
+          "place": "GOVDELI-DOGANSEHIR (MALATYA)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-1f6dec0a",
       "source": "KANDILLI",
