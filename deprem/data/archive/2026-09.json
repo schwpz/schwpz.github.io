@@ -1,8 +1,35 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-09T21:59:53.857Z",
+  "updatedAt": "2026-09-09T23:55:09.833Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-47f5c369",
+      "source": "KANDILLI",
+      "sourceId": "k-47f5c369",
+      "time": "2026-09-10T01:23:21+03:00",
+      "latitude": 38.754,
+      "longitude": 36.5592,
+      "depth": 5,
+      "magnitude": 2.5,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T01:23:21+03:00",
+          "latitude": 38.754,
+          "longitude": 36.5592,
+          "depth": 5,
+          "magnitude": 2.5,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-098cd7f6",
       "source": "KANDILLI",
