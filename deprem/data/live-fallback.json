@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-08T04:48:59.599Z",
+  "generatedAt": "2026-09-09T09:23:48.834Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c9ca1915",
+      "source": "KANDILLI",
+      "sourceId": "k-c9ca1915",
+      "time": "2026-09-09T11:23:15+03:00",
+      "latitude": 40.469,
+      "longitude": 29.1987,
+      "depth": 0,
+      "magnitude": 1.2,
+      "place": "SAHINYURDU-GEMLIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-09T11:23:15+03:00",
+          "latitude": 40.469,
+          "longitude": 29.1987,
+          "depth": 0,
+          "magnitude": 1.2,
+          "place": "SAHINYURDU-GEMLIK (BURSA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-652e01d0",
       "source": "KANDILLI",
@@ -642,33 +669,6 @@
           "magnitude": 0.9,
           "place": "KAGITHANE (ISTANBUL)",
           "ml": 0.9,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-85aca4ef",
-      "source": "KANDILLI",
-      "sourceId": "k-85aca4ef",
-      "time": "2026-09-01T06:52:42+03:00",
-      "latitude": 40.3645,
-      "longitude": 27.1078,
-      "depth": 14.4,
-      "magnitude": 1.1,
-      "place": "ESKIBALIKLI-BIGA (CANAKKALE)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-01T06:52:42+03:00",
-          "latitude": 40.3645,
-          "longitude": 27.1078,
-          "depth": 14.4,
-          "magnitude": 1.1,
-          "place": "ESKIBALIKLI-BIGA (CANAKKALE)",
-          "ml": 1.1,
           "mw": null,
           "md": null
         }
