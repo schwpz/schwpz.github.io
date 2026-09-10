@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-10T16:27:09.607Z",
+  "updatedAt": "2026-09-10T19:10:47.997Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-0a737ffe",
+      "source": "KANDILLI",
+      "sourceId": "k-0a737ffe",
+      "time": "2026-09-10T20:16:21+03:00",
+      "latitude": 39.4913,
+      "longitude": 26.356,
+      "depth": 13.7,
+      "magnitude": 1.5,
+      "place": "BEHRAM-AYVACIK (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T20:16:21+03:00",
+          "latitude": 39.4913,
+          "longitude": 26.356,
+          "depth": 13.7,
+          "magnitude": 1.5,
+          "place": "BEHRAM-AYVACIK (CANAKKALE)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f42e6f6c",
+      "source": "KANDILLI",
+      "sourceId": "k-f42e6f6c",
+      "time": "2026-09-10T19:27:42+03:00",
+      "latitude": 38.0417,
+      "longitude": 37.6068,
+      "depth": 5,
+      "magnitude": 2.3,
+      "place": "GOVDELI-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T19:27:42+03:00",
+          "latitude": 38.0417,
+          "longitude": 37.6068,
+          "depth": 5,
+          "magnitude": 2.3,
+          "place": "GOVDELI-DOGANSEHIR (MALATYA)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cc85b310",
+      "source": "KANDILLI",
+      "sourceId": "k-cc85b310",
+      "time": "2026-09-10T19:25:56+03:00",
+      "latitude": 38.6015,
+      "longitude": 40.4643,
+      "depth": 5,
+      "magnitude": 1.4,
+      "place": "ECEMIS-LICE (DIYARBAKIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T19:25:56+03:00",
+          "latitude": 38.6015,
+          "longitude": 40.4643,
+          "depth": 5,
+          "magnitude": 1.4,
+          "place": "ECEMIS-LICE (DIYARBAKIR)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fc2cc7c3",
+      "source": "KANDILLI",
+      "sourceId": "k-fc2cc7c3",
+      "time": "2026-09-10T18:53:01+03:00",
+      "latitude": 38.557,
+      "longitude": 39.8022,
+      "depth": 10.6,
+      "magnitude": 2.1,
+      "place": "KAYAONU-PALU (ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T18:53:01+03:00",
+          "latitude": 38.557,
+          "longitude": 39.8022,
+          "depth": 10.6,
+          "magnitude": 2.1,
+          "place": "KAYAONU-PALU (ELAZIG)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-2d653cbf",
       "source": "KANDILLI",
@@ -22,6 +130,60 @@
           "magnitude": 1.1,
           "place": "ARNAVUTKOY (ISTANBUL)",
           "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-17bbd90f",
+      "source": "KANDILLI",
+      "sourceId": "k-17bbd90f",
+      "time": "2026-09-10T18:33:55+03:00",
+      "latitude": 39.074,
+      "longitude": 37.818,
+      "depth": 12.6,
+      "magnitude": 1.5,
+      "place": "KARAPINAR-HEKIMHAN (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T18:33:55+03:00",
+          "latitude": 39.074,
+          "longitude": 37.818,
+          "depth": 12.6,
+          "magnitude": 1.5,
+          "place": "KARAPINAR-HEKIMHAN (MALATYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b5c3e0dc",
+      "source": "KANDILLI",
+      "sourceId": "k-b5c3e0dc",
+      "time": "2026-09-10T18:12:16+03:00",
+      "latitude": 40.1832,
+      "longitude": 31.6438,
+      "depth": 5,
+      "magnitude": 2.3,
+      "place": "KARAKOY-NALLIHAN (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T18:12:16+03:00",
+          "latitude": 40.1832,
+          "longitude": 31.6438,
+          "depth": 5,
+          "magnitude": 2.3,
+          "place": "KARAKOY-NALLIHAN (ANKARA)",
+          "ml": 2.3,
           "mw": null,
           "md": null
         }
