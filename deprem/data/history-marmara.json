@@ -1,8 +1,116 @@
 {
-  "generatedAt": "2026-09-10T12:15:51.476Z",
+  "generatedAt": "2026-09-10T16:27:09.625Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-2d653cbf",
+      "source": "KANDILLI",
+      "sourceId": "k-2d653cbf",
+      "time": "2026-09-10T18:49:34+03:00",
+      "latitude": 41.2078,
+      "longitude": 28.742,
+      "depth": 6.4,
+      "magnitude": 1.1,
+      "place": "ARNAVUTKOY (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T18:49:34+03:00",
+          "latitude": 41.2078,
+          "longitude": 28.742,
+          "depth": 6.4,
+          "magnitude": 1.1,
+          "place": "ARNAVUTKOY (ISTANBUL)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-899d4784",
+      "source": "KANDILLI",
+      "sourceId": "k-899d4784",
+      "time": "2026-09-10T17:55:38+03:00",
+      "latitude": 41.099,
+      "longitude": 28.9493,
+      "depth": 4.4,
+      "magnitude": 0.9,
+      "place": "KAGITHANE (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T17:55:38+03:00",
+          "latitude": 41.099,
+          "longitude": 28.9493,
+          "depth": 4.4,
+          "magnitude": 0.9,
+          "place": "KAGITHANE (ISTANBUL)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6950e58a",
+      "source": "KANDILLI",
+      "sourceId": "k-6950e58a",
+      "time": "2026-09-10T13:53:34+03:00",
+      "latitude": 40.682,
+      "longitude": 29.234,
+      "depth": 11.5,
+      "magnitude": 2.5,
+      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T13:53:34+03:00",
+          "latitude": 40.682,
+          "longitude": 29.234,
+          "depth": 11.5,
+          "magnitude": 2.5,
+          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a4a7833d",
+      "source": "KANDILLI",
+      "sourceId": "k-a4a7833d",
+      "time": "2026-09-10T13:09:05+03:00",
+      "latitude": 41.1152,
+      "longitude": 28.8572,
+      "depth": 0,
+      "magnitude": 1.2,
+      "place": "SULTANGAZI (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T13:09:05+03:00",
+          "latitude": 41.1152,
+          "longitude": 28.8572,
+          "depth": 0,
+          "magnitude": 1.2,
+          "place": "SULTANGAZI (ISTANBUL)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-562be283",
       "source": "KANDILLI",
