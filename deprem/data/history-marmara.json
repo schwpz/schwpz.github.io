@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-09-10T07:17:52.632Z",
+  "generatedAt": "2026-09-10T12:15:51.476Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-562be283",
+      "source": "KANDILLI",
+      "sourceId": "k-562be283",
+      "time": "2026-09-10T11:43:56+03:00",
+      "latitude": 40.4912,
+      "longitude": 29.2032,
+      "depth": 0,
+      "magnitude": 1,
+      "place": "SAHINYURDU-GEMLIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T11:43:56+03:00",
+          "latitude": 40.4912,
+          "longitude": 29.2032,
+          "depth": 0,
+          "magnitude": 1,
+          "place": "SAHINYURDU-GEMLIK (BURSA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a18fd2bc",
+      "source": "KANDILLI",
+      "sourceId": "k-a18fd2bc",
+      "time": "2026-09-10T11:12:07+03:00",
+      "latitude": 40.7137,
+      "longitude": 26.651,
+      "depth": 5.3,
+      "magnitude": 1.4,
+      "place": "PIRNAR-KESAN (EDIRNE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T11:12:07+03:00",
+          "latitude": 40.7137,
+          "longitude": 26.651,
+          "depth": 5.3,
+          "magnitude": 1.4,
+          "place": "PIRNAR-KESAN (EDIRNE)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-9b7b6898",
       "source": "KANDILLI",
