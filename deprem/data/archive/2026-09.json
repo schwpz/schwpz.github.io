@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-10T21:36:12.482Z",
+  "updatedAt": "2026-09-10T23:22:24.971Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-998e5d82",
+      "source": "KANDILLI",
+      "sourceId": "k-998e5d82",
+      "time": "2026-09-11T02:06:18+03:00",
+      "latitude": 38.0613,
+      "longitude": 37.6193,
+      "depth": 7.2,
+      "magnitude": 1.3,
+      "place": "GOVDELI-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T02:06:18+03:00",
+          "latitude": 38.0613,
+          "longitude": 37.6193,
+          "depth": 7.2,
+          "magnitude": 1.3,
+          "place": "GOVDELI-DOGANSEHIR (MALATYA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e8121eba",
+      "source": "KANDILLI",
+      "sourceId": "k-e8121eba",
+      "time": "2026-09-11T02:02:52+03:00",
+      "latitude": 38.0732,
+      "longitude": 37.775,
+      "depth": 5.2,
+      "magnitude": 1.5,
+      "place": "SOGUT-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T02:02:52+03:00",
+          "latitude": 38.0732,
+          "longitude": 37.775,
+          "depth": 5.2,
+          "magnitude": 1.5,
+          "place": "SOGUT-DOGANSEHIR (MALATYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-553b8977",
+      "source": "KANDILLI",
+      "sourceId": "k-553b8977",
+      "time": "2026-09-11T01:30:53+03:00",
+      "latitude": 35.9465,
+      "longitude": 31.1682,
+      "depth": 9.4,
+      "magnitude": 2.7,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T01:30:53+03:00",
+          "latitude": 35.9465,
+          "longitude": 31.1682,
+          "depth": 9.4,
+          "magnitude": 2.7,
+          "place": "AKDENIZ",
+          "ml": 2.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7c281240",
+      "source": "KANDILLI",
+      "sourceId": "k-7c281240",
+      "time": "2026-09-11T01:29:29+03:00",
+      "latitude": 40.4028,
+      "longitude": 26.1697,
+      "depth": 19.4,
+      "magnitude": 1.3,
+      "place": "SAROS KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T01:29:29+03:00",
+          "latitude": 40.4028,
+          "longitude": 26.1697,
+          "depth": 19.4,
+          "magnitude": 1.3,
+          "place": "SAROS KORFEZI (EGE DENIZI)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0a0deea2",
+      "source": "KANDILLI",
+      "sourceId": "k-0a0deea2",
+      "time": "2026-09-11T01:11:31+03:00",
+      "latitude": 39.2023,
+      "longitude": 29.1695,
+      "depth": 5,
+      "magnitude": 1.2,
+      "place": "YENIPINAR-HISARCIK (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T01:11:31+03:00",
+          "latitude": 39.2023,
+          "longitude": 29.1695,
+          "depth": 5,
+          "magnitude": 1.2,
+          "place": "YENIPINAR-HISARCIK (KUTAHYA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-bdbdadbe",
+      "source": "KANDILLI",
+      "sourceId": "k-bdbdadbe",
+      "time": "2026-09-11T00:48:08+03:00",
+      "latitude": 35.5437,
+      "longitude": 26.1658,
+      "depth": 14.2,
+      "magnitude": 2.9,
+      "place": "GIRIT ADASI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T00:48:08+03:00",
+          "latitude": 35.5437,
+          "longitude": 26.1658,
+          "depth": 14.2,
+          "magnitude": 2.9,
+          "place": "GIRIT ADASI (AKDENIZ)",
+          "ml": 2.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-1f4c7514",
       "source": "KANDILLI",
