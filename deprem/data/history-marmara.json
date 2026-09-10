@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-09T23:55:09.856Z",
+  "generatedAt": "2026-09-10T02:12:17.166Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-9b7b6898",
+      "source": "KANDILLI",
+      "sourceId": "k-9b7b6898",
+      "time": "2026-09-10T03:20:41+03:00",
+      "latitude": 40.3062,
+      "longitude": 29.5008,
+      "depth": 5.5,
+      "magnitude": 3,
+      "place": "SELIMIYE-YENISEHIR (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T03:20:41+03:00",
+          "latitude": 40.3062,
+          "longitude": 29.5008,
+          "depth": 5.5,
+          "magnitude": 3,
+          "place": "SELIMIYE-YENISEHIR (BURSA)",
+          "ml": 3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c9ca1915",
       "source": "KANDILLI",

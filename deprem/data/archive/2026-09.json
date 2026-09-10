@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-09T23:55:09.833Z",
+  "updatedAt": "2026-09-10T02:12:17.141Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-9b7b6898",
+      "source": "KANDILLI",
+      "sourceId": "k-9b7b6898",
+      "time": "2026-09-10T03:20:41+03:00",
+      "latitude": 40.3062,
+      "longitude": 29.5008,
+      "depth": 5.5,
+      "magnitude": 3,
+      "place": "SELIMIYE-YENISEHIR (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T03:20:41+03:00",
+          "latitude": 40.3062,
+          "longitude": 29.5008,
+          "depth": 5.5,
+          "magnitude": 3,
+          "place": "SELIMIYE-YENISEHIR (BURSA)",
+          "ml": 3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9448e6cc",
+      "source": "KANDILLI",
+      "sourceId": "k-9448e6cc",
+      "time": "2026-09-10T02:35:48+03:00",
+      "latitude": 38.7867,
+      "longitude": 36.5415,
+      "depth": 3.3,
+      "magnitude": 2,
+      "place": "ASAGIBORANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T02:35:48+03:00",
+          "latitude": 38.7867,
+          "longitude": 36.5415,
+          "depth": 3.3,
+          "magnitude": 2,
+          "place": "ASAGIBORANDERE-PINARBASI (KAYSERI)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2e96e20b",
+      "source": "KANDILLI",
+      "sourceId": "k-2e96e20b",
+      "time": "2026-09-10T01:43:57+03:00",
+      "latitude": 39.072,
+      "longitude": 36.0048,
+      "depth": 5,
+      "magnitude": 1.6,
+      "place": "SARIOGLAN (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T01:43:57+03:00",
+          "latitude": 39.072,
+          "longitude": 36.0048,
+          "depth": 5,
+          "magnitude": 1.6,
+          "place": "SARIOGLAN (KAYSERI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2bdc9f89",
+      "source": "KANDILLI",
+      "sourceId": "k-2bdc9f89",
+      "time": "2026-09-10T01:26:59+03:00",
+      "latitude": 38.751,
+      "longitude": 36.5467,
+      "depth": 4.1,
+      "magnitude": 1.4,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T01:26:59+03:00",
+          "latitude": 38.751,
+          "longitude": 36.5467,
+          "depth": 4.1,
+          "magnitude": 1.4,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-47f5c369",
       "source": "KANDILLI",
@@ -22,6 +130,60 @@
           "magnitude": 2.5,
           "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
           "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0a46e4c1",
+      "source": "KANDILLI",
+      "sourceId": "k-0a46e4c1",
+      "time": "2026-09-10T01:20:43+03:00",
+      "latitude": 39.2172,
+      "longitude": 28.109,
+      "depth": 10.4,
+      "magnitude": 1.2,
+      "place": "KERTIL-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T01:20:43+03:00",
+          "latitude": 39.2172,
+          "longitude": 28.109,
+          "depth": 10.4,
+          "magnitude": 1.2,
+          "place": "KERTIL-SINDIRGI (BALIKESIR)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fee5152b",
+      "source": "KANDILLI",
+      "sourceId": "k-fee5152b",
+      "time": "2026-09-10T01:17:11+03:00",
+      "latitude": 36.9442,
+      "longitude": 27.5165,
+      "depth": 6.8,
+      "magnitude": 1.4,
+      "place": "GOKOVA KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-10T01:17:11+03:00",
+          "latitude": 36.9442,
+          "longitude": 27.5165,
+          "depth": 6.8,
+          "magnitude": 1.4,
+          "place": "GOKOVA KORFEZI (EGE DENIZI)",
+          "ml": 1.4,
           "mw": null,
           "md": null
         }
