@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T16:27:09.611Z",
+  "generatedAt": "2026-09-10T21:36:12.485Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -642,33 +642,6 @@
           "magnitude": 1.2,
           "place": "SAROS KORFEZI (EGE DENIZI)",
           "ml": 1.2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-2d5aa0c0",
-      "source": "KANDILLI",
-      "sourceId": "k-2d5aa0c0",
-      "time": "2026-09-02T22:58:21+03:00",
-      "latitude": 40.8378,
-      "longitude": 27.7477,
-      "depth": 8,
-      "magnitude": 1.8,
-      "place": "MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-02T22:58:21+03:00",
-          "latitude": 40.8378,
-          "longitude": 27.7477,
-          "depth": 8,
-          "magnitude": 1.8,
-          "place": "MARMARA DENIZI",
-          "ml": 1.8,
           "mw": null,
           "md": null
         }

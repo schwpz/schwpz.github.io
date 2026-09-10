@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T19:10:48.029Z",
+  "generatedAt": "2026-09-10T21:36:12.508Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -238,7 +238,7 @@
       "name": "Tekirdağ geçişi",
       "state": "transition",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 3,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,
@@ -442,7 +442,7 @@
       "name": "Central Basin / Western High",
       "state": "creep",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 8,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.28,
