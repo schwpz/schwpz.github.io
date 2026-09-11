@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-11T20:05:57.169Z",
+  "updatedAt": "2026-09-11T22:30:15.790Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c8833300",
+      "source": "KANDILLI",
+      "sourceId": "k-c8833300",
+      "time": "2026-09-12T00:19:00+03:00",
+      "latitude": 40.5253,
+      "longitude": 36.5712,
+      "depth": 11.9,
+      "magnitude": 1.3,
+      "place": "GOLCUK-(TOKAT)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T00:19:00+03:00",
+          "latitude": 40.5253,
+          "longitude": 36.5712,
+          "depth": 11.9,
+          "magnitude": 1.3,
+          "place": "GOLCUK-(TOKAT)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d00d94a7",
+      "source": "KANDILLI",
+      "sourceId": "k-d00d94a7",
+      "time": "2026-09-12T00:04:29+03:00",
+      "latitude": 39.346,
+      "longitude": 37.9438,
+      "depth": 6.5,
+      "magnitude": 2.4,
+      "place": "KARAAGACLI-DIVRIGI (SIVAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T00:04:29+03:00",
+          "latitude": 39.346,
+          "longitude": 37.9438,
+          "depth": 6.5,
+          "magnitude": 2.4,
+          "place": "KARAAGACLI-DIVRIGI (SIVAS)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-529e2742",
+      "source": "KANDILLI",
+      "sourceId": "k-529e2742",
+      "time": "2026-09-11T23:52:51+03:00",
+      "latitude": 40.7165,
+      "longitude": 25.2002,
+      "depth": 5,
+      "magnitude": 1.4,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T23:52:51+03:00",
+          "latitude": 40.7165,
+          "longitude": 25.2002,
+          "depth": 5,
+          "magnitude": 1.4,
+          "place": "EGE DENIZI",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-25c7af5c",
+      "source": "KANDILLI",
+      "sourceId": "k-25c7af5c",
+      "time": "2026-09-11T23:24:22+03:00",
+      "latitude": 38.43,
+      "longitude": 37.5222,
+      "depth": 5.3,
+      "magnitude": 2,
+      "place": "SUGUL-DARENDE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T23:24:22+03:00",
+          "latitude": 38.43,
+          "longitude": 37.5222,
+          "depth": 5.3,
+          "magnitude": 2,
+          "place": "SUGUL-DARENDE (MALATYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a7ff92a3",
+      "source": "KANDILLI",
+      "sourceId": "k-a7ff92a3",
+      "time": "2026-09-11T23:02:48+03:00",
+      "latitude": 36.2798,
+      "longitude": 27.6453,
+      "depth": 17.2,
+      "magnitude": 1.9,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T23:02:48+03:00",
+          "latitude": 36.2798,
+          "longitude": 27.6453,
+          "depth": 17.2,
+          "magnitude": 1.9,
+          "place": "EGE DENIZI",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-43d58c04",
+      "source": "KANDILLI",
+      "sourceId": "k-43d58c04",
+      "time": "2026-09-11T22:59:09+03:00",
+      "latitude": 34.8723,
+      "longitude": 24.4887,
+      "depth": 5,
+      "magnitude": 1.8,
+      "place": "GIRIT ADASI ACIKLARI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T22:59:09+03:00",
+          "latitude": 34.8723,
+          "longitude": 24.4887,
+          "depth": 5,
+          "magnitude": 1.8,
+          "place": "GIRIT ADASI ACIKLARI (AKDENIZ)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-ff9e48b0",
       "source": "KANDILLI",
