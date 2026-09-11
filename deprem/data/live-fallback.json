@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-10T23:22:24.975Z",
+  "generatedAt": "2026-09-11T01:13:16.284Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c6c817f8",
+      "source": "KANDILLI",
+      "sourceId": "k-c6c817f8",
+      "time": "2026-09-11T03:30:50+03:00",
+      "latitude": 40.3948,
+      "longitude": 26.862,
+      "depth": 19.8,
+      "magnitude": 0.9,
+      "place": "SEVKETIYE-LAPSEKI (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T03:30:50+03:00",
+          "latitude": 40.3948,
+          "longitude": 26.862,
+          "depth": 19.8,
+          "magnitude": 0.9,
+          "place": "SEVKETIYE-LAPSEKI (CANAKKALE)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-7c281240",
       "source": "KANDILLI",

@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-10T23:22:24.971Z",
+  "updatedAt": "2026-09-11T01:13:16.280Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-dc623c21",
+      "source": "KANDILLI",
+      "sourceId": "k-dc623c21",
+      "time": "2026-09-11T03:48:09+03:00",
+      "latitude": 41.9602,
+      "longitude": 33.7027,
+      "depth": 5,
+      "magnitude": 1.7,
+      "place": "YUKARIKOY-INEBOLU (KASTAMONU)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T03:48:09+03:00",
+          "latitude": 41.9602,
+          "longitude": 33.7027,
+          "depth": 5,
+          "magnitude": 1.7,
+          "place": "YUKARIKOY-INEBOLU (KASTAMONU)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c6c817f8",
+      "source": "KANDILLI",
+      "sourceId": "k-c6c817f8",
+      "time": "2026-09-11T03:30:50+03:00",
+      "latitude": 40.3948,
+      "longitude": 26.862,
+      "depth": 19.8,
+      "magnitude": 0.9,
+      "place": "SEVKETIYE-LAPSEKI (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T03:30:50+03:00",
+          "latitude": 40.3948,
+          "longitude": 26.862,
+          "depth": 19.8,
+          "magnitude": 0.9,
+          "place": "SEVKETIYE-LAPSEKI (CANAKKALE)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-762d6110",
+      "source": "KANDILLI",
+      "sourceId": "k-762d6110",
+      "time": "2026-09-11T03:14:09+03:00",
+      "latitude": 36.6025,
+      "longitude": 28.1018,
+      "depth": 78.2,
+      "magnitude": 3.1,
+      "place": "TASLICA-MARMARIS (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T03:14:09+03:00",
+          "latitude": 36.6025,
+          "longitude": 28.1018,
+          "depth": 78.2,
+          "magnitude": 3.1,
+          "place": "TASLICA-MARMARIS (MUGLA)",
+          "ml": 3.1,
+          "mw": 3,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4ea5a075",
+      "source": "KANDILLI",
+      "sourceId": "k-4ea5a075",
+      "time": "2026-09-11T03:09:54+03:00",
+      "latitude": 38.3428,
+      "longitude": 27.8402,
+      "depth": 5.3,
+      "magnitude": 1.4,
+      "place": "KARAKOY-TURGUTLU (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T03:09:54+03:00",
+          "latitude": 38.3428,
+          "longitude": 27.8402,
+          "depth": 5.3,
+          "magnitude": 1.4,
+          "place": "KARAKOY-TURGUTLU (MANISA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-03850064",
+      "source": "KANDILLI",
+      "sourceId": "k-03850064",
+      "time": "2026-09-11T03:04:24+03:00",
+      "latitude": 38.195,
+      "longitude": 38.0753,
+      "depth": 6.2,
+      "magnitude": 2.3,
+      "place": "OLUKLU-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T03:04:24+03:00",
+          "latitude": 38.195,
+          "longitude": 38.0753,
+          "depth": 6.2,
+          "magnitude": 2.3,
+          "place": "OLUKLU-YESILYURT (MALATYA)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4843ea49",
+      "source": "KANDILLI",
+      "sourceId": "k-4843ea49",
+      "time": "2026-09-11T03:00:58+03:00",
+      "latitude": 38.3142,
+      "longitude": 36.535,
+      "depth": 14.5,
+      "magnitude": 1.3,
+      "place": "DAYOLUK-SARIZ (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T03:00:58+03:00",
+          "latitude": 38.3142,
+          "longitude": 36.535,
+          "depth": 14.5,
+          "magnitude": 1.3,
+          "place": "DAYOLUK-SARIZ (KAYSERI)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-998e5d82",
       "source": "KANDILLI",
