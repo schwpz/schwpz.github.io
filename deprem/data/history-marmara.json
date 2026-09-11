@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-09-11T01:13:16.297Z",
+  "generatedAt": "2026-09-11T05:59:49.052Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-424391aa",
+      "source": "KANDILLI",
+      "sourceId": "k-424391aa",
+      "time": "2026-09-11T08:01:35+03:00",
+      "latitude": 40.2885,
+      "longitude": 29.2477,
+      "depth": 11.4,
+      "magnitude": 1.4,
+      "place": "DISKAYA-GURSU (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T08:01:35+03:00",
+          "latitude": 40.2885,
+          "longitude": 29.2477,
+          "depth": 11.4,
+          "magnitude": 1.4,
+          "place": "DISKAYA-GURSU (BURSA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-26672f21",
+      "source": "KANDILLI",
+      "sourceId": "k-26672f21",
+      "time": "2026-09-11T06:09:16+03:00",
+      "latitude": 40.7685,
+      "longitude": 29.0972,
+      "depth": 8,
+      "magnitude": 1.3,
+      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T06:09:16+03:00",
+          "latitude": 40.7685,
+          "longitude": 29.0972,
+          "depth": 8,
+          "magnitude": 1.3,
+          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c6c817f8",
       "source": "KANDILLI",

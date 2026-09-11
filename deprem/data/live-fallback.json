@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-09-11T01:13:16.284Z",
+  "generatedAt": "2026-09-11T05:59:49.034Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-424391aa",
+      "source": "KANDILLI",
+      "sourceId": "k-424391aa",
+      "time": "2026-09-11T08:01:35+03:00",
+      "latitude": 40.2885,
+      "longitude": 29.2477,
+      "depth": 11.4,
+      "magnitude": 1.4,
+      "place": "DISKAYA-GURSU (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T08:01:35+03:00",
+          "latitude": 40.2885,
+          "longitude": 29.2477,
+          "depth": 11.4,
+          "magnitude": 1.4,
+          "place": "DISKAYA-GURSU (BURSA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-26672f21",
+      "source": "KANDILLI",
+      "sourceId": "k-26672f21",
+      "time": "2026-09-11T06:09:16+03:00",
+      "latitude": 40.7685,
+      "longitude": 29.0972,
+      "depth": 8,
+      "magnitude": 1.3,
+      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T06:09:16+03:00",
+          "latitude": 40.7685,
+          "longitude": 29.0972,
+          "depth": 8,
+          "magnitude": 1.3,
+          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c6c817f8",
       "source": "KANDILLI",
@@ -642,60 +696,6 @@
           "magnitude": 1.6,
           "place": "MARMARA DENIZI",
           "ml": 1.6,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-b83bac8e",
-      "source": "KANDILLI",
-      "sourceId": "k-b83bac8e",
-      "time": "2026-09-03T04:25:34+03:00",
-      "latitude": 40.4418,
-      "longitude": 26.3155,
-      "depth": 17.1,
-      "magnitude": 1.2,
-      "place": "SAROS KORFEZI (EGE DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-03T04:25:34+03:00",
-          "latitude": 40.4418,
-          "longitude": 26.3155,
-          "depth": 17.1,
-          "magnitude": 1.2,
-          "place": "SAROS KORFEZI (EGE DENIZI)",
-          "ml": 1.2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-7396b72f",
-      "source": "KANDILLI",
-      "sourceId": "k-7396b72f",
-      "time": "2026-09-03T03:32:52+03:00",
-      "latitude": 40.4815,
-      "longitude": 26.2975,
-      "depth": 2.8,
-      "magnitude": 1.2,
-      "place": "SAROS KORFEZI (EGE DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-03T03:32:52+03:00",
-          "latitude": 40.4815,
-          "longitude": 26.2975,
-          "depth": 2.8,
-          "magnitude": 1.2,
-          "place": "SAROS KORFEZI (EGE DENIZI)",
-          "ml": 1.2,
           "mw": null,
           "md": null
         }
