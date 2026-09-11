@@ -1,8 +1,224 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-11T10:53:40.783Z",
+  "updatedAt": "2026-09-11T14:39:18.234Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-47254f8f",
+      "source": "KANDILLI",
+      "sourceId": "k-47254f8f",
+      "time": "2026-09-11T16:51:13+03:00",
+      "latitude": 37.7187,
+      "longitude": 36.054,
+      "depth": 5,
+      "magnitude": 2.2,
+      "place": "TOKMANAKLI-FEKE (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T16:51:13+03:00",
+          "latitude": 37.7187,
+          "longitude": 36.054,
+          "depth": 5,
+          "magnitude": 2.2,
+          "place": "TOKMANAKLI-FEKE (ADANA)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-dcbd9059",
+      "source": "KANDILLI",
+      "sourceId": "k-dcbd9059",
+      "time": "2026-09-11T16:02:48+03:00",
+      "latitude": 39.202,
+      "longitude": 28.1678,
+      "depth": 9.9,
+      "magnitude": 1.5,
+      "place": "YAYLACIK-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T16:02:48+03:00",
+          "latitude": 39.202,
+          "longitude": 28.1678,
+          "depth": 9.9,
+          "magnitude": 1.5,
+          "place": "YAYLACIK-SINDIRGI (BALIKESIR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e98d2f40",
+      "source": "KANDILLI",
+      "sourceId": "k-e98d2f40",
+      "time": "2026-09-11T15:50:51+03:00",
+      "latitude": 39.6292,
+      "longitude": 27.8818,
+      "depth": 9.7,
+      "magnitude": 1.4,
+      "place": "BALIKESIR",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T15:50:51+03:00",
+          "latitude": 39.6292,
+          "longitude": 27.8818,
+          "depth": 9.7,
+          "magnitude": 1.4,
+          "place": "BALIKESIR",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-69f9a194",
+      "source": "KANDILLI",
+      "sourceId": "k-69f9a194",
+      "time": "2026-09-11T15:34:32+03:00",
+      "latitude": 36.6248,
+      "longitude": 25.7313,
+      "depth": 2.6,
+      "magnitude": 1.7,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T15:34:32+03:00",
+          "latitude": 36.6248,
+          "longitude": 25.7313,
+          "depth": 2.6,
+          "magnitude": 1.7,
+          "place": "EGE DENIZI",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-276d0a1f",
+      "source": "KANDILLI",
+      "sourceId": "k-276d0a1f",
+      "time": "2026-09-11T15:19:30+03:00",
+      "latitude": 38.3707,
+      "longitude": 39.0008,
+      "depth": 16.8,
+      "magnitude": 1.4,
+      "place": "CANUSAGI-SIVRICE (ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T15:19:30+03:00",
+          "latitude": 38.3707,
+          "longitude": 39.0008,
+          "depth": 16.8,
+          "magnitude": 1.4,
+          "place": "CANUSAGI-SIVRICE (ELAZIG)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8a1a11b9",
+      "source": "KANDILLI",
+      "sourceId": "k-8a1a11b9",
+      "time": "2026-09-11T14:53:36+03:00",
+      "latitude": 38.13,
+      "longitude": 28.1853,
+      "depth": 1.4,
+      "magnitude": 1.5,
+      "place": "YESILKOY-ODEMIS (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T14:53:36+03:00",
+          "latitude": 38.13,
+          "longitude": 28.1853,
+          "depth": 1.4,
+          "magnitude": 1.5,
+          "place": "YESILKOY-ODEMIS (IZMIR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1fbf3c28",
+      "source": "KANDILLI",
+      "sourceId": "k-1fbf3c28",
+      "time": "2026-09-11T14:49:54+03:00",
+      "latitude": 37.5965,
+      "longitude": 37.2933,
+      "depth": 6.3,
+      "magnitude": 2.3,
+      "place": "BUYUKNACAR-PAZARCIK (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T14:49:54+03:00",
+          "latitude": 37.5965,
+          "longitude": 37.2933,
+          "depth": 6.3,
+          "magnitude": 2.3,
+          "place": "BUYUKNACAR-PAZARCIK (KAHRAMANMARAS)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cb2da1c2",
+      "source": "KANDILLI",
+      "sourceId": "k-cb2da1c2",
+      "time": "2026-09-11T14:07:39+03:00",
+      "latitude": 38.0117,
+      "longitude": 37.7943,
+      "depth": 5.1,
+      "magnitude": 1.7,
+      "place": "KADILI-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T14:07:39+03:00",
+          "latitude": 38.0117,
+          "longitude": 37.7943,
+          "depth": 5.1,
+          "magnitude": 1.7,
+          "place": "KADILI-DOGANSEHIR (MALATYA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-7bc1c06d",
       "source": "KANDILLI",
@@ -22,6 +238,33 @@
           "magnitude": 2.9,
           "place": "KOZCAGIZ-(KAHRAMANMARAS)",
           "ml": 2.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1bec9305",
+      "source": "KANDILLI",
+      "sourceId": "k-1bec9305",
+      "time": "2026-09-11T13:37:50+03:00",
+      "latitude": 36.1927,
+      "longitude": 31.2378,
+      "depth": 6.7,
+      "magnitude": 2.1,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T13:37:50+03:00",
+          "latitude": 36.1927,
+          "longitude": 31.2378,
+          "depth": 6.7,
+          "magnitude": 2.1,
+          "place": "AKDENIZ",
+          "ml": 2.1,
           "mw": null,
           "md": null
         }
@@ -76,6 +319,33 @@
           "magnitude": 2.5,
           "place": "YARUSAGI-SIVRICE (ELAZIG)",
           "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ea4fff98",
+      "source": "KANDILLI",
+      "sourceId": "k-ea4fff98",
+      "time": "2026-09-11T12:49:30+03:00",
+      "latitude": 39.8022,
+      "longitude": 27.8497,
+      "depth": 5,
+      "magnitude": 1.1,
+      "place": "SAMLI-(BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T12:49:30+03:00",
+          "latitude": 39.8022,
+          "longitude": 27.8497,
+          "depth": 5,
+          "magnitude": 1.1,
+          "place": "SAMLI-(BALIKESIR)",
+          "ml": 1.1,
           "mw": null,
           "md": null
         }
@@ -220,6 +490,33 @@
       ]
     },
     {
+      "id": "k-8f00349c",
+      "source": "KANDILLI",
+      "sourceId": "k-8f00349c",
+      "time": "2026-09-11T12:12:11+03:00",
+      "latitude": 36.2627,
+      "longitude": 33.7437,
+      "depth": 0,
+      "magnitude": 1.1,
+      "place": "AKDERE-SILIFKE (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T12:12:11+03:00",
+          "latitude": 36.2627,
+          "longitude": 33.7437,
+          "depth": 0,
+          "magnitude": 1.1,
+          "place": "AKDERE-SILIFKE (MERSIN)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
       "id": "k-c1fa729f",
       "source": "KANDILLI",
       "sourceId": "k-c1fa729f",
@@ -238,6 +535,87 @@
           "magnitude": 1.5,
           "place": "ASAGIBORANDERE-PINARBASI (KAYSERI)",
           "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ed3aac02",
+      "source": "KANDILLI",
+      "sourceId": "k-ed3aac02",
+      "time": "2026-09-11T11:49:46+03:00",
+      "latitude": 37.4005,
+      "longitude": 30.9542,
+      "depth": 5.3,
+      "magnitude": 2.1,
+      "place": "GUMU-SUTCULER (ISPARTA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T11:49:46+03:00",
+          "latitude": 37.4005,
+          "longitude": 30.9542,
+          "depth": 5.3,
+          "magnitude": 2.1,
+          "place": "GUMU-SUTCULER (ISPARTA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cc13d824",
+      "source": "KANDILLI",
+      "sourceId": "k-cc13d824",
+      "time": "2026-09-11T11:34:45+03:00",
+      "latitude": 40.7638,
+      "longitude": 31.5322,
+      "depth": 15.8,
+      "magnitude": 1.6,
+      "place": "KIZILAGIL-(BOLU)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T11:34:45+03:00",
+          "latitude": 40.7638,
+          "longitude": 31.5322,
+          "depth": 15.8,
+          "magnitude": 1.6,
+          "place": "KIZILAGIL-(BOLU)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-57107e1e",
+      "source": "KANDILLI",
+      "sourceId": "k-57107e1e",
+      "time": "2026-09-11T11:18:42+03:00",
+      "latitude": 37.9498,
+      "longitude": 28.766,
+      "depth": 14.9,
+      "magnitude": 1.4,
+      "place": "SAVCILI-BUHARKENT (AYDIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-11T11:18:42+03:00",
+          "latitude": 37.9498,
+          "longitude": 28.766,
+          "depth": 14.9,
+          "magnitude": 1.4,
+          "place": "SAVCILI-BUHARKENT (AYDIN)",
+          "ml": 1.4,
           "mw": null,
           "md": null
         }
