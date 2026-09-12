@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:30:19.179Z",
+  "generatedAt": "2026-09-12T04:53:49.852Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,12 +11,12 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 20,
-    "label": "Hafif aktivite",
-    "summary": "Prens Adaları / doğu MMF: swarm 0/100 · migration 0/100 · precursor resemblance 45/100. Olasılık değildir.",
-    "eventsNearLocked5km": 1,
-    "eventsInsideLockedDepth24h": 1,
-    "leadSegmentId": "princes"
+    "attention": 15,
+    "label": "Arka plan seviyesi",
+    "summary": "Ganos: swarm 0/100 · migration 0/100 · precursor resemblance 42/100. Olasılık değildir.",
+    "eventsNearLocked5km": 0,
+    "eventsInsideLockedDepth24h": 0,
+    "leadSegmentId": "ganos"
   },
   "segments": [
     {
@@ -1267,17 +1267,17 @@
       "id": "princes",
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
-      "events24h": 1,
+      "events24h": 0,
       "events7d": 3,
       "events30d": 166,
-      "maxMagnitude24h": 1.3,
-      "baselineDaily": 5.69,
-      "rateRatio": 0.18,
-      "baseAttention": 21,
+      "maxMagnitude24h": 0,
+      "baselineDaily": 5.72,
+      "rateRatio": 0,
+      "baseAttention": 15,
       "advancedSignal": 15,
       "analogueUplift": 0,
-      "lockingDepthUplift": 1,
-      "attention": 20,
+      "lockingDepthUplift": 0,
+      "attention": 15,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -1359,13 +1359,13 @@
         "observedKm": 10,
         "modelKm": 12,
         "bufferKm": 5,
-        "kandilli24h": 1,
+        "kandilli24h": 0,
         "kandilli7d": 1,
-        "within24h": 1,
+        "within24h": 0,
         "within7d": 1,
         "below24h": 0,
         "below7d": 0,
-        "medianDepth24h": 8,
+        "medianDepth24h": null,
         "closest": {
           "eventId": "k-cb235033",
           "time": "2026-08-20T22:16:49+03:00",
@@ -1374,15 +1374,15 @@
           "horizontalDistanceKm": 0.04,
           "relation": "within"
         },
-        "strength": 0.192,
+        "strength": 0.029,
         "label": "0–10 km: doğrudan sismik boşluk/aseismik patch gözlemi; 2026 GNSS+InSAR bölgesel modelinde çoğunlukla ~12 km’ye kadar kilitli.",
         "citation": "Bohnhoff et al. 2013 Nat Commun; Schmittbuhl et al. 2016 G3; Klein et al. 2026 EGU26-18025",
         "confidence": "yüksek",
         "scoreEligible": true,
         "warning": "Kandilli routine catalog depth; km-scale location/depth uncertainty may move an event across a nominal locking-depth boundary."
       },
-      "precursorSimilarity": 45,
-      "benignSimilarity": 15,
+      "precursorSimilarity": 42,
+      "benignSimilarity": 10,
       "analogueEvidenceQuality": 0.16,
       "analogues": [
         {
@@ -1411,7 +1411,7 @@
           "outcome": "large_mainshock",
           "mainshockMagnitude": 6.2,
           "mechanism": "right_lateral",
-          "similarity": 0.446,
+          "similarity": 0.416,
           "featuresUsed": 6,
           "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
           "sources": [
@@ -1426,28 +1426,12 @@
           ]
         },
         {
-          "id": "princes-2007",
-          "name": "2007 Prens Adaları benign swarm",
-          "outcome": "no_large_mainshock",
-          "mainshockMagnitude": null,
-          "mechanism": "right_lateral_context",
-          "similarity": 0.154,
-          "featuresUsed": 8,
-          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
-          "sources": [
-            {
-              "title": "Bulut et al. 2011, BSSA",
-              "doi": "10.1785/0120100215"
-            }
-          ]
-        },
-        {
           "id": "kumamoto-2016",
           "name": "2016 Kumamoto M7.3 foreshock sequence",
           "outcome": "large_mainshock",
           "mainshockMagnitude": 7.3,
           "mechanism": "right_lateral_oblique",
-          "similarity": 0.122,
+          "similarity": 0.121,
           "featuresUsed": 6,
           "summary": "M6.5 and M6.4 foreshocks preceded the M7.3 by roughly 28 hours; studies reported relative quiescence and foreshock migration deeper toward the eventual hypocentre.",
           "sources": [
@@ -1460,11 +1444,27 @@
               "doi": "10.1186/s40623-017-0756-6"
             }
           ]
+        },
+        {
+          "id": "princes-2007",
+          "name": "2007 Prens Adaları benign swarm",
+          "outcome": "no_large_mainshock",
+          "mainshockMagnitude": null,
+          "mechanism": "right_lateral_context",
+          "similarity": 0.095,
+          "featuresUsed": 8,
+          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
+          "sources": [
+            {
+              "title": "Bulut et al. 2011, BSSA",
+              "doi": "10.1785/0120100215"
+            }
+          ]
         }
       ],
       "featureVector": {
         "eventCountNorm": 0,
-        "maxMagnitudeNorm": 0.2,
+        "maxMagnitudeNorm": 0,
         "durationNorm": 0.8363633825103173,
         "swarmness": 0,
         "spatialConcentration": 0,
