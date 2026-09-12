@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-11T22:30:15.790Z",
+  "updatedAt": "2026-09-12T00:30:19.143Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-56ce5817",
+      "source": "KANDILLI",
+      "sourceId": "k-56ce5817",
+      "time": "2026-09-12T03:10:16+03:00",
+      "latitude": 35.2137,
+      "longitude": 24.4108,
+      "depth": 24.2,
+      "magnitude": 2.5,
+      "place": "GIRIT ADASI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T03:10:16+03:00",
+          "latitude": 35.2137,
+          "longitude": 24.4108,
+          "depth": 24.2,
+          "magnitude": 2.5,
+          "place": "GIRIT ADASI (AKDENIZ)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b2fcea02",
+      "source": "KANDILLI",
+      "sourceId": "k-b2fcea02",
+      "time": "2026-09-12T03:02:20+03:00",
+      "latitude": 38.2927,
+      "longitude": 38.7815,
+      "depth": 5,
+      "magnitude": 1.8,
+      "place": "KARSIYAKA-PUTURGE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T03:02:20+03:00",
+          "latitude": 38.2927,
+          "longitude": 38.7815,
+          "depth": 5,
+          "magnitude": 1.8,
+          "place": "KARSIYAKA-PUTURGE (MALATYA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9d94a263",
+      "source": "KANDILLI",
+      "sourceId": "k-9d94a263",
+      "time": "2026-09-12T02:47:26+03:00",
+      "latitude": 37.8647,
+      "longitude": 29.4082,
+      "depth": 9.7,
+      "magnitude": 0.9,
+      "place": "YOKUSBASI-HONAZ (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T02:47:26+03:00",
+          "latitude": 37.8647,
+          "longitude": 29.4082,
+          "depth": 9.7,
+          "magnitude": 0.9,
+          "place": "YOKUSBASI-HONAZ (DENIZLI)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b1ac4345",
+      "source": "KANDILLI",
+      "sourceId": "k-b1ac4345",
+      "time": "2026-09-12T02:33:54+03:00",
+      "latitude": 36.2268,
+      "longitude": 29.7007,
+      "depth": 21.9,
+      "magnitude": 1.6,
+      "place": "AGULLU-KAS (ANTALYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T02:33:54+03:00",
+          "latitude": 36.2268,
+          "longitude": 29.7007,
+          "depth": 21.9,
+          "magnitude": 1.6,
+          "place": "AGULLU-KAS (ANTALYA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-24452500",
+      "source": "KANDILLI",
+      "sourceId": "k-24452500",
+      "time": "2026-09-12T02:32:26+03:00",
+      "latitude": 34.1868,
+      "longitude": 33.7092,
+      "depth": 19.1,
+      "magnitude": 2.6,
+      "place": "KIBRIS ACIKLARI-GUNEY--(AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T02:32:26+03:00",
+          "latitude": 34.1868,
+          "longitude": 33.7092,
+          "depth": 19.1,
+          "magnitude": 2.6,
+          "place": "KIBRIS ACIKLARI-GUNEY--(AKDENIZ)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-04fffe36",
+      "source": "KANDILLI",
+      "sourceId": "k-04fffe36",
+      "time": "2026-09-12T01:28:34+03:00",
+      "latitude": 39.3752,
+      "longitude": 37.9643,
+      "depth": 6.1,
+      "magnitude": 1.5,
+      "place": "KARAAGACLI-DIVRIGI (SIVAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T01:28:34+03:00",
+          "latitude": 39.3752,
+          "longitude": 37.9643,
+          "depth": 6.1,
+          "magnitude": 1.5,
+          "place": "KARAAGACLI-DIVRIGI (SIVAS)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c8833300",
       "source": "KANDILLI",
