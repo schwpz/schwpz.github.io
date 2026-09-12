@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-12T15:45:00.102Z",
+  "updatedAt": "2026-09-12T17:50:48.708Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-739783f8",
+      "source": "KANDILLI",
+      "sourceId": "k-739783f8",
+      "time": "2026-09-12T20:07:53+03:00",
+      "latitude": 38.5905,
+      "longitude": 37.7835,
+      "depth": 10.2,
+      "magnitude": 1.5,
+      "place": "KOLUKLER-DARENDE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T20:07:53+03:00",
+          "latitude": 38.5905,
+          "longitude": 37.7835,
+          "depth": 10.2,
+          "magnitude": 1.5,
+          "place": "KOLUKLER-DARENDE (MALATYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-39ce1a2b",
+      "source": "KANDILLI",
+      "sourceId": "k-39ce1a2b",
+      "time": "2026-09-12T19:44:34+03:00",
+      "latitude": 38.87,
+      "longitude": 26.9488,
+      "depth": 8.5,
+      "magnitude": 2.2,
+      "place": "CANDARLI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T19:44:34+03:00",
+          "latitude": 38.87,
+          "longitude": 26.9488,
+          "depth": 8.5,
+          "magnitude": 2.2,
+          "place": "CANDARLI KORFEZI (EGE DENIZI)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2356d9c7",
+      "source": "KANDILLI",
+      "sourceId": "k-2356d9c7",
+      "time": "2026-09-12T18:24:14+03:00",
+      "latitude": 39.007,
+      "longitude": 43.5893,
+      "depth": 23.9,
+      "magnitude": 2.1,
+      "place": "UNSELI-MURADIYE (VAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T18:24:14+03:00",
+          "latitude": 39.007,
+          "longitude": 43.5893,
+          "depth": 23.9,
+          "magnitude": 2.1,
+          "place": "UNSELI-MURADIYE (VAN)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-543529a7",
+      "source": "KANDILLI",
+      "sourceId": "k-543529a7",
+      "time": "2026-09-12T18:23:40+03:00",
+      "latitude": 39.5343,
+      "longitude": 39.1245,
+      "depth": 3.9,
+      "magnitude": 1.7,
+      "place": "MERMERLI-KEMAH (ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T18:23:40+03:00",
+          "latitude": 39.5343,
+          "longitude": 39.1245,
+          "depth": 3.9,
+          "magnitude": 1.7,
+          "place": "MERMERLI-KEMAH (ERZINCAN)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-ee47a3a5",
       "source": "KANDILLI",
@@ -130,6 +238,33 @@
           "magnitude": 1.8,
           "place": "GURSU-CAMELI (DENIZLI)",
           "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9d958d52",
+      "source": "KANDILLI",
+      "sourceId": "k-9d958d52",
+      "time": "2026-09-12T17:05:25+03:00",
+      "latitude": 38.1372,
+      "longitude": 38.3792,
+      "depth": 26.6,
+      "magnitude": 1.1,
+      "place": "SALKONAK-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T17:05:25+03:00",
+          "latitude": 38.1372,
+          "longitude": 38.3792,
+          "depth": 26.6,
+          "magnitude": 1.1,
+          "place": "SALKONAK-YESILYURT (MALATYA)",
+          "ml": 1.1,
           "mw": null,
           "md": null
         }
