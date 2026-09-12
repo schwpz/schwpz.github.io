@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-12T19:40:44.200Z",
+  "updatedAt": "2026-09-12T21:38:48.105Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-a292c0ca",
+      "source": "KANDILLI",
+      "sourceId": "k-a292c0ca",
+      "time": "2026-09-13T00:10:22+03:00",
+      "latitude": 38.5172,
+      "longitude": 39.3242,
+      "depth": 5.4,
+      "magnitude": 1.4,
+      "place": "GUNEYKOY-SIVRICE (ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-13T00:10:22+03:00",
+          "latitude": 38.5172,
+          "longitude": 39.3242,
+          "depth": 5.4,
+          "magnitude": 1.4,
+          "place": "GUNEYKOY-SIVRICE (ELAZIG)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-81ecca8a",
+      "source": "KANDILLI",
+      "sourceId": "k-81ecca8a",
+      "time": "2026-09-12T23:50:06+03:00",
+      "latitude": 38.4537,
+      "longitude": 39.3568,
+      "depth": 19.8,
+      "magnitude": 0.8,
+      "place": "SUREK-SIVRICE (ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T23:50:06+03:00",
+          "latitude": 38.4537,
+          "longitude": 39.3568,
+          "depth": 19.8,
+          "magnitude": 0.8,
+          "place": "SUREK-SIVRICE (ELAZIG)",
+          "ml": 0.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-33ee3776",
+      "source": "KANDILLI",
+      "sourceId": "k-33ee3776",
+      "time": "2026-09-12T23:48:02+03:00",
+      "latitude": 39.255,
+      "longitude": 40.2283,
+      "depth": 7.1,
+      "magnitude": 1.8,
+      "place": "ACIKGUNEY-KIGI (BINGOL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T23:48:02+03:00",
+          "latitude": 39.255,
+          "longitude": 40.2283,
+          "depth": 7.1,
+          "magnitude": 1.8,
+          "place": "ACIKGUNEY-KIGI (BINGOL)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-077ec589",
+      "source": "KANDILLI",
+      "sourceId": "k-077ec589",
+      "time": "2026-09-12T23:40:04+03:00",
+      "latitude": 39.2245,
+      "longitude": 28.9875,
+      "depth": 14.9,
+      "magnitude": 1.7,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-12T23:40:04+03:00",
+          "latitude": 39.2245,
+          "longitude": 28.9875,
+          "depth": 14.9,
+          "magnitude": 1.7,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-7b80b596",
       "source": "KANDILLI",
