@@ -1,8 +1,62 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-12T23:19:07.801Z",
+  "updatedAt": "2026-09-13T01:07:20.286Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-2b6fc6f3",
+      "source": "KANDILLI",
+      "sourceId": "k-2b6fc6f3",
+      "time": "2026-09-13T03:09:20+03:00",
+      "latitude": 39.0697,
+      "longitude": 28.3873,
+      "depth": 12,
+      "magnitude": 1.1,
+      "place": "KOBAKLAR-GORDES (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-13T03:09:20+03:00",
+          "latitude": 39.0697,
+          "longitude": 28.3873,
+          "depth": 12,
+          "magnitude": 1.1,
+          "place": "KOBAKLAR-GORDES (MANISA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e7926f64",
+      "source": "KANDILLI",
+      "sourceId": "k-e7926f64",
+      "time": "2026-09-13T02:50:37+03:00",
+      "latitude": 39.1063,
+      "longitude": 28.3477,
+      "depth": 13.1,
+      "magnitude": 1,
+      "place": "KOBAKLAR-GORDES (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-13T02:50:37+03:00",
+          "latitude": 39.1063,
+          "longitude": 28.3477,
+          "depth": 13.1,
+          "magnitude": 1,
+          "place": "KOBAKLAR-GORDES (MANISA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-e1ddbd94",
       "source": "KANDILLI",
