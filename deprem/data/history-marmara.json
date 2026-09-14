@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-09-14T10:34:59.844Z",
+  "generatedAt": "2026-09-14T16:30:17.383Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-74c6574e",
+      "source": "KANDILLI",
+      "sourceId": "k-74c6574e",
+      "time": "2026-09-14T13:28:22+03:00",
+      "latitude": 40.3613,
+      "longitude": 27.0808,
+      "depth": 24.2,
+      "magnitude": 1.4,
+      "place": "AYITDERE-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T13:28:22+03:00",
+          "latitude": 40.3613,
+          "longitude": 27.0808,
+          "depth": 24.2,
+          "magnitude": 1.4,
+          "place": "AYITDERE-BIGA (CANAKKALE)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ad2dd953",
+      "source": "KANDILLI",
+      "sourceId": "k-ad2dd953",
+      "time": "2026-09-14T12:39:43+03:00",
+      "latitude": 40.1575,
+      "longitude": 27.364,
+      "depth": 11.3,
+      "magnitude": 1.7,
+      "place": "CAMIALAN-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T12:39:43+03:00",
+          "latitude": 40.1575,
+          "longitude": 27.364,
+          "depth": 11.3,
+          "magnitude": 1.7,
+          "place": "CAMIALAN-BIGA (CANAKKALE)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-cb138932",
       "source": "KANDILLI",
