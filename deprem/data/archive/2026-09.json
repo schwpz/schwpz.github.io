@@ -1,8 +1,359 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-14T05:09:26.592Z",
+  "updatedAt": "2026-09-14T10:34:59.824Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-8028160d",
+      "source": "KANDILLI",
+      "sourceId": "k-8028160d",
+      "time": "2026-09-14T12:14:37+03:00",
+      "latitude": 36.7095,
+      "longitude": 25.7057,
+      "depth": 2.8,
+      "magnitude": 2.1,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T12:14:37+03:00",
+          "latitude": 36.7095,
+          "longitude": 25.7057,
+          "depth": 2.8,
+          "magnitude": 2.1,
+          "place": "EGE DENIZI",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-eaeb1b4f",
+      "source": "KANDILLI",
+      "sourceId": "k-eaeb1b4f",
+      "time": "2026-09-14T12:08:08+03:00",
+      "latitude": 36.2735,
+      "longitude": 33.6915,
+      "depth": 0,
+      "magnitude": 0.9,
+      "place": "ISIKLI-SILIFKE (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T12:08:08+03:00",
+          "latitude": 36.2735,
+          "longitude": 33.6915,
+          "depth": 0,
+          "magnitude": 0.9,
+          "place": "ISIKLI-SILIFKE (MERSIN)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-de7abf8f",
+      "source": "KANDILLI",
+      "sourceId": "k-de7abf8f",
+      "time": "2026-09-14T12:07:50+03:00",
+      "latitude": 36.2767,
+      "longitude": 33.6592,
+      "depth": 0,
+      "magnitude": 1.3,
+      "place": "DEDELER-GULNAR (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T12:07:50+03:00",
+          "latitude": 36.2767,
+          "longitude": 33.6592,
+          "depth": 0,
+          "magnitude": 1.3,
+          "place": "DEDELER-GULNAR (MERSIN)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4f1b9ebe",
+      "source": "KANDILLI",
+      "sourceId": "k-4f1b9ebe",
+      "time": "2026-09-14T12:04:44+03:00",
+      "latitude": 41.9253,
+      "longitude": 25.4287,
+      "depth": 2,
+      "magnitude": 1.7,
+      "place": "BULGARISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T12:04:44+03:00",
+          "latitude": 41.9253,
+          "longitude": 25.4287,
+          "depth": 2,
+          "magnitude": 1.7,
+          "place": "BULGARISTAN",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-46ec0977",
+      "source": "KANDILLI",
+      "sourceId": "k-46ec0977",
+      "time": "2026-09-14T11:42:46+03:00",
+      "latitude": 36.6673,
+      "longitude": 25.738,
+      "depth": 7.6,
+      "magnitude": 3.2,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T11:42:46+03:00",
+          "latitude": 36.6673,
+          "longitude": 25.738,
+          "depth": 7.6,
+          "magnitude": 3.2,
+          "place": "EGE DENIZI",
+          "ml": 3.2,
+          "mw": 3.1,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e9b950f7",
+      "source": "KANDILLI",
+      "sourceId": "k-e9b950f7",
+      "time": "2026-09-14T11:29:28+03:00",
+      "latitude": 38.6273,
+      "longitude": 27.007,
+      "depth": 25.1,
+      "magnitude": 1.6,
+      "place": "MENEMEN (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T11:29:28+03:00",
+          "latitude": 38.6273,
+          "longitude": 27.007,
+          "depth": 25.1,
+          "magnitude": 1.6,
+          "place": "MENEMEN (IZMIR)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-34b49dc9",
+      "source": "KANDILLI",
+      "sourceId": "k-34b49dc9",
+      "time": "2026-09-14T11:19:03+03:00",
+      "latitude": 38.2873,
+      "longitude": 37.8768,
+      "depth": 14.2,
+      "magnitude": 1.6,
+      "place": "HANCERLI-AKCADAG (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T11:19:03+03:00",
+          "latitude": 38.2873,
+          "longitude": 37.8768,
+          "depth": 14.2,
+          "magnitude": 1.6,
+          "place": "HANCERLI-AKCADAG (MALATYA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ebbf8758",
+      "source": "KANDILLI",
+      "sourceId": "k-ebbf8758",
+      "time": "2026-09-14T11:10:34+03:00",
+      "latitude": 34.9167,
+      "longitude": 26.1175,
+      "depth": 5,
+      "magnitude": 2.5,
+      "place": "GIRIT ADASI ACIKLARI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T11:10:34+03:00",
+          "latitude": 34.9167,
+          "longitude": 26.1175,
+          "depth": 5,
+          "magnitude": 2.5,
+          "place": "GIRIT ADASI ACIKLARI (AKDENIZ)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5d6c11f1",
+      "source": "KANDILLI",
+      "sourceId": "k-5d6c11f1",
+      "time": "2026-09-14T10:43:39+03:00",
+      "latitude": 39.2382,
+      "longitude": 29.0408,
+      "depth": 14.3,
+      "magnitude": 1.1,
+      "place": "KATRANDAGI-EMET (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T10:43:39+03:00",
+          "latitude": 39.2382,
+          "longitude": 29.0408,
+          "depth": 14.3,
+          "magnitude": 1.1,
+          "place": "KATRANDAGI-EMET (KUTAHYA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d35e3711",
+      "source": "KANDILLI",
+      "sourceId": "k-d35e3711",
+      "time": "2026-09-14T10:38:39+03:00",
+      "latitude": 36.7202,
+      "longitude": 28.5558,
+      "depth": 18.7,
+      "magnitude": 1.6,
+      "place": "DALYAN ACIKLARI-MUGLA (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T10:38:39+03:00",
+          "latitude": 36.7202,
+          "longitude": 28.5558,
+          "depth": 18.7,
+          "magnitude": 1.6,
+          "place": "DALYAN ACIKLARI-MUGLA (AKDENIZ)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-12f2be6b",
+      "source": "KANDILLI",
+      "sourceId": "k-12f2be6b",
+      "time": "2026-09-14T10:36:09+03:00",
+      "latitude": 38.9267,
+      "longitude": 43.7693,
+      "depth": 15.9,
+      "magnitude": 1.5,
+      "place": "BEYDAGI-MURADIYE (VAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T10:36:09+03:00",
+          "latitude": 38.9267,
+          "longitude": 43.7693,
+          "depth": 15.9,
+          "magnitude": 1.5,
+          "place": "BEYDAGI-MURADIYE (VAN)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-79f83315",
+      "source": "KANDILLI",
+      "sourceId": "k-79f83315",
+      "time": "2026-09-14T10:24:10+03:00",
+      "latitude": 39.889,
+      "longitude": 28.842,
+      "depth": 0,
+      "magnitude": 1.6,
+      "place": "DUNDAR-ORHANELI (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T10:24:10+03:00",
+          "latitude": 39.889,
+          "longitude": 28.842,
+          "depth": 0,
+          "magnitude": 1.6,
+          "place": "DUNDAR-ORHANELI (BURSA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b59b3184",
+      "source": "KANDILLI",
+      "sourceId": "k-b59b3184",
+      "time": "2026-09-14T09:13:21+03:00",
+      "latitude": 38.3078,
+      "longitude": 38.113,
+      "depth": 29.8,
+      "magnitude": 1.1,
+      "place": "KUYULU-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T09:13:21+03:00",
+          "latitude": 38.3078,
+          "longitude": 38.113,
+          "depth": 29.8,
+          "magnitude": 1.1,
+          "place": "KUYULU-YESILYURT (MALATYA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-6b0e6b30",
       "source": "KANDILLI",

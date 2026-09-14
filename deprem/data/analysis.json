@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T05:09:26.629Z",
+  "generatedAt": "2026-09-14T10:34:59.852Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,12 +11,12 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 23,
-    "label": "Hafif aktivite",
-    "summary": "Central Basin / Western High: swarm 0/100 · migration 0/100 · precursor resemblance 51/100. Olasılık değildir.",
+    "attention": 15,
+    "label": "Arka plan seviyesi",
+    "summary": "Ganos: swarm 0/100 · migration 0/100 · precursor resemblance 42/100. Olasılık değildir.",
     "eventsNearLocked5km": 0,
     "eventsInsideLockedDepth24h": 0,
-    "leadSegmentId": "central"
+    "leadSegmentId": "ganos"
   },
   "segments": [
     {
@@ -441,17 +441,17 @@
       "id": "central",
       "name": "Central Basin / Western High",
       "state": "creep",
-      "events24h": 2,
+      "events24h": 1,
       "events7d": 2,
       "events30d": 10,
       "maxMagnitude24h": 2.3,
-      "baselineDaily": 0.28,
-      "rateRatio": 7.25,
-      "baseAttention": 35,
+      "baselineDaily": 0.31,
+      "rateRatio": 3.22,
+      "baseAttention": 18,
       "advancedSignal": 2.3,
       "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 23,
+      "attention": 12,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -633,7 +633,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0.7169483388091614,
+        "rateAnomaly": 0.4234629070496927,
         "lockedContext": 0.15
       }
     },
