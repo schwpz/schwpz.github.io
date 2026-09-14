@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-13T22:36:52.803Z",
+  "updatedAt": "2026-09-14T00:23:29.181Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-0edb9397",
+      "source": "KANDILLI",
+      "sourceId": "k-0edb9397",
+      "time": "2026-09-14T02:55:34+03:00",
+      "latitude": 38.0515,
+      "longitude": 36.409,
+      "depth": 5,
+      "magnitude": 1.8,
+      "place": "SOGUKPINAR-GOKSUN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T02:55:34+03:00",
+          "latitude": 38.0515,
+          "longitude": 36.409,
+          "depth": 5,
+          "magnitude": 1.8,
+          "place": "SOGUKPINAR-GOKSUN (KAHRAMANMARAS)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-eb751dc3",
+      "source": "KANDILLI",
+      "sourceId": "k-eb751dc3",
+      "time": "2026-09-14T02:41:11+03:00",
+      "latitude": 38.2188,
+      "longitude": 40.3745,
+      "depth": 9.8,
+      "magnitude": 1.2,
+      "place": "OZEKLI-SUR (DIYARBAKIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T02:41:11+03:00",
+          "latitude": 38.2188,
+          "longitude": 40.3745,
+          "depth": 9.8,
+          "magnitude": 1.2,
+          "place": "OZEKLI-SUR (DIYARBAKIR)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b23d1e96",
+      "source": "KANDILLI",
+      "sourceId": "k-b23d1e96",
+      "time": "2026-09-14T02:12:38+03:00",
+      "latitude": 41.0057,
+      "longitude": 38.191,
+      "depth": 8.6,
+      "magnitude": 2.7,
+      "place": "PAZARSUYU-BULANCAK (GIRESUN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T02:12:38+03:00",
+          "latitude": 41.0057,
+          "longitude": 38.191,
+          "depth": 8.6,
+          "magnitude": 2.7,
+          "place": "PAZARSUYU-BULANCAK (GIRESUN)",
+          "ml": 2.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-844a0015",
+      "source": "KANDILLI",
+      "sourceId": "k-844a0015",
+      "time": "2026-09-14T01:59:18+03:00",
+      "latitude": 39.1205,
+      "longitude": 28.4132,
+      "depth": 9.2,
+      "magnitude": 2.4,
+      "place": "YAYLABAYIR-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T01:59:18+03:00",
+          "latitude": 39.1205,
+          "longitude": 28.4132,
+          "depth": 9.2,
+          "magnitude": 2.4,
+          "place": "YAYLABAYIR-SINDIRGI (BALIKESIR)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-89dae916",
       "source": "KANDILLI",
