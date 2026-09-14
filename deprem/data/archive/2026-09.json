@@ -1,8 +1,35 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-14T16:30:17.362Z",
+  "updatedAt": "2026-09-14T20:26:19.739Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-a655b0e5",
+      "source": "KANDILLI",
+      "sourceId": "k-a655b0e5",
+      "time": "2026-09-14T20:46:16+03:00",
+      "latitude": 37.7742,
+      "longitude": 29.669,
+      "depth": 10,
+      "magnitude": 1.6,
+      "place": "SAZKOY-BOZKURT (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-14T20:46:16+03:00",
+          "latitude": 37.7742,
+          "longitude": 29.669,
+          "depth": 10,
+          "magnitude": 1.6,
+          "place": "SAZKOY-BOZKURT (DENIZLI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-50399cba",
       "source": "KANDILLI",
