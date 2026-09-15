@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-15T16:50:04.929Z",
+  "updatedAt": "2026-09-15T19:51:50.319Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-b44f1b06",
+      "source": "KANDILLI",
+      "sourceId": "k-b44f1b06",
+      "time": "2026-09-15T21:22:39+03:00",
+      "latitude": 36.019,
+      "longitude": 27.2717,
+      "depth": 7.2,
+      "magnitude": 2.8,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-15T21:22:39+03:00",
+          "latitude": 36.019,
+          "longitude": 27.2717,
+          "depth": 7.2,
+          "magnitude": 2.8,
+          "place": "EGE DENIZI",
+          "ml": 2.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7e161e20",
+      "source": "KANDILLI",
+      "sourceId": "k-7e161e20",
+      "time": "2026-09-15T21:09:52+03:00",
+      "latitude": 37.8727,
+      "longitude": 27.2195,
+      "depth": 6.6,
+      "magnitude": 1.6,
+      "place": "KUSADASI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-15T21:09:52+03:00",
+          "latitude": 37.8727,
+          "longitude": 27.2195,
+          "depth": 6.6,
+          "magnitude": 1.6,
+          "place": "KUSADASI KORFEZI (EGE DENIZI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6f2048d5",
+      "source": "KANDILLI",
+      "sourceId": "k-6f2048d5",
+      "time": "2026-09-15T20:54:47+03:00",
+      "latitude": 37.9828,
+      "longitude": 27.1485,
+      "depth": 5.9,
+      "magnitude": 1.9,
+      "place": "KUSADASI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-15T20:54:47+03:00",
+          "latitude": 37.9828,
+          "longitude": 27.1485,
+          "depth": 5.9,
+          "magnitude": 1.9,
+          "place": "KUSADASI KORFEZI (EGE DENIZI)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-856be46e",
+      "source": "KANDILLI",
+      "sourceId": "k-856be46e",
+      "time": "2026-09-15T20:51:02+03:00",
+      "latitude": 39.2483,
+      "longitude": 28.9928,
+      "depth": 11.3,
+      "magnitude": 1.2,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-15T20:51:02+03:00",
+          "latitude": 39.2483,
+          "longitude": 28.9928,
+          "depth": 11.3,
+          "magnitude": 1.2,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ff501ec4",
+      "source": "KANDILLI",
+      "sourceId": "k-ff501ec4",
+      "time": "2026-09-15T20:45:46+03:00",
+      "latitude": 37.3637,
+      "longitude": 35.8112,
+      "depth": 19.3,
+      "magnitude": 0.9,
+      "place": "YASSICALI-KOZAN (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-15T20:45:46+03:00",
+          "latitude": 37.3637,
+          "longitude": 35.8112,
+          "depth": 19.3,
+          "magnitude": 0.9,
+          "place": "YASSICALI-KOZAN (ADANA)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5418c3bb",
+      "source": "KANDILLI",
+      "sourceId": "k-5418c3bb",
+      "time": "2026-09-15T20:06:31+03:00",
+      "latitude": 38.142,
+      "longitude": 38.4573,
+      "depth": 14.2,
+      "magnitude": 1.4,
+      "place": "AKSU-SINCIK (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-15T20:06:31+03:00",
+          "latitude": 38.142,
+          "longitude": 38.4573,
+          "depth": 14.2,
+          "magnitude": 1.4,
+          "place": "AKSU-SINCIK (ADIYAMAN)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-53bb4832",
       "source": "KANDILLI",
