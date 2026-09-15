@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T23:15:49.711Z",
+  "generatedAt": "2026-09-15T01:30:50.528Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -480,33 +480,6 @@
           "magnitude": 1.2,
           "place": "SAHINYURDU-GEMLIK (BURSA)",
           "ml": 1.2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-652e01d0",
-      "source": "KANDILLI",
-      "sourceId": "k-652e01d0",
-      "time": "2026-09-07T01:56:14+03:00",
-      "latitude": 40.4465,
-      "longitude": 28.7087,
-      "depth": 5.4,
-      "magnitude": 1.8,
-      "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-07T01:56:14+03:00",
-          "latitude": 40.4465,
-          "longitude": 28.7087,
-          "depth": 5.4,
-          "magnitude": 1.8,
-          "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-          "ml": 1.8,
           "mw": null,
           "md": null
         }
