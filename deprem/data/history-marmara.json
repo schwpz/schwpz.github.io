@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-09-15T19:51:50.346Z",
+  "generatedAt": "2026-09-15T22:27:34.516Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-27720460",
+      "source": "KANDILLI",
+      "sourceId": "k-27720460",
+      "time": "2026-09-15T23:19:06+03:00",
+      "latitude": 40.796,
+      "longitude": 28.098,
+      "depth": 12.8,
+      "magnitude": 1.5,
+      "place": "MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-15T23:19:06+03:00",
+          "latitude": 40.796,
+          "longitude": 28.098,
+          "depth": 12.8,
+          "magnitude": 1.5,
+          "place": "MARMARA DENIZI",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b562622e",
+      "source": "KANDILLI",
+      "sourceId": "k-b562622e",
+      "time": "2026-09-15T22:53:13+03:00",
+      "latitude": 40.4123,
+      "longitude": 28.8517,
+      "depth": 1.9,
+      "magnitude": 1.4,
+      "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-15T22:53:13+03:00",
+          "latitude": 40.4123,
+          "longitude": 28.8517,
+          "depth": 1.9,
+          "magnitude": 1.4,
+          "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-b0d40a8f",
       "source": "KANDILLI",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T19:51:50.355Z",
+  "generatedAt": "2026-09-15T22:27:34.525Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -441,17 +441,17 @@
       "id": "central",
       "name": "Central Basin / Western High",
       "state": "creep",
-      "events24h": 0,
-      "events7d": 2,
-      "events30d": 10,
-      "maxMagnitude24h": 0,
+      "events24h": 1,
+      "events7d": 3,
+      "events30d": 11,
+      "maxMagnitude24h": 1.5,
       "baselineDaily": 0.34,
-      "rateRatio": 0,
-      "baseAttention": 0,
+      "rateRatio": 2.9,
+      "baseAttention": 14,
       "advancedSignal": 2.3,
       "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 1,
+      "attention": 10,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -468,7 +468,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 2,
+        "count": 3,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -482,7 +482,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 2,
+        "count": 3,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -491,7 +491,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 2,
+        "count": 3,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -506,7 +506,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 10,
+          "n": 11,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -545,9 +545,9 @@
         "confidence": "—",
         "scoreEligible": false
       },
-      "precursorSimilarity": 42,
-      "benignSimilarity": 10,
-      "analogueEvidenceQuality": 0.16,
+      "precursorSimilarity": 46,
+      "benignSimilarity": 17,
+      "analogueEvidenceQuality": 0.17,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -575,7 +575,7 @@
           "outcome": "large_mainshock",
           "mainshockMagnitude": 6.2,
           "mechanism": "right_lateral",
-          "similarity": 0.416,
+          "similarity": 0.455,
           "featuresUsed": 6,
           "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
           "sources": [
@@ -590,12 +590,28 @@
           ]
         },
         {
+          "id": "princes-2007",
+          "name": "2007 Prens Adaları benign swarm",
+          "outcome": "no_large_mainshock",
+          "mainshockMagnitude": null,
+          "mechanism": "right_lateral_context",
+          "similarity": 0.166,
+          "featuresUsed": 8,
+          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
+          "sources": [
+            {
+              "title": "Bulut et al. 2011, BSSA",
+              "doi": "10.1785/0120100215"
+            }
+          ]
+        },
+        {
           "id": "kumamoto-2016",
           "name": "2016 Kumamoto M7.3 foreshock sequence",
           "outcome": "large_mainshock",
           "mainshockMagnitude": 7.3,
           "mechanism": "right_lateral_oblique",
-          "similarity": 0.121,
+          "similarity": 0.123,
           "featuresUsed": 6,
           "summary": "M6.5 and M6.4 foreshocks preceded the M7.3 by roughly 28 hours; studies reported relative quiescence and foreshock migration deeper toward the eventual hypocentre.",
           "sources": [
@@ -608,27 +624,11 @@
               "doi": "10.1186/s40623-017-0756-6"
             }
           ]
-        },
-        {
-          "id": "princes-2007",
-          "name": "2007 Prens Adaları benign swarm",
-          "outcome": "no_large_mainshock",
-          "mainshockMagnitude": null,
-          "mechanism": "right_lateral_context",
-          "similarity": 0.095,
-          "featuresUsed": 8,
-          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
-          "sources": [
-            {
-              "title": "Bulut et al. 2011, BSSA",
-              "doi": "10.1785/0120100215"
-            }
-          ]
         }
       ],
       "featureVector": {
         "eventCountNorm": 0,
-        "maxMagnitudeNorm": 0,
+        "maxMagnitudeNorm": 0.23076923076923078,
         "durationNorm": 0.8363633825103173,
         "swarmness": 0,
         "spatialConcentration": 0,
@@ -637,7 +637,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0,
+        "rateAnomaly": 0.38533166491579673,
         "lockedContext": 0.15
       }
     },
@@ -645,17 +645,17 @@
       "id": "kumburgaz-west-transition",
       "name": "Silivri High / Batı Kumburgaz geçişi",
       "state": "transition",
-      "events24h": 0,
-      "events7d": 0,
-      "events30d": 5,
-      "maxMagnitude24h": 0,
+      "events24h": 1,
+      "events7d": 1,
+      "events30d": 6,
+      "maxMagnitude24h": 1.5,
       "baselineDaily": 0.17,
-      "rateRatio": 0,
-      "baseAttention": 8,
+      "rateRatio": 5.8,
+      "baseAttention": 33,
       "advancedSignal": 8.3,
       "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 8,
+      "attention": 24,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -672,7 +672,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 0,
+        "count": 1,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -686,7 +686,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 0,
+        "count": 1,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -695,7 +695,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 0,
+        "count": 1,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -710,7 +710,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 5,
+          "n": 6,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -749,8 +749,8 @@
         "confidence": "—",
         "scoreEligible": false
       },
-      "precursorSimilarity": 42,
-      "benignSimilarity": 10,
+      "precursorSimilarity": 46,
+      "benignSimilarity": 17,
       "analogueEvidenceQuality": 0.15,
       "analogues": [
         {
@@ -779,7 +779,7 @@
           "outcome": "large_mainshock",
           "mainshockMagnitude": 6.2,
           "mechanism": "right_lateral",
-          "similarity": 0.416,
+          "similarity": 0.455,
           "featuresUsed": 6,
           "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
           "sources": [
@@ -794,12 +794,28 @@
           ]
         },
         {
+          "id": "princes-2007",
+          "name": "2007 Prens Adaları benign swarm",
+          "outcome": "no_large_mainshock",
+          "mainshockMagnitude": null,
+          "mechanism": "right_lateral_context",
+          "similarity": 0.166,
+          "featuresUsed": 8,
+          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
+          "sources": [
+            {
+              "title": "Bulut et al. 2011, BSSA",
+              "doi": "10.1785/0120100215"
+            }
+          ]
+        },
+        {
           "id": "kumamoto-2016",
           "name": "2016 Kumamoto M7.3 foreshock sequence",
           "outcome": "large_mainshock",
           "mainshockMagnitude": 7.3,
           "mechanism": "right_lateral_oblique",
-          "similarity": 0.121,
+          "similarity": 0.123,
           "featuresUsed": 6,
           "summary": "M6.5 and M6.4 foreshocks preceded the M7.3 by roughly 28 hours; studies reported relative quiescence and foreshock migration deeper toward the eventual hypocentre.",
           "sources": [
@@ -812,27 +828,11 @@
               "doi": "10.1186/s40623-017-0756-6"
             }
           ]
-        },
-        {
-          "id": "princes-2007",
-          "name": "2007 Prens Adaları benign swarm",
-          "outcome": "no_large_mainshock",
-          "mainshockMagnitude": null,
-          "mechanism": "right_lateral_context",
-          "similarity": 0.095,
-          "featuresUsed": 8,
-          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
-          "sources": [
-            {
-              "title": "Bulut et al. 2011, BSSA",
-              "doi": "10.1785/0120100215"
-            }
-          ]
         }
       ],
       "featureVector": {
         "eventCountNorm": 0,
-        "maxMagnitudeNorm": 0,
+        "maxMagnitudeNorm": 0.23076923076923078,
         "durationNorm": 0.8363633825103173,
         "swarmness": 0,
         "spatialConcentration": 0,
@@ -841,7 +841,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0,
+        "rateAnomaly": 0.6361899946357812,
         "lockedContext": 0.55
       }
     },
@@ -1479,5 +1479,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 246
+  "historyEvents": 248
 }
