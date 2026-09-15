@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-15T12:03:03.739Z",
+  "generatedAt": "2026-09-15T16:50:04.944Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-b0d40a8f",
+      "source": "KANDILLI",
+      "sourceId": "k-b0d40a8f",
+      "time": "2026-09-15T18:56:31+03:00",
+      "latitude": 41.0608,
+      "longitude": 29.2205,
+      "depth": 8.9,
+      "magnitude": 1.2,
+      "place": "RESADIYE-CEKMEKOY (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-15T18:56:31+03:00",
+          "latitude": 41.0608,
+          "longitude": 29.2205,
+          "depth": 8.9,
+          "magnitude": 1.2,
+          "place": "RESADIYE-CEKMEKOY (ISTANBUL)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-87a98275",
       "source": "KANDILLI",
