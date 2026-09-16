@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-16T05:13:24.275Z",
+  "updatedAt": "2026-09-16T09:57:27.701Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-a99d39c5",
+      "source": "KANDILLI",
+      "sourceId": "k-a99d39c5",
+      "time": "2026-09-16T10:52:07+03:00",
+      "latitude": 38.589,
+      "longitude": 26.7192,
+      "depth": 15.6,
+      "magnitude": 2.3,
+      "place": "IZMIR KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-16T10:52:07+03:00",
+          "latitude": 38.589,
+          "longitude": 26.7192,
+          "depth": 15.6,
+          "magnitude": 2.3,
+          "place": "IZMIR KORFEZI (EGE DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f720bbe5",
+      "source": "KANDILLI",
+      "sourceId": "k-f720bbe5",
+      "time": "2026-09-16T10:38:35+03:00",
+      "latitude": 39.4038,
+      "longitude": 27.7658,
+      "depth": 7.9,
+      "magnitude": 1.5,
+      "place": "SOGUTLUGOZLER-SAVASTEPE (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-16T10:38:35+03:00",
+          "latitude": 39.4038,
+          "longitude": 27.7658,
+          "depth": 7.9,
+          "magnitude": 1.5,
+          "place": "SOGUTLUGOZLER-SAVASTEPE (BALIKESIR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fadac3bc",
+      "source": "KANDILLI",
+      "sourceId": "k-fadac3bc",
+      "time": "2026-09-16T10:07:09+03:00",
+      "latitude": 39.6242,
+      "longitude": 26.0573,
+      "depth": 6,
+      "magnitude": 1.5,
+      "place": "TAVAKLI ACIKLARI-CANAKKALE (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-16T10:07:09+03:00",
+          "latitude": 39.6242,
+          "longitude": 26.0573,
+          "depth": 6,
+          "magnitude": 1.5,
+          "place": "TAVAKLI ACIKLARI-CANAKKALE (EGE DENIZI)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3a0deb71",
+      "source": "KANDILLI",
+      "sourceId": "k-3a0deb71",
+      "time": "2026-09-16T09:29:03+03:00",
+      "latitude": 40.8187,
+      "longitude": 31.565,
+      "depth": 9.5,
+      "magnitude": 1.8,
+      "place": "KOZLU-(BOLU)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-16T09:29:03+03:00",
+          "latitude": 40.8187,
+          "longitude": 31.565,
+          "depth": 9.5,
+          "magnitude": 1.8,
+          "place": "KOZLU-(BOLU)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-da6a8893",
       "source": "KANDILLI",
