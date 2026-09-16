@@ -1,8 +1,143 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-15T22:27:34.496Z",
+  "updatedAt": "2026-09-16T00:38:37.659Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-42ef785b",
+      "source": "KANDILLI",
+      "sourceId": "k-42ef785b",
+      "time": "2026-09-16T03:01:50+03:00",
+      "latitude": 37.872,
+      "longitude": 27.5515,
+      "depth": 5.4,
+      "magnitude": 2.3,
+      "place": "KIZILCAPINAR-GERMENCIK (AYDIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-16T03:01:50+03:00",
+          "latitude": 37.872,
+          "longitude": 27.5515,
+          "depth": 5.4,
+          "magnitude": 2.3,
+          "place": "KIZILCAPINAR-GERMENCIK (AYDIN)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ba3a2514",
+      "source": "KANDILLI",
+      "sourceId": "k-ba3a2514",
+      "time": "2026-09-16T02:39:51+03:00",
+      "latitude": 36.0123,
+      "longitude": 29.3543,
+      "depth": 50.6,
+      "magnitude": 1.1,
+      "place": "KALKAN ACIKLARI-ANTALYA (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-16T02:39:51+03:00",
+          "latitude": 36.0123,
+          "longitude": 29.3543,
+          "depth": 50.6,
+          "magnitude": 1.1,
+          "place": "KALKAN ACIKLARI-ANTALYA (AKDENIZ)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8a71b683",
+      "source": "KANDILLI",
+      "sourceId": "k-8a71b683",
+      "time": "2026-09-16T02:17:05+03:00",
+      "latitude": 38.42,
+      "longitude": 37.4152,
+      "depth": 3.3,
+      "magnitude": 2,
+      "place": "YALINTAS-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-16T02:17:05+03:00",
+          "latitude": 38.42,
+          "longitude": 37.4152,
+          "depth": 3.3,
+          "magnitude": 2,
+          "place": "YALINTAS-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ee419cbb",
+      "source": "KANDILLI",
+      "sourceId": "k-ee419cbb",
+      "time": "2026-09-16T02:03:24+03:00",
+      "latitude": 36.0357,
+      "longitude": 27.2518,
+      "depth": 8.3,
+      "magnitude": 1.8,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-16T02:03:24+03:00",
+          "latitude": 36.0357,
+          "longitude": 27.2518,
+          "depth": 8.3,
+          "magnitude": 1.8,
+          "place": "EGE DENIZI",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3820bcca",
+      "source": "KANDILLI",
+      "sourceId": "k-3820bcca",
+      "time": "2026-09-16T01:09:21+03:00",
+      "latitude": 37.1,
+      "longitude": 34.5688,
+      "depth": 4.4,
+      "magnitude": 2.1,
+      "place": "SEBIL-CAMLIYAYLA (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-16T01:09:21+03:00",
+          "latitude": 37.1,
+          "longitude": 34.5688,
+          "depth": 4.4,
+          "magnitude": 2.1,
+          "place": "SEBIL-CAMLIYAYLA (MERSIN)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-0328fd59",
       "source": "KANDILLI",
