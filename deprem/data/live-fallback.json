@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T12:03:46.609Z",
+  "generatedAt": "2026-09-17T22:29:16.441Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -588,33 +588,6 @@
           "magnitude": 1.4,
           "place": "PIRNAR-KESAN (EDIRNE)",
           "ml": 1.4,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-9b7b6898",
-      "source": "KANDILLI",
-      "sourceId": "k-9b7b6898",
-      "time": "2026-09-10T03:20:41+03:00",
-      "latitude": 40.3062,
-      "longitude": 29.5008,
-      "depth": 5.5,
-      "magnitude": 3,
-      "place": "SELIMIYE-YENISEHIR (BURSA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-10T03:20:41+03:00",
-          "latitude": 40.3062,
-          "longitude": 29.5008,
-          "depth": 5.5,
-          "magnitude": 3,
-          "place": "SELIMIYE-YENISEHIR (BURSA)",
-          "ml": 3,
           "mw": null,
           "md": null
         }
