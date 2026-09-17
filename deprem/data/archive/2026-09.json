@@ -1,8 +1,251 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-17T16:51:09.990Z",
+  "updatedAt": "2026-09-17T19:54:21.441Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-8cca4daf",
+      "source": "KANDILLI",
+      "sourceId": "k-8cca4daf",
+      "time": "2026-09-17T22:40:09+03:00",
+      "latitude": 39.2203,
+      "longitude": 29.0047,
+      "depth": 10.5,
+      "magnitude": 1.9,
+      "place": "EGIRLER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-17T22:40:09+03:00",
+          "latitude": 39.2203,
+          "longitude": 29.0047,
+          "depth": 10.5,
+          "magnitude": 1.9,
+          "place": "EGIRLER-SIMAV (KUTAHYA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7570d23c",
+      "source": "KANDILLI",
+      "sourceId": "k-7570d23c",
+      "time": "2026-09-17T22:28:05+03:00",
+      "latitude": 39.2052,
+      "longitude": 28.9463,
+      "depth": 12.6,
+      "magnitude": 1.4,
+      "place": "HAMZABEY-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-17T22:28:05+03:00",
+          "latitude": 39.2052,
+          "longitude": 28.9463,
+          "depth": 12.6,
+          "magnitude": 1.4,
+          "place": "HAMZABEY-SIMAV (KUTAHYA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3368ec82",
+      "source": "KANDILLI",
+      "sourceId": "k-3368ec82",
+      "time": "2026-09-17T22:23:05+03:00",
+      "latitude": 39.028,
+      "longitude": 25.9878,
+      "depth": 11.8,
+      "magnitude": 2.4,
+      "place": "MIDILLI ADASI GUNEYI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-17T22:23:05+03:00",
+          "latitude": 39.028,
+          "longitude": 25.9878,
+          "depth": 11.8,
+          "magnitude": 2.4,
+          "place": "MIDILLI ADASI GUNEYI (EGE DENIZI)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-484d9237",
+      "source": "KANDILLI",
+      "sourceId": "k-484d9237",
+      "time": "2026-09-17T22:04:05+03:00",
+      "latitude": 39.0315,
+      "longitude": 25.9907,
+      "depth": 7.5,
+      "magnitude": 2.1,
+      "place": "MIDILLI ADASI GUNEYI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-17T22:04:05+03:00",
+          "latitude": 39.0315,
+          "longitude": 25.9907,
+          "depth": 7.5,
+          "magnitude": 2.1,
+          "place": "MIDILLI ADASI GUNEYI (EGE DENIZI)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4a7b6616",
+      "source": "KANDILLI",
+      "sourceId": "k-4a7b6616",
+      "time": "2026-09-17T21:34:52+03:00",
+      "latitude": 39.2292,
+      "longitude": 29.0033,
+      "depth": 11.5,
+      "magnitude": 0.8,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-17T21:34:52+03:00",
+          "latitude": 39.2292,
+          "longitude": 29.0033,
+          "depth": 11.5,
+          "magnitude": 0.8,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 0.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-afc038cd",
+      "source": "KANDILLI",
+      "sourceId": "k-afc038cd",
+      "time": "2026-09-17T21:00:02+03:00",
+      "latitude": 38.186,
+      "longitude": 38.6283,
+      "depth": 21.4,
+      "magnitude": 1.7,
+      "place": "SOGUTLU-PUTURGE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-17T21:00:02+03:00",
+          "latitude": 38.186,
+          "longitude": 38.6283,
+          "depth": 21.4,
+          "magnitude": 1.7,
+          "place": "SOGUTLU-PUTURGE (MALATYA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2b0c5405",
+      "source": "KANDILLI",
+      "sourceId": "k-2b0c5405",
+      "time": "2026-09-17T20:42:33+03:00",
+      "latitude": 38.324,
+      "longitude": 38.9953,
+      "depth": 11.7,
+      "magnitude": 1.6,
+      "place": "TOPALUSAGI-SIVRICE (ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-17T20:42:33+03:00",
+          "latitude": 38.324,
+          "longitude": 38.9953,
+          "depth": 11.7,
+          "magnitude": 1.6,
+          "place": "TOPALUSAGI-SIVRICE (ELAZIG)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2b154baa",
+      "source": "KANDILLI",
+      "sourceId": "k-2b154baa",
+      "time": "2026-09-17T20:02:54+03:00",
+      "latitude": 39.1327,
+      "longitude": 24.1687,
+      "depth": 11.6,
+      "magnitude": 2.3,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-17T20:02:54+03:00",
+          "latitude": 39.1327,
+          "longitude": 24.1687,
+          "depth": 11.6,
+          "magnitude": 2.3,
+          "place": "YUNANISTAN",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-be097fa3",
+      "source": "KANDILLI",
+      "sourceId": "k-be097fa3",
+      "time": "2026-09-17T19:50:36+03:00",
+      "latitude": 38.2193,
+      "longitude": 27.6807,
+      "depth": 1.1,
+      "magnitude": 2.1,
+      "place": "TURAN-BAYINDIR (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-17T19:50:36+03:00",
+          "latitude": 38.2193,
+          "longitude": 27.6807,
+          "depth": 1.1,
+          "magnitude": 2.1,
+          "place": "TURAN-BAYINDIR (IZMIR)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-58dac792",
       "source": "KANDILLI",
