@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-18T09:43:03.791Z",
+  "generatedAt": "2026-09-18T13:51:49.829Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-415fb55f",
+      "source": "KANDILLI",
+      "sourceId": "k-415fb55f",
+      "time": "2026-09-18T15:25:22+03:00",
+      "latitude": 41.1617,
+      "longitude": 27.626,
+      "depth": 9,
+      "magnitude": 1.6,
+      "place": "KIRKKEPENEKLI-MURATLI (TEKIRDAG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T15:25:22+03:00",
+          "latitude": 41.1617,
+          "longitude": 27.626,
+          "depth": 9,
+          "magnitude": 1.6,
+          "place": "KIRKKEPENEKLI-MURATLI (TEKIRDAG)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-5a99a0ae",
       "source": "KANDILLI",

@@ -1,8 +1,521 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-18T09:43:03.762Z",
+  "updatedAt": "2026-09-18T13:51:49.710Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-a4a8a033",
+      "source": "KANDILLI",
+      "sourceId": "k-a4a8a033",
+      "time": "2026-09-18T16:40:15+03:00",
+      "latitude": 34.9723,
+      "longitude": 23.4078,
+      "depth": 18.9,
+      "magnitude": 3,
+      "place": "GIRIT ADASI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T16:40:15+03:00",
+          "latitude": 34.9723,
+          "longitude": 23.4078,
+          "depth": 18.9,
+          "magnitude": 3,
+          "place": "GIRIT ADASI (AKDENIZ)",
+          "ml": 3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-dc75d1a3",
+      "source": "KANDILLI",
+      "sourceId": "k-dc75d1a3",
+      "time": "2026-09-18T16:24:23+03:00",
+      "latitude": 38.0957,
+      "longitude": 37.5553,
+      "depth": 6.1,
+      "magnitude": 1.5,
+      "place": "TAPKIRANKALE-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T16:24:23+03:00",
+          "latitude": 38.0957,
+          "longitude": 37.5553,
+          "depth": 6.1,
+          "magnitude": 1.5,
+          "place": "TAPKIRANKALE-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-579c7127",
+      "source": "KANDILLI",
+      "sourceId": "k-579c7127",
+      "time": "2026-09-18T16:07:51+03:00",
+      "latitude": 41.5488,
+      "longitude": 41.3687,
+      "depth": 5.4,
+      "magnitude": 1.8,
+      "place": "LIMAN-HOPA (ARTVIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T16:07:51+03:00",
+          "latitude": 41.5488,
+          "longitude": 41.3687,
+          "depth": 5.4,
+          "magnitude": 1.8,
+          "place": "LIMAN-HOPA (ARTVIN)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a38bb9d6",
+      "source": "KANDILLI",
+      "sourceId": "k-a38bb9d6",
+      "time": "2026-09-18T15:34:18+03:00",
+      "latitude": 38.0515,
+      "longitude": 37.7663,
+      "depth": 18.2,
+      "magnitude": 1.8,
+      "place": "SOGUT-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T15:34:18+03:00",
+          "latitude": 38.0515,
+          "longitude": 37.7663,
+          "depth": 18.2,
+          "magnitude": 1.8,
+          "place": "SOGUT-DOGANSEHIR (MALATYA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-415fb55f",
+      "source": "KANDILLI",
+      "sourceId": "k-415fb55f",
+      "time": "2026-09-18T15:25:22+03:00",
+      "latitude": 41.1617,
+      "longitude": 27.626,
+      "depth": 9,
+      "magnitude": 1.6,
+      "place": "KIRKKEPENEKLI-MURATLI (TEKIRDAG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T15:25:22+03:00",
+          "latitude": 41.1617,
+          "longitude": 27.626,
+          "depth": 9,
+          "magnitude": 1.6,
+          "place": "KIRKKEPENEKLI-MURATLI (TEKIRDAG)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-bb7e2044",
+      "source": "KANDILLI",
+      "sourceId": "k-bb7e2044",
+      "time": "2026-09-18T15:06:47+03:00",
+      "latitude": 38.8007,
+      "longitude": 36.5582,
+      "depth": 7,
+      "magnitude": 1.7,
+      "place": "ASAGIKIZILCEVLIK-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T15:06:47+03:00",
+          "latitude": 38.8007,
+          "longitude": 36.5582,
+          "depth": 7,
+          "magnitude": 1.7,
+          "place": "ASAGIKIZILCEVLIK-PINARBASI (KAYSERI)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ab4f0288",
+      "source": "KANDILLI",
+      "sourceId": "k-ab4f0288",
+      "time": "2026-09-18T14:57:44+03:00",
+      "latitude": 38.1868,
+      "longitude": 38.607,
+      "depth": 6.6,
+      "magnitude": 2.2,
+      "place": "SOGUTLU-PUTURGE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T14:57:44+03:00",
+          "latitude": 38.1868,
+          "longitude": 38.607,
+          "depth": 6.6,
+          "magnitude": 2.2,
+          "place": "SOGUTLU-PUTURGE (MALATYA)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0b241433",
+      "source": "KANDILLI",
+      "sourceId": "k-0b241433",
+      "time": "2026-09-18T14:18:15+03:00",
+      "latitude": 37.6683,
+      "longitude": 35.7682,
+      "depth": 8.4,
+      "magnitude": 2.1,
+      "place": "YANALERIK-KOZAN (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T14:18:15+03:00",
+          "latitude": 37.6683,
+          "longitude": 35.7682,
+          "depth": 8.4,
+          "magnitude": 2.1,
+          "place": "YANALERIK-KOZAN (ADANA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-63a96219",
+      "source": "KANDILLI",
+      "sourceId": "k-63a96219",
+      "time": "2026-09-18T14:06:04+03:00",
+      "latitude": 39.0435,
+      "longitude": 27.5638,
+      "depth": 0,
+      "magnitude": 2.2,
+      "place": "EGNEZ-SOMA (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T14:06:04+03:00",
+          "latitude": 39.0435,
+          "longitude": 27.5638,
+          "depth": 0,
+          "magnitude": 2.2,
+          "place": "EGNEZ-SOMA (MANISA)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6fd5af90",
+      "source": "KANDILLI",
+      "sourceId": "k-6fd5af90",
+      "time": "2026-09-18T13:40:44+03:00",
+      "latitude": 37.6538,
+      "longitude": 26.7285,
+      "depth": 11.4,
+      "magnitude": 1.8,
+      "place": "SISAM ADASI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T13:40:44+03:00",
+          "latitude": 37.6538,
+          "longitude": 26.7285,
+          "depth": 11.4,
+          "magnitude": 1.8,
+          "place": "SISAM ADASI (EGE DENIZI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f13f69e8",
+      "source": "KANDILLI",
+      "sourceId": "k-f13f69e8",
+      "time": "2026-09-18T13:33:32+03:00",
+      "latitude": 38.0835,
+      "longitude": 37.8425,
+      "depth": 11.1,
+      "magnitude": 1.5,
+      "place": "TOPRAKTEPE-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T13:33:32+03:00",
+          "latitude": 38.0835,
+          "longitude": 37.8425,
+          "depth": 11.1,
+          "magnitude": 1.5,
+          "place": "TOPRAKTEPE-DOGANSEHIR (MALATYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0d865215",
+      "source": "KANDILLI",
+      "sourceId": "k-0d865215",
+      "time": "2026-09-18T13:30:51+03:00",
+      "latitude": 36.6575,
+      "longitude": 33.532,
+      "depth": 21.5,
+      "magnitude": 1.6,
+      "place": "KUMACUKURU-MUT (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T13:30:51+03:00",
+          "latitude": 36.6575,
+          "longitude": 33.532,
+          "depth": 21.5,
+          "magnitude": 1.6,
+          "place": "KUMACUKURU-MUT (MERSIN)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9f24c812",
+      "source": "KANDILLI",
+      "sourceId": "k-9f24c812",
+      "time": "2026-09-18T13:23:48+03:00",
+      "latitude": 38.6812,
+      "longitude": 36.405,
+      "depth": 5.4,
+      "magnitude": 2.4,
+      "place": "SOLAKLAR-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T13:23:48+03:00",
+          "latitude": 38.6812,
+          "longitude": 36.405,
+          "depth": 5.4,
+          "magnitude": 2.4,
+          "place": "SOLAKLAR-PINARBASI (KAYSERI)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-00154929",
+      "source": "KANDILLI",
+      "sourceId": "k-00154929",
+      "time": "2026-09-18T13:13:32+03:00",
+      "latitude": 38.1485,
+      "longitude": 37.2252,
+      "depth": 5.4,
+      "magnitude": 1.3,
+      "place": "TASBURUN-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T13:13:32+03:00",
+          "latitude": 38.1485,
+          "longitude": 37.2252,
+          "depth": 5.4,
+          "magnitude": 1.3,
+          "place": "TASBURUN-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c8203457",
+      "source": "KANDILLI",
+      "sourceId": "k-c8203457",
+      "time": "2026-09-18T12:52:57+03:00",
+      "latitude": 38.55,
+      "longitude": 28.4862,
+      "depth": 3.2,
+      "magnitude": 0.8,
+      "place": "GOKCEOREN-KULA (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T12:52:57+03:00",
+          "latitude": 38.55,
+          "longitude": 28.4862,
+          "depth": 3.2,
+          "magnitude": 0.8,
+          "place": "GOKCEOREN-KULA (MANISA)",
+          "ml": 0.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-4f29b88d",
+      "source": "KANDILLI",
+      "sourceId": "k-4f29b88d",
+      "time": "2026-09-18T12:51:54+03:00",
+      "latitude": 39.6163,
+      "longitude": 29.3717,
+      "depth": 0,
+      "magnitude": 1.7,
+      "place": "YENIKOY-TAVSANLI (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T12:51:54+03:00",
+          "latitude": 39.6163,
+          "longitude": 29.3717,
+          "depth": 0,
+          "magnitude": 1.7,
+          "place": "YENIKOY-TAVSANLI (KUTAHYA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ecdb6cfd",
+      "source": "KANDILLI",
+      "sourceId": "k-ecdb6cfd",
+      "time": "2026-09-18T12:51:04+03:00",
+      "latitude": 38.7398,
+      "longitude": 36.5407,
+      "depth": 5.4,
+      "magnitude": 1.5,
+      "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T12:51:04+03:00",
+          "latitude": 38.7398,
+          "longitude": 36.5407,
+          "depth": 5.4,
+          "magnitude": 1.5,
+          "place": "YUKARIBURANDERE-PINARBASI (KAYSERI)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-888c7351",
+      "source": "KANDILLI",
+      "sourceId": "k-888c7351",
+      "time": "2026-09-18T12:46:12+03:00",
+      "latitude": 38.0862,
+      "longitude": 37.2897,
+      "depth": 5.8,
+      "magnitude": 1.4,
+      "place": "OZCANLI-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T12:46:12+03:00",
+          "latitude": 38.0862,
+          "longitude": 37.2897,
+          "depth": 5.8,
+          "magnitude": 1.4,
+          "place": "OZCANLI-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-70cfa444",
+      "source": "KANDILLI",
+      "sourceId": "k-70cfa444",
+      "time": "2026-09-18T12:37:24+03:00",
+      "latitude": 38.1552,
+      "longitude": 36.6005,
+      "depth": 8,
+      "magnitude": 1.6,
+      "place": "YENIYAPAN-GOKSUN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T12:37:24+03:00",
+          "latitude": 38.1552,
+          "longitude": 36.6005,
+          "depth": 8,
+          "magnitude": 1.6,
+          "place": "YENIYAPAN-GOKSUN (KAHRAMANMARAS)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-cd3f80bd",
       "source": "KANDILLI",
@@ -49,6 +562,33 @@
           "magnitude": 2.1,
           "place": "KIZILGUR-SINDIRGI (BALIKESIR)",
           "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-748c2668",
+      "source": "KANDILLI",
+      "sourceId": "k-748c2668",
+      "time": "2026-09-18T11:18:20+03:00",
+      "latitude": 40.828,
+      "longitude": 33.059,
+      "depth": 5,
+      "magnitude": 2,
+      "place": "DEMIRLI-ATKARACALAR (CANKIRI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T11:18:20+03:00",
+          "latitude": 40.828,
+          "longitude": 33.059,
+          "depth": 5,
+          "magnitude": 2,
+          "place": "DEMIRLI-ATKARACALAR (CANKIRI)",
+          "ml": 2,
           "mw": null,
           "md": null
         }

@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-18T05:10:45.669Z",
+  "generatedAt": "2026-09-18T13:51:49.715Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-415fb55f",
+      "source": "KANDILLI",
+      "sourceId": "k-415fb55f",
+      "time": "2026-09-18T15:25:22+03:00",
+      "latitude": 41.1617,
+      "longitude": 27.626,
+      "depth": 9,
+      "magnitude": 1.6,
+      "place": "KIRKKEPENEKLI-MURATLI (TEKIRDAG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T15:25:22+03:00",
+          "latitude": 41.1617,
+          "longitude": 27.626,
+          "depth": 9,
+          "magnitude": 1.6,
+          "place": "KIRKKEPENEKLI-MURATLI (TEKIRDAG)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-5a99a0ae",
       "source": "KANDILLI",
@@ -399,33 +426,6 @@
           "magnitude": 0.9,
           "place": "SEVKETIYE-LAPSEKI (CANAKKALE)",
           "ml": 0.9,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-7c281240",
-      "source": "KANDILLI",
-      "sourceId": "k-7c281240",
-      "time": "2026-09-11T01:29:29+03:00",
-      "latitude": 40.4028,
-      "longitude": 26.1697,
-      "depth": 19.4,
-      "magnitude": 1.3,
-      "place": "SAROS KORFEZI (EGE DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-11T01:29:29+03:00",
-          "latitude": 40.4028,
-          "longitude": 26.1697,
-          "depth": 19.4,
-          "magnitude": 1.3,
-          "place": "SAROS KORFEZI (EGE DENIZI)",
-          "ml": 1.3,
           "mw": null,
           "md": null
         }
