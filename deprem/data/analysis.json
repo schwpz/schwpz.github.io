@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:39:39.019Z",
+  "generatedAt": "2026-09-18T05:10:45.705Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -264,7 +264,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 2,
+        "count": 1,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -278,7 +278,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 2,
+        "count": 1,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -287,7 +287,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 2,
+        "count": 1,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -343,7 +343,7 @@
       },
       "precursorSimilarity": 46,
       "benignSimilarity": 17,
-      "analogueEvidenceQuality": 0.16,
+      "analogueEvidenceQuality": 0.15,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -1268,7 +1268,7 @@
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
       "events24h": 1,
-      "events7d": 2,
+      "events7d": 1,
       "events30d": 167,
       "maxMagnitude24h": 1.3,
       "baselineDaily": 5.72,
@@ -1360,9 +1360,9 @@
         "modelKm": 12,
         "bufferKm": 5,
         "kandilli24h": 0,
-        "kandilli7d": 1,
+        "kandilli7d": 0,
         "within24h": 0,
-        "within7d": 1,
+        "within7d": 0,
         "below24h": 0,
         "below7d": 0,
         "medianDepth24h": null,
@@ -1374,7 +1374,7 @@
           "horizontalDistanceKm": 0.04,
           "relation": "within"
         },
-        "strength": 0.029,
+        "strength": 0,
         "label": "0–10 km: doğrudan sismik boşluk/aseismik patch gözlemi; 2026 GNSS+InSAR bölgesel modelinde çoğunlukla ~12 km’ye kadar kilitli.",
         "citation": "Bohnhoff et al. 2013 Nat Commun; Schmittbuhl et al. 2016 G3; Klein et al. 2026 EGU26-18025",
         "confidence": "yüksek",
