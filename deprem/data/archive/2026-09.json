@@ -1,8 +1,62 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-18T21:51:46.809Z",
+  "updatedAt": "2026-09-18T23:39:15.280Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-040a1938",
+      "source": "KANDILLI",
+      "sourceId": "k-040a1938",
+      "time": "2026-09-19T01:11:56+03:00",
+      "latitude": 38.9793,
+      "longitude": 23.3597,
+      "depth": 21.8,
+      "magnitude": 3.9,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T01:11:56+03:00",
+          "latitude": 38.9793,
+          "longitude": 23.3597,
+          "depth": 21.8,
+          "magnitude": 3.9,
+          "place": "YUNANISTAN",
+          "ml": 3.9,
+          "mw": 4,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-33c24f8e",
+      "source": "KANDILLI",
+      "sourceId": "k-33c24f8e",
+      "time": "2026-09-19T00:48:02+03:00",
+      "latitude": 36.2177,
+      "longitude": 28.1522,
+      "depth": 5.1,
+      "magnitude": 1.8,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T00:48:02+03:00",
+          "latitude": 36.2177,
+          "longitude": 28.1522,
+          "depth": 5.1,
+          "magnitude": 1.8,
+          "place": "AKDENIZ",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f80bd730",
       "source": "KANDILLI",
