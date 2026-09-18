@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:51:49.849Z",
+  "generatedAt": "2026-09-18T17:17:51.480Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -1269,9 +1269,9 @@
       "state": "locked",
       "events24h": 0,
       "events7d": 1,
-      "events30d": 163,
+      "events30d": 147,
       "maxMagnitude24h": 0,
-      "baselineDaily": 5.62,
+      "baselineDaily": 5.07,
       "rateRatio": 0,
       "baseAttention": 15,
       "advancedSignal": 15,
@@ -1332,15 +1332,15 @@
       "bValue": {
         "recent": {
           "valid": true,
-          "n": 67,
-          "total": 163,
+          "n": 58,
+          "total": 147,
           "mc": 1.6,
-          "b": 0.985,
-          "sigma": 0.121
+          "b": 1.086,
+          "sigma": 0.15
         },
         "baseline": {
           "valid": false,
-          "n": 4,
+          "n": 20,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
