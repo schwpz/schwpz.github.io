@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:41:37.044Z",
+  "generatedAt": "2026-09-18T21:51:46.860Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -443,9 +443,9 @@
       "state": "creep",
       "events24h": 0,
       "events7d": 3,
-      "events30d": 11,
+      "events30d": 10,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.38,
+      "baselineDaily": 0.34,
       "rateRatio": 0,
       "baseAttention": 0,
       "advancedSignal": 2.3,
@@ -468,7 +468,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -482,7 +482,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -491,7 +491,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -506,7 +506,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 11,
+          "n": 10,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -514,7 +514,7 @@
         },
         "baseline": {
           "valid": false,
-          "n": 0,
+          "n": 1,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -672,7 +672,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -686,7 +686,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -695,7 +695,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -1269,9 +1269,9 @@
       "state": "locked",
       "events24h": 0,
       "events7d": 1,
-      "events30d": 140,
+      "events30d": 131,
       "maxMagnitude24h": 0,
-      "baselineDaily": 4.83,
+      "baselineDaily": 4.52,
       "rateRatio": 0,
       "baseAttention": 15,
       "advancedSignal": 15,
@@ -1332,15 +1332,15 @@
       "bValue": {
         "recent": {
           "valid": true,
-          "n": 55,
-          "total": 140,
+          "n": 50,
+          "total": 131,
           "mc": 1.6,
-          "b": 1.119,
-          "sigma": 0.166
+          "b": 1.125,
+          "sigma": 0.173
         },
         "baseline": {
           "valid": false,
-          "n": 27,
+          "n": 36,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
