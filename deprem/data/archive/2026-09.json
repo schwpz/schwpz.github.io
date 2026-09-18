@@ -1,8 +1,197 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-18T05:10:45.664Z",
+  "updatedAt": "2026-09-18T09:43:03.762Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-cd3f80bd",
+      "source": "KANDILLI",
+      "sourceId": "k-cd3f80bd",
+      "time": "2026-09-18T12:00:34+03:00",
+      "latitude": 36.115,
+      "longitude": 33.8412,
+      "depth": 9.8,
+      "magnitude": 1.1,
+      "place": "SILIFKE ACIKLARI-MERSIN (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T12:00:34+03:00",
+          "latitude": 36.115,
+          "longitude": 33.8412,
+          "depth": 9.8,
+          "magnitude": 1.1,
+          "place": "SILIFKE ACIKLARI-MERSIN (AKDENIZ)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-adf824b4",
+      "source": "KANDILLI",
+      "sourceId": "k-adf824b4",
+      "time": "2026-09-18T11:40:38+03:00",
+      "latitude": 39.2758,
+      "longitude": 28.0433,
+      "depth": 10.6,
+      "magnitude": 2.1,
+      "place": "KIZILGUR-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T11:40:38+03:00",
+          "latitude": 39.2758,
+          "longitude": 28.0433,
+          "depth": 10.6,
+          "magnitude": 2.1,
+          "place": "KIZILGUR-SINDIRGI (BALIKESIR)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a1648bc7",
+      "source": "KANDILLI",
+      "sourceId": "k-a1648bc7",
+      "time": "2026-09-18T09:42:05+03:00",
+      "latitude": 39.087,
+      "longitude": 23.3447,
+      "depth": 10.5,
+      "magnitude": 4.3,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T09:42:05+03:00",
+          "latitude": 39.087,
+          "longitude": 23.3447,
+          "depth": 10.5,
+          "magnitude": 4.3,
+          "place": "YUNANISTAN",
+          "ml": 4.3,
+          "mw": 4.4,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6228b15e",
+      "source": "KANDILLI",
+      "sourceId": "k-6228b15e",
+      "time": "2026-09-18T09:11:32+03:00",
+      "latitude": 39.2412,
+      "longitude": 29.027,
+      "depth": 6.5,
+      "magnitude": 1.5,
+      "place": "KATRANDAGI-EMET (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T09:11:32+03:00",
+          "latitude": 39.2412,
+          "longitude": 29.027,
+          "depth": 6.5,
+          "magnitude": 1.5,
+          "place": "KATRANDAGI-EMET (KUTAHYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ebf0ff08",
+      "source": "KANDILLI",
+      "sourceId": "k-ebf0ff08",
+      "time": "2026-09-18T08:41:47+03:00",
+      "latitude": 39.0352,
+      "longitude": 29.3845,
+      "depth": 13.8,
+      "magnitude": 1.9,
+      "place": "SAZAK-GEDIZ (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T08:41:47+03:00",
+          "latitude": 39.0352,
+          "longitude": 29.3845,
+          "depth": 13.8,
+          "magnitude": 1.9,
+          "place": "SAZAK-GEDIZ (KUTAHYA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-66af5982",
+      "source": "KANDILLI",
+      "sourceId": "k-66af5982",
+      "time": "2026-09-18T08:21:58+03:00",
+      "latitude": 38.665,
+      "longitude": 36.4343,
+      "depth": 0,
+      "magnitude": 1.4,
+      "place": "ASAGIBEYCAYIR-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T08:21:58+03:00",
+          "latitude": 38.665,
+          "longitude": 36.4343,
+          "depth": 0,
+          "magnitude": 1.4,
+          "place": "ASAGIBEYCAYIR-PINARBASI (KAYSERI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-76944804",
+      "source": "KANDILLI",
+      "sourceId": "k-76944804",
+      "time": "2026-09-18T08:05:39+03:00",
+      "latitude": 39.1382,
+      "longitude": 28.3113,
+      "depth": 7.3,
+      "magnitude": 2.2,
+      "place": "YUREGIL-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-18T08:05:39+03:00",
+          "latitude": 39.1382,
+          "longitude": 28.3113,
+          "depth": 7.3,
+          "magnitude": 2.2,
+          "place": "YUREGIL-SINDIRGI (BALIKESIR)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-877b2678",
       "source": "KANDILLI",
