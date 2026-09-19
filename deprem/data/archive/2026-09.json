@@ -1,8 +1,143 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-19T11:24:17.232Z",
+  "updatedAt": "2026-09-19T14:32:55.603Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-d686a481",
+      "source": "KANDILLI",
+      "sourceId": "k-d686a481",
+      "time": "2026-09-19T16:56:33+03:00",
+      "latitude": 39.3888,
+      "longitude": 37.0187,
+      "depth": 5,
+      "magnitude": 2.2,
+      "place": "GUMUSPINAR-ULAS (SIVAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T16:56:33+03:00",
+          "latitude": 39.3888,
+          "longitude": 37.0187,
+          "depth": 5,
+          "magnitude": 2.2,
+          "place": "GUMUSPINAR-ULAS (SIVAS)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-680c992b",
+      "source": "KANDILLI",
+      "sourceId": "k-680c992b",
+      "time": "2026-09-19T15:50:48+03:00",
+      "latitude": 36.6973,
+      "longitude": 25.4627,
+      "depth": 52.8,
+      "magnitude": 2.1,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T15:50:48+03:00",
+          "latitude": 36.6973,
+          "longitude": 25.4627,
+          "depth": 52.8,
+          "magnitude": 2.1,
+          "place": "EGE DENIZI",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fbe719f2",
+      "source": "KANDILLI",
+      "sourceId": "k-fbe719f2",
+      "time": "2026-09-19T14:57:13+03:00",
+      "latitude": 37.7607,
+      "longitude": 36.1043,
+      "depth": 5.6,
+      "magnitude": 1.9,
+      "place": "AYVACIK-SAIMBEYLI (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T14:57:13+03:00",
+          "latitude": 37.7607,
+          "longitude": 36.1043,
+          "depth": 5.6,
+          "magnitude": 1.9,
+          "place": "AYVACIK-SAIMBEYLI (ADANA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5acb3fe7",
+      "source": "KANDILLI",
+      "sourceId": "k-5acb3fe7",
+      "time": "2026-09-19T13:24:04+03:00",
+      "latitude": 36.9725,
+      "longitude": 28.4663,
+      "depth": 5.3,
+      "magnitude": 1.4,
+      "place": "CORUS-ULA (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T13:24:04+03:00",
+          "latitude": 36.9725,
+          "longitude": 28.4663,
+          "depth": 5.3,
+          "magnitude": 1.4,
+          "place": "CORUS-ULA (MUGLA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7a6e84e7",
+      "source": "KANDILLI",
+      "sourceId": "k-7a6e84e7",
+      "time": "2026-09-19T13:17:44+03:00",
+      "latitude": 39.0725,
+      "longitude": 28.3372,
+      "depth": 22.2,
+      "magnitude": 1.1,
+      "place": "KOBAKLAR-GORDES (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T13:17:44+03:00",
+          "latitude": 39.0725,
+          "longitude": 28.3372,
+          "depth": 22.2,
+          "magnitude": 1.1,
+          "place": "KOBAKLAR-GORDES (MANISA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f755ff90",
       "source": "KANDILLI",
