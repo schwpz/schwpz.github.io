@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-19T21:32:09.249Z",
+  "updatedAt": "2026-09-19T23:26:39.240Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-dde7e8aa",
+      "source": "KANDILLI",
+      "sourceId": "k-dde7e8aa",
+      "time": "2026-09-20T01:45:02+03:00",
+      "latitude": 38.7935,
+      "longitude": 26.845,
+      "depth": 4,
+      "magnitude": 2.3,
+      "place": "CANDARLI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-20T01:45:02+03:00",
+          "latitude": 38.7935,
+          "longitude": 26.845,
+          "depth": 4,
+          "magnitude": 2.3,
+          "place": "CANDARLI KORFEZI (EGE DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a60b68ae",
+      "source": "KANDILLI",
+      "sourceId": "k-a60b68ae",
+      "time": "2026-09-20T01:23:12+03:00",
+      "latitude": 39.7293,
+      "longitude": 26.32,
+      "depth": 12.1,
+      "magnitude": 1.5,
+      "place": "KIZILTEPE-EZINE (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-20T01:23:12+03:00",
+          "latitude": 39.7293,
+          "longitude": 26.32,
+          "depth": 12.1,
+          "magnitude": 1.5,
+          "place": "KIZILTEPE-EZINE (CANAKKALE)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8cdce78a",
+      "source": "KANDILLI",
+      "sourceId": "k-8cdce78a",
+      "time": "2026-09-20T01:09:56+03:00",
+      "latitude": 38.7902,
+      "longitude": 26.8363,
+      "depth": 6,
+      "magnitude": 2.3,
+      "place": "CANDARLI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-20T01:09:56+03:00",
+          "latitude": 38.7902,
+          "longitude": 26.8363,
+          "depth": 6,
+          "magnitude": 2.3,
+          "place": "CANDARLI KORFEZI (EGE DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-efd782b0",
+      "source": "KANDILLI",
+      "sourceId": "k-efd782b0",
+      "time": "2026-09-20T00:39:50+03:00",
+      "latitude": 36.8537,
+      "longitude": 34.2795,
+      "depth": 5.6,
+      "magnitude": 2.6,
+      "place": "SAHNA-ERDEMLI (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-20T00:39:50+03:00",
+          "latitude": 36.8537,
+          "longitude": 34.2795,
+          "depth": 5.6,
+          "magnitude": 2.6,
+          "place": "SAHNA-ERDEMLI (MERSIN)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fdec31f7",
+      "source": "KANDILLI",
+      "sourceId": "k-fdec31f7",
+      "time": "2026-09-20T00:27:05+03:00",
+      "latitude": 38.7688,
+      "longitude": 26.8757,
+      "depth": 3.2,
+      "magnitude": 1.4,
+      "place": "CANDARLI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-20T00:27:05+03:00",
+          "latitude": 38.7688,
+          "longitude": 26.8757,
+          "depth": 3.2,
+          "magnitude": 1.4,
+          "place": "CANDARLI KORFEZI (EGE DENIZI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e354bb2f",
+      "source": "KANDILLI",
+      "sourceId": "k-e354bb2f",
+      "time": "2026-09-20T00:20:29+03:00",
+      "latitude": 36.1782,
+      "longitude": 35.798,
+      "depth": 8.1,
+      "magnitude": 2.4,
+      "place": "KALE-ARSUZ (HATAY)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-20T00:20:29+03:00",
+          "latitude": 36.1782,
+          "longitude": 35.798,
+          "depth": 8.1,
+          "magnitude": 2.4,
+          "place": "KALE-ARSUZ (HATAY)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-3b86d875",
       "source": "KANDILLI",
