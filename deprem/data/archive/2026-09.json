@@ -1,8 +1,62 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-18T23:39:15.280Z",
+  "updatedAt": "2026-09-19T01:33:52.594Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-d583138e",
+      "source": "KANDILLI",
+      "sourceId": "k-d583138e",
+      "time": "2026-09-19T03:55:48+03:00",
+      "latitude": 37.9148,
+      "longitude": 27.135,
+      "depth": 6.4,
+      "magnitude": 2.2,
+      "place": "KUSADASI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T03:55:48+03:00",
+          "latitude": 37.9148,
+          "longitude": 27.135,
+          "depth": 6.4,
+          "magnitude": 2.2,
+          "place": "KUSADASI KORFEZI (EGE DENIZI)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a8ab50e6",
+      "source": "KANDILLI",
+      "sourceId": "k-a8ab50e6",
+      "time": "2026-09-19T03:16:32+03:00",
+      "latitude": 39.4512,
+      "longitude": 37.3517,
+      "depth": 5,
+      "magnitude": 2.8,
+      "place": "SENYURT-ULAS (SIVAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T03:16:32+03:00",
+          "latitude": 39.4512,
+          "longitude": 37.3517,
+          "depth": 5,
+          "magnitude": 2.8,
+          "place": "SENYURT-ULAS (SIVAS)",
+          "ml": 2.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-040a1938",
       "source": "KANDILLI",
