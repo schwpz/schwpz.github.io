@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-19T14:32:55.603Z",
+  "updatedAt": "2026-09-19T17:23:41.474Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-3f47aadc",
+      "source": "KANDILLI",
+      "sourceId": "k-3f47aadc",
+      "time": "2026-09-19T20:12:30+03:00",
+      "latitude": 38.7867,
+      "longitude": 26.836,
+      "depth": 14.1,
+      "magnitude": 2.3,
+      "place": "CANDARLI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T20:12:30+03:00",
+          "latitude": 38.7867,
+          "longitude": 26.836,
+          "depth": 14.1,
+          "magnitude": 2.3,
+          "place": "CANDARLI KORFEZI (EGE DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-086bebe7",
+      "source": "KANDILLI",
+      "sourceId": "k-086bebe7",
+      "time": "2026-09-19T20:00:55+03:00",
+      "latitude": 38.7888,
+      "longitude": 26.827,
+      "depth": 13.9,
+      "magnitude": 2.6,
+      "place": "CANDARLI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T20:00:55+03:00",
+          "latitude": 38.7888,
+          "longitude": 26.827,
+          "depth": 13.9,
+          "magnitude": 2.6,
+          "place": "CANDARLI KORFEZI (EGE DENIZI)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a6e6948d",
+      "source": "KANDILLI",
+      "sourceId": "k-a6e6948d",
+      "time": "2026-09-19T19:45:27+03:00",
+      "latitude": 37.8753,
+      "longitude": 36.515,
+      "depth": 8,
+      "magnitude": 1.8,
+      "place": "KUMARLI-(KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T19:45:27+03:00",
+          "latitude": 37.8753,
+          "longitude": 36.515,
+          "depth": 8,
+          "magnitude": 1.8,
+          "place": "KUMARLI-(KAHRAMANMARAS)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5b553c40",
+      "source": "KANDILLI",
+      "sourceId": "k-5b553c40",
+      "time": "2026-09-19T18:37:28+03:00",
+      "latitude": 38.7803,
+      "longitude": 26.8578,
+      "depth": 7.1,
+      "magnitude": 2,
+      "place": "CANDARLI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T18:37:28+03:00",
+          "latitude": 38.7803,
+          "longitude": 26.8578,
+          "depth": 7.1,
+          "magnitude": 2,
+          "place": "CANDARLI KORFEZI (EGE DENIZI)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b3f0d235",
+      "source": "KANDILLI",
+      "sourceId": "k-b3f0d235",
+      "time": "2026-09-19T18:33:18+03:00",
+      "latitude": 37.7223,
+      "longitude": 29.3763,
+      "depth": 3.6,
+      "magnitude": 2,
+      "place": "AYDINLAR-HONAZ (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T18:33:18+03:00",
+          "latitude": 37.7223,
+          "longitude": 29.3763,
+          "depth": 3.6,
+          "magnitude": 2,
+          "place": "AYDINLAR-HONAZ (DENIZLI)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c7354864",
+      "source": "KANDILLI",
+      "sourceId": "k-c7354864",
+      "time": "2026-09-19T17:11:07+03:00",
+      "latitude": 38.7927,
+      "longitude": 26.8805,
+      "depth": 5.4,
+      "magnitude": 2.1,
+      "place": "CANDARLI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-19T17:11:07+03:00",
+          "latitude": 38.7927,
+          "longitude": 26.8805,
+          "depth": 5.4,
+          "magnitude": 2.1,
+          "place": "CANDARLI KORFEZI (EGE DENIZI)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-d686a481",
       "source": "KANDILLI",
