@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T06:26:01.241Z",
+  "generatedAt": "2026-09-20T11:39:38.880Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -264,7 +264,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 2,
+        "count": 1,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -278,7 +278,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 2,
+        "count": 1,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -287,7 +287,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 2,
+        "count": 1,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -343,7 +343,7 @@
       },
       "precursorSimilarity": 45,
       "benignSimilarity": 15,
-      "analogueEvidenceQuality": 0.16,
+      "analogueEvidenceQuality": 0.15,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -442,7 +442,7 @@
       "name": "Central Basin / Western High",
       "state": "creep",
       "events24h": 0,
-      "events7d": 3,
+      "events7d": 2,
       "events30d": 10,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.34,
@@ -876,7 +876,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -890,7 +890,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -899,7 +899,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -1090,7 +1090,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -1104,7 +1104,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -1113,7 +1113,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -1269,9 +1269,9 @@
       "state": "locked",
       "events24h": 0,
       "events7d": 1,
-      "events30d": 20,
+      "events30d": 16,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.69,
+      "baselineDaily": 0.55,
       "rateRatio": 0,
       "baseAttention": 15,
       "advancedSignal": 15,
@@ -1294,7 +1294,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -1308,7 +1308,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -1317,7 +1317,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -1332,7 +1332,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 20,
+          "n": 16,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -1340,11 +1340,11 @@
         },
         "baseline": {
           "valid": true,
-          "n": 50,
-          "total": 147,
-          "mc": 1.7,
-          "b": 0.936,
-          "sigma": 0.127
+          "n": 65,
+          "total": 151,
+          "mc": 1.6,
+          "b": 0.975,
+          "sigma": 0.121
         },
         "delta": null,
         "z": null,
