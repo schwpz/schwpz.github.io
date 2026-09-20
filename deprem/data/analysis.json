@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T11:39:38.880Z",
+  "generatedAt": "2026-09-20T14:50:58.747Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -442,7 +442,7 @@
       "name": "Central Basin / Western High",
       "state": "creep",
       "events24h": 0,
-      "events7d": 2,
+      "events7d": 1,
       "events30d": 10,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.34,
