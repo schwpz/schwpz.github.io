@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T23:26:39.291Z",
+  "generatedAt": "2026-09-20T06:26:01.241Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,12 +11,12 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 15,
-    "label": "Arka plan seviyesi",
-    "summary": "Ganos: swarm 0/100 · migration 0/100 · precursor resemblance 42/100. Olasılık değildir.",
+    "attention": 23,
+    "label": "Hafif aktivite",
+    "summary": "Tekirdağ geçişi: swarm 0/100 · migration 0/100 · precursor resemblance 45/100. Olasılık değildir.",
     "eventsNearLocked5km": 0,
     "eventsInsideLockedDepth24h": 0,
-    "leadSegmentId": "ganos"
+    "leadSegmentId": "tekirdag"
   },
   "segments": [
     {
@@ -237,17 +237,17 @@
       "id": "tekirdag",
       "name": "Tekirdağ geçişi",
       "state": "transition",
-      "events24h": 0,
-      "events7d": 2,
-      "events30d": 5,
-      "maxMagnitude24h": 0,
+      "events24h": 1,
+      "events7d": 3,
+      "events30d": 6,
+      "maxMagnitude24h": 1.3,
       "baselineDaily": 0.17,
-      "rateRatio": 0,
-      "baseAttention": 8,
+      "rateRatio": 5.8,
+      "baseAttention": 32,
       "advancedSignal": 8.3,
       "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 8,
+      "attention": 23,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -264,7 +264,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -278,7 +278,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -287,7 +287,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -302,7 +302,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 5,
+          "n": 6,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -341,9 +341,9 @@
         "confidence": "—",
         "scoreEligible": false
       },
-      "precursorSimilarity": 42,
-      "benignSimilarity": 10,
-      "analogueEvidenceQuality": 0.15,
+      "precursorSimilarity": 45,
+      "benignSimilarity": 15,
+      "analogueEvidenceQuality": 0.16,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -371,7 +371,7 @@
           "outcome": "large_mainshock",
           "mainshockMagnitude": 6.2,
           "mechanism": "right_lateral",
-          "similarity": 0.416,
+          "similarity": 0.446,
           "featuresUsed": 6,
           "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
           "sources": [
@@ -386,12 +386,28 @@
           ]
         },
         {
+          "id": "princes-2007",
+          "name": "2007 Prens Adaları benign swarm",
+          "outcome": "no_large_mainshock",
+          "mainshockMagnitude": null,
+          "mechanism": "right_lateral_context",
+          "similarity": 0.154,
+          "featuresUsed": 8,
+          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
+          "sources": [
+            {
+              "title": "Bulut et al. 2011, BSSA",
+              "doi": "10.1785/0120100215"
+            }
+          ]
+        },
+        {
           "id": "kumamoto-2016",
           "name": "2016 Kumamoto M7.3 foreshock sequence",
           "outcome": "large_mainshock",
           "mainshockMagnitude": 7.3,
           "mechanism": "right_lateral_oblique",
-          "similarity": 0.121,
+          "similarity": 0.122,
           "featuresUsed": 6,
           "summary": "M6.5 and M6.4 foreshocks preceded the M7.3 by roughly 28 hours; studies reported relative quiescence and foreshock migration deeper toward the eventual hypocentre.",
           "sources": [
@@ -404,27 +420,11 @@
               "doi": "10.1186/s40623-017-0756-6"
             }
           ]
-        },
-        {
-          "id": "princes-2007",
-          "name": "2007 Prens Adaları benign swarm",
-          "outcome": "no_large_mainshock",
-          "mainshockMagnitude": null,
-          "mechanism": "right_lateral_context",
-          "similarity": 0.095,
-          "featuresUsed": 8,
-          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
-          "sources": [
-            {
-              "title": "Bulut et al. 2011, BSSA",
-              "doi": "10.1785/0120100215"
-            }
-          ]
         }
       ],
       "featureVector": {
         "eventCountNorm": 0,
-        "maxMagnitudeNorm": 0,
+        "maxMagnitudeNorm": 0.2,
         "durationNorm": 0.8363633825103173,
         "swarmness": 0,
         "spatialConcentration": 0,
@@ -433,7 +433,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0,
+        "rateAnomaly": 0.6361899946357812,
         "lockedContext": 0.55
       }
     },
@@ -1269,9 +1269,9 @@
       "state": "locked",
       "events24h": 0,
       "events7d": 1,
-      "events30d": 29,
+      "events30d": 20,
       "maxMagnitude24h": 0,
-      "baselineDaily": 1,
+      "baselineDaily": 0.69,
       "rateRatio": 0,
       "baseAttention": 15,
       "advancedSignal": 15,
@@ -1332,20 +1332,19 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 29,
+          "n": 20,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
           "sigma": null
         },
         "baseline": {
-          "valid": false,
-          "n": 48,
-          "reason": "insufficient_above_mc",
+          "valid": true,
+          "n": 50,
+          "total": 147,
           "mc": 1.7,
-          "b": null,
-          "sigma": null,
-          "total": 138
+          "b": 0.936,
+          "sigma": 0.127
         },
         "delta": null,
         "z": null,
@@ -1480,5 +1479,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 251
+  "historyEvents": 252
 }

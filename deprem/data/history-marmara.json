@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-19T23:26:39.274Z",
+  "generatedAt": "2026-09-20T06:26:01.232Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-ef9627dc",
+      "source": "KANDILLI",
+      "sourceId": "k-ef9627dc",
+      "time": "2026-09-20T06:19:21+03:00",
+      "latitude": 40.7833,
+      "longitude": 27.4958,
+      "depth": 8.1,
+      "magnitude": 1.3,
+      "place": "YENIKOY ACIKLARI-TEKIRDAG (MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-20T06:19:21+03:00",
+          "latitude": 40.7833,
+          "longitude": 27.4958,
+          "depth": 8.1,
+          "magnitude": 1.3,
+          "place": "YENIKOY ACIKLARI-TEKIRDAG (MARMARA DENIZI",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-415fb55f",
       "source": "KANDILLI",
