@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-20T21:52:31.445Z",
+  "updatedAt": "2026-09-20T23:36:49.854Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-6e2fc72c",
+      "source": "KANDILLI",
+      "sourceId": "k-6e2fc72c",
+      "time": "2026-09-21T01:57:11+03:00",
+      "latitude": 38.8528,
+      "longitude": 25.4863,
+      "depth": 7.1,
+      "magnitude": 1.6,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-21T01:57:11+03:00",
+          "latitude": 38.8528,
+          "longitude": 25.4863,
+          "depth": 7.1,
+          "magnitude": 1.6,
+          "place": "EGE DENIZI",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8cef8b5e",
+      "source": "KANDILLI",
+      "sourceId": "k-8cef8b5e",
+      "time": "2026-09-21T01:45:08+03:00",
+      "latitude": 36.9383,
+      "longitude": 27.8087,
+      "depth": 4.6,
+      "magnitude": 1.1,
+      "place": "GOKOVA KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-21T01:45:08+03:00",
+          "latitude": 36.9383,
+          "longitude": 27.8087,
+          "depth": 4.6,
+          "magnitude": 1.1,
+          "place": "GOKOVA KORFEZI (EGE DENIZI)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-aecea6cb",
+      "source": "KANDILLI",
+      "sourceId": "k-aecea6cb",
+      "time": "2026-09-21T01:43:43+03:00",
+      "latitude": 37.783,
+      "longitude": 35.1788,
+      "depth": 10.5,
+      "magnitude": 1.4,
+      "place": "DEMIRKAZIK-CAMARDI (NIGDE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-21T01:43:43+03:00",
+          "latitude": 37.783,
+          "longitude": 35.1788,
+          "depth": 10.5,
+          "magnitude": 1.4,
+          "place": "DEMIRKAZIK-CAMARDI (NIGDE)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8db47316",
+      "source": "KANDILLI",
+      "sourceId": "k-8db47316",
+      "time": "2026-09-21T01:41:57+03:00",
+      "latitude": 35.2538,
+      "longitude": 26.5397,
+      "depth": 5,
+      "magnitude": 3.2,
+      "place": "GIRIT ADASI (AKDENIZ)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-21T01:41:57+03:00",
+          "latitude": 35.2538,
+          "longitude": 26.5397,
+          "depth": 5,
+          "magnitude": 3.2,
+          "place": "GIRIT ADASI (AKDENIZ)",
+          "ml": 3.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ea2224f4",
+      "source": "KANDILLI",
+      "sourceId": "k-ea2224f4",
+      "time": "2026-09-21T01:22:55+03:00",
+      "latitude": 39.665,
+      "longitude": 27.1185,
+      "depth": 17.3,
+      "magnitude": 1.8,
+      "place": "HACIASLANLAR-EDREMIT (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-21T01:22:55+03:00",
+          "latitude": 39.665,
+          "longitude": 27.1185,
+          "depth": 17.3,
+          "magnitude": 1.8,
+          "place": "HACIASLANLAR-EDREMIT (BALIKESIR)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7698adbb",
+      "source": "KANDILLI",
+      "sourceId": "k-7698adbb",
+      "time": "2026-09-21T01:02:41+03:00",
+      "latitude": 39.0095,
+      "longitude": 27.0688,
+      "depth": 7.5,
+      "magnitude": 2.1,
+      "place": "YENIKENT-BERGAMA (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-21T01:02:41+03:00",
+          "latitude": 39.0095,
+          "longitude": 27.0688,
+          "depth": 7.5,
+          "magnitude": 2.1,
+          "place": "YENIKENT-BERGAMA (IZMIR)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-be1a14d8",
       "source": "KANDILLI",
