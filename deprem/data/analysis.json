@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T01:36:17.687Z",
+  "generatedAt": "2026-09-21T07:04:50.423Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,9 +11,9 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 23,
+    "attention": 21,
     "label": "Hafif aktivite",
-    "summary": "Tekirdağ geçişi: swarm 0/100 · migration 0/100 · precursor resemblance 45/100. Olasılık değildir.",
+    "summary": "Tekirdağ geçişi: swarm 0/100 · migration 0/100 · precursor resemblance 44/100. Olasılık değildir.",
     "eventsNearLocked5km": 0,
     "eventsInsideLockedDepth24h": 0,
     "leadSegmentId": "tekirdag"
@@ -238,16 +238,16 @@
       "name": "Tekirdağ geçişi",
       "state": "transition",
       "events24h": 1,
-      "events7d": 3,
-      "events30d": 6,
-      "maxMagnitude24h": 1.3,
-      "baselineDaily": 0.17,
-      "rateRatio": 5.8,
-      "baseAttention": 32,
+      "events7d": 4,
+      "events30d": 7,
+      "maxMagnitude24h": 1.2,
+      "baselineDaily": 0.21,
+      "rateRatio": 4.83,
+      "baseAttention": 28,
       "advancedSignal": 8.3,
       "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 23,
+      "attention": 21,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -264,7 +264,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -278,7 +278,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -287,7 +287,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 2,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -302,7 +302,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 6,
+          "n": 7,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -341,9 +341,9 @@
         "confidence": "—",
         "scoreEligible": false
       },
-      "precursorSimilarity": 45,
+      "precursorSimilarity": 44,
       "benignSimilarity": 15,
-      "analogueEvidenceQuality": 0.15,
+      "analogueEvidenceQuality": 0.16,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -371,7 +371,7 @@
           "outcome": "large_mainshock",
           "mainshockMagnitude": 6.2,
           "mechanism": "right_lateral",
-          "similarity": 0.446,
+          "similarity": 0.441,
           "featuresUsed": 6,
           "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
           "sources": [
@@ -391,7 +391,7 @@
           "outcome": "no_large_mainshock",
           "mainshockMagnitude": null,
           "mechanism": "right_lateral_context",
-          "similarity": 0.154,
+          "similarity": 0.148,
           "featuresUsed": 8,
           "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
           "sources": [
@@ -424,7 +424,7 @@
       ],
       "featureVector": {
         "eventCountNorm": 0,
-        "maxMagnitudeNorm": 0.2,
+        "maxMagnitudeNorm": 0.1846153846153846,
         "durationNorm": 0.8363633825103173,
         "swarmness": 0,
         "spatialConcentration": 0,
@@ -433,7 +433,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0.6361899946357812,
+        "rateAnomaly": 0.5702056229294271,
         "lockedContext": 0.55
       }
     },
@@ -1479,5 +1479,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 252
+  "historyEvents": 253
 }
