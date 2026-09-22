@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-09-22T06:04:31.979Z",
+  "generatedAt": "2026-09-22T11:27:13.609Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-81f64377",
+      "source": "KANDILLI",
+      "sourceId": "k-81f64377",
+      "time": "2026-09-22T10:54:27+03:00",
+      "latitude": 40.4858,
+      "longitude": 29.1672,
+      "depth": 7,
+      "magnitude": 0.9,
+      "place": "SAHINYURDU-GEMLIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-22T10:54:27+03:00",
+          "latitude": 40.4858,
+          "longitude": 29.1672,
+          "depth": 7,
+          "magnitude": 0.9,
+          "place": "SAHINYURDU-GEMLIK (BURSA)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0ccb6cb1",
+      "source": "KANDILLI",
+      "sourceId": "k-0ccb6cb1",
+      "time": "2026-09-22T10:49:24+03:00",
+      "latitude": 40.5882,
+      "longitude": 29.7645,
+      "depth": 5,
+      "magnitude": 0.7,
+      "place": "AYVAZPINARI-GOLCUK (KOCAELI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-22T10:49:24+03:00",
+          "latitude": 40.5882,
+          "longitude": 29.7645,
+          "depth": 5,
+          "magnitude": 0.7,
+          "place": "AYVAZPINARI-GOLCUK (KOCAELI)",
+          "ml": 0.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-93a09504",
       "source": "KANDILLI",
