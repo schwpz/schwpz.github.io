@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T01:04:50.656Z",
+  "generatedAt": "2026-09-22T06:04:32.018Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,12 +11,12 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 21,
-    "label": "Hafif aktivite",
-    "summary": "Tekirdağ geçişi: swarm 0/100 · migration 0/100 · precursor resemblance 44/100. Olasılık değildir.",
+    "attention": 15,
+    "label": "Arka plan seviyesi",
+    "summary": "Ganos: swarm 0/100 · migration 0/100 · precursor resemblance 42/100. Olasılık değildir.",
     "eventsNearLocked5km": 0,
     "eventsInsideLockedDepth24h": 0,
-    "leadSegmentId": "tekirdag"
+    "leadSegmentId": "ganos"
   },
   "segments": [
     {
@@ -237,17 +237,17 @@
       "id": "tekirdag",
       "name": "Tekirdağ geçişi",
       "state": "transition",
-      "events24h": 1,
-      "events7d": 4,
+      "events24h": 0,
+      "events7d": 3,
       "events30d": 7,
-      "maxMagnitude24h": 1.2,
-      "baselineDaily": 0.21,
-      "rateRatio": 4.83,
-      "baseAttention": 28,
+      "maxMagnitude24h": 0,
+      "baselineDaily": 0.24,
+      "rateRatio": 0,
+      "baseAttention": 8,
       "advancedSignal": 8.3,
       "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 21,
+      "attention": 8,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -341,8 +341,8 @@
         "confidence": "—",
         "scoreEligible": false
       },
-      "precursorSimilarity": 44,
-      "benignSimilarity": 15,
+      "precursorSimilarity": 42,
+      "benignSimilarity": 10,
       "analogueEvidenceQuality": 0.16,
       "analogues": [
         {
@@ -371,7 +371,7 @@
           "outcome": "large_mainshock",
           "mainshockMagnitude": 6.2,
           "mechanism": "right_lateral",
-          "similarity": 0.441,
+          "similarity": 0.416,
           "featuresUsed": 6,
           "summary": "The Mw6.2 right-lateral Marmara event was preceded by a ~M4 foreshock about 36 minutes earlier at essentially the same location; it was not preceded by an Adalar-2007-style dense swarm.",
           "sources": [
@@ -386,28 +386,12 @@
           ]
         },
         {
-          "id": "princes-2007",
-          "name": "2007 Prens Adaları benign swarm",
-          "outcome": "no_large_mainshock",
-          "mainshockMagnitude": null,
-          "mechanism": "right_lateral_context",
-          "similarity": 0.148,
-          "featuresUsed": 8,
-          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
-          "sources": [
-            {
-              "title": "Bulut et al. 2011, BSSA",
-              "doi": "10.1785/0120100215"
-            }
-          ]
-        },
-        {
           "id": "kumamoto-2016",
           "name": "2016 Kumamoto M7.3 foreshock sequence",
           "outcome": "large_mainshock",
           "mainshockMagnitude": 7.3,
           "mechanism": "right_lateral_oblique",
-          "similarity": 0.122,
+          "similarity": 0.121,
           "featuresUsed": 6,
           "summary": "M6.5 and M6.4 foreshocks preceded the M7.3 by roughly 28 hours; studies reported relative quiescence and foreshock migration deeper toward the eventual hypocentre.",
           "sources": [
@@ -420,11 +404,27 @@
               "doi": "10.1186/s40623-017-0756-6"
             }
           ]
+        },
+        {
+          "id": "princes-2007",
+          "name": "2007 Prens Adaları benign swarm",
+          "outcome": "no_large_mainshock",
+          "mainshockMagnitude": null,
+          "mechanism": "right_lateral_context",
+          "similarity": 0.095,
+          "featuresUsed": 8,
+          "summary": "77 relocated microearthquakes in less than 20 hours and ~2.5 km²; systematic lateral and upward migration occurred, the largest event was M2.5, and the sequence decayed without a large mainshock.",
+          "sources": [
+            {
+              "title": "Bulut et al. 2011, BSSA",
+              "doi": "10.1785/0120100215"
+            }
+          ]
         }
       ],
       "featureVector": {
         "eventCountNorm": 0,
-        "maxMagnitudeNorm": 0.1846153846153846,
+        "maxMagnitudeNorm": 0,
         "durationNorm": 0.8363633825103173,
         "swarmness": 0,
         "spatialConcentration": 0,
@@ -433,7 +433,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0.5702056229294271,
+        "rateAnomaly": 0,
         "lockedContext": 0.55
       }
     },

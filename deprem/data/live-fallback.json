@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T01:04:50.633Z",
+  "generatedAt": "2026-09-22T06:04:31.979Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -237,60 +237,6 @@
           "magnitude": 1.2,
           "place": "RESADIYE-CEKMEKOY (ISTANBUL)",
           "ml": 1.2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-87a98275",
-      "source": "KANDILLI",
-      "sourceId": "k-87a98275",
-      "time": "2026-09-15T06:58:19+03:00",
-      "latitude": 40.7902,
-      "longitude": 27.4835,
-      "depth": 13.7,
-      "magnitude": 1.9,
-      "place": "YENIKOY ACIKLARI-TEKIRDAG (MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-15T06:58:19+03:00",
-          "latitude": 40.7902,
-          "longitude": 27.4835,
-          "depth": 13.7,
-          "magnitude": 1.9,
-          "place": "YENIKOY ACIKLARI-TEKIRDAG (MARMARA DENIZI",
-          "ml": 1.9,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-45ffbbc7",
-      "source": "KANDILLI",
-      "sourceId": "k-45ffbbc7",
-      "time": "2026-09-14T21:49:23+03:00",
-      "latitude": 40.4622,
-      "longitude": 26.3642,
-      "depth": 16.6,
-      "magnitude": 1.7,
-      "place": "SAROS KORFEZI (EGE DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-14T21:49:23+03:00",
-          "latitude": 40.4622,
-          "longitude": 26.3642,
-          "depth": 16.6,
-          "magnitude": 1.7,
-          "place": "SAROS KORFEZI (EGE DENIZI)",
-          "ml": 1.7,
           "mw": null,
           "md": null
         }
