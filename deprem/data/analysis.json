@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T11:27:13.647Z",
+  "generatedAt": "2026-09-22T22:00:07.410Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -442,7 +442,7 @@
       "name": "Central Basin / Western High",
       "state": "creep",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 10,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.34,
@@ -646,7 +646,7 @@
       "name": "Silivri High / Batı Kumburgaz geçişi",
       "state": "transition",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 6,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.21,
@@ -1269,9 +1269,9 @@
       "state": "locked",
       "events24h": 0,
       "events7d": 1,
-      "events30d": 12,
+      "events30d": 9,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.41,
+      "baselineDaily": 0.31,
       "rateRatio": 0,
       "baseAttention": 15,
       "advancedSignal": 15,
@@ -1332,7 +1332,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 12,
+          "n": 9,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -1340,11 +1340,11 @@
         },
         "baseline": {
           "valid": true,
-          "n": 65,
-          "total": 155,
+          "n": 67,
+          "total": 158,
           "mc": 1.6,
-          "b": 0.975,
-          "sigma": 0.121
+          "b": 0.991,
+          "sigma": 0.122
         },
         "delta": null,
         "z": null,
