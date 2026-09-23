@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T22:00:07.410Z",
+  "generatedAt": "2026-09-23T14:21:20.597Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -239,9 +239,9 @@
       "state": "transition",
       "events24h": 0,
       "events7d": 3,
-      "events30d": 7,
+      "events30d": 6,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.24,
+      "baselineDaily": 0.21,
       "rateRatio": 0,
       "baseAttention": 8,
       "advancedSignal": 8.3,
@@ -264,7 +264,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 2,
+        "count": 1,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -278,7 +278,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 2,
+        "count": 1,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -287,7 +287,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 2,
+        "count": 1,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -302,7 +302,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 7,
+          "n": 6,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -310,7 +310,7 @@
         },
         "baseline": {
           "valid": false,
-          "n": 0,
+          "n": 1,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -343,7 +343,7 @@
       },
       "precursorSimilarity": 42,
       "benignSimilarity": 10,
-      "analogueEvidenceQuality": 0.16,
+      "analogueEvidenceQuality": 0.15,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -443,9 +443,9 @@
       "state": "creep",
       "events24h": 0,
       "events7d": 0,
-      "events30d": 10,
+      "events30d": 9,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.34,
+      "baselineDaily": 0.31,
       "rateRatio": 0,
       "baseAttention": 0,
       "advancedSignal": 2.3,
@@ -506,7 +506,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 10,
+          "n": 9,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -514,7 +514,7 @@
         },
         "baseline": {
           "valid": false,
-          "n": 1,
+          "n": 2,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -1269,9 +1269,9 @@
       "state": "locked",
       "events24h": 0,
       "events7d": 1,
-      "events30d": 9,
+      "events30d": 5,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.31,
+      "baselineDaily": 0.17,
       "rateRatio": 0,
       "baseAttention": 15,
       "advancedSignal": 15,
@@ -1332,7 +1332,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 9,
+          "n": 5,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -1340,11 +1340,11 @@
         },
         "baseline": {
           "valid": true,
-          "n": 67,
-          "total": 158,
+          "n": 68,
+          "total": 162,
           "mc": 1.6,
           "b": 0.991,
-          "sigma": 0.122
+          "sigma": 0.12
         },
         "delta": null,
         "z": null,
