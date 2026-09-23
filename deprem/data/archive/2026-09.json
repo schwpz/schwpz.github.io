@@ -1,8 +1,143 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-23T21:38:16.953Z",
+  "updatedAt": "2026-09-23T23:55:57.527Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-5067a2c7",
+      "source": "KANDILLI",
+      "sourceId": "k-5067a2c7",
+      "time": "2026-09-24T02:11:58+03:00",
+      "latitude": 38.0845,
+      "longitude": 27.1683,
+      "depth": 6.4,
+      "magnitude": 1.2,
+      "place": "ATAKOY-MENDERES (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T02:11:58+03:00",
+          "latitude": 38.0845,
+          "longitude": 27.1683,
+          "depth": 6.4,
+          "magnitude": 1.2,
+          "place": "ATAKOY-MENDERES (IZMIR)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a30490ad",
+      "source": "KANDILLI",
+      "sourceId": "k-a30490ad",
+      "time": "2026-09-24T01:59:31+03:00",
+      "latitude": 38.05,
+      "longitude": 37.8362,
+      "depth": 20.1,
+      "magnitude": 0.9,
+      "place": "GUNEDOGRU-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T01:59:31+03:00",
+          "latitude": 38.05,
+          "longitude": 37.8362,
+          "depth": 20.1,
+          "magnitude": 0.9,
+          "place": "GUNEDOGRU-DOGANSEHIR (MALATYA)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b6458d66",
+      "source": "KANDILLI",
+      "sourceId": "k-b6458d66",
+      "time": "2026-09-24T01:50:50+03:00",
+      "latitude": 39.9583,
+      "longitude": 41.4275,
+      "depth": 14.7,
+      "magnitude": 1.5,
+      "place": "PUSUDERE-PASINLER (ERZURUM)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T01:50:50+03:00",
+          "latitude": 39.9583,
+          "longitude": 41.4275,
+          "depth": 14.7,
+          "magnitude": 1.5,
+          "place": "PUSUDERE-PASINLER (ERZURUM)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5adb6d71",
+      "source": "KANDILLI",
+      "sourceId": "k-5adb6d71",
+      "time": "2026-09-24T01:22:10+03:00",
+      "latitude": 38.2417,
+      "longitude": 31.1033,
+      "depth": 9.8,
+      "magnitude": 1.8,
+      "place": "HUYUKLU-YALVAC (ISPARTA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T01:22:10+03:00",
+          "latitude": 38.2417,
+          "longitude": 31.1033,
+          "depth": 9.8,
+          "magnitude": 1.8,
+          "place": "HUYUKLU-YALVAC (ISPARTA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-35d4858e",
+      "source": "KANDILLI",
+      "sourceId": "k-35d4858e",
+      "time": "2026-09-24T00:32:57+03:00",
+      "latitude": 38.0703,
+      "longitude": 38.1668,
+      "depth": 9.3,
+      "magnitude": 1.3,
+      "place": "PINARBASI-CELIKHAN (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T00:32:57+03:00",
+          "latitude": 38.0703,
+          "longitude": 38.1668,
+          "depth": 9.3,
+          "magnitude": 1.3,
+          "place": "PINARBASI-CELIKHAN (ADIYAMAN)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-8a40fc2b",
       "source": "KANDILLI",
@@ -22,6 +157,33 @@
           "magnitude": 1.3,
           "place": "PINARBASI-CELIKHAN (ADIYAMAN)",
           "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8277581e",
+      "source": "KANDILLI",
+      "sourceId": "k-8277581e",
+      "time": "2026-09-24T00:07:05+03:00",
+      "latitude": 36.65,
+      "longitude": 26.6172,
+      "depth": 5.8,
+      "magnitude": 2.1,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T00:07:05+03:00",
+          "latitude": 36.65,
+          "longitude": 26.6172,
+          "depth": 5.8,
+          "magnitude": 2.1,
+          "place": "EGE DENIZI",
+          "ml": 2.1,
           "mw": null,
           "md": null
         }
