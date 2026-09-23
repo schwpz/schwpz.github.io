@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T18:26:49.543Z",
+  "generatedAt": "2026-09-23T21:38:17.138Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,7 +11,7 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 32,
+    "attention": 34,
     "label": "Hafif aktivite",
     "summary": "Prens Adaları / doğu MMF: swarm 0/100 · migration 0/100 · precursor resemblance 48/100. Olasılık değildir.",
     "eventsNearLocked5km": 0,
@@ -1269,15 +1269,15 @@
       "state": "locked",
       "events24h": 1,
       "events7d": 2,
-      "events30d": 6,
+      "events30d": 5,
       "maxMagnitude24h": 1.9,
-      "baselineDaily": 0.17,
-      "rateRatio": 5.8,
-      "baseAttention": 42,
+      "baselineDaily": 0.15,
+      "rateRatio": 6.67,
+      "baseAttention": 45,
       "advancedSignal": 15,
       "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 32,
+      "attention": 34,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -1332,7 +1332,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 6,
+          "n": 5,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -1341,7 +1341,7 @@
         "baseline": {
           "valid": true,
           "n": 68,
-          "total": 162,
+          "total": 163,
           "mc": 1.6,
           "b": 0.991,
           "sigma": 0.12
@@ -1473,7 +1473,7 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0.6361899946357812,
+        "rateAnomaly": 0.686590617453599,
         "lockedContext": 1
       }
     }
