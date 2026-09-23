@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-09-23T14:21:20.589Z",
+  "generatedAt": "2026-09-23T18:26:49.534Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-8fcd069c",
+      "source": "KANDILLI",
+      "sourceId": "k-8fcd069c",
+      "time": "2026-09-23T18:10:03+03:00",
+      "latitude": 40.704,
+      "longitude": 29.2363,
+      "depth": 5.2,
+      "magnitude": 1.9,
+      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-23T18:10:03+03:00",
+          "latitude": 40.704,
+          "longitude": 29.2363,
+          "depth": 5.2,
+          "magnitude": 1.9,
+          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6313a1b3",
+      "source": "KANDILLI",
+      "sourceId": "k-6313a1b3",
+      "time": "2026-09-23T17:24:49+03:00",
+      "latitude": 40.3423,
+      "longitude": 27.7073,
+      "depth": 17.4,
+      "magnitude": 1.5,
+      "place": "SIRINCAVUS-BANDIRMA (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-23T17:24:49+03:00",
+          "latitude": 40.3423,
+          "longitude": 27.7073,
+          "depth": 17.4,
+          "magnitude": 1.5,
+          "place": "SIRINCAVUS-BANDIRMA (BALIKESIR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-81f64377",
       "source": "KANDILLI",
