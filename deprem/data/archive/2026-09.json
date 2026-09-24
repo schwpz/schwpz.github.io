@@ -1,8 +1,197 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-24T17:39:10.673Z",
+  "updatedAt": "2026-09-24T20:46:00.079Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-a3cbe067",
+      "source": "KANDILLI",
+      "sourceId": "k-a3cbe067",
+      "time": "2026-09-24T22:59:33+03:00",
+      "latitude": 38.8817,
+      "longitude": 43.6003,
+      "depth": 11,
+      "magnitude": 1.7,
+      "place": "SAGLAMTAS-(VAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T22:59:33+03:00",
+          "latitude": 38.8817,
+          "longitude": 43.6003,
+          "depth": 11,
+          "magnitude": 1.7,
+          "place": "SAGLAMTAS-(VAN)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d83f02e3",
+      "source": "KANDILLI",
+      "sourceId": "k-d83f02e3",
+      "time": "2026-09-24T22:51:56+03:00",
+      "latitude": 38.6922,
+      "longitude": 30.8357,
+      "depth": 15.9,
+      "magnitude": 1.4,
+      "place": "KOCAOZ-COBANLAR (AFYONKARAHISAR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T22:51:56+03:00",
+          "latitude": 38.6922,
+          "longitude": 30.8357,
+          "depth": 15.9,
+          "magnitude": 1.4,
+          "place": "KOCAOZ-COBANLAR (AFYONKARAHISAR)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2c817d90",
+      "source": "KANDILLI",
+      "sourceId": "k-2c817d90",
+      "time": "2026-09-24T22:48:47+03:00",
+      "latitude": 36.6772,
+      "longitude": 25.7783,
+      "depth": 5,
+      "magnitude": 2.1,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T22:48:47+03:00",
+          "latitude": 36.6772,
+          "longitude": 25.7783,
+          "depth": 5,
+          "magnitude": 2.1,
+          "place": "EGE DENIZI",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6cc67bac",
+      "source": "KANDILLI",
+      "sourceId": "k-6cc67bac",
+      "time": "2026-09-24T22:17:39+03:00",
+      "latitude": 39.1582,
+      "longitude": 28.1877,
+      "depth": 10.8,
+      "magnitude": 1.6,
+      "place": "AKTAS-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T22:17:39+03:00",
+          "latitude": 39.1582,
+          "longitude": 28.1877,
+          "depth": 10.8,
+          "magnitude": 1.6,
+          "place": "AKTAS-SINDIRGI (BALIKESIR)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-02e46a7d",
+      "source": "KANDILLI",
+      "sourceId": "k-02e46a7d",
+      "time": "2026-09-24T21:55:50+03:00",
+      "latitude": 40.7912,
+      "longitude": 29.082,
+      "depth": 12.3,
+      "magnitude": 1.4,
+      "place": "ADALAR (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T21:55:50+03:00",
+          "latitude": 40.7912,
+          "longitude": 29.082,
+          "depth": 12.3,
+          "magnitude": 1.4,
+          "place": "ADALAR (ISTANBUL)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c5fd70ee",
+      "source": "KANDILLI",
+      "sourceId": "k-c5fd70ee",
+      "time": "2026-09-24T21:55:04+03:00",
+      "latitude": 40.8095,
+      "longitude": 29.0345,
+      "depth": 11.7,
+      "magnitude": 1.4,
+      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T21:55:04+03:00",
+          "latitude": 40.8095,
+          "longitude": 29.0345,
+          "depth": 11.7,
+          "magnitude": 1.4,
+          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-be7bc332",
+      "source": "KANDILLI",
+      "sourceId": "k-be7bc332",
+      "time": "2026-09-24T21:53:39+03:00",
+      "latitude": 40.8068,
+      "longitude": 29.0318,
+      "depth": 13.5,
+      "magnitude": 1.8,
+      "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-24T21:53:39+03:00",
+          "latitude": 40.8068,
+          "longitude": 29.0318,
+          "depth": 13.5,
+          "magnitude": 1.8,
+          "place": "CINARCIK ACIKLARI-YALOVA (MARMARA DENIZI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-15595769",
       "source": "KANDILLI",
