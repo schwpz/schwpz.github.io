@@ -1,8 +1,62 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-24T20:46:00.079Z",
+  "updatedAt": "2026-09-24T23:30:53.872Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c7a0e9f7",
+      "source": "KANDILLI",
+      "sourceId": "k-c7a0e9f7",
+      "time": "2026-09-25T01:18:51+03:00",
+      "latitude": 39.2375,
+      "longitude": 29.0205,
+      "depth": 6.6,
+      "magnitude": 1.2,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-25T01:18:51+03:00",
+          "latitude": 39.2375,
+          "longitude": 29.0205,
+          "depth": 6.6,
+          "magnitude": 1.2,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-351e7905",
+      "source": "KANDILLI",
+      "sourceId": "k-351e7905",
+      "time": "2026-09-25T00:46:44+03:00",
+      "latitude": 38.053,
+      "longitude": 36.5052,
+      "depth": 12.4,
+      "magnitude": 1.2,
+      "place": "HACIMIRZA-GOKSUN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-25T00:46:44+03:00",
+          "latitude": 38.053,
+          "longitude": 36.5052,
+          "depth": 12.4,
+          "magnitude": 1.2,
+          "place": "HACIMIRZA-GOKSUN (KAHRAMANMARAS)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-a3cbe067",
       "source": "KANDILLI",
