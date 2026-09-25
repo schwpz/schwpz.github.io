@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-25T20:29:25.473Z",
+  "updatedAt": "2026-09-25T23:25:25.963Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-3ad3d58a",
+      "source": "KANDILLI",
+      "sourceId": "k-3ad3d58a",
+      "time": "2026-09-26T01:44:04+03:00",
+      "latitude": 39.9282,
+      "longitude": 39.8963,
+      "depth": 13.1,
+      "magnitude": 1.8,
+      "place": "BOYBEYI-CAYIRLI (ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T01:44:04+03:00",
+          "latitude": 39.9282,
+          "longitude": 39.8963,
+          "depth": 13.1,
+          "magnitude": 1.8,
+          "place": "BOYBEYI-CAYIRLI (ERZINCAN)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5cc6cec8",
+      "source": "KANDILLI",
+      "sourceId": "k-5cc6cec8",
+      "time": "2026-09-26T00:14:53+03:00",
+      "latitude": 39.0363,
+      "longitude": 26.8457,
+      "depth": 9,
+      "magnitude": 1.5,
+      "place": "YAHSIBEY-DIKILI (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T00:14:53+03:00",
+          "latitude": 39.0363,
+          "longitude": 26.8457,
+          "depth": 9,
+          "magnitude": 1.5,
+          "place": "YAHSIBEY-DIKILI (IZMIR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-731e04ff",
+      "source": "KANDILLI",
+      "sourceId": "k-731e04ff",
+      "time": "2026-09-25T23:21:49+03:00",
+      "latitude": 40.2118,
+      "longitude": 31.7087,
+      "depth": 3.1,
+      "magnitude": 2,
+      "place": "SEKLI-BEYPAZARI (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-25T23:21:49+03:00",
+          "latitude": 40.2118,
+          "longitude": 31.7087,
+          "depth": 3.1,
+          "magnitude": 2,
+          "place": "SEKLI-BEYPAZARI (ANKARA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6d609f3f",
+      "source": "KANDILLI",
+      "sourceId": "k-6d609f3f",
+      "time": "2026-09-25T23:06:36+03:00",
+      "latitude": 40.0255,
+      "longitude": 28.7673,
+      "depth": 12,
+      "magnitude": 1.2,
+      "place": "CINARCIK-ORHANELI (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-25T23:06:36+03:00",
+          "latitude": 40.0255,
+          "longitude": 28.7673,
+          "depth": 12,
+          "magnitude": 1.2,
+          "place": "CINARCIK-ORHANELI (BURSA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8fdc828a",
+      "source": "KANDILLI",
+      "sourceId": "k-8fdc828a",
+      "time": "2026-09-25T22:52:04+03:00",
+      "latitude": 37.7815,
+      "longitude": 36.2193,
+      "depth": 9.7,
+      "magnitude": 1.2,
+      "place": "HALILBEYLI-SAIMBEYLI (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-25T22:52:04+03:00",
+          "latitude": 37.7815,
+          "longitude": 36.2193,
+          "depth": 9.7,
+          "magnitude": 1.2,
+          "place": "HALILBEYLI-SAIMBEYLI (ADANA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a1104995",
+      "source": "KANDILLI",
+      "sourceId": "k-a1104995",
+      "time": "2026-09-25T22:38:45+03:00",
+      "latitude": 35.9258,
+      "longitude": 29.3783,
+      "depth": 10.2,
+      "magnitude": 2,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-25T22:38:45+03:00",
+          "latitude": 35.9258,
+          "longitude": 29.3783,
+          "depth": 10.2,
+          "magnitude": 2,
+          "place": "AKDENIZ",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-dd6f4809",
       "source": "KANDILLI",
