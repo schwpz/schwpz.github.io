@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-09-25T06:41:47.590Z",
+  "generatedAt": "2026-09-25T12:14:35.753Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-ca1de2d3",
+      "source": "KANDILLI",
+      "sourceId": "k-ca1de2d3",
+      "time": "2026-09-25T12:28:34+03:00",
+      "latitude": 40.7547,
+      "longitude": 27.174,
+      "depth": 5.4,
+      "magnitude": 1.4,
+      "place": "PALAMUT-SARKOY (TEKIRDAG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-25T12:28:34+03:00",
+          "latitude": 40.7547,
+          "longitude": 27.174,
+          "depth": 5.4,
+          "magnitude": 1.4,
+          "place": "PALAMUT-SARKOY (TEKIRDAG)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fedecded",
+      "source": "KANDILLI",
+      "sourceId": "k-fedecded",
+      "time": "2026-09-25T10:42:00+03:00",
+      "latitude": 40.5187,
+      "longitude": 29.2658,
+      "depth": 0,
+      "magnitude": 1.2,
+      "place": "HAMZALI-ORHANGAZI (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-25T10:42:00+03:00",
+          "latitude": 40.5187,
+          "longitude": 29.2658,
+          "depth": 0,
+          "magnitude": 1.2,
+          "place": "HAMZALI-ORHANGAZI (BURSA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-02e46a7d",
       "source": "KANDILLI",
