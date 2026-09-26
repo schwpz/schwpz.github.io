@@ -1,8 +1,143 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-26T11:45:47.791Z",
+  "updatedAt": "2026-09-26T15:07:28.527Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-1d6a8ce0",
+      "source": "KANDILLI",
+      "sourceId": "k-1d6a8ce0",
+      "time": "2026-09-26T17:29:49+03:00",
+      "latitude": 39.9145,
+      "longitude": 42.6287,
+      "depth": 4.3,
+      "magnitude": 2,
+      "place": "CATKOSEDAG-ELESKIRT (AGRI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T17:29:49+03:00",
+          "latitude": 39.9145,
+          "longitude": 42.6287,
+          "depth": 4.3,
+          "magnitude": 2,
+          "place": "CATKOSEDAG-ELESKIRT (AGRI)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9b561e06",
+      "source": "KANDILLI",
+      "sourceId": "k-9b561e06",
+      "time": "2026-09-26T17:05:05+03:00",
+      "latitude": 39.2523,
+      "longitude": 28.2133,
+      "depth": 9.2,
+      "magnitude": 1.1,
+      "place": "CAYGOREN-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T17:05:05+03:00",
+          "latitude": 39.2523,
+          "longitude": 28.2133,
+          "depth": 9.2,
+          "magnitude": 1.1,
+          "place": "CAYGOREN-SINDIRGI (BALIKESIR)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3cda23ae",
+      "source": "KANDILLI",
+      "sourceId": "k-3cda23ae",
+      "time": "2026-09-26T16:34:52+03:00",
+      "latitude": 38.217,
+      "longitude": 30.999,
+      "depth": 14.7,
+      "magnitude": 1.6,
+      "place": "CALTI-GELENDOST (ISPARTA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T16:34:52+03:00",
+          "latitude": 38.217,
+          "longitude": 30.999,
+          "depth": 14.7,
+          "magnitude": 1.6,
+          "place": "CALTI-GELENDOST (ISPARTA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-273e7444",
+      "source": "KANDILLI",
+      "sourceId": "k-273e7444",
+      "time": "2026-09-26T15:22:54+03:00",
+      "latitude": 38.5907,
+      "longitude": 38.3488,
+      "depth": 15.2,
+      "magnitude": 1.5,
+      "place": "AMBARCIK-YAZIHAN (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T15:22:54+03:00",
+          "latitude": 38.5907,
+          "longitude": 38.3488,
+          "depth": 15.2,
+          "magnitude": 1.5,
+          "place": "AMBARCIK-YAZIHAN (MALATYA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2ccd17ee",
+      "source": "KANDILLI",
+      "sourceId": "k-2ccd17ee",
+      "time": "2026-09-26T14:27:32+03:00",
+      "latitude": 39.7665,
+      "longitude": 42.4558,
+      "depth": 6.7,
+      "magnitude": 2.3,
+      "place": "HAYRANGOL-ELESKIRT (AGRI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T14:27:32+03:00",
+          "latitude": 39.7665,
+          "longitude": 42.4558,
+          "depth": 6.7,
+          "magnitude": 2.3,
+          "place": "HAYRANGOL-ELESKIRT (AGRI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-67a5a554",
       "source": "KANDILLI",
@@ -220,6 +355,33 @@
       ]
     },
     {
+      "id": "k-8f1fcb29",
+      "source": "KANDILLI",
+      "sourceId": "k-8f1fcb29",
+      "time": "2026-09-26T12:16:10+03:00",
+      "latitude": 39.3257,
+      "longitude": 33.4148,
+      "depth": 9.8,
+      "magnitude": 1.3,
+      "place": "KUCUKCAMILI-BALA (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T12:16:10+03:00",
+          "latitude": 39.3257,
+          "longitude": 33.4148,
+          "depth": 9.8,
+          "magnitude": 1.3,
+          "place": "KUCUKCAMILI-BALA (ANKARA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
       "id": "k-dce04fd9",
       "source": "KANDILLI",
       "sourceId": "k-dce04fd9",
@@ -301,6 +463,33 @@
       ]
     },
     {
+      "id": "k-6680bedb",
+      "source": "KANDILLI",
+      "sourceId": "k-6680bedb",
+      "time": "2026-09-26T11:34:47+03:00",
+      "latitude": 37.7932,
+      "longitude": 27.2123,
+      "depth": 14.9,
+      "magnitude": 1.5,
+      "place": "KUSADASI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T11:34:47+03:00",
+          "latitude": 37.7932,
+          "longitude": 27.2123,
+          "depth": 14.9,
+          "magnitude": 1.5,
+          "place": "KUSADASI KORFEZI (EGE DENIZI)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
       "id": "k-91904862",
       "source": "KANDILLI",
       "sourceId": "k-91904862",
@@ -319,6 +508,33 @@
           "magnitude": 2.7,
           "place": "KUSADASI KORFEZI (EGE DENIZI)",
           "ml": 2.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8738800c",
+      "source": "KANDILLI",
+      "sourceId": "k-8738800c",
+      "time": "2026-09-26T11:00:52+03:00",
+      "latitude": 40.1383,
+      "longitude": 31.7025,
+      "depth": 5,
+      "magnitude": 2.3,
+      "place": "ULUKOY-NALLIHAN (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T11:00:52+03:00",
+          "latitude": 40.1383,
+          "longitude": 31.7025,
+          "depth": 5,
+          "magnitude": 2.3,
+          "place": "ULUKOY-NALLIHAN (ANKARA)",
+          "ml": 2.3,
           "mw": null,
           "md": null
         }
