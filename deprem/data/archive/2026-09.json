@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-26T18:32:52.097Z",
+  "updatedAt": "2026-09-26T21:26:34.418Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-168b9e40",
+      "source": "KANDILLI",
+      "sourceId": "k-168b9e40",
+      "time": "2026-09-27T00:01:28+03:00",
+      "latitude": 38.7752,
+      "longitude": 30.3552,
+      "depth": 5.4,
+      "magnitude": 1.9,
+      "place": "GARIPCE-SINANPASA (AFYONKARAHISAR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T00:01:28+03:00",
+          "latitude": 38.7752,
+          "longitude": 30.3552,
+          "depth": 5.4,
+          "magnitude": 1.9,
+          "place": "GARIPCE-SINANPASA (AFYONKARAHISAR)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ff018fbe",
+      "source": "KANDILLI",
+      "sourceId": "k-ff018fbe",
+      "time": "2026-09-26T23:55:35+03:00",
+      "latitude": 40.417,
+      "longitude": 26.0797,
+      "depth": 10.3,
+      "magnitude": 1.8,
+      "place": "SAROS KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T23:55:35+03:00",
+          "latitude": 40.417,
+          "longitude": 26.0797,
+          "depth": 10.3,
+          "magnitude": 1.8,
+          "place": "SAROS KORFEZI (EGE DENIZI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-35d51950",
+      "source": "KANDILLI",
+      "sourceId": "k-35d51950",
+      "time": "2026-09-26T23:16:02+03:00",
+      "latitude": 38.0868,
+      "longitude": 38.3328,
+      "depth": 14,
+      "magnitude": 1.1,
+      "place": "TASDAMLAR-CELIKHAN (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T23:16:02+03:00",
+          "latitude": 38.0868,
+          "longitude": 38.3328,
+          "depth": 14,
+          "magnitude": 1.1,
+          "place": "TASDAMLAR-CELIKHAN (ADIYAMAN)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-da8f2306",
+      "source": "KANDILLI",
+      "sourceId": "k-da8f2306",
+      "time": "2026-09-26T22:37:46+03:00",
+      "latitude": 36.9708,
+      "longitude": 29.4248,
+      "depth": 5,
+      "magnitude": 1.4,
+      "place": "IBECIK-GOLHISAR (BURDUR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T22:37:46+03:00",
+          "latitude": 36.9708,
+          "longitude": 29.4248,
+          "depth": 5,
+          "magnitude": 1.4,
+          "place": "IBECIK-GOLHISAR (BURDUR)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-58930461",
+      "source": "KANDILLI",
+      "sourceId": "k-58930461",
+      "time": "2026-09-26T22:30:00+03:00",
+      "latitude": 40.4408,
+      "longitude": 26.0802,
+      "depth": 5.1,
+      "magnitude": 1.4,
+      "place": "SAROS KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T22:30:00+03:00",
+          "latitude": 40.4408,
+          "longitude": 26.0802,
+          "depth": 5.1,
+          "magnitude": 1.4,
+          "place": "SAROS KORFEZI (EGE DENIZI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b51b6999",
+      "source": "KANDILLI",
+      "sourceId": "k-b51b6999",
+      "time": "2026-09-26T22:19:32+03:00",
+      "latitude": 38.5305,
+      "longitude": 37.911,
+      "depth": 22.5,
+      "magnitude": 1.3,
+      "place": "KERIMLI-DARENDE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T22:19:32+03:00",
+          "latitude": 38.5305,
+          "longitude": 37.911,
+          "depth": 22.5,
+          "magnitude": 1.3,
+          "place": "KERIMLI-DARENDE (MALATYA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-33cff100",
       "source": "KANDILLI",

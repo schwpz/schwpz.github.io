@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T18:32:52.155Z",
+  "generatedAt": "2026-09-26T21:26:34.467Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -443,9 +443,9 @@
       "state": "creep",
       "events24h": 0,
       "events7d": 0,
-      "events30d": 8,
+      "events30d": 7,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.28,
+      "baselineDaily": 0.24,
       "rateRatio": 0,
       "baseAttention": 0,
       "advancedSignal": 2.3,
@@ -506,7 +506,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 8,
+          "n": 7,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -514,7 +514,7 @@
         },
         "baseline": {
           "valid": false,
-          "n": 3,
+          "n": 4,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -647,9 +647,9 @@
       "state": "transition",
       "events24h": 0,
       "events7d": 0,
-      "events30d": 5,
+      "events30d": 4,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.17,
+      "baselineDaily": 0.15,
       "rateRatio": 0,
       "baseAttention": 8,
       "advancedSignal": 8.3,
@@ -710,7 +710,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 5,
+          "n": 4,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -718,7 +718,7 @@
         },
         "baseline": {
           "valid": false,
-          "n": 1,
+          "n": 2,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -1479,5 +1479,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 265
+  "historyEvents": 267
 }
