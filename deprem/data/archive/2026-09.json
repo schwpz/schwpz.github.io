@@ -1,8 +1,278 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-25T23:25:25.963Z",
+  "updatedAt": "2026-09-26T01:45:39.924Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-0346bc12",
+      "source": "KANDILLI",
+      "sourceId": "k-0346bc12",
+      "time": "2026-09-26T03:39:36+03:00",
+      "latitude": 39.5837,
+      "longitude": 39.7425,
+      "depth": 4.9,
+      "magnitude": 0.7,
+      "place": "GIRLEVIK-(ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T03:39:36+03:00",
+          "latitude": 39.5837,
+          "longitude": 39.7425,
+          "depth": 4.9,
+          "magnitude": 0.7,
+          "place": "GIRLEVIK-(ERZINCAN)",
+          "ml": 0.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2e81a2a0",
+      "source": "KANDILLI",
+      "sourceId": "k-2e81a2a0",
+      "time": "2026-09-26T03:28:22+03:00",
+      "latitude": 36.7252,
+      "longitude": 28.1783,
+      "depth": 21.7,
+      "magnitude": 1.4,
+      "place": "BAYIR-MARMARIS (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T03:28:22+03:00",
+          "latitude": 36.7252,
+          "longitude": 28.1783,
+          "depth": 21.7,
+          "magnitude": 1.4,
+          "place": "BAYIR-MARMARIS (MUGLA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-63ea419d",
+      "source": "KANDILLI",
+      "sourceId": "k-63ea419d",
+      "time": "2026-09-26T03:22:34+03:00",
+      "latitude": 38.8317,
+      "longitude": 26.8292,
+      "depth": 7.7,
+      "magnitude": 1.7,
+      "place": "CANDARLI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T03:22:34+03:00",
+          "latitude": 38.8317,
+          "longitude": 26.8292,
+          "depth": 7.7,
+          "magnitude": 1.7,
+          "place": "CANDARLI KORFEZI (EGE DENIZI)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-62263cec",
+      "source": "KANDILLI",
+      "sourceId": "k-62263cec",
+      "time": "2026-09-26T02:43:21+03:00",
+      "latitude": 38.3353,
+      "longitude": 42.7985,
+      "depth": 5,
+      "magnitude": 1.9,
+      "place": "KUSLUK-GEVAS (VAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T02:43:21+03:00",
+          "latitude": 38.3353,
+          "longitude": 42.7985,
+          "depth": 5,
+          "magnitude": 1.9,
+          "place": "KUSLUK-GEVAS (VAN)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-04b03a97",
+      "source": "KANDILLI",
+      "sourceId": "k-04b03a97",
+      "time": "2026-09-26T02:42:20+03:00",
+      "latitude": 35.9,
+      "longitude": 29.5167,
+      "depth": 23.7,
+      "magnitude": 1.5,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T02:42:20+03:00",
+          "latitude": 35.9,
+          "longitude": 29.5167,
+          "depth": 23.7,
+          "magnitude": 1.5,
+          "place": "AKDENIZ",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-37f9f1fd",
+      "source": "KANDILLI",
+      "sourceId": "k-37f9f1fd",
+      "time": "2026-09-26T02:38:15+03:00",
+      "latitude": 38.1938,
+      "longitude": 42.8198,
+      "depth": 8,
+      "magnitude": 1.4,
+      "place": "BAHCESARAY (VAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T02:38:15+03:00",
+          "latitude": 38.1938,
+          "longitude": 42.8198,
+          "depth": 8,
+          "magnitude": 1.4,
+          "place": "BAHCESARAY (VAN)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e107a6c7",
+      "source": "KANDILLI",
+      "sourceId": "k-e107a6c7",
+      "time": "2026-09-26T02:32:39+03:00",
+      "latitude": 40.2603,
+      "longitude": 24.0997,
+      "depth": 10.5,
+      "magnitude": 1.7,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T02:32:39+03:00",
+          "latitude": 40.2603,
+          "longitude": 24.0997,
+          "depth": 10.5,
+          "magnitude": 1.7,
+          "place": "YUNANISTAN",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-30c597b9",
+      "source": "KANDILLI",
+      "sourceId": "k-30c597b9",
+      "time": "2026-09-26T02:25:49+03:00",
+      "latitude": 38.232,
+      "longitude": 26.2793,
+      "depth": 6.8,
+      "magnitude": 2,
+      "place": "CESME ACIKLARI-IZMIR (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T02:25:49+03:00",
+          "latitude": 38.232,
+          "longitude": 26.2793,
+          "depth": 6.8,
+          "magnitude": 2,
+          "place": "CESME ACIKLARI-IZMIR (EGE DENIZI)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-16b1d71d",
+      "source": "KANDILLI",
+      "sourceId": "k-16b1d71d",
+      "time": "2026-09-26T02:18:45+03:00",
+      "latitude": 37.8193,
+      "longitude": 27.1012,
+      "depth": 4.4,
+      "magnitude": 1.5,
+      "place": "KUSADASI KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T02:18:45+03:00",
+          "latitude": 37.8193,
+          "longitude": 27.1012,
+          "depth": 4.4,
+          "magnitude": 1.5,
+          "place": "KUSADASI KORFEZI (EGE DENIZI)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f93ee35b",
+      "source": "KANDILLI",
+      "sourceId": "k-f93ee35b",
+      "time": "2026-09-26T02:15:40+03:00",
+      "latitude": 38.0408,
+      "longitude": 37.2358,
+      "depth": 17.3,
+      "magnitude": 1,
+      "place": "GOZPINAR-EKINOZU (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T02:15:40+03:00",
+          "latitude": 38.0408,
+          "longitude": 37.2358,
+          "depth": 17.3,
+          "magnitude": 1,
+          "place": "GOZPINAR-EKINOZU (KAHRAMANMARAS)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-3ad3d58a",
       "source": "KANDILLI",
@@ -22,6 +292,33 @@
           "magnitude": 1.8,
           "place": "BOYBEYI-CAYIRLI (ERZINCAN)",
           "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c8df9dd6",
+      "source": "KANDILLI",
+      "sourceId": "k-c8df9dd6",
+      "time": "2026-09-26T01:29:31+03:00",
+      "latitude": 38.2702,
+      "longitude": 42.8095,
+      "depth": 7.4,
+      "magnitude": 1.7,
+      "place": "TORELI-GEVAS (VAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T01:29:31+03:00",
+          "latitude": 38.2702,
+          "longitude": 42.8095,
+          "depth": 7.4,
+          "magnitude": 1.7,
+          "place": "TORELI-GEVAS (VAN)",
+          "ml": 1.7,
           "mw": null,
           "md": null
         }
