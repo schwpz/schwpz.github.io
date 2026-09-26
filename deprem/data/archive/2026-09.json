@@ -1,8 +1,278 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-26T01:45:39.924Z",
+  "updatedAt": "2026-09-26T06:39:29.926Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-cdd8497c",
+      "source": "KANDILLI",
+      "sourceId": "k-cdd8497c",
+      "time": "2026-09-26T07:19:52+03:00",
+      "latitude": 39.9115,
+      "longitude": 42.6213,
+      "depth": 5,
+      "magnitude": 2.9,
+      "place": "CATKOSEDAG-ELESKIRT (AGRI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T07:19:52+03:00",
+          "latitude": 39.9115,
+          "longitude": 42.6213,
+          "depth": 5,
+          "magnitude": 2.9,
+          "place": "CATKOSEDAG-ELESKIRT (AGRI)",
+          "ml": 2.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-56ae9d89",
+      "source": "KANDILLI",
+      "sourceId": "k-56ae9d89",
+      "time": "2026-09-26T06:42:41+03:00",
+      "latitude": 39.1065,
+      "longitude": 41.6582,
+      "depth": 7,
+      "magnitude": 1.8,
+      "place": "OMCALI-VARTO (MUS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T06:42:41+03:00",
+          "latitude": 39.1065,
+          "longitude": 41.6582,
+          "depth": 7,
+          "magnitude": 1.8,
+          "place": "OMCALI-VARTO (MUS)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-77cc3ac9",
+      "source": "KANDILLI",
+      "sourceId": "k-77cc3ac9",
+      "time": "2026-09-26T06:33:53+03:00",
+      "latitude": 39.25,
+      "longitude": 28.1688,
+      "depth": 9.6,
+      "magnitude": 1.8,
+      "place": "SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T06:33:53+03:00",
+          "latitude": 39.25,
+          "longitude": 28.1688,
+          "depth": 9.6,
+          "magnitude": 1.8,
+          "place": "SINDIRGI (BALIKESIR)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d0ffef50",
+      "source": "KANDILLI",
+      "sourceId": "k-d0ffef50",
+      "time": "2026-09-26T05:41:53+03:00",
+      "latitude": 41.0685,
+      "longitude": 24.592,
+      "depth": 15.4,
+      "magnitude": 1.1,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T05:41:53+03:00",
+          "latitude": 41.0685,
+          "longitude": 24.592,
+          "depth": 15.4,
+          "magnitude": 1.1,
+          "place": "YUNANISTAN",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3c263aa0",
+      "source": "KANDILLI",
+      "sourceId": "k-3c263aa0",
+      "time": "2026-09-26T05:39:55+03:00",
+      "latitude": 39.2495,
+      "longitude": 28.9528,
+      "depth": 5.1,
+      "magnitude": 2.2,
+      "place": "YENILER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T05:39:55+03:00",
+          "latitude": 39.2495,
+          "longitude": 28.9528,
+          "depth": 5.1,
+          "magnitude": 2.2,
+          "place": "YENILER-SIMAV (KUTAHYA)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c7040859",
+      "source": "KANDILLI",
+      "sourceId": "k-c7040859",
+      "time": "2026-09-26T05:26:54+03:00",
+      "latitude": 40.0297,
+      "longitude": 27.6582,
+      "depth": 13.5,
+      "magnitude": 1.3,
+      "place": "UCPINAR-GONEN (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T05:26:54+03:00",
+          "latitude": 40.0297,
+          "longitude": 27.6582,
+          "depth": 13.5,
+          "magnitude": 1.3,
+          "place": "UCPINAR-GONEN (BALIKESIR)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b9c8aa0a",
+      "source": "KANDILLI",
+      "sourceId": "k-b9c8aa0a",
+      "time": "2026-09-26T05:10:16+03:00",
+      "latitude": 40.192,
+      "longitude": 31.697,
+      "depth": 7.4,
+      "magnitude": 2.3,
+      "place": "SEKLI-BEYPAZARI (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T05:10:16+03:00",
+          "latitude": 40.192,
+          "longitude": 31.697,
+          "depth": 7.4,
+          "magnitude": 2.3,
+          "place": "SEKLI-BEYPAZARI (ANKARA)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-af195a0c",
+      "source": "KANDILLI",
+      "sourceId": "k-af195a0c",
+      "time": "2026-09-26T05:06:25+03:00",
+      "latitude": 40.1508,
+      "longitude": 31.7637,
+      "depth": 5,
+      "magnitude": 2.1,
+      "place": "CANTIRLI-BEYPAZARI (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T05:06:25+03:00",
+          "latitude": 40.1508,
+          "longitude": 31.7637,
+          "depth": 5,
+          "magnitude": 2.1,
+          "place": "CANTIRLI-BEYPAZARI (ANKARA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e612d813",
+      "source": "KANDILLI",
+      "sourceId": "k-e612d813",
+      "time": "2026-09-26T04:29:36+03:00",
+      "latitude": 38.0717,
+      "longitude": 37.4032,
+      "depth": 5.4,
+      "magnitude": 1.1,
+      "place": "AGCASAR-NURHAK (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T04:29:36+03:00",
+          "latitude": 38.0717,
+          "longitude": 37.4032,
+          "depth": 5.4,
+          "magnitude": 1.1,
+          "place": "AGCASAR-NURHAK (KAHRAMANMARAS)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e19be92c",
+      "source": "KANDILLI",
+      "sourceId": "k-e19be92c",
+      "time": "2026-09-26T04:14:35+03:00",
+      "latitude": 39.025,
+      "longitude": 40.7752,
+      "depth": 6.1,
+      "magnitude": 1.5,
+      "place": "ELMALI-(BINGOL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T04:14:35+03:00",
+          "latitude": 39.025,
+          "longitude": 40.7752,
+          "depth": 6.1,
+          "magnitude": 1.5,
+          "place": "ELMALI-(BINGOL)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-0346bc12",
       "source": "KANDILLI",
