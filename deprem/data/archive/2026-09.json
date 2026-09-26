@@ -1,8 +1,197 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-26T15:07:28.527Z",
+  "updatedAt": "2026-09-26T18:32:52.097Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-33cff100",
+      "source": "KANDILLI",
+      "sourceId": "k-33cff100",
+      "time": "2026-09-26T21:11:54+03:00",
+      "latitude": 37.1833,
+      "longitude": 28.0387,
+      "depth": 5.3,
+      "magnitude": 1.1,
+      "place": "CAMLICA-YATAGAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T21:11:54+03:00",
+          "latitude": 37.1833,
+          "longitude": 28.0387,
+          "depth": 5.3,
+          "magnitude": 1.1,
+          "place": "CAMLICA-YATAGAN (MUGLA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c85fc6f8",
+      "source": "KANDILLI",
+      "sourceId": "k-c85fc6f8",
+      "time": "2026-09-26T20:05:02+03:00",
+      "latitude": 38.2257,
+      "longitude": 26.5348,
+      "depth": 5.8,
+      "magnitude": 2.2,
+      "place": "ZEYTINELI-URLA (IZMIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T20:05:02+03:00",
+          "latitude": 38.2257,
+          "longitude": 26.5348,
+          "depth": 5.8,
+          "magnitude": 2.2,
+          "place": "ZEYTINELI-URLA (IZMIR)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b5c727db",
+      "source": "KANDILLI",
+      "sourceId": "k-b5c727db",
+      "time": "2026-09-26T19:25:28+03:00",
+      "latitude": 38.14,
+      "longitude": 37.0007,
+      "depth": 5.3,
+      "magnitude": 1.9,
+      "place": "YAZIDERE-AFSIN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T19:25:28+03:00",
+          "latitude": 38.14,
+          "longitude": 37.0007,
+          "depth": 5.3,
+          "magnitude": 1.9,
+          "place": "YAZIDERE-AFSIN (KAHRAMANMARAS)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0826e07e",
+      "source": "KANDILLI",
+      "sourceId": "k-0826e07e",
+      "time": "2026-09-26T19:21:12+03:00",
+      "latitude": 39.517,
+      "longitude": 28.9293,
+      "depth": 16.9,
+      "magnitude": 1.3,
+      "place": "KOSELER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T19:21:12+03:00",
+          "latitude": 39.517,
+          "longitude": 28.9293,
+          "depth": 16.9,
+          "magnitude": 1.3,
+          "place": "KOSELER-SIMAV (KUTAHYA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5816584b",
+      "source": "KANDILLI",
+      "sourceId": "k-5816584b",
+      "time": "2026-09-26T18:44:20+03:00",
+      "latitude": 38.3305,
+      "longitude": 38.2165,
+      "depth": 13.6,
+      "magnitude": 1,
+      "place": "YAKINCA-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T18:44:20+03:00",
+          "latitude": 38.3305,
+          "longitude": 38.2165,
+          "depth": 13.6,
+          "magnitude": 1,
+          "place": "YAKINCA-YESILYURT (MALATYA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-768cba9c",
+      "source": "KANDILLI",
+      "sourceId": "k-768cba9c",
+      "time": "2026-09-26T18:18:51+03:00",
+      "latitude": 39.908,
+      "longitude": 42.6092,
+      "depth": 5,
+      "magnitude": 2.5,
+      "place": "CATKOSEDAG-ELESKIRT (AGRI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T18:18:51+03:00",
+          "latitude": 39.908,
+          "longitude": 42.6092,
+          "depth": 5,
+          "magnitude": 2.5,
+          "place": "CATKOSEDAG-ELESKIRT (AGRI)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5cd55c43",
+      "source": "KANDILLI",
+      "sourceId": "k-5cd55c43",
+      "time": "2026-09-26T18:08:07+03:00",
+      "latitude": 40.1778,
+      "longitude": 23.9257,
+      "depth": 5.5,
+      "magnitude": 2,
+      "place": "YUNANISTAN",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-26T18:08:07+03:00",
+          "latitude": 40.1778,
+          "longitude": 23.9257,
+          "depth": 5.5,
+          "magnitude": 2,
+          "place": "YUNANISTAN",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-1d6a8ce0",
       "source": "KANDILLI",
