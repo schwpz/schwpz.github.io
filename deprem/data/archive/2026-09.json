@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-27T17:35:53.590Z",
+  "updatedAt": "2026-09-27T20:21:34.520Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-417937f5",
+      "source": "KANDILLI",
+      "sourceId": "k-417937f5",
+      "time": "2026-09-27T22:35:10+03:00",
+      "latitude": 39.43,
+      "longitude": 41.2285,
+      "depth": 7.6,
+      "magnitude": 1.4,
+      "place": "HAMZALAR-TEKMAN (ERZURUM)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T22:35:10+03:00",
+          "latitude": 39.43,
+          "longitude": 41.2285,
+          "depth": 7.6,
+          "magnitude": 1.4,
+          "place": "HAMZALAR-TEKMAN (ERZURUM)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-148da3f2",
+      "source": "KANDILLI",
+      "sourceId": "k-148da3f2",
+      "time": "2026-09-27T21:25:33+03:00",
+      "latitude": 38.2813,
+      "longitude": 37.6387,
+      "depth": 19.9,
+      "magnitude": 1.2,
+      "place": "TOPALLI-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T21:25:33+03:00",
+          "latitude": 38.2813,
+          "longitude": 37.6387,
+          "depth": 19.9,
+          "magnitude": 1.2,
+          "place": "TOPALLI-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9d2a8e3d",
+      "source": "KANDILLI",
+      "sourceId": "k-9d2a8e3d",
+      "time": "2026-09-27T20:45:40+03:00",
+      "latitude": 38.2573,
+      "longitude": 38.2035,
+      "depth": 5.2,
+      "magnitude": 1.2,
+      "place": "SEYITUSAGI-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T20:45:40+03:00",
+          "latitude": 38.2573,
+          "longitude": 38.2035,
+          "depth": 5.2,
+          "magnitude": 1.2,
+          "place": "SEYITUSAGI-YESILYURT (MALATYA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fe32fcdf",
+      "source": "KANDILLI",
+      "sourceId": "k-fe32fcdf",
+      "time": "2026-09-27T20:31:19+03:00",
+      "latitude": 40.0892,
+      "longitude": 24.5343,
+      "depth": 23.8,
+      "magnitude": 1.9,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T20:31:19+03:00",
+          "latitude": 40.0892,
+          "longitude": 24.5343,
+          "depth": 23.8,
+          "magnitude": 1.9,
+          "place": "EGE DENIZI",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-d173bfcc",
       "source": "KANDILLI",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T17:35:53.644Z",
+  "generatedAt": "2026-09-27T20:21:34.565Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -11,7 +11,7 @@
     "lockDepth": "Kandilli-only depth comparison against literature-derived locking-depth reference bands. Horizontal corridor defaults to 5 km. Catalog depth uncertainty can be several km; overlap is not evidence that the locked asperity itself is failing."
   },
   "overall": {
-    "attention": 37,
+    "attention": 36,
     "label": "Hafif aktivite",
     "summary": "Prens Adaları / doğu MMF: swarm 0/100 · migration 0/100 · precursor resemblance 47/100. Olasılık değildir.",
     "eventsNearLocked5km": 1,
@@ -1275,9 +1275,9 @@
       "rateRatio": 7.25,
       "baseAttention": 48,
       "advancedSignal": 15,
-      "analogueUplift": 1,
+      "analogueUplift": 0,
       "lockingDepthUplift": 0,
-      "attention": 37,
+      "attention": 36,
       "swarm": {
         "detected": false,
         "score": 0,
@@ -1294,7 +1294,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 5,
+        "count": 2,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -1308,7 +1308,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 5,
+        "count": 2,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -1317,7 +1317,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 5,
+        "count": 2,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -1383,7 +1383,7 @@
       },
       "precursorSimilarity": 47,
       "benignSimilarity": 18,
-      "analogueEvidenceQuality": 0.2,
+      "analogueEvidenceQuality": 0.16,
       "analogues": [
         {
           "id": "parkfield-2004",
