@@ -1,8 +1,116 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-26T23:43:40.631Z",
+  "updatedAt": "2026-09-27T01:49:30.163Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-220b0e43",
+      "source": "KANDILLI",
+      "sourceId": "k-220b0e43",
+      "time": "2026-09-27T03:00:13+03:00",
+      "latitude": 38.8403,
+      "longitude": 37.4778,
+      "depth": 5,
+      "magnitude": 2.9,
+      "place": "BAGLICAY-GURUN (SIVAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T03:00:13+03:00",
+          "latitude": 38.8403,
+          "longitude": 37.4778,
+          "depth": 5,
+          "magnitude": 2.9,
+          "place": "BAGLICAY-GURUN (SIVAS)",
+          "ml": 2.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-81e86951",
+      "source": "KANDILLI",
+      "sourceId": "k-81e86951",
+      "time": "2026-09-27T02:28:30+03:00",
+      "latitude": 37.9345,
+      "longitude": 27.6608,
+      "depth": 12.9,
+      "magnitude": 1.3,
+      "place": "CARIKLAR-GERMENCIK (AYDIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T02:28:30+03:00",
+          "latitude": 37.9345,
+          "longitude": 27.6608,
+          "depth": 12.9,
+          "magnitude": 1.3,
+          "place": "CARIKLAR-GERMENCIK (AYDIN)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-97c0202e",
+      "source": "KANDILLI",
+      "sourceId": "k-97c0202e",
+      "time": "2026-09-27T01:14:50+03:00",
+      "latitude": 38.2437,
+      "longitude": 37.7613,
+      "depth": 13.8,
+      "magnitude": 1.2,
+      "place": "CEVIRME-AKCADAG (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T01:14:50+03:00",
+          "latitude": 38.2437,
+          "longitude": 37.7613,
+          "depth": 13.8,
+          "magnitude": 1.2,
+          "place": "CEVIRME-AKCADAG (MALATYA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f3eaba16",
+      "source": "KANDILLI",
+      "sourceId": "k-f3eaba16",
+      "time": "2026-09-27T01:09:06+03:00",
+      "latitude": 39.2213,
+      "longitude": 29.0395,
+      "depth": 10.3,
+      "magnitude": 1.4,
+      "place": "EGIRLER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T01:09:06+03:00",
+          "latitude": 39.2213,
+          "longitude": 29.0395,
+          "depth": 10.3,
+          "magnitude": 1.4,
+          "place": "EGIRLER-SIMAV (KUTAHYA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-160e21e4",
       "source": "KANDILLI",
