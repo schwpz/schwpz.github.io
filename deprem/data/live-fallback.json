@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-09-27T01:49:30.172Z",
+  "generatedAt": "2026-09-27T07:11:01.860Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-e34f9bcc",
+      "source": "KANDILLI",
+      "sourceId": "k-e34f9bcc",
+      "time": "2026-09-27T06:12:02+03:00",
+      "latitude": 40.7123,
+      "longitude": 29.2488,
+      "depth": 12.2,
+      "magnitude": 1.4,
+      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T06:12:02+03:00",
+          "latitude": 40.7123,
+          "longitude": 29.2488,
+          "depth": 12.2,
+          "magnitude": 1.4,
+          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-44203d20",
+      "source": "KANDILLI",
+      "sourceId": "k-44203d20",
+      "time": "2026-09-27T05:58:12+03:00",
+      "latitude": 40.706,
+      "longitude": 29.2347,
+      "depth": 12.7,
+      "magnitude": 1.8,
+      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T05:58:12+03:00",
+          "latitude": 40.706,
+          "longitude": 29.2347,
+          "depth": 12.7,
+          "magnitude": 1.8,
+          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-ff018fbe",
       "source": "KANDILLI",
