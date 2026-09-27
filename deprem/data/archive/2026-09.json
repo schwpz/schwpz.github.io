@@ -1,8 +1,332 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-27T07:11:01.852Z",
+  "updatedAt": "2026-09-27T12:59:42.122Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-fc2b0c22",
+      "source": "KANDILLI",
+      "sourceId": "k-fc2b0c22",
+      "time": "2026-09-27T15:29:26+03:00",
+      "latitude": 40.0883,
+      "longitude": 40.925,
+      "depth": 10.4,
+      "magnitude": 2.1,
+      "place": "ESKIPOLAT-AZIZIYE (ERZURUM)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T15:29:26+03:00",
+          "latitude": 40.0883,
+          "longitude": 40.925,
+          "depth": 10.4,
+          "magnitude": 2.1,
+          "place": "ESKIPOLAT-AZIZIYE (ERZURUM)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ffff0d1a",
+      "source": "KANDILLI",
+      "sourceId": "k-ffff0d1a",
+      "time": "2026-09-27T15:18:54+03:00",
+      "latitude": 39.2393,
+      "longitude": 28.291,
+      "depth": 16.9,
+      "magnitude": 1.7,
+      "place": "OSMANLAR-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T15:18:54+03:00",
+          "latitude": 39.2393,
+          "longitude": 28.291,
+          "depth": 16.9,
+          "magnitude": 1.7,
+          "place": "OSMANLAR-SINDIRGI (BALIKESIR)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-48e4e984",
+      "source": "KANDILLI",
+      "sourceId": "k-48e4e984",
+      "time": "2026-09-27T15:15:50+03:00",
+      "latitude": 37.8775,
+      "longitude": 29.3483,
+      "depth": 4.9,
+      "magnitude": 1.3,
+      "place": "KARAPINAR-CAL (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T15:15:50+03:00",
+          "latitude": 37.8775,
+          "longitude": 29.3483,
+          "depth": 4.9,
+          "magnitude": 1.3,
+          "place": "KARAPINAR-CAL (DENIZLI)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2f5eae36",
+      "source": "KANDILLI",
+      "sourceId": "k-2f5eae36",
+      "time": "2026-09-27T15:03:02+03:00",
+      "latitude": 38.3837,
+      "longitude": 28.404,
+      "depth": 8.8,
+      "magnitude": 1.9,
+      "place": "ALHAN-ALASEHIR (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T15:03:02+03:00",
+          "latitude": 38.3837,
+          "longitude": 28.404,
+          "depth": 8.8,
+          "magnitude": 1.9,
+          "place": "ALHAN-ALASEHIR (MANISA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5e2cbcfc",
+      "source": "KANDILLI",
+      "sourceId": "k-5e2cbcfc",
+      "time": "2026-09-27T14:52:57+03:00",
+      "latitude": 37.0603,
+      "longitude": 27.988,
+      "depth": 0,
+      "magnitude": 1.2,
+      "place": "ALATEPE-MILAS (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T14:52:57+03:00",
+          "latitude": 37.0603,
+          "longitude": 27.988,
+          "depth": 0,
+          "magnitude": 1.2,
+          "place": "ALATEPE-MILAS (MUGLA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-30324aba",
+      "source": "KANDILLI",
+      "sourceId": "k-30324aba",
+      "time": "2026-09-27T13:35:26+03:00",
+      "latitude": 38.1862,
+      "longitude": 38.6435,
+      "depth": 12.3,
+      "magnitude": 1.8,
+      "place": "ARITOPRAK-PUTURGE (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T13:35:26+03:00",
+          "latitude": 38.1862,
+          "longitude": 38.6435,
+          "depth": 12.3,
+          "magnitude": 1.8,
+          "place": "ARITOPRAK-PUTURGE (MALATYA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-30a03c8e",
+      "source": "KANDILLI",
+      "sourceId": "k-30a03c8e",
+      "time": "2026-09-27T13:12:13+03:00",
+      "latitude": 38.17,
+      "longitude": 37.533,
+      "depth": 15.3,
+      "magnitude": 1.7,
+      "place": "KANTARMA-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T13:12:13+03:00",
+          "latitude": 38.17,
+          "longitude": 37.533,
+          "depth": 15.3,
+          "magnitude": 1.7,
+          "place": "KANTARMA-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-35f3132f",
+      "source": "KANDILLI",
+      "sourceId": "k-35f3132f",
+      "time": "2026-09-27T12:43:46+03:00",
+      "latitude": 38.3575,
+      "longitude": 28.396,
+      "depth": 13.3,
+      "magnitude": 1.6,
+      "place": "SOGUKYURT-ALASEHIR (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T12:43:46+03:00",
+          "latitude": 38.3575,
+          "longitude": 28.396,
+          "depth": 13.3,
+          "magnitude": 1.6,
+          "place": "SOGUKYURT-ALASEHIR (MANISA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-54318d57",
+      "source": "KANDILLI",
+      "sourceId": "k-54318d57",
+      "time": "2026-09-27T12:23:30+03:00",
+      "latitude": 35.9023,
+      "longitude": 27.15,
+      "depth": 5,
+      "magnitude": 2.1,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T12:23:30+03:00",
+          "latitude": 35.9023,
+          "longitude": 27.15,
+          "depth": 5,
+          "magnitude": 2.1,
+          "place": "EGE DENIZI",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-edc589cc",
+      "source": "KANDILLI",
+      "sourceId": "k-edc589cc",
+      "time": "2026-09-27T12:18:27+03:00",
+      "latitude": 40.8052,
+      "longitude": 31.5178,
+      "depth": 8.3,
+      "magnitude": 2.4,
+      "place": "KIZILAGIL-(BOLU)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T12:18:27+03:00",
+          "latitude": 40.8052,
+          "longitude": 31.5178,
+          "depth": 8.3,
+          "magnitude": 2.4,
+          "place": "KIZILAGIL-(BOLU)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-44348db4",
+      "source": "KANDILLI",
+      "sourceId": "k-44348db4",
+      "time": "2026-09-27T12:12:49+03:00",
+      "latitude": 36.9027,
+      "longitude": 31.0367,
+      "depth": 84.4,
+      "magnitude": 2,
+      "place": "ASAGICATMA-SERIK (ANTALYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T12:12:49+03:00",
+          "latitude": 36.9027,
+          "longitude": 31.0367,
+          "depth": 84.4,
+          "magnitude": 2,
+          "place": "ASAGICATMA-SERIK (ANTALYA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-35a2360d",
+      "source": "KANDILLI",
+      "sourceId": "k-35a2360d",
+      "time": "2026-09-27T11:43:38+03:00",
+      "latitude": 38.3492,
+      "longitude": 28.3917,
+      "depth": 5.7,
+      "magnitude": 2.3,
+      "place": "SOGUKYURT-ALASEHIR (MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-27T11:43:38+03:00",
+          "latitude": 38.3492,
+          "longitude": 28.3917,
+          "depth": 5.7,
+          "magnitude": 2.3,
+          "place": "SOGUKYURT-ALASEHIR (MANISA)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-b8cd11f1",
       "source": "KANDILLI",
