@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-27T23:09:14.789Z",
+  "generatedAt": "2026-09-28T07:34:34.420Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-13c8eb7d",
+      "source": "KANDILLI",
+      "sourceId": "k-13c8eb7d",
+      "time": "2026-09-28T09:00:42+03:00",
+      "latitude": 40.7325,
+      "longitude": 27.5027,
+      "depth": 11.4,
+      "magnitude": 2.3,
+      "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-28T09:00:42+03:00",
+          "latitude": 40.7325,
+          "longitude": 27.5027,
+          "depth": 11.4,
+          "magnitude": 2.3,
+          "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-e650b308",
       "source": "KANDILLI",
@@ -453,33 +480,6 @@
           "magnitude": 1.5,
           "place": "ESENKOY-CINARCIK (YALOVA)",
           "ml": 1.5,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-f0f43084",
-      "source": "KANDILLI",
-      "sourceId": "k-f0f43084",
-      "time": "2026-09-21T06:13:07+03:00",
-      "latitude": 40.6325,
-      "longitude": 27.5938,
-      "depth": 3.3,
-      "magnitude": 1.2,
-      "place": "MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-21T06:13:07+03:00",
-          "latitude": 40.6325,
-          "longitude": 27.5938,
-          "depth": 3.3,
-          "magnitude": 1.2,
-          "place": "MARMARA DENIZI",
-          "ml": 1.2,
           "mw": null,
           "md": null
         }

@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-28T01:36:46.646Z",
+  "generatedAt": "2026-09-28T07:34:34.463Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-13c8eb7d",
+      "source": "KANDILLI",
+      "sourceId": "k-13c8eb7d",
+      "time": "2026-09-28T09:00:42+03:00",
+      "latitude": 40.7325,
+      "longitude": 27.5027,
+      "depth": 11.4,
+      "magnitude": 2.3,
+      "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-28T09:00:42+03:00",
+          "latitude": 40.7325,
+          "longitude": 27.5027,
+          "depth": 11.4,
+          "magnitude": 2.3,
+          "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-e650b308",
       "source": "KANDILLI",
