@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-09-28T21:24:45.911Z",
+  "generatedAt": "2026-09-29T01:05:41.975Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-f391ec2a",
+      "source": "KANDILLI",
+      "sourceId": "k-f391ec2a",
+      "time": "2026-09-29T03:53:11+03:00",
+      "latitude": 40.4145,
+      "longitude": 28.8678,
+      "depth": 5.1,
+      "magnitude": 1.8,
+      "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T03:53:11+03:00",
+          "latitude": 40.4145,
+          "longitude": 28.8678,
+          "depth": 5.1,
+          "magnitude": 1.8,
+          "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-10e36db8",
+      "source": "KANDILLI",
+      "sourceId": "k-10e36db8",
+      "time": "2026-09-29T00:13:28+03:00",
+      "latitude": 40.4402,
+      "longitude": 27.0222,
+      "depth": 14.4,
+      "magnitude": 1.9,
+      "place": "KEMER-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T00:13:28+03:00",
+          "latitude": 40.4402,
+          "longitude": 27.0222,
+          "depth": 14.4,
+          "magnitude": 1.9,
+          "place": "KEMER-BIGA (CANAKKALE)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-bdf8d0d5",
       "source": "KANDILLI",
