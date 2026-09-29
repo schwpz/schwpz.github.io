@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-09-29T13:23:23.518Z",
+  "generatedAt": "2026-09-29T18:42:59.326Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c9a1e46c",
+      "source": "KANDILLI",
+      "sourceId": "k-c9a1e46c",
+      "time": "2026-09-29T19:35:41+03:00",
+      "latitude": 40.7293,
+      "longitude": 27.4882,
+      "depth": 10.3,
+      "magnitude": 1.8,
+      "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T19:35:41+03:00",
+          "latitude": 40.7293,
+          "longitude": 27.4882,
+          "depth": 10.3,
+          "magnitude": 1.8,
+          "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-8ff8c0cf",
       "source": "KANDILLI",
@@ -669,60 +696,6 @@
           "magnitude": 1.5,
           "place": "SIRINCAVUS-BANDIRMA (BALIKESIR)",
           "ml": 1.5,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-81f64377",
-      "source": "KANDILLI",
-      "sourceId": "k-81f64377",
-      "time": "2026-09-22T10:54:27+03:00",
-      "latitude": 40.4858,
-      "longitude": 29.1672,
-      "depth": 7,
-      "magnitude": 0.9,
-      "place": "SAHINYURDU-GEMLIK (BURSA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-22T10:54:27+03:00",
-          "latitude": 40.4858,
-          "longitude": 29.1672,
-          "depth": 7,
-          "magnitude": 0.9,
-          "place": "SAHINYURDU-GEMLIK (BURSA)",
-          "ml": 0.9,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-0ccb6cb1",
-      "source": "KANDILLI",
-      "sourceId": "k-0ccb6cb1",
-      "time": "2026-09-22T10:49:24+03:00",
-      "latitude": 40.5882,
-      "longitude": 29.7645,
-      "depth": 5,
-      "magnitude": 0.7,
-      "place": "AYVAZPINARI-GOLCUK (KOCAELI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-22T10:49:24+03:00",
-          "latitude": 40.5882,
-          "longitude": 29.7645,
-          "depth": 5,
-          "magnitude": 0.7,
-          "place": "AYVAZPINARI-GOLCUK (KOCAELI)",
-          "ml": 0.7,
           "mw": null,
           "md": null
         }

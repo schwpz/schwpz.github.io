@@ -1,8 +1,251 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-29T13:23:23.510Z",
+  "updatedAt": "2026-09-29T18:42:59.318Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-56a49ffc",
+      "source": "KANDILLI",
+      "sourceId": "k-56a49ffc",
+      "time": "2026-09-29T20:38:52+03:00",
+      "latitude": 38.0092,
+      "longitude": 37.7045,
+      "depth": 3.2,
+      "magnitude": 2.2,
+      "place": "KUCUKLU-DOGANSEHIR (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T20:38:52+03:00",
+          "latitude": 38.0092,
+          "longitude": 37.7045,
+          "depth": 3.2,
+          "magnitude": 2.2,
+          "place": "KUCUKLU-DOGANSEHIR (MALATYA)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-76ff2438",
+      "source": "KANDILLI",
+      "sourceId": "k-76ff2438",
+      "time": "2026-09-29T19:46:32+03:00",
+      "latitude": 39.236,
+      "longitude": 28.9812,
+      "depth": 14.8,
+      "magnitude": 1.1,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T19:46:32+03:00",
+          "latitude": 39.236,
+          "longitude": 28.9812,
+          "depth": 14.8,
+          "magnitude": 1.1,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c9a1e46c",
+      "source": "KANDILLI",
+      "sourceId": "k-c9a1e46c",
+      "time": "2026-09-29T19:35:41+03:00",
+      "latitude": 40.7293,
+      "longitude": 27.4882,
+      "depth": 10.3,
+      "magnitude": 1.8,
+      "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T19:35:41+03:00",
+          "latitude": 40.7293,
+          "longitude": 27.4882,
+          "depth": 10.3,
+          "magnitude": 1.8,
+          "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cd212848",
+      "source": "KANDILLI",
+      "sourceId": "k-cd212848",
+      "time": "2026-09-29T19:23:34+03:00",
+      "latitude": 38.2182,
+      "longitude": 38.1188,
+      "depth": 5.9,
+      "magnitude": 1.8,
+      "place": "ISIKLI-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T19:23:34+03:00",
+          "latitude": 38.2182,
+          "longitude": 38.1188,
+          "depth": 5.9,
+          "magnitude": 1.8,
+          "place": "ISIKLI-YESILYURT (MALATYA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-962d903c",
+      "source": "KANDILLI",
+      "sourceId": "k-962d903c",
+      "time": "2026-09-29T19:08:52+03:00",
+      "latitude": 40.9407,
+      "longitude": 42.6467,
+      "depth": 5.1,
+      "magnitude": 1.8,
+      "place": "SURGUDEN-GOLE (ARDAHAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T19:08:52+03:00",
+          "latitude": 40.9407,
+          "longitude": 42.6467,
+          "depth": 5.1,
+          "magnitude": 1.8,
+          "place": "SURGUDEN-GOLE (ARDAHAN)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2cdb53b5",
+      "source": "KANDILLI",
+      "sourceId": "k-2cdb53b5",
+      "time": "2026-09-29T18:11:09+03:00",
+      "latitude": 38.0837,
+      "longitude": 37.2427,
+      "depth": 11,
+      "magnitude": 1.8,
+      "place": "GUMUSDOVEN-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T18:11:09+03:00",
+          "latitude": 38.0837,
+          "longitude": 37.2427,
+          "depth": 11,
+          "magnitude": 1.8,
+          "place": "GUMUSDOVEN-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-31101ded",
+      "source": "KANDILLI",
+      "sourceId": "k-31101ded",
+      "time": "2026-09-29T17:58:47+03:00",
+      "latitude": 37.0978,
+      "longitude": 28.002,
+      "depth": 9.2,
+      "magnitude": 1.7,
+      "place": "KALEM-MILAS (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T17:58:47+03:00",
+          "latitude": 37.0978,
+          "longitude": 28.002,
+          "depth": 9.2,
+          "magnitude": 1.7,
+          "place": "KALEM-MILAS (MUGLA)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c2a30d20",
+      "source": "KANDILLI",
+      "sourceId": "k-c2a30d20",
+      "time": "2026-09-29T17:13:51+03:00",
+      "latitude": 38.117,
+      "longitude": 36.5998,
+      "depth": 5,
+      "magnitude": 2.4,
+      "place": "KANLIKAVAK-GOKSUN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T17:13:51+03:00",
+          "latitude": 38.117,
+          "longitude": 36.5998,
+          "depth": 5,
+          "magnitude": 2.4,
+          "place": "KANLIKAVAK-GOKSUN (KAHRAMANMARAS)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2a39da8e",
+      "source": "KANDILLI",
+      "sourceId": "k-2a39da8e",
+      "time": "2026-09-29T16:17:07+03:00",
+      "latitude": 38.5827,
+      "longitude": 39.9025,
+      "depth": 3.9,
+      "magnitude": 2.3,
+      "place": "AKYUREK-PALU (ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T16:17:07+03:00",
+          "latitude": 38.5827,
+          "longitude": 39.9025,
+          "depth": 3.9,
+          "magnitude": 2.3,
+          "place": "AKYUREK-PALU (ELAZIG)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-07b4a256",
       "source": "KANDILLI",
