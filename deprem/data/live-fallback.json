@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-09-29T06:48:57.441Z",
+  "generatedAt": "2026-09-29T13:23:23.518Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-8ff8c0cf",
+      "source": "KANDILLI",
+      "sourceId": "k-8ff8c0cf",
+      "time": "2026-09-29T13:29:44+03:00",
+      "latitude": 40.788,
+      "longitude": 29.0853,
+      "depth": 11.8,
+      "magnitude": 1.6,
+      "place": "ADALAR (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T13:29:44+03:00",
+          "latitude": 40.788,
+          "longitude": 29.0853,
+          "depth": 11.8,
+          "magnitude": 1.6,
+          "place": "ADALAR (ISTANBUL)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c923213e",
+      "source": "KANDILLI",
+      "sourceId": "k-c923213e",
+      "time": "2026-09-29T13:17:05+03:00",
+      "latitude": 40.3995,
+      "longitude": 30.005,
+      "depth": 5.2,
+      "magnitude": 1.5,
+      "place": "SELCIK-OSMANELI (BILECIK)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T13:17:05+03:00",
+          "latitude": 40.3995,
+          "longitude": 30.005,
+          "depth": 5.2,
+          "magnitude": 1.5,
+          "place": "SELCIK-OSMANELI (BILECIK)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-141cc106",
       "source": "KANDILLI",

@@ -1,8 +1,413 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-29T06:48:57.435Z",
+  "updatedAt": "2026-09-29T13:23:23.510Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-07b4a256",
+      "source": "KANDILLI",
+      "sourceId": "k-07b4a256",
+      "time": "2026-09-29T14:51:53+03:00",
+      "latitude": 36.8973,
+      "longitude": 27.637,
+      "depth": 11.1,
+      "magnitude": 1.8,
+      "place": "GOKOVA KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T14:51:53+03:00",
+          "latitude": 36.8973,
+          "longitude": 27.637,
+          "depth": 11.1,
+          "magnitude": 1.8,
+          "place": "GOKOVA KORFEZI (EGE DENIZI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ca2417cb",
+      "source": "KANDILLI",
+      "sourceId": "k-ca2417cb",
+      "time": "2026-09-29T14:03:02+03:00",
+      "latitude": 38.8402,
+      "longitude": 29.1257,
+      "depth": 12.4,
+      "magnitude": 1.5,
+      "place": "ZAHMAN-(USAK)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T14:03:02+03:00",
+          "latitude": 38.8402,
+          "longitude": 29.1257,
+          "depth": 12.4,
+          "magnitude": 1.5,
+          "place": "ZAHMAN-(USAK)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8ff8c0cf",
+      "source": "KANDILLI",
+      "sourceId": "k-8ff8c0cf",
+      "time": "2026-09-29T13:29:44+03:00",
+      "latitude": 40.788,
+      "longitude": 29.0853,
+      "depth": 11.8,
+      "magnitude": 1.6,
+      "place": "ADALAR (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T13:29:44+03:00",
+          "latitude": 40.788,
+          "longitude": 29.0853,
+          "depth": 11.8,
+          "magnitude": 1.6,
+          "place": "ADALAR (ISTANBUL)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-89c89b41",
+      "source": "KANDILLI",
+      "sourceId": "k-89c89b41",
+      "time": "2026-09-29T13:23:59+03:00",
+      "latitude": 37.107,
+      "longitude": 28.0043,
+      "depth": 0,
+      "magnitude": 1.5,
+      "place": "KALEM-MILAS (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T13:23:59+03:00",
+          "latitude": 37.107,
+          "longitude": 28.0043,
+          "depth": 0,
+          "magnitude": 1.5,
+          "place": "KALEM-MILAS (MUGLA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c923213e",
+      "source": "KANDILLI",
+      "sourceId": "k-c923213e",
+      "time": "2026-09-29T13:17:05+03:00",
+      "latitude": 40.3995,
+      "longitude": 30.005,
+      "depth": 5.2,
+      "magnitude": 1.5,
+      "place": "SELCIK-OSMANELI (BILECIK)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T13:17:05+03:00",
+          "latitude": 40.3995,
+          "longitude": 30.005,
+          "depth": 5.2,
+          "magnitude": 1.5,
+          "place": "SELCIK-OSMANELI (BILECIK)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-02b9dcc5",
+      "source": "KANDILLI",
+      "sourceId": "k-02b9dcc5",
+      "time": "2026-09-29T13:08:34+03:00",
+      "latitude": 37.0925,
+      "longitude": 28.0025,
+      "depth": 0,
+      "magnitude": 1.5,
+      "place": "KALEM-MILAS (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T13:08:34+03:00",
+          "latitude": 37.0925,
+          "longitude": 28.0025,
+          "depth": 0,
+          "magnitude": 1.5,
+          "place": "KALEM-MILAS (MUGLA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9173944e",
+      "source": "KANDILLI",
+      "sourceId": "k-9173944e",
+      "time": "2026-09-29T12:33:43+03:00",
+      "latitude": 35.6993,
+      "longitude": 33.3218,
+      "depth": 94.4,
+      "magnitude": 1.9,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T12:33:43+03:00",
+          "latitude": 35.6993,
+          "longitude": 33.3218,
+          "depth": 94.4,
+          "magnitude": 1.9,
+          "place": "AKDENIZ",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cda04220",
+      "source": "KANDILLI",
+      "sourceId": "k-cda04220",
+      "time": "2026-09-29T12:17:57+03:00",
+      "latitude": 36.2785,
+      "longitude": 33.7538,
+      "depth": 0,
+      "magnitude": 1.2,
+      "place": "IMAMUSAGI-SILIFKE (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T12:17:57+03:00",
+          "latitude": 36.2785,
+          "longitude": 33.7538,
+          "depth": 0,
+          "magnitude": 1.2,
+          "place": "IMAMUSAGI-SILIFKE (MERSIN)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b7e82eea",
+      "source": "KANDILLI",
+      "sourceId": "k-b7e82eea",
+      "time": "2026-09-29T11:58:02+03:00",
+      "latitude": 37.8448,
+      "longitude": 36.1823,
+      "depth": 5.3,
+      "magnitude": 1.8,
+      "place": "KARAKUYU-SAIMBEYLI (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T11:58:02+03:00",
+          "latitude": 37.8448,
+          "longitude": 36.1823,
+          "depth": 5.3,
+          "magnitude": 1.8,
+          "place": "KARAKUYU-SAIMBEYLI (ADANA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7d495c86",
+      "source": "KANDILLI",
+      "sourceId": "k-7d495c86",
+      "time": "2026-09-29T11:27:16+03:00",
+      "latitude": 39.7198,
+      "longitude": 39.9512,
+      "depth": 12.1,
+      "magnitude": 2.2,
+      "place": "BUYUKYAYLAKOYU-CAYIRLI (ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T11:27:16+03:00",
+          "latitude": 39.7198,
+          "longitude": 39.9512,
+          "depth": 12.1,
+          "magnitude": 2.2,
+          "place": "BUYUKYAYLAKOYU-CAYIRLI (ERZINCAN)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a29aebf1",
+      "source": "KANDILLI",
+      "sourceId": "k-a29aebf1",
+      "time": "2026-09-29T11:11:08+03:00",
+      "latitude": 41.6672,
+      "longitude": 32.4828,
+      "depth": 8.6,
+      "magnitude": 1.8,
+      "place": "GENCALI-(BARTIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T11:11:08+03:00",
+          "latitude": 41.6672,
+          "longitude": 32.4828,
+          "depth": 8.6,
+          "magnitude": 1.8,
+          "place": "GENCALI-(BARTIN)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e876ba61",
+      "source": "KANDILLI",
+      "sourceId": "k-e876ba61",
+      "time": "2026-09-29T11:04:41+03:00",
+      "latitude": 38.1533,
+      "longitude": 36.6225,
+      "depth": 14,
+      "magnitude": 1.7,
+      "place": "YENIYAPAN-GOKSUN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T11:04:41+03:00",
+          "latitude": 38.1533,
+          "longitude": 36.6225,
+          "depth": 14,
+          "magnitude": 1.7,
+          "place": "YENIYAPAN-GOKSUN (KAHRAMANMARAS)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e96e93ff",
+      "source": "KANDILLI",
+      "sourceId": "k-e96e93ff",
+      "time": "2026-09-29T10:10:13+03:00",
+      "latitude": 35.5298,
+      "longitude": 27.414,
+      "depth": 26,
+      "magnitude": 3.6,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T10:10:13+03:00",
+          "latitude": 35.5298,
+          "longitude": 27.414,
+          "depth": 26,
+          "magnitude": 3.6,
+          "place": "AKDENIZ",
+          "ml": 3.6,
+          "mw": 3.6,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-89a867e3",
+      "source": "KANDILLI",
+      "sourceId": "k-89a867e3",
+      "time": "2026-09-29T09:43:22+03:00",
+      "latitude": 37.093,
+      "longitude": 28.006,
+      "depth": 11.4,
+      "magnitude": 2,
+      "place": "KALEM-MILAS (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T09:43:22+03:00",
+          "latitude": 37.093,
+          "longitude": 28.006,
+          "depth": 11.4,
+          "magnitude": 2,
+          "place": "KALEM-MILAS (MUGLA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-032c3bea",
+      "source": "KANDILLI",
+      "sourceId": "k-032c3bea",
+      "time": "2026-09-29T09:39:51+03:00",
+      "latitude": 40.7905,
+      "longitude": 31.5235,
+      "depth": 5.3,
+      "magnitude": 1.2,
+      "place": "KIZILAGIL-(BOLU)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T09:39:51+03:00",
+          "latitude": 40.7905,
+          "longitude": 31.5235,
+          "depth": 5.3,
+          "magnitude": 1.2,
+          "place": "KIZILAGIL-(BOLU)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-96ea1116",
       "source": "KANDILLI",
