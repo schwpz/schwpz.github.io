@@ -1,8 +1,89 @@
 {
-  "generatedAt": "2026-09-29T01:05:41.975Z",
+  "generatedAt": "2026-09-29T06:48:57.475Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-141cc106",
+      "source": "KANDILLI",
+      "sourceId": "k-141cc106",
+      "time": "2026-09-29T08:27:27+03:00",
+      "latitude": 40.4365,
+      "longitude": 27.0165,
+      "depth": 14.7,
+      "magnitude": 1.7,
+      "place": "KEMER-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T08:27:27+03:00",
+          "latitude": 40.4365,
+          "longitude": 27.0165,
+          "depth": 14.7,
+          "magnitude": 1.7,
+          "place": "KEMER-BIGA (CANAKKALE)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e87b955c",
+      "source": "KANDILLI",
+      "sourceId": "k-e87b955c",
+      "time": "2026-09-29T06:43:18+03:00",
+      "latitude": 40.4325,
+      "longitude": 27.0213,
+      "depth": 11.2,
+      "magnitude": 2.4,
+      "place": "KEMER-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T06:43:18+03:00",
+          "latitude": 40.4325,
+          "longitude": 27.0213,
+          "depth": 11.2,
+          "magnitude": 2.4,
+          "place": "KEMER-BIGA (CANAKKALE)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1774ddf9",
+      "source": "KANDILLI",
+      "sourceId": "k-1774ddf9",
+      "time": "2026-09-29T05:52:40+03:00",
+      "latitude": 40.4403,
+      "longitude": 27.0455,
+      "depth": 11.8,
+      "magnitude": 1.7,
+      "place": "KEMER-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-29T05:52:40+03:00",
+          "latitude": 40.4403,
+          "longitude": 27.0455,
+          "depth": 11.8,
+          "magnitude": 1.7,
+          "place": "KEMER-BIGA (CANAKKALE)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f391ec2a",
       "source": "KANDILLI",
