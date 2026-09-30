@@ -1,0 +1,142 @@
+{
+  "month": "2026-10",
+  "updatedAt": "2026-09-30T22:34:16.947Z",
+  "source": "KANDILLI_API_MIRROR",
+  "events": [
+    {
+      "id": "k-c570333e",
+      "source": "KANDILLI",
+      "sourceId": "k-c570333e",
+      "time": "2026-10-01T00:50:20+03:00",
+      "latitude": 38.6667,
+      "longitude": 30.8632,
+      "depth": 3.2,
+      "magnitude": 2.9,
+      "place": "HAMIDIYE-BOLVADIN (AFYONKARAHISAR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T00:50:20+03:00",
+          "latitude": 38.6667,
+          "longitude": 30.8632,
+          "depth": 3.2,
+          "magnitude": 2.9,
+          "place": "HAMIDIYE-BOLVADIN (AFYONKARAHISAR)",
+          "ml": 2.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7513960b",
+      "source": "KANDILLI",
+      "sourceId": "k-7513960b",
+      "time": "2026-10-01T00:46:03+03:00",
+      "latitude": 37.7762,
+      "longitude": 35.8463,
+      "depth": 1.8,
+      "magnitude": 1.9,
+      "place": "KISACIKLI-FEKE (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T00:46:03+03:00",
+          "latitude": 37.7762,
+          "longitude": 35.8463,
+          "depth": 1.8,
+          "magnitude": 1.9,
+          "place": "KISACIKLI-FEKE (ADANA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-99120e00",
+      "source": "KANDILLI",
+      "sourceId": "k-99120e00",
+      "time": "2026-10-01T00:33:23+03:00",
+      "latitude": 38.6565,
+      "longitude": 30.8873,
+      "depth": 7.6,
+      "magnitude": 1.7,
+      "place": "KADIKOY-CAY (AFYONKARAHISAR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T00:33:23+03:00",
+          "latitude": 38.6565,
+          "longitude": 30.8873,
+          "depth": 7.6,
+          "magnitude": 1.7,
+          "place": "KADIKOY-CAY (AFYONKARAHISAR)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2aa1a221",
+      "source": "KANDILLI",
+      "sourceId": "k-2aa1a221",
+      "time": "2026-10-01T00:20:07+03:00",
+      "latitude": 38.6668,
+      "longitude": 30.8775,
+      "depth": 3.9,
+      "magnitude": 3.1,
+      "place": "HAMIDIYE-BOLVADIN (AFYONKARAHISAR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T00:20:07+03:00",
+          "latitude": 38.6668,
+          "longitude": 30.8775,
+          "depth": 3.9,
+          "magnitude": 3.1,
+          "place": "HAMIDIYE-BOLVADIN (AFYONKARAHISAR)",
+          "ml": 3.1,
+          "mw": 3.2,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7a1d37f0",
+      "source": "KANDILLI",
+      "sourceId": "k-7a1d37f0",
+      "time": "2026-10-01T00:15:46+03:00",
+      "latitude": 38.6642,
+      "longitude": 30.8982,
+      "depth": 6.2,
+      "magnitude": 2.6,
+      "place": "KADIKOY-CAY (AFYONKARAHISAR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T00:15:46+03:00",
+          "latitude": 38.6642,
+          "longitude": 30.8982,
+          "depth": 6.2,
+          "magnitude": 2.6,
+          "place": "KADIKOY-CAY (AFYONKARAHISAR)",
+          "ml": 2.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    }
+  ]
+}
