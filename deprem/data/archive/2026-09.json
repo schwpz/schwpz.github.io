@@ -1,8 +1,170 @@
 {
   "month": "2026-09",
-  "updatedAt": "2026-09-30T01:31:31.513Z",
+  "updatedAt": "2026-09-30T07:16:53.060Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-589d889e",
+      "source": "KANDILLI",
+      "sourceId": "k-589d889e",
+      "time": "2026-09-30T07:38:37+03:00",
+      "latitude": 38.7055,
+      "longitude": 43.9755,
+      "depth": 5,
+      "magnitude": 1.9,
+      "place": "ALTINBOGA-OZALP (VAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-30T07:38:37+03:00",
+          "latitude": 38.7055,
+          "longitude": 43.9755,
+          "depth": 5,
+          "magnitude": 1.9,
+          "place": "ALTINBOGA-OZALP (VAN)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-eee144ad",
+      "source": "KANDILLI",
+      "sourceId": "k-eee144ad",
+      "time": "2026-09-30T07:02:23+03:00",
+      "latitude": 39.2187,
+      "longitude": 29.0123,
+      "depth": 14.2,
+      "magnitude": 1,
+      "place": "EGIRLER-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-30T07:02:23+03:00",
+          "latitude": 39.2187,
+          "longitude": 29.0123,
+          "depth": 14.2,
+          "magnitude": 1,
+          "place": "EGIRLER-SIMAV (KUTAHYA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-89a3ed48",
+      "source": "KANDILLI",
+      "sourceId": "k-89a3ed48",
+      "time": "2026-09-30T06:30:53+03:00",
+      "latitude": 38.6628,
+      "longitude": 42.9497,
+      "depth": 5.4,
+      "magnitude": 2.1,
+      "place": "VAN GOLU",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-30T06:30:53+03:00",
+          "latitude": 38.6628,
+          "longitude": 42.9497,
+          "depth": 5.4,
+          "magnitude": 2.1,
+          "place": "VAN GOLU",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-04a94025",
+      "source": "KANDILLI",
+      "sourceId": "k-04a94025",
+      "time": "2026-09-30T04:58:16+03:00",
+      "latitude": 37.1643,
+      "longitude": 28.0395,
+      "depth": 13.8,
+      "magnitude": 1.3,
+      "place": "CAMLICA-YATAGAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-30T04:58:16+03:00",
+          "latitude": 37.1643,
+          "longitude": 28.0395,
+          "depth": 13.8,
+          "magnitude": 1.3,
+          "place": "CAMLICA-YATAGAN (MUGLA)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f90ff98d",
+      "source": "KANDILLI",
+      "sourceId": "k-f90ff98d",
+      "time": "2026-09-30T04:56:41+03:00",
+      "latitude": 37.7355,
+      "longitude": 29.3185,
+      "depth": 1.7,
+      "magnitude": 1.5,
+      "place": "MENTESE-HONAZ (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-30T04:56:41+03:00",
+          "latitude": 37.7355,
+          "longitude": 29.3185,
+          "depth": 1.7,
+          "magnitude": 1.5,
+          "place": "MENTESE-HONAZ (DENIZLI)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-94c96440",
+      "source": "KANDILLI",
+      "sourceId": "k-94c96440",
+      "time": "2026-09-30T04:43:18+03:00",
+      "latitude": 36.7048,
+      "longitude": 25.6992,
+      "depth": 5.3,
+      "magnitude": 2.1,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-30T04:43:18+03:00",
+          "latitude": 36.7048,
+          "longitude": 25.6992,
+          "depth": 5.3,
+          "magnitude": 2.1,
+          "place": "EGE DENIZI",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-1efd3e91",
       "source": "KANDILLI",
