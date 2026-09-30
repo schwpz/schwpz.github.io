@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-29T22:38:05.778Z",
+  "generatedAt": "2026-09-30T01:31:31.545Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-dd534de8",
+      "source": "KANDILLI",
+      "sourceId": "k-dd534de8",
+      "time": "2026-09-30T01:46:24+03:00",
+      "latitude": 40.3033,
+      "longitude": 29.3497,
+      "depth": 5.1,
+      "magnitude": 1.2,
+      "place": "NUSHETIYE-KESTEL (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-30T01:46:24+03:00",
+          "latitude": 40.3033,
+          "longitude": 29.3497,
+          "depth": 5.1,
+          "magnitude": 1.2,
+          "place": "NUSHETIYE-KESTEL (BURSA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c9a1e46c",
       "source": "KANDILLI",
