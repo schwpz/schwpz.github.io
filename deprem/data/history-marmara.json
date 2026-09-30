@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-30T07:16:53.116Z",
+  "generatedAt": "2026-09-30T13:49:20.540Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-2edad214",
+      "source": "KANDILLI",
+      "sourceId": "k-2edad214",
+      "time": "2026-09-30T16:00:42+03:00",
+      "latitude": 40.4028,
+      "longitude": 26.0567,
+      "depth": 8.8,
+      "magnitude": 1.9,
+      "place": "SAROS KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-30T16:00:42+03:00",
+          "latitude": 40.4028,
+          "longitude": 26.0567,
+          "depth": 8.8,
+          "magnitude": 1.9,
+          "place": "SAROS KORFEZI (EGE DENIZI)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-dd534de8",
       "source": "KANDILLI",
