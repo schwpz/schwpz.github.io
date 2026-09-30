@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-09-30T13:49:20.540Z",
+  "generatedAt": "2026-09-30T18:36:27.318Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-b2d7b0c7",
+      "source": "KANDILLI",
+      "sourceId": "k-b2d7b0c7",
+      "time": "2026-09-30T17:55:27+03:00",
+      "latitude": 41.0918,
+      "longitude": 28.949,
+      "depth": 0,
+      "magnitude": 1,
+      "place": "KAGITHANE (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-09-30T17:55:27+03:00",
+          "latitude": 41.0918,
+          "longitude": 28.949,
+          "depth": 0,
+          "magnitude": 1,
+          "place": "KAGITHANE (ISTANBUL)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-2edad214",
       "source": "KANDILLI",
