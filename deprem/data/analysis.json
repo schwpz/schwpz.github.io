@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T01:29:30.991Z",
+  "generatedAt": "2026-10-01T07:35:17.403Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -264,7 +264,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 5,
+        "count": 4,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -278,7 +278,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 5,
+        "count": 4,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -287,7 +287,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 5,
+        "count": 4,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -343,7 +343,7 @@
       },
       "precursorSimilarity": 42,
       "benignSimilarity": 10,
-      "analogueEvidenceQuality": 0.2,
+      "analogueEvidenceQuality": 0.18,
       "analogues": [
         {
           "id": "parkfield-2004",
