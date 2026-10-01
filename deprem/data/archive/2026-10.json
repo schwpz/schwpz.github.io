@@ -1,8 +1,386 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-09-30T22:34:16.947Z",
+  "updatedAt": "2026-10-01T01:29:30.872Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-8aa6fa4d",
+      "source": "KANDILLI",
+      "sourceId": "k-8aa6fa4d",
+      "time": "2026-10-01T03:17:04+03:00",
+      "latitude": 37.973,
+      "longitude": 32.4203,
+      "depth": 5.3,
+      "magnitude": 1.1,
+      "place": "SELCUKLU (KONYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T03:17:04+03:00",
+          "latitude": 37.973,
+          "longitude": 32.4203,
+          "depth": 5.3,
+          "magnitude": 1.1,
+          "place": "SELCUKLU (KONYA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-13019d59",
+      "source": "KANDILLI",
+      "sourceId": "k-13019d59",
+      "time": "2026-10-01T03:07:51+03:00",
+      "latitude": 36.9463,
+      "longitude": 27.4568,
+      "depth": 8.8,
+      "magnitude": 1.3,
+      "place": "GOKOVA KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T03:07:51+03:00",
+          "latitude": 36.9463,
+          "longitude": 27.4568,
+          "depth": 8.8,
+          "magnitude": 1.3,
+          "place": "GOKOVA KORFEZI (EGE DENIZI)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-cd515f11",
+      "source": "KANDILLI",
+      "sourceId": "k-cd515f11",
+      "time": "2026-10-01T02:50:33+03:00",
+      "latitude": 37.9695,
+      "longitude": 30.239,
+      "depth": 16.6,
+      "magnitude": 1.5,
+      "place": "AYDOGMUS-KECIBORLU (ISPARTA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T02:50:33+03:00",
+          "latitude": 37.9695,
+          "longitude": 30.239,
+          "depth": 16.6,
+          "magnitude": 1.5,
+          "place": "AYDOGMUS-KECIBORLU (ISPARTA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9d1a7d34",
+      "source": "KANDILLI",
+      "sourceId": "k-9d1a7d34",
+      "time": "2026-10-01T02:44:42+03:00",
+      "latitude": 39.5272,
+      "longitude": 39.6988,
+      "depth": 3,
+      "magnitude": 1.4,
+      "place": "KALECIK-(ERZINCAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T02:44:42+03:00",
+          "latitude": 39.5272,
+          "longitude": 39.6988,
+          "depth": 3,
+          "magnitude": 1.4,
+          "place": "KALECIK-(ERZINCAN)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-88cc0673",
+      "source": "KANDILLI",
+      "sourceId": "k-88cc0673",
+      "time": "2026-10-01T02:42:43+03:00",
+      "latitude": 36.9527,
+      "longitude": 27.481,
+      "depth": 7.9,
+      "magnitude": 1.6,
+      "place": "GOKOVA KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T02:42:43+03:00",
+          "latitude": 36.9527,
+          "longitude": 27.481,
+          "depth": 7.9,
+          "magnitude": 1.6,
+          "place": "GOKOVA KORFEZI (EGE DENIZI)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-81b14d9f",
+      "source": "KANDILLI",
+      "sourceId": "k-81b14d9f",
+      "time": "2026-10-01T02:42:20+03:00",
+      "latitude": 38.1945,
+      "longitude": 38.5565,
+      "depth": 2,
+      "magnitude": 2.5,
+      "place": "ULUKOY-(MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T02:42:20+03:00",
+          "latitude": 38.1945,
+          "longitude": 38.5565,
+          "depth": 2,
+          "magnitude": 2.5,
+          "place": "ULUKOY-(MALATYA)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6babfb29",
+      "source": "KANDILLI",
+      "sourceId": "k-6babfb29",
+      "time": "2026-10-01T02:28:44+03:00",
+      "latitude": 40.4032,
+      "longitude": 28.9535,
+      "depth": 11.1,
+      "magnitude": 2.8,
+      "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T02:28:44+03:00",
+          "latitude": 40.4032,
+          "longitude": 28.9535,
+          "depth": 11.1,
+          "magnitude": 2.8,
+          "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
+          "ml": 2.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fb49c176",
+      "source": "KANDILLI",
+      "sourceId": "k-fb49c176",
+      "time": "2026-10-01T02:21:34+03:00",
+      "latitude": 36.9693,
+      "longitude": 27.487,
+      "depth": 11.2,
+      "magnitude": 2.3,
+      "place": "GOKOVA KORFEZI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T02:21:34+03:00",
+          "latitude": 36.9693,
+          "longitude": 27.487,
+          "depth": 11.2,
+          "magnitude": 2.3,
+          "place": "GOKOVA KORFEZI (EGE DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-70a2fc90",
+      "source": "KANDILLI",
+      "sourceId": "k-70a2fc90",
+      "time": "2026-10-01T01:54:19+03:00",
+      "latitude": 36.4703,
+      "longitude": 28.7335,
+      "depth": 30.4,
+      "magnitude": 1.5,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T01:54:19+03:00",
+          "latitude": 36.4703,
+          "longitude": 28.7335,
+          "depth": 30.4,
+          "magnitude": 1.5,
+          "place": "AKDENIZ",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3794ed7f",
+      "source": "KANDILLI",
+      "sourceId": "k-3794ed7f",
+      "time": "2026-10-01T01:45:35+03:00",
+      "latitude": 39.5727,
+      "longitude": 29.2628,
+      "depth": 8.3,
+      "magnitude": 1.8,
+      "place": "CAMALAN-TAVSANLI (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T01:45:35+03:00",
+          "latitude": 39.5727,
+          "longitude": 29.2628,
+          "depth": 8.3,
+          "magnitude": 1.8,
+          "place": "CAMALAN-TAVSANLI (KUTAHYA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3e29bda4",
+      "source": "KANDILLI",
+      "sourceId": "k-3e29bda4",
+      "time": "2026-10-01T01:19:34+03:00",
+      "latitude": 38.1572,
+      "longitude": 36.6767,
+      "depth": 13.7,
+      "magnitude": 2.2,
+      "place": "KARAOMER-GOKSUN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T01:19:34+03:00",
+          "latitude": 38.1572,
+          "longitude": 36.6767,
+          "depth": 13.7,
+          "magnitude": 2.2,
+          "place": "KARAOMER-GOKSUN (KAHRAMANMARAS)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c367bcda",
+      "source": "KANDILLI",
+      "sourceId": "k-c367bcda",
+      "time": "2026-10-01T01:17:49+03:00",
+      "latitude": 38.6728,
+      "longitude": 30.8633,
+      "depth": 5.4,
+      "magnitude": 3.2,
+      "place": "HAMIDIYE-BOLVADIN (AFYONKARAHISAR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T01:17:49+03:00",
+          "latitude": 38.6728,
+          "longitude": 30.8633,
+          "depth": 5.4,
+          "magnitude": 3.2,
+          "place": "HAMIDIYE-BOLVADIN (AFYONKARAHISAR)",
+          "ml": 3.2,
+          "mw": 3.2,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a749a46a",
+      "source": "KANDILLI",
+      "sourceId": "k-a749a46a",
+      "time": "2026-10-01T01:07:05+03:00",
+      "latitude": 38.6415,
+      "longitude": 30.8655,
+      "depth": 7,
+      "magnitude": 2.1,
+      "place": "GOZSUZLU-(AFYONKARAHISAR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T01:07:05+03:00",
+          "latitude": 38.6415,
+          "longitude": 30.8655,
+          "depth": 7,
+          "magnitude": 2.1,
+          "place": "GOZSUZLU-(AFYONKARAHISAR)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f03c10ee",
+      "source": "KANDILLI",
+      "sourceId": "k-f03c10ee",
+      "time": "2026-10-01T01:02:57+03:00",
+      "latitude": 38.6462,
+      "longitude": 30.8877,
+      "depth": 5.4,
+      "magnitude": 1.5,
+      "place": "KADIKOY-CAY (AFYONKARAHISAR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T01:02:57+03:00",
+          "latitude": 38.6462,
+          "longitude": 30.8877,
+          "depth": 5.4,
+          "magnitude": 1.5,
+          "place": "KADIKOY-CAY (AFYONKARAHISAR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-c570333e",
       "source": "KANDILLI",
