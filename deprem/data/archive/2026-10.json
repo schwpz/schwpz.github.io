@@ -1,8 +1,62 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-10-01T19:50:54.768Z",
+  "updatedAt": "2026-10-01T23:28:22.284Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-c5778881",
+      "source": "KANDILLI",
+      "sourceId": "k-c5778881",
+      "time": "2026-10-02T00:36:57+03:00",
+      "latitude": 39.3948,
+      "longitude": 40.6325,
+      "depth": 6.3,
+      "magnitude": 3.2,
+      "place": "ELMALI-YEDISU (BINGOL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-02T00:36:57+03:00",
+          "latitude": 39.3948,
+          "longitude": 40.6325,
+          "depth": 6.3,
+          "magnitude": 3.2,
+          "place": "ELMALI-YEDISU (BINGOL)",
+          "ml": 3.2,
+          "mw": 3.4,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9e273fbd",
+      "source": "KANDILLI",
+      "sourceId": "k-9e273fbd",
+      "time": "2026-10-01T22:34:32+03:00",
+      "latitude": 38.875,
+      "longitude": 26.4592,
+      "depth": 8.8,
+      "magnitude": 1.8,
+      "place": "MIDILLI ADASI GUNEYI (EGE DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T22:34:32+03:00",
+          "latitude": 38.875,
+          "longitude": 26.4592,
+          "depth": 8.8,
+          "magnitude": 1.8,
+          "place": "MIDILLI ADASI GUNEYI (EGE DENIZI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-95f8c796",
       "source": "KANDILLI",
@@ -49,6 +103,87 @@
           "magnitude": 2.1,
           "place": "KIZILCAGEDIK-GERMENCIK (AYDIN)",
           "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-025d2737",
+      "source": "KANDILLI",
+      "sourceId": "k-025d2737",
+      "time": "2026-10-01T22:18:38+03:00",
+      "latitude": 36.8745,
+      "longitude": 28.8875,
+      "depth": 9.8,
+      "magnitude": 1.6,
+      "place": "KIZILKAYA-DALAMAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T22:18:38+03:00",
+          "latitude": 36.8745,
+          "longitude": 28.8875,
+          "depth": 9.8,
+          "magnitude": 1.6,
+          "place": "KIZILKAYA-DALAMAN (MUGLA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-810557e8",
+      "source": "KANDILLI",
+      "sourceId": "k-810557e8",
+      "time": "2026-10-01T22:03:46+03:00",
+      "latitude": 37.2757,
+      "longitude": 28.508,
+      "depth": 11.5,
+      "magnitude": 1.6,
+      "place": "OZLUCE-(MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T22:03:46+03:00",
+          "latitude": 37.2757,
+          "longitude": 28.508,
+          "depth": 11.5,
+          "magnitude": 1.6,
+          "place": "OZLUCE-(MUGLA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-04c673e8",
+      "source": "KANDILLI",
+      "sourceId": "k-04c673e8",
+      "time": "2026-10-01T22:01:46+03:00",
+      "latitude": 36.8803,
+      "longitude": 28.898,
+      "depth": 11.5,
+      "magnitude": 1.7,
+      "place": "KIZILKAYA-DALAMAN (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-01T22:01:46+03:00",
+          "latitude": 36.8803,
+          "longitude": 28.898,
+          "depth": 11.5,
+          "magnitude": 1.7,
+          "place": "KIZILKAYA-DALAMAN (MUGLA)",
+          "ml": 1.7,
           "mw": null,
           "md": null
         }
