@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T08:48:19.218Z",
+  "generatedAt": "2026-10-02T15:04:07.842Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -24,7 +24,7 @@
       "name": "Ganos",
       "state": "locked",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 2,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,
@@ -238,7 +238,7 @@
       "name": "Tekirdağ geçişi",
       "state": "transition",
       "events24h": 0,
-      "events7d": 6,
+      "events7d": 5,
       "events30d": 12,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.41,
@@ -1294,7 +1294,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -1308,7 +1308,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -1317,7 +1317,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
