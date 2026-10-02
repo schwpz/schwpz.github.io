@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T19:52:47.964Z",
+  "generatedAt": "2026-10-02T23:18:32.855Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -723,33 +723,6 @@
           "magnitude": 1.2,
           "place": "ORHANGAZI (BURSA)",
           "ml": 1.2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-ca1de2d3",
-      "source": "KANDILLI",
-      "sourceId": "k-ca1de2d3",
-      "time": "2026-09-25T12:28:34+03:00",
-      "latitude": 40.7547,
-      "longitude": 27.174,
-      "depth": 5.4,
-      "magnitude": 1.4,
-      "place": "PALAMUT-SARKOY (TEKIRDAG)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-25T12:28:34+03:00",
-          "latitude": 40.7547,
-          "longitude": 27.174,
-          "depth": 5.4,
-          "magnitude": 1.4,
-          "place": "PALAMUT-SARKOY (TEKIRDAG)",
-          "ml": 1.4,
           "mw": null,
           "md": null
         }
