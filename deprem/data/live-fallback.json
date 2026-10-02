@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-10-02T15:04:07.796Z",
+  "generatedAt": "2026-10-02T19:52:47.964Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-6d43958f",
+      "source": "KANDILLI",
+      "sourceId": "k-6d43958f",
+      "time": "2026-10-02T19:04:01+03:00",
+      "latitude": 40.9252,
+      "longitude": 28.701,
+      "depth": 17.7,
+      "magnitude": 1.4,
+      "place": "AVCILAR ACIKLARI-ISTANBUL (MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-02T19:04:01+03:00",
+          "latitude": 40.9252,
+          "longitude": 28.701,
+          "depth": 17.7,
+          "magnitude": 1.4,
+          "place": "AVCILAR ACIKLARI-ISTANBUL (MARMARA DENIZI",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3a057abd",
+      "source": "KANDILLI",
+      "sourceId": "k-3a057abd",
+      "time": "2026-10-02T17:48:45+03:00",
+      "latitude": 41.0227,
+      "longitude": 29.1828,
+      "depth": 10,
+      "magnitude": 1.2,
+      "place": "CEKMEKOY (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-02T17:48:45+03:00",
+          "latitude": 41.0227,
+          "longitude": 29.1828,
+          "depth": 10,
+          "magnitude": 1.2,
+          "place": "CEKMEKOY (ISTANBUL)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-18e3f57b",
       "source": "KANDILLI",
@@ -696,33 +750,6 @@
           "magnitude": 1.4,
           "place": "PALAMUT-SARKOY (TEKIRDAG)",
           "ml": 1.4,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-fedecded",
-      "source": "KANDILLI",
-      "sourceId": "k-fedecded",
-      "time": "2026-09-25T10:42:00+03:00",
-      "latitude": 40.5187,
-      "longitude": 29.2658,
-      "depth": 0,
-      "magnitude": 1.2,
-      "place": "HAMZALI-ORHANGAZI (BURSA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-25T10:42:00+03:00",
-          "latitude": 40.5187,
-          "longitude": 29.2658,
-          "depth": 0,
-          "magnitude": 1.2,
-          "place": "HAMZALI-ORHANGAZI (BURSA)",
-          "ml": 1.2,
           "mw": null,
           "md": null
         }
