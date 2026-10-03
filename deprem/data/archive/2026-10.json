@@ -1,8 +1,305 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-10-03T07:59:18.824Z",
+  "updatedAt": "2026-10-03T13:07:38.488Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-a7f0a03f",
+      "source": "KANDILLI",
+      "sourceId": "k-a7f0a03f",
+      "time": "2026-10-03T15:18:22+03:00",
+      "latitude": 38.7665,
+      "longitude": 36.579,
+      "depth": 9.3,
+      "magnitude": 2.1,
+      "place": "ESKIYASSIPINAR-PINARBASI (KAYSERI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T15:18:22+03:00",
+          "latitude": 38.7665,
+          "longitude": 36.579,
+          "depth": 9.3,
+          "magnitude": 2.1,
+          "place": "ESKIYASSIPINAR-PINARBASI (KAYSERI)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2eacb1ef",
+      "source": "KANDILLI",
+      "sourceId": "k-2eacb1ef",
+      "time": "2026-10-03T14:53:09+03:00",
+      "latitude": 39.3562,
+      "longitude": 40.6792,
+      "depth": 3.6,
+      "magnitude": 1.9,
+      "place": "DINARBEY-YEDISU (BINGOL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T14:53:09+03:00",
+          "latitude": 39.3562,
+          "longitude": 40.6792,
+          "depth": 3.6,
+          "magnitude": 1.9,
+          "place": "DINARBEY-YEDISU (BINGOL)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-6a3f53b5",
+      "source": "KANDILLI",
+      "sourceId": "k-6a3f53b5",
+      "time": "2026-10-03T14:00:38+03:00",
+      "latitude": 37.809,
+      "longitude": 29.0203,
+      "depth": 10.8,
+      "magnitude": 1.5,
+      "place": "YESILYAYLA-(DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T14:00:38+03:00",
+          "latitude": 37.809,
+          "longitude": 29.0203,
+          "depth": 10.8,
+          "magnitude": 1.5,
+          "place": "YESILYAYLA-(DENIZLI)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-689f07b7",
+      "source": "KANDILLI",
+      "sourceId": "k-689f07b7",
+      "time": "2026-10-03T13:49:06+03:00",
+      "latitude": 37.996,
+      "longitude": 37.1867,
+      "depth": 4.8,
+      "magnitude": 1.5,
+      "place": "CIFTLIKKOY-EKINOZU (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T13:49:06+03:00",
+          "latitude": 37.996,
+          "longitude": 37.1867,
+          "depth": 4.8,
+          "magnitude": 1.5,
+          "place": "CIFTLIKKOY-EKINOZU (KAHRAMANMARAS)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-005b3297",
+      "source": "KANDILLI",
+      "sourceId": "k-005b3297",
+      "time": "2026-10-03T13:03:18+03:00",
+      "latitude": 39.2018,
+      "longitude": 28.0748,
+      "depth": 18.5,
+      "magnitude": 1.5,
+      "place": "KERTIL-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T13:03:18+03:00",
+          "latitude": 39.2018,
+          "longitude": 28.0748,
+          "depth": 18.5,
+          "magnitude": 1.5,
+          "place": "KERTIL-SINDIRGI (BALIKESIR)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8f5b1c37",
+      "source": "KANDILLI",
+      "sourceId": "k-8f5b1c37",
+      "time": "2026-10-03T12:37:58+03:00",
+      "latitude": 39.3303,
+      "longitude": 40.7183,
+      "depth": 10.3,
+      "magnitude": 2.4,
+      "place": "DINARBEY-YEDISU (BINGOL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T12:37:58+03:00",
+          "latitude": 39.3303,
+          "longitude": 40.7183,
+          "depth": 10.3,
+          "magnitude": 2.4,
+          "place": "DINARBEY-YEDISU (BINGOL)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-76cecdd3",
+      "source": "KANDILLI",
+      "sourceId": "k-76cecdd3",
+      "time": "2026-10-03T12:37:02+03:00",
+      "latitude": 35.9062,
+      "longitude": 31.5603,
+      "depth": 9.5,
+      "magnitude": 2.4,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T12:37:02+03:00",
+          "latitude": 35.9062,
+          "longitude": 31.5603,
+          "depth": 9.5,
+          "magnitude": 2.4,
+          "place": "AKDENIZ",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7fee1b8a",
+      "source": "KANDILLI",
+      "sourceId": "k-7fee1b8a",
+      "time": "2026-10-03T12:09:23+03:00",
+      "latitude": 36.2458,
+      "longitude": 33.7785,
+      "depth": 0,
+      "magnitude": 1.1,
+      "place": "AKDERE-SILIFKE (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T12:09:23+03:00",
+          "latitude": 36.2458,
+          "longitude": 33.7785,
+          "depth": 0,
+          "magnitude": 1.1,
+          "place": "AKDERE-SILIFKE (MERSIN)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7d516a86",
+      "source": "KANDILLI",
+      "sourceId": "k-7d516a86",
+      "time": "2026-10-03T12:04:04+03:00",
+      "latitude": 37.895,
+      "longitude": 35.8217,
+      "depth": 5.4,
+      "magnitude": 1.8,
+      "place": "YAYLAPINAR-FEKE (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T12:04:04+03:00",
+          "latitude": 37.895,
+          "longitude": 35.8217,
+          "depth": 5.4,
+          "magnitude": 1.8,
+          "place": "YAYLAPINAR-FEKE (ADANA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-ec9c7f3b",
+      "source": "KANDILLI",
+      "sourceId": "k-ec9c7f3b",
+      "time": "2026-10-03T12:00:22+03:00",
+      "latitude": 38.3115,
+      "longitude": 38.1268,
+      "depth": 0,
+      "magnitude": 1,
+      "place": "KUYULU-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T12:00:22+03:00",
+          "latitude": 38.3115,
+          "longitude": 38.1268,
+          "depth": 0,
+          "magnitude": 1,
+          "place": "KUYULU-YESILYURT (MALATYA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3ecf0421",
+      "source": "KANDILLI",
+      "sourceId": "k-3ecf0421",
+      "time": "2026-10-03T11:12:02+03:00",
+      "latitude": 39.1453,
+      "longitude": 28.271,
+      "depth": 10.3,
+      "magnitude": 1.6,
+      "place": "YUREGIL-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T11:12:02+03:00",
+          "latitude": 39.1453,
+          "longitude": 28.271,
+          "depth": 10.3,
+          "magnitude": 1.6,
+          "place": "YUREGIL-SINDIRGI (BALIKESIR)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-a725fb81",
       "source": "KANDILLI",
