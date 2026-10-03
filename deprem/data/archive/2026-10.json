@@ -1,8 +1,224 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-10-03T02:04:40.871Z",
+  "updatedAt": "2026-10-03T07:59:18.824Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-a725fb81",
+      "source": "KANDILLI",
+      "sourceId": "k-a725fb81",
+      "time": "2026-10-03T09:06:08+03:00",
+      "latitude": 36.9872,
+      "longitude": 29.304,
+      "depth": 2.8,
+      "magnitude": 2.2,
+      "place": "SOFULAR-CAMELI (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T09:06:08+03:00",
+          "latitude": 36.9872,
+          "longitude": 29.304,
+          "depth": 2.8,
+          "magnitude": 2.2,
+          "place": "SOFULAR-CAMELI (DENIZLI)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8febfec6",
+      "source": "KANDILLI",
+      "sourceId": "k-8febfec6",
+      "time": "2026-10-03T08:48:30+03:00",
+      "latitude": 36.9558,
+      "longitude": 29.304,
+      "depth": 3.9,
+      "magnitude": 2.5,
+      "place": "GURSU-CAMELI (DENIZLI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T08:48:30+03:00",
+          "latitude": 36.9558,
+          "longitude": 29.304,
+          "depth": 3.9,
+          "magnitude": 2.5,
+          "place": "GURSU-CAMELI (DENIZLI)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0173a6c5",
+      "source": "KANDILLI",
+      "sourceId": "k-0173a6c5",
+      "time": "2026-10-03T06:19:32+03:00",
+      "latitude": 39.7978,
+      "longitude": 41.3445,
+      "depth": 6.6,
+      "magnitude": 1.4,
+      "place": "GECITKOY-TEKMAN (ERZURUM)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T06:19:32+03:00",
+          "latitude": 39.7978,
+          "longitude": 41.3445,
+          "depth": 6.6,
+          "magnitude": 1.4,
+          "place": "GECITKOY-TEKMAN (ERZURUM)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-9e84d2cd",
+      "source": "KANDILLI",
+      "sourceId": "k-9e84d2cd",
+      "time": "2026-10-03T06:17:47+03:00",
+      "latitude": 38.9843,
+      "longitude": 33.4453,
+      "depth": 6.9,
+      "magnitude": 1.6,
+      "place": "SEREFLIKOCHISAR (ANKARA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T06:17:47+03:00",
+          "latitude": 38.9843,
+          "longitude": 33.4453,
+          "depth": 6.9,
+          "magnitude": 1.6,
+          "place": "SEREFLIKOCHISAR (ANKARA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-a43a42b2",
+      "source": "KANDILLI",
+      "sourceId": "k-a43a42b2",
+      "time": "2026-10-03T05:10:51+03:00",
+      "latitude": 38.3403,
+      "longitude": 37.2655,
+      "depth": 9.2,
+      "magnitude": 1.6,
+      "place": "BUYUKYAPALAK-ELBISTAN (KAHRAMANMARAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T05:10:51+03:00",
+          "latitude": 38.3403,
+          "longitude": 37.2655,
+          "depth": 9.2,
+          "magnitude": 1.6,
+          "place": "BUYUKYAPALAK-ELBISTAN (KAHRAMANMARAS)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f96f4a66",
+      "source": "KANDILLI",
+      "sourceId": "k-f96f4a66",
+      "time": "2026-10-03T05:04:33+03:00",
+      "latitude": 39.9792,
+      "longitude": 40.798,
+      "depth": 3.5,
+      "magnitude": 1.9,
+      "place": "BUYUKGECIT-ASKALE (ERZURUM)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T05:04:33+03:00",
+          "latitude": 39.9792,
+          "longitude": 40.798,
+          "depth": 3.5,
+          "magnitude": 1.9,
+          "place": "BUYUKGECIT-ASKALE (ERZURUM)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-088eca1f",
+      "source": "KANDILLI",
+      "sourceId": "k-088eca1f",
+      "time": "2026-10-03T05:03:47+03:00",
+      "latitude": 39.9165,
+      "longitude": 40.7922,
+      "depth": 2.2,
+      "magnitude": 2.2,
+      "place": "KUCUKGECIT-ASKALE (ERZURUM)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T05:03:47+03:00",
+          "latitude": 39.9165,
+          "longitude": 40.7922,
+          "depth": 2.2,
+          "magnitude": 2.2,
+          "place": "KUCUKGECIT-ASKALE (ERZURUM)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-49a650a2",
+      "source": "KANDILLI",
+      "sourceId": "k-49a650a2",
+      "time": "2026-10-03T05:00:46+03:00",
+      "latitude": 39.2527,
+      "longitude": 28.8025,
+      "depth": 5.7,
+      "magnitude": 2.1,
+      "place": "EFIR-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T05:00:46+03:00",
+          "latitude": 39.2527,
+          "longitude": 28.8025,
+          "depth": 5.7,
+          "magnitude": 2.1,
+          "place": "EFIR-SIMAV (KUTAHYA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-b85ce6ef",
       "source": "KANDILLI",
