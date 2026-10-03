@@ -1,8 +1,35 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-10-03T13:07:38.488Z",
+  "updatedAt": "2026-10-03T17:13:10.861Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-89c3033d",
+      "source": "KANDILLI",
+      "sourceId": "k-89c3033d",
+      "time": "2026-10-03T17:45:44+03:00",
+      "latitude": 36.4843,
+      "longitude": 29.0828,
+      "depth": 11.7,
+      "magnitude": 1.6,
+      "place": "UZUNYURT-FETHIYE (MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T17:45:44+03:00",
+          "latitude": 36.4843,
+          "longitude": 29.0828,
+          "depth": 11.7,
+          "magnitude": 1.6,
+          "place": "UZUNYURT-FETHIYE (MUGLA)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-a7f0a03f",
       "source": "KANDILLI",
