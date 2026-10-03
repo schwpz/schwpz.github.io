@@ -1,8 +1,170 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-10-03T19:50:12.040Z",
+  "updatedAt": "2026-10-03T22:27:39.625Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-f880ed90",
+      "source": "KANDILLI",
+      "sourceId": "k-f880ed90",
+      "time": "2026-10-04T00:46:02+03:00",
+      "latitude": 39.9037,
+      "longitude": 44.0717,
+      "depth": 4.9,
+      "magnitude": 1.1,
+      "place": "ASAGIERHACI-(IGDIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T00:46:02+03:00",
+          "latitude": 39.9037,
+          "longitude": 44.0717,
+          "depth": 4.9,
+          "magnitude": 1.1,
+          "place": "ASAGIERHACI-(IGDIR)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e9d18b53",
+      "source": "KANDILLI",
+      "sourceId": "k-e9d18b53",
+      "time": "2026-10-04T00:44:32+03:00",
+      "latitude": 38.8383,
+      "longitude": 27.4022,
+      "depth": 7.8,
+      "magnitude": 1.8,
+      "place": "DEMIRCI-(MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T00:44:32+03:00",
+          "latitude": 38.8383,
+          "longitude": 27.4022,
+          "depth": 7.8,
+          "magnitude": 1.8,
+          "place": "DEMIRCI-(MANISA)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-72f49f21",
+      "source": "KANDILLI",
+      "sourceId": "k-72f49f21",
+      "time": "2026-10-04T00:39:21+03:00",
+      "latitude": 38.979,
+      "longitude": 37.381,
+      "depth": 7,
+      "magnitude": 2.1,
+      "place": "DURMEPINAR-GURUN (SIVAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T00:39:21+03:00",
+          "latitude": 38.979,
+          "longitude": 37.381,
+          "depth": 7,
+          "magnitude": 2.1,
+          "place": "DURMEPINAR-GURUN (SIVAS)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-39fe6cfa",
+      "source": "KANDILLI",
+      "sourceId": "k-39fe6cfa",
+      "time": "2026-10-03T23:27:51+03:00",
+      "latitude": 38.1018,
+      "longitude": 38.4102,
+      "depth": 1.6,
+      "magnitude": 2.5,
+      "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T23:27:51+03:00",
+          "latitude": 38.1018,
+          "longitude": 38.4102,
+          "depth": 1.6,
+          "magnitude": 2.5,
+          "place": "KARAGOL-CELIKHAN (ADIYAMAN)",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-f075e19e",
+      "source": "KANDILLI",
+      "sourceId": "k-f075e19e",
+      "time": "2026-10-03T21:46:00+03:00",
+      "latitude": 38.7717,
+      "longitude": 37.4528,
+      "depth": 10.1,
+      "magnitude": 1.6,
+      "place": "YUVA-GURUN (SIVAS)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T21:46:00+03:00",
+          "latitude": 38.7717,
+          "longitude": 37.4528,
+          "depth": 10.1,
+          "magnitude": 1.6,
+          "place": "YUVA-GURUN (SIVAS)",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-63e7d4de",
+      "source": "KANDILLI",
+      "sourceId": "k-63e7d4de",
+      "time": "2026-10-03T21:32:45+03:00",
+      "latitude": 38.6195,
+      "longitude": 39.6467,
+      "depth": 5,
+      "magnitude": 2.1,
+      "place": "KONAKALMAZ-(ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T21:32:45+03:00",
+          "latitude": 38.6195,
+          "longitude": 39.6467,
+          "depth": 5,
+          "magnitude": 2.1,
+          "place": "KONAKALMAZ-(ELAZIG)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-57d988fd",
       "source": "KANDILLI",

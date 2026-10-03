@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T19:50:12.125Z",
+  "generatedAt": "2026-10-03T22:27:39.740Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -239,9 +239,9 @@
       "state": "transition",
       "events24h": 0,
       "events7d": 5,
-      "events30d": 11,
+      "events30d": 10,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.38,
+      "baselineDaily": 0.34,
       "rateRatio": 0,
       "baseAttention": 8,
       "advancedSignal": 8.3,
@@ -302,7 +302,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 11,
+          "n": 10,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -310,7 +310,7 @@
         },
         "baseline": {
           "valid": false,
-          "n": 2,
+          "n": 3,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -443,9 +443,9 @@
       "state": "creep",
       "events24h": 0,
       "events7d": 1,
-      "events30d": 5,
+      "events30d": 4,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.17,
+      "baselineDaily": 0.15,
       "rateRatio": 0,
       "baseAttention": 0,
       "advancedSignal": 2.3,
@@ -506,7 +506,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 5,
+          "n": 4,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -514,7 +514,7 @@
         },
         "baseline": {
           "valid": false,
-          "n": 7,
+          "n": 8,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
