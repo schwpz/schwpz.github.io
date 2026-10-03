@@ -1,8 +1,170 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-10-02T23:18:32.805Z",
+  "updatedAt": "2026-10-03T02:04:40.871Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-b85ce6ef",
+      "source": "KANDILLI",
+      "sourceId": "k-b85ce6ef",
+      "time": "2026-10-03T04:57:38+03:00",
+      "latitude": 38.2513,
+      "longitude": 38.0482,
+      "depth": 20.9,
+      "magnitude": 1.1,
+      "place": "CUMHURIYET-YESILYURT (MALATYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T04:57:38+03:00",
+          "latitude": 38.2513,
+          "longitude": 38.0482,
+          "depth": 20.9,
+          "magnitude": 1.1,
+          "place": "CUMHURIYET-YESILYURT (MALATYA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-fa9c56b2",
+      "source": "KANDILLI",
+      "sourceId": "k-fa9c56b2",
+      "time": "2026-10-03T04:53:20+03:00",
+      "latitude": 39.9127,
+      "longitude": 40.7807,
+      "depth": 9,
+      "magnitude": 1.3,
+      "place": "ABDALCIK-ASKALE (ERZURUM)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T04:53:20+03:00",
+          "latitude": 39.9127,
+          "longitude": 40.7807,
+          "depth": 9,
+          "magnitude": 1.3,
+          "place": "ABDALCIK-ASKALE (ERZURUM)",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-b1821b06",
+      "source": "KANDILLI",
+      "sourceId": "k-b1821b06",
+      "time": "2026-10-03T04:44:19+03:00",
+      "latitude": 40.3472,
+      "longitude": 27.0595,
+      "depth": 17.9,
+      "magnitude": 1.7,
+      "place": "OTLUKDERE-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T04:44:19+03:00",
+          "latitude": 40.3472,
+          "longitude": 27.0595,
+          "depth": 17.9,
+          "magnitude": 1.7,
+          "place": "OTLUKDERE-BIGA (CANAKKALE)",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d93bc924",
+      "source": "KANDILLI",
+      "sourceId": "k-d93bc924",
+      "time": "2026-10-03T04:19:36+03:00",
+      "latitude": 37.1892,
+      "longitude": 28.3797,
+      "depth": 5.1,
+      "magnitude": 2.4,
+      "place": "YENIKOY-(MUGLA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T04:19:36+03:00",
+          "latitude": 37.1892,
+          "longitude": 28.3797,
+          "depth": 5.1,
+          "magnitude": 2.4,
+          "place": "YENIKOY-(MUGLA)",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-8b4c781f",
+      "source": "KANDILLI",
+      "sourceId": "k-8b4c781f",
+      "time": "2026-10-03T03:52:41+03:00",
+      "latitude": 38.0377,
+      "longitude": 26.0285,
+      "depth": 11.7,
+      "magnitude": 2.9,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T03:52:41+03:00",
+          "latitude": 38.0377,
+          "longitude": 26.0285,
+          "depth": 11.7,
+          "magnitude": 2.9,
+          "place": "EGE DENIZI",
+          "ml": 2.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-062caf4b",
+      "source": "KANDILLI",
+      "sourceId": "k-062caf4b",
+      "time": "2026-10-03T03:22:09+03:00",
+      "latitude": 38.467,
+      "longitude": 39.2705,
+      "depth": 4.9,
+      "magnitude": 1.5,
+      "place": "ALINCIK-SIVRICE (ELAZIG)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T03:22:09+03:00",
+          "latitude": 38.467,
+          "longitude": 39.2705,
+          "depth": 4.9,
+          "magnitude": 1.5,
+          "place": "ALINCIK-SIVRICE (ELAZIG)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-cd6262f8",
       "source": "KANDILLI",
