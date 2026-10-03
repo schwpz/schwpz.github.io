@@ -1,8 +1,35 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-10-03T17:13:10.861Z",
+  "updatedAt": "2026-10-03T19:50:12.040Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-57d988fd",
+      "source": "KANDILLI",
+      "sourceId": "k-57d988fd",
+      "time": "2026-10-03T20:35:48+03:00",
+      "latitude": 39.2415,
+      "longitude": 28.973,
+      "depth": 14.1,
+      "magnitude": 2.1,
+      "place": "YEMISLI-SIMAV (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-03T20:35:48+03:00",
+          "latitude": 39.2415,
+          "longitude": 28.973,
+          "depth": 14.1,
+          "magnitude": 2.1,
+          "place": "YEMISLI-SIMAV (KUTAHYA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-89c3033d",
       "source": "KANDILLI",
