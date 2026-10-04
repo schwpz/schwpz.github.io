@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-10-04T13:21:35.098Z",
+  "generatedAt": "2026-10-04T17:40:45.550Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-42caddbc",
+      "source": "KANDILLI",
+      "sourceId": "k-42caddbc",
+      "time": "2026-10-04T16:59:41+03:00",
+      "latitude": 40.3522,
+      "longitude": 27.5607,
+      "depth": 8.5,
+      "magnitude": 2.3,
+      "place": "ERDEK KORFEZI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T16:59:41+03:00",
+          "latitude": 40.3522,
+          "longitude": 27.5607,
+          "depth": 8.5,
+          "magnitude": 2.3,
+          "place": "ERDEK KORFEZI (MARMARA DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-dc5339c6",
       "source": "KANDILLI",

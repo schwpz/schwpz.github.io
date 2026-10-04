@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-04T13:21:35.068Z",
+  "generatedAt": "2026-10-04T17:40:45.522Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-42caddbc",
+      "source": "KANDILLI",
+      "sourceId": "k-42caddbc",
+      "time": "2026-10-04T16:59:41+03:00",
+      "latitude": 40.3522,
+      "longitude": 27.5607,
+      "depth": 8.5,
+      "magnitude": 2.3,
+      "place": "ERDEK KORFEZI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T16:59:41+03:00",
+          "latitude": 40.3522,
+          "longitude": 27.5607,
+          "depth": 8.5,
+          "magnitude": 2.3,
+          "place": "ERDEK KORFEZI (MARMARA DENIZI)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-dc5339c6",
       "source": "KANDILLI",
@@ -696,60 +723,6 @@
           "magnitude": 1.8,
           "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
           "ml": 1.8,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-ff018fbe",
-      "source": "KANDILLI",
-      "sourceId": "k-ff018fbe",
-      "time": "2026-09-26T23:55:35+03:00",
-      "latitude": 40.417,
-      "longitude": 26.0797,
-      "depth": 10.3,
-      "magnitude": 1.8,
-      "place": "SAROS KORFEZI (EGE DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-26T23:55:35+03:00",
-          "latitude": 40.417,
-          "longitude": 26.0797,
-          "depth": 10.3,
-          "magnitude": 1.8,
-          "place": "SAROS KORFEZI (EGE DENIZI)",
-          "ml": 1.8,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-58930461",
-      "source": "KANDILLI",
-      "sourceId": "k-58930461",
-      "time": "2026-09-26T22:30:00+03:00",
-      "latitude": 40.4408,
-      "longitude": 26.0802,
-      "depth": 5.1,
-      "magnitude": 1.4,
-      "place": "SAROS KORFEZI (EGE DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-26T22:30:00+03:00",
-          "latitude": 40.4408,
-          "longitude": 26.0802,
-          "depth": 5.1,
-          "magnitude": 1.4,
-          "place": "SAROS KORFEZI (EGE DENIZI)",
-          "ml": 1.4,
           "mw": null,
           "md": null
         }
