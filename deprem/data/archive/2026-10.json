@@ -1,8 +1,143 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-10-04T01:47:51.786Z",
+  "updatedAt": "2026-10-04T07:26:43.507Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-5cadeabe",
+      "source": "KANDILLI",
+      "sourceId": "k-5cadeabe",
+      "time": "2026-10-04T07:18:30+03:00",
+      "latitude": 39.1827,
+      "longitude": 28.0575,
+      "depth": 10.8,
+      "magnitude": 1.4,
+      "place": "SAHINKAYA-SINDIRGI (BALIKESIR)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T07:18:30+03:00",
+          "latitude": 39.1827,
+          "longitude": 28.0575,
+          "depth": 10.8,
+          "magnitude": 1.4,
+          "place": "SAHINKAYA-SINDIRGI (BALIKESIR)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0dd9149f",
+      "source": "KANDILLI",
+      "sourceId": "k-0dd9149f",
+      "time": "2026-10-04T06:58:10+03:00",
+      "latitude": 38.7812,
+      "longitude": 27.1683,
+      "depth": 8,
+      "magnitude": 2,
+      "place": "DUZLEN-(MANISA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T06:58:10+03:00",
+          "latitude": 38.7812,
+          "longitude": 27.1683,
+          "depth": 8,
+          "magnitude": 2,
+          "place": "DUZLEN-(MANISA)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-09adeccd",
+      "source": "KANDILLI",
+      "sourceId": "k-09adeccd",
+      "time": "2026-10-04T05:59:27+03:00",
+      "latitude": 39.8043,
+      "longitude": 42.9972,
+      "depth": 7.7,
+      "magnitude": 1.8,
+      "place": "ZIYARET-(AGRI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T05:59:27+03:00",
+          "latitude": 39.8043,
+          "longitude": 42.9972,
+          "depth": 7.7,
+          "magnitude": 1.8,
+          "place": "ZIYARET-(AGRI)",
+          "ml": 1.8,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-674da733",
+      "source": "KANDILLI",
+      "sourceId": "k-674da733",
+      "time": "2026-10-04T05:45:56+03:00",
+      "latitude": 38.6842,
+      "longitude": 43.2065,
+      "depth": 9.6,
+      "magnitude": 1.1,
+      "place": "MOLLAKASIM-(VAN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T05:45:56+03:00",
+          "latitude": 38.6842,
+          "longitude": 43.2065,
+          "depth": 9.6,
+          "magnitude": 1.1,
+          "place": "MOLLAKASIM-(VAN)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-0f5caa41",
+      "source": "KANDILLI",
+      "sourceId": "k-0f5caa41",
+      "time": "2026-10-04T04:53:22+03:00",
+      "latitude": 35.9782,
+      "longitude": 27.2127,
+      "depth": 5,
+      "magnitude": 2,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T04:53:22+03:00",
+          "latitude": 35.9782,
+          "longitude": 27.2127,
+          "depth": 5,
+          "magnitude": 2,
+          "place": "EGE DENIZI",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-d5b5a268",
       "source": "KANDILLI",

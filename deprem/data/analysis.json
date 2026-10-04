@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T01:47:52.004Z",
+  "generatedAt": "2026-10-04T07:26:43.619Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -1268,7 +1268,7 @@
       "name": "Prens Adaları / doğu MMF",
       "state": "locked",
       "events24h": 0,
-      "events7d": 3,
+      "events7d": 1,
       "events30d": 11,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.38,
@@ -1360,11 +1360,11 @@
         "modelKm": 12,
         "bufferKm": 5,
         "kandilli24h": 0,
-        "kandilli7d": 2,
+        "kandilli7d": 1,
         "within24h": 0,
         "within7d": 1,
         "below24h": 0,
-        "below7d": 1,
+        "below7d": 0,
         "medianDepth24h": null,
         "closest": {
           "eventId": "k-cb235033",
