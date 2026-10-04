@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T17:40:45.556Z",
+  "generatedAt": "2026-10-04T20:26:50.359Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -1479,5 +1479,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 294
+  "historyEvents": 295
 }

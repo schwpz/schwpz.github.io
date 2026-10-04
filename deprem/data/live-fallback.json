@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-04T17:40:45.522Z",
+  "generatedAt": "2026-10-04T20:26:50.303Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-06e71084",
+      "source": "KANDILLI",
+      "sourceId": "k-06e71084",
+      "time": "2026-10-04T22:51:15+03:00",
+      "latitude": 40.4075,
+      "longitude": 28.383,
+      "depth": 13.3,
+      "magnitude": 2.1,
+      "place": "BAYRAMDERE-KARACABEY (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-04T22:51:15+03:00",
+          "latitude": 40.4075,
+          "longitude": 28.383,
+          "depth": 13.3,
+          "magnitude": 2.1,
+          "place": "BAYRAMDERE-KARACABEY (BURSA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-42caddbc",
       "source": "KANDILLI",
@@ -669,60 +696,6 @@
           "magnitude": 2.3,
           "place": "MARMARA DENIZI",
           "ml": 2.3,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-e34f9bcc",
-      "source": "KANDILLI",
-      "sourceId": "k-e34f9bcc",
-      "time": "2026-09-27T06:12:02+03:00",
-      "latitude": 40.7123,
-      "longitude": 29.2488,
-      "depth": 12.2,
-      "magnitude": 1.4,
-      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-27T06:12:02+03:00",
-          "latitude": 40.7123,
-          "longitude": 29.2488,
-          "depth": 12.2,
-          "magnitude": 1.4,
-          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "ml": 1.4,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-44203d20",
-      "source": "KANDILLI",
-      "sourceId": "k-44203d20",
-      "time": "2026-09-27T05:58:12+03:00",
-      "latitude": 40.706,
-      "longitude": 29.2347,
-      "depth": 12.7,
-      "magnitude": 1.8,
-      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-27T05:58:12+03:00",
-          "latitude": 40.706,
-          "longitude": 29.2347,
-          "depth": 12.7,
-          "magnitude": 1.8,
-          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
-          "ml": 1.8,
           "mw": null,
           "md": null
         }
