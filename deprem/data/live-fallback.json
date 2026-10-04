@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T20:26:50.303Z",
+  "generatedAt": "2026-10-04T23:22:53.285Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -668,33 +668,6 @@
           "depth": 11.4,
           "magnitude": 2.3,
           "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
-          "ml": 2.3,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-e650b308",
-      "source": "KANDILLI",
-      "sourceId": "k-e650b308",
-      "time": "2026-09-27T23:48:59+03:00",
-      "latitude": 40.7508,
-      "longitude": 28.1418,
-      "depth": 11.1,
-      "magnitude": 2.3,
-      "place": "MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-27T23:48:59+03:00",
-          "latitude": 40.7508,
-          "longitude": 28.1418,
-          "depth": 11.1,
-          "magnitude": 2.3,
-          "place": "MARMARA DENIZI",
           "ml": 2.3,
           "mw": null,
           "md": null
