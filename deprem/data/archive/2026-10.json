@@ -1,8 +1,116 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-10-04T23:22:53.210Z",
+  "updatedAt": "2026-10-05T02:07:57.566Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-a76e4fce",
+      "source": "KANDILLI",
+      "sourceId": "k-a76e4fce",
+      "time": "2026-10-05T04:20:51+03:00",
+      "latitude": 36.1925,
+      "longitude": 36.0562,
+      "depth": 4.3,
+      "magnitude": 2.2,
+      "place": "AVCILAR-SAMANDAG (HATAY)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-05T04:20:51+03:00",
+          "latitude": 36.1925,
+          "longitude": 36.0562,
+          "depth": 4.3,
+          "magnitude": 2.2,
+          "place": "AVCILAR-SAMANDAG (HATAY)",
+          "ml": 2.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1414c88c",
+      "source": "KANDILLI",
+      "sourceId": "k-1414c88c",
+      "time": "2026-10-05T02:44:49+03:00",
+      "latitude": 37.781,
+      "longitude": 36.0808,
+      "depth": 5,
+      "magnitude": 2.1,
+      "place": "AKOLUK-FEKE (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-05T02:44:49+03:00",
+          "latitude": 37.781,
+          "longitude": 36.0808,
+          "depth": 5,
+          "magnitude": 2.1,
+          "place": "AKOLUK-FEKE (ADANA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e3a44c1e",
+      "source": "KANDILLI",
+      "sourceId": "k-e3a44c1e",
+      "time": "2026-10-05T02:30:05+03:00",
+      "latitude": 35.9608,
+      "longitude": 27.2513,
+      "depth": 6.7,
+      "magnitude": 2.4,
+      "place": "EGE DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-05T02:30:05+03:00",
+          "latitude": 35.9608,
+          "longitude": 27.2513,
+          "depth": 6.7,
+          "magnitude": 2.4,
+          "place": "EGE DENIZI",
+          "ml": 2.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7bece655",
+      "source": "KANDILLI",
+      "sourceId": "k-7bece655",
+      "time": "2026-10-05T02:18:40+03:00",
+      "latitude": 36.3208,
+      "longitude": 34.0257,
+      "depth": 6.6,
+      "magnitude": 1.5,
+      "place": "KURTULUS-SILIFKE (MERSIN)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-05T02:18:40+03:00",
+          "latitude": 36.3208,
+          "longitude": 34.0257,
+          "depth": 6.6,
+          "magnitude": 1.5,
+          "place": "KURTULUS-SILIFKE (MERSIN)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-ee99f241",
       "source": "KANDILLI",
