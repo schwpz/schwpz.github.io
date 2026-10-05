@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-10-04T23:22:53.285Z",
+  "generatedAt": "2026-10-05T08:54:13.100Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-f8eb3c5c",
+      "source": "KANDILLI",
+      "sourceId": "k-f8eb3c5c",
+      "time": "2026-10-05T11:18:25+03:00",
+      "latitude": 40.7323,
+      "longitude": 27.4298,
+      "depth": 14.8,
+      "magnitude": 3.1,
+      "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-05T11:18:25+03:00",
+          "latitude": 40.7323,
+          "longitude": 27.4298,
+          "depth": 14.8,
+          "magnitude": 3.1,
+          "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
+          "ml": 3.1,
+          "mw": 3,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-78821157",
+      "source": "KANDILLI",
+      "sourceId": "k-78821157",
+      "time": "2026-10-05T10:20:44+03:00",
+      "latitude": 40.3313,
+      "longitude": 27.4213,
+      "depth": 4.7,
+      "magnitude": 2,
+      "place": "BOZLAR-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-05T10:20:44+03:00",
+          "latitude": 40.3313,
+          "longitude": 27.4213,
+          "depth": 4.7,
+          "magnitude": 2,
+          "place": "BOZLAR-BIGA (CANAKKALE)",
+          "ml": 2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-06e71084",
       "source": "KANDILLI",
@@ -639,33 +693,6 @@
           "latitude": 40.7338,
           "longitude": 27.5015,
           "depth": 10.9,
-          "magnitude": 2.3,
-          "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
-          "ml": 2.3,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-13c8eb7d",
-      "source": "KANDILLI",
-      "sourceId": "k-13c8eb7d",
-      "time": "2026-09-28T09:00:42+03:00",
-      "latitude": 40.7325,
-      "longitude": 27.5027,
-      "depth": 11.4,
-      "magnitude": 2.3,
-      "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-28T09:00:42+03:00",
-          "latitude": 40.7325,
-          "longitude": 27.5027,
-          "depth": 11.4,
           "magnitude": 2.3,
           "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
           "ml": 2.3,
