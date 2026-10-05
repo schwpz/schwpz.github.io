@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T17:31:53.424Z",
+  "generatedAt": "2026-10-05T23:19:34.836Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -561,33 +561,6 @@
           "magnitude": 1.7,
           "place": "KEMER-BIGA (CANAKKALE)",
           "ml": 1.7,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-f391ec2a",
-      "source": "KANDILLI",
-      "sourceId": "k-f391ec2a",
-      "time": "2026-09-29T03:53:11+03:00",
-      "latitude": 40.4145,
-      "longitude": 28.8678,
-      "depth": 5.1,
-      "magnitude": 1.8,
-      "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-29T03:53:11+03:00",
-          "latitude": 40.4145,
-          "longitude": 28.8678,
-          "depth": 5.1,
-          "magnitude": 1.8,
-          "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-          "ml": 1.8,
           "mw": null,
           "md": null
         }
