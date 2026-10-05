@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:54:13.145Z",
+  "generatedAt": "2026-10-05T17:31:53.452Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -238,7 +238,7 @@
       "name": "Tekirdağ geçişi",
       "state": "transition",
       "events24h": 1,
-      "events7d": 5,
+      "events7d": 3,
       "events30d": 12,
       "maxMagnitude24h": 3.1,
       "baselineDaily": 0.38,
@@ -876,7 +876,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -890,7 +890,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -899,7 +899,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -1090,7 +1090,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -1104,7 +1104,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -1113,7 +1113,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
