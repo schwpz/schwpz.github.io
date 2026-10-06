@@ -1,8 +1,170 @@
 {
   "month": "2026-10",
-  "updatedAt": "2026-10-05T23:19:34.644Z",
+  "updatedAt": "2026-10-06T03:06:45.999Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-50c00135",
+      "source": "KANDILLI",
+      "sourceId": "k-50c00135",
+      "time": "2026-10-06T02:53:35+03:00",
+      "latitude": 37.7295,
+      "longitude": 36.035,
+      "depth": 5,
+      "magnitude": 1.9,
+      "place": "INCIRCI-FEKE (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-06T02:53:35+03:00",
+          "latitude": 37.7295,
+          "longitude": 36.035,
+          "depth": 5,
+          "magnitude": 1.9,
+          "place": "INCIRCI-FEKE (ADANA)",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-3aca3a3f",
+      "source": "KANDILLI",
+      "sourceId": "k-3aca3a3f",
+      "time": "2026-10-06T02:40:23+03:00",
+      "latitude": 37.7522,
+      "longitude": 36.0965,
+      "depth": 5.2,
+      "magnitude": 1.4,
+      "place": "AKOLUK-FEKE (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-06T02:40:23+03:00",
+          "latitude": 37.7522,
+          "longitude": 36.0965,
+          "depth": 5.2,
+          "magnitude": 1.4,
+          "place": "AKOLUK-FEKE (ADANA)",
+          "ml": 1.4,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-1e86763f",
+      "source": "KANDILLI",
+      "sourceId": "k-1e86763f",
+      "time": "2026-10-06T02:39:43+03:00",
+      "latitude": 36.0535,
+      "longitude": 28.9102,
+      "depth": 22,
+      "magnitude": 1.6,
+      "place": "AKDENIZ",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-06T02:39:43+03:00",
+          "latitude": 36.0535,
+          "longitude": 28.9102,
+          "depth": 22,
+          "magnitude": 1.6,
+          "place": "AKDENIZ",
+          "ml": 1.6,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-55619ab2",
+      "source": "KANDILLI",
+      "sourceId": "k-55619ab2",
+      "time": "2026-10-06T02:01:00+03:00",
+      "latitude": 39.233,
+      "longitude": 29.075,
+      "depth": 2.3,
+      "magnitude": 1,
+      "place": "KATRANDAGI-EMET (KUTAHYA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-06T02:01:00+03:00",
+          "latitude": 39.233,
+          "longitude": 29.075,
+          "depth": 2.3,
+          "magnitude": 1,
+          "place": "KATRANDAGI-EMET (KUTAHYA)",
+          "ml": 1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-7b6ff8c5",
+      "source": "KANDILLI",
+      "sourceId": "k-7b6ff8c5",
+      "time": "2026-10-06T01:48:01+03:00",
+      "latitude": 37.6908,
+      "longitude": 36.1277,
+      "depth": 21.2,
+      "magnitude": 0.9,
+      "place": "ESENLI-SUMBAS (OSMANIYE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-06T01:48:01+03:00",
+          "latitude": 37.6908,
+          "longitude": 36.1277,
+          "depth": 21.2,
+          "magnitude": 0.9,
+          "place": "ESENLI-SUMBAS (OSMANIYE)",
+          "ml": 0.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-c852b0e7",
+      "source": "KANDILLI",
+      "sourceId": "k-c852b0e7",
+      "time": "2026-10-06T01:24:56+03:00",
+      "latitude": 37.7282,
+      "longitude": 36.0198,
+      "depth": 6.1,
+      "magnitude": 1.2,
+      "place": "INCIRCI-FEKE (ADANA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-06T01:24:56+03:00",
+          "latitude": 37.7282,
+          "longitude": 36.0198,
+          "depth": 6.1,
+          "magnitude": 1.2,
+          "place": "INCIRCI-FEKE (ADANA)",
+          "ml": 1.2,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-b9028cbf",
       "source": "KANDILLI",
