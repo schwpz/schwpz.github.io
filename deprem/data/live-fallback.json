@@ -1,7 +1,196 @@
 {
-  "generatedAt": "2026-10-05T23:19:34.836Z",
+  "generatedAt": "2026-10-08T02:58:41.574Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-fd2130bc",
+      "source": "KANDILLI",
+      "sourceId": "k-fd2130bc",
+      "time": "2026-10-08T02:38:12+03:00",
+      "latitude": 40.4535,
+      "longitude": 29.1977,
+      "depth": 5.5,
+      "magnitude": 1.1,
+      "place": "CIHATLI-GEMLIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-08T02:38:12+03:00",
+          "latitude": 40.4535,
+          "longitude": 29.1977,
+          "depth": 5.5,
+          "magnitude": 1.1,
+          "place": "CIHATLI-GEMLIK (BURSA)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2b666c09",
+      "source": "KANDILLI",
+      "sourceId": "k-2b666c09",
+      "time": "2026-10-07T23:38:26+03:00",
+      "latitude": 40.6548,
+      "longitude": 27.5348,
+      "depth": 7.3,
+      "magnitude": 1.3,
+      "place": "MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-07T23:38:26+03:00",
+          "latitude": 40.6548,
+          "longitude": 27.5348,
+          "depth": 7.3,
+          "magnitude": 1.3,
+          "place": "MARMARA DENIZI",
+          "ml": 1.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-2280e24e",
+      "source": "KANDILLI",
+      "sourceId": "k-2280e24e",
+      "time": "2026-10-07T17:42:10+03:00",
+      "latitude": 41.124,
+      "longitude": 28.9782,
+      "depth": 0,
+      "magnitude": 1.1,
+      "place": "KAGITHANE (ISTANBUL)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-07T17:42:10+03:00",
+          "latitude": 41.124,
+          "longitude": 28.9782,
+          "depth": 0,
+          "magnitude": 1.1,
+          "place": "KAGITHANE (ISTANBUL)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-591c493e",
+      "source": "KANDILLI",
+      "sourceId": "k-591c493e",
+      "time": "2026-10-07T08:46:02+03:00",
+      "latitude": 40.485,
+      "longitude": 29.1752,
+      "depth": 0,
+      "magnitude": 2.1,
+      "place": "SAHINYURDU-GEMLIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-07T08:46:02+03:00",
+          "latitude": 40.485,
+          "longitude": 29.1752,
+          "depth": 0,
+          "magnitude": 2.1,
+          "place": "SAHINYURDU-GEMLIK (BURSA)",
+          "ml": 2.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-78f69a39",
+      "source": "KANDILLI",
+      "sourceId": "k-78f69a39",
+      "time": "2026-10-07T02:35:21+03:00",
+      "latitude": 40.4807,
+      "longitude": 29.191,
+      "depth": 5.2,
+      "magnitude": 1.5,
+      "place": "SAHINYURDU-GEMLIK (BURSA)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-07T02:35:21+03:00",
+          "latitude": 40.4807,
+          "longitude": 29.191,
+          "depth": 5.2,
+          "magnitude": 1.5,
+          "place": "SAHINYURDU-GEMLIK (BURSA)",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-83b7f291",
+      "source": "KANDILLI",
+      "sourceId": "k-83b7f291",
+      "time": "2026-10-06T19:42:16+03:00",
+      "latitude": 40.6288,
+      "longitude": 27.3355,
+      "depth": 10,
+      "magnitude": 1.5,
+      "place": "MUREFTE ACIKLARI-TEKIRDAG (MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-06T19:42:16+03:00",
+          "latitude": 40.6288,
+          "longitude": 27.3355,
+          "depth": 10,
+          "magnitude": 1.5,
+          "place": "MUREFTE ACIKLARI-TEKIRDAG (MARMARA DENIZI",
+          "ml": 1.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-e9996f4d",
+      "source": "KANDILLI",
+      "sourceId": "k-e9996f4d",
+      "time": "2026-10-06T14:34:35+03:00",
+      "latitude": 40.7995,
+      "longitude": 27.835,
+      "depth": 7.6,
+      "magnitude": 1.7,
+      "place": "MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-06T14:34:35+03:00",
+          "latitude": 40.7995,
+          "longitude": 27.835,
+          "depth": 7.6,
+          "magnitude": 1.7,
+          "place": "MARMARA DENIZI",
+          "ml": 1.7,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-f8eb3c5c",
       "source": "KANDILLI",
@@ -291,276 +480,6 @@
           "magnitude": 1.3,
           "place": "AHMETBEY-OSMANGAZI (BURSA)",
           "ml": 1.3,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-6babfb29",
-      "source": "KANDILLI",
-      "sourceId": "k-6babfb29",
-      "time": "2026-10-01T02:28:44+03:00",
-      "latitude": 40.4032,
-      "longitude": 28.9535,
-      "depth": 11.1,
-      "magnitude": 2.8,
-      "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-10-01T02:28:44+03:00",
-          "latitude": 40.4032,
-          "longitude": 28.9535,
-          "depth": 11.1,
-          "magnitude": 2.8,
-          "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-          "ml": 2.8,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-b2d7b0c7",
-      "source": "KANDILLI",
-      "sourceId": "k-b2d7b0c7",
-      "time": "2026-09-30T17:55:27+03:00",
-      "latitude": 41.0918,
-      "longitude": 28.949,
-      "depth": 0,
-      "magnitude": 1,
-      "place": "KAGITHANE (ISTANBUL)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-30T17:55:27+03:00",
-          "latitude": 41.0918,
-          "longitude": 28.949,
-          "depth": 0,
-          "magnitude": 1,
-          "place": "KAGITHANE (ISTANBUL)",
-          "ml": 1,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-2edad214",
-      "source": "KANDILLI",
-      "sourceId": "k-2edad214",
-      "time": "2026-09-30T16:00:42+03:00",
-      "latitude": 40.4028,
-      "longitude": 26.0567,
-      "depth": 8.8,
-      "magnitude": 1.9,
-      "place": "SAROS KORFEZI (EGE DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-30T16:00:42+03:00",
-          "latitude": 40.4028,
-          "longitude": 26.0567,
-          "depth": 8.8,
-          "magnitude": 1.9,
-          "place": "SAROS KORFEZI (EGE DENIZI)",
-          "ml": 1.9,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-dd534de8",
-      "source": "KANDILLI",
-      "sourceId": "k-dd534de8",
-      "time": "2026-09-30T01:46:24+03:00",
-      "latitude": 40.3033,
-      "longitude": 29.3497,
-      "depth": 5.1,
-      "magnitude": 1.2,
-      "place": "NUSHETIYE-KESTEL (BURSA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-30T01:46:24+03:00",
-          "latitude": 40.3033,
-          "longitude": 29.3497,
-          "depth": 5.1,
-          "magnitude": 1.2,
-          "place": "NUSHETIYE-KESTEL (BURSA)",
-          "ml": 1.2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-c9a1e46c",
-      "source": "KANDILLI",
-      "sourceId": "k-c9a1e46c",
-      "time": "2026-09-29T19:35:41+03:00",
-      "latitude": 40.7293,
-      "longitude": 27.4882,
-      "depth": 10.3,
-      "magnitude": 1.8,
-      "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-29T19:35:41+03:00",
-          "latitude": 40.7293,
-          "longitude": 27.4882,
-          "depth": 10.3,
-          "magnitude": 1.8,
-          "place": "GUZELKOY ACIKLARI-TEKIRDAG (MARMARA DENIZ",
-          "ml": 1.8,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-8ff8c0cf",
-      "source": "KANDILLI",
-      "sourceId": "k-8ff8c0cf",
-      "time": "2026-09-29T13:29:44+03:00",
-      "latitude": 40.788,
-      "longitude": 29.0853,
-      "depth": 11.8,
-      "magnitude": 1.6,
-      "place": "ADALAR (ISTANBUL)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-29T13:29:44+03:00",
-          "latitude": 40.788,
-          "longitude": 29.0853,
-          "depth": 11.8,
-          "magnitude": 1.6,
-          "place": "ADALAR (ISTANBUL)",
-          "ml": 1.6,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-c923213e",
-      "source": "KANDILLI",
-      "sourceId": "k-c923213e",
-      "time": "2026-09-29T13:17:05+03:00",
-      "latitude": 40.3995,
-      "longitude": 30.005,
-      "depth": 5.2,
-      "magnitude": 1.5,
-      "place": "SELCIK-OSMANELI (BILECIK)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-29T13:17:05+03:00",
-          "latitude": 40.3995,
-          "longitude": 30.005,
-          "depth": 5.2,
-          "magnitude": 1.5,
-          "place": "SELCIK-OSMANELI (BILECIK)",
-          "ml": 1.5,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-141cc106",
-      "source": "KANDILLI",
-      "sourceId": "k-141cc106",
-      "time": "2026-09-29T08:27:27+03:00",
-      "latitude": 40.4365,
-      "longitude": 27.0165,
-      "depth": 14.7,
-      "magnitude": 1.7,
-      "place": "KEMER-BIGA (CANAKKALE)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-29T08:27:27+03:00",
-          "latitude": 40.4365,
-          "longitude": 27.0165,
-          "depth": 14.7,
-          "magnitude": 1.7,
-          "place": "KEMER-BIGA (CANAKKALE)",
-          "ml": 1.7,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-e87b955c",
-      "source": "KANDILLI",
-      "sourceId": "k-e87b955c",
-      "time": "2026-09-29T06:43:18+03:00",
-      "latitude": 40.4325,
-      "longitude": 27.0213,
-      "depth": 11.2,
-      "magnitude": 2.4,
-      "place": "KEMER-BIGA (CANAKKALE)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-29T06:43:18+03:00",
-          "latitude": 40.4325,
-          "longitude": 27.0213,
-          "depth": 11.2,
-          "magnitude": 2.4,
-          "place": "KEMER-BIGA (CANAKKALE)",
-          "ml": 2.4,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-1774ddf9",
-      "source": "KANDILLI",
-      "sourceId": "k-1774ddf9",
-      "time": "2026-09-29T05:52:40+03:00",
-      "latitude": 40.4403,
-      "longitude": 27.0455,
-      "depth": 11.8,
-      "magnitude": 1.7,
-      "place": "KEMER-BIGA (CANAKKALE)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-09-29T05:52:40+03:00",
-          "latitude": 40.4403,
-          "longitude": 27.0455,
-          "depth": 11.8,
-          "magnitude": 1.7,
-          "place": "KEMER-BIGA (CANAKKALE)",
-          "ml": 1.7,
           "mw": null,
           "md": null
         }
