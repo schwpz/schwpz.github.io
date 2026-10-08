@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-08T02:58:41.574Z",
+  "generatedAt": "2026-10-08T10:06:52.612Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-b681f8f9",
+      "source": "KANDILLI",
+      "sourceId": "k-b681f8f9",
+      "time": "2026-10-08T06:19:08+03:00",
+      "latitude": 40.6573,
+      "longitude": 27.5392,
+      "depth": 5.1,
+      "magnitude": 1.9,
+      "place": "MARMARA DENIZI",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-08T06:19:08+03:00",
+          "latitude": 40.6573,
+          "longitude": 27.5392,
+          "depth": 5.1,
+          "magnitude": 1.9,
+          "place": "MARMARA DENIZI",
+          "ml": 1.9,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-fd2130bc",
       "source": "KANDILLI",
@@ -453,33 +480,6 @@
           "magnitude": 1.8,
           "place": "SEVKETIYE-LAPSEKI (CANAKKALE)",
           "ml": 1.8,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-15542fd0",
-      "source": "KANDILLI",
-      "sourceId": "k-15542fd0",
-      "time": "2026-10-02T01:45:58+03:00",
-      "latitude": 40.2715,
-      "longitude": 29.0082,
-      "depth": 14.2,
-      "magnitude": 1.3,
-      "place": "AHMETBEY-OSMANGAZI (BURSA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-10-02T01:45:58+03:00",
-          "latitude": 40.2715,
-          "longitude": 29.0082,
-          "depth": 14.2,
-          "magnitude": 1.3,
-          "place": "AHMETBEY-OSMANGAZI (BURSA)",
-          "ml": 1.3,
           "mw": null,
           "md": null
         }
