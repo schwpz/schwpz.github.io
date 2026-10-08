@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-10-08T10:06:52.653Z",
+  "generatedAt": "2026-10-08T22:12:50.348Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-adfb4dcf",
+      "source": "KANDILLI",
+      "sourceId": "k-adfb4dcf",
+      "time": "2026-10-08T19:30:46+03:00",
+      "latitude": 40.3888,
+      "longitude": 27.0693,
+      "depth": 12.6,
+      "magnitude": 2.3,
+      "place": "BEKIRLI-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-08T19:30:46+03:00",
+          "latitude": 40.3888,
+          "longitude": 27.0693,
+          "depth": 12.6,
+          "magnitude": 2.3,
+          "place": "BEKIRLI-BIGA (CANAKKALE)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-b681f8f9",
       "source": "KANDILLI",

@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-08T10:06:52.612Z",
+  "generatedAt": "2026-10-08T22:12:50.258Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-adfb4dcf",
+      "source": "KANDILLI",
+      "sourceId": "k-adfb4dcf",
+      "time": "2026-10-08T19:30:46+03:00",
+      "latitude": 40.3888,
+      "longitude": 27.0693,
+      "depth": 12.6,
+      "magnitude": 2.3,
+      "place": "BEKIRLI-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-08T19:30:46+03:00",
+          "latitude": 40.3888,
+          "longitude": 27.0693,
+          "depth": 12.6,
+          "magnitude": 2.3,
+          "place": "BEKIRLI-BIGA (CANAKKALE)",
+          "ml": 2.3,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-b681f8f9",
       "source": "KANDILLI",
@@ -426,60 +453,6 @@
           "magnitude": 1.2,
           "place": "CEKMEKOY (ISTANBUL)",
           "ml": 1.2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-18e3f57b",
-      "source": "KANDILLI",
-      "sourceId": "k-18e3f57b",
-      "time": "2026-10-02T08:43:51+03:00",
-      "latitude": 40.4147,
-      "longitude": 28.8788,
-      "depth": 3.7,
-      "magnitude": 1.6,
-      "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-10-02T08:43:51+03:00",
-          "latitude": 40.4147,
-          "longitude": 28.8788,
-          "depth": 3.7,
-          "magnitude": 1.6,
-          "place": "GEMLIK KORFEZI (MARMARA DENIZI)",
-          "ml": 1.6,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-3ca462b8",
-      "source": "KANDILLI",
-      "sourceId": "k-3ca462b8",
-      "time": "2026-10-02T04:39:27+03:00",
-      "latitude": 40.3863,
-      "longitude": 26.8938,
-      "depth": 18.5,
-      "magnitude": 1.8,
-      "place": "SEVKETIYE-LAPSEKI (CANAKKALE)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-10-02T04:39:27+03:00",
-          "latitude": 40.3863,
-          "longitude": 26.8938,
-          "depth": 18.5,
-          "magnitude": 1.8,
-          "place": "SEVKETIYE-LAPSEKI (CANAKKALE)",
-          "ml": 1.8,
           "mw": null,
           "md": null
         }
