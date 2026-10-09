@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T02:09:06.441Z",
+  "generatedAt": "2026-10-09T08:57:10.168Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -399,33 +399,6 @@
           "magnitude": 1.7,
           "place": "OTLUKDERE-BIGA (CANAKKALE)",
           "ml": 1.7,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-6d43958f",
-      "source": "KANDILLI",
-      "sourceId": "k-6d43958f",
-      "time": "2026-10-02T19:04:01+03:00",
-      "latitude": 40.9252,
-      "longitude": 28.701,
-      "depth": 17.7,
-      "magnitude": 1.4,
-      "place": "AVCILAR ACIKLARI-ISTANBUL (MARMARA DENIZI",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-10-02T19:04:01+03:00",
-          "latitude": 40.9252,
-          "longitude": 28.701,
-          "depth": 17.7,
-          "magnitude": 1.4,
-          "place": "AVCILAR ACIKLARI-ISTANBUL (MARMARA DENIZI",
-          "ml": 1.4,
           "mw": null,
           "md": null
         }
