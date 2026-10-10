@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:57:10.187Z",
+  "generatedAt": "2026-10-10T16:17:00.795Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -25,7 +25,7 @@
       "state": "locked",
       "events24h": 0,
       "events7d": 0,
-      "events30d": 2,
+      "events30d": 1,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,
       "rateRatio": 0,
@@ -88,7 +88,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 2,
+          "n": 1,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -96,7 +96,7 @@
         },
         "baseline": {
           "valid": false,
-          "n": 1,
+          "n": 2,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -264,7 +264,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 3,
+        "count": 2,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -278,7 +278,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 3,
+        "count": 2,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -287,7 +287,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 3,
+        "count": 2,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -343,7 +343,7 @@
       },
       "precursorSimilarity": 42,
       "benignSimilarity": 10,
-      "analogueEvidenceQuality": 0.17,
+      "analogueEvidenceQuality": 0.16,
       "analogues": [
         {
           "id": "parkfield-2004",
@@ -468,7 +468,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -482,7 +482,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -491,7 +491,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -850,7 +850,7 @@
       "name": "Kumburgaz kilitli kesim",
       "state": "locked",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 2,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,
@@ -1064,7 +1064,7 @@
       "name": "Avcılar sessiz / geçiş zonu",
       "state": "transition",
       "events24h": 0,
-      "events7d": 1,
+      "events7d": 0,
       "events30d": 2,
       "maxMagnitude24h": 0,
       "baselineDaily": 0.15,
@@ -1269,9 +1269,9 @@
       "state": "locked",
       "events24h": 0,
       "events7d": 0,
-      "events30d": 10,
+      "events30d": 9,
       "maxMagnitude24h": 0,
-      "baselineDaily": 0.34,
+      "baselineDaily": 0.31,
       "rateRatio": 0,
       "baseAttention": 15,
       "advancedSignal": 15,
@@ -1332,7 +1332,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 10,
+          "n": 9,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -1340,11 +1340,11 @@
         },
         "baseline": {
           "valid": true,
-          "n": 68,
-          "total": 164,
+          "n": 69,
+          "total": 165,
           "mc": 1.6,
-          "b": 0.991,
-          "sigma": 0.12
+          "b": 0.975,
+          "sigma": 0.116
         },
         "delta": null,
         "z": null,
@@ -1479,5 +1479,5 @@
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 306
+  "historyEvents": 308
 }
