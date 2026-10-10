@@ -1,7 +1,88 @@
 {
-  "generatedAt": "2026-10-10T20:07:04.947Z",
+  "generatedAt": "2026-10-10T23:29:45.592Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-7d97abc0",
+      "source": "KANDILLI",
+      "sourceId": "k-7d97abc0",
+      "time": "2026-10-11T00:36:07+03:00",
+      "latitude": 40.7055,
+      "longitude": 29.2408,
+      "depth": 3.6,
+      "magnitude": 1.1,
+      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-11T00:36:07+03:00",
+          "latitude": 40.7055,
+          "longitude": 29.2408,
+          "depth": 3.6,
+          "magnitude": 1.1,
+          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-74d8d130",
+      "source": "KANDILLI",
+      "sourceId": "k-74d8d130",
+      "time": "2026-10-11T00:29:23+03:00",
+      "latitude": 40.3543,
+      "longitude": 27.1973,
+      "depth": 16.9,
+      "magnitude": 1.1,
+      "place": "KOCAGUR-BIGA (CANAKKALE)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-11T00:29:23+03:00",
+          "latitude": 40.3543,
+          "longitude": 27.1973,
+          "depth": 16.9,
+          "magnitude": 1.1,
+          "place": "KOCAGUR-BIGA (CANAKKALE)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-5f1d67aa",
+      "source": "KANDILLI",
+      "sourceId": "k-5f1d67aa",
+      "time": "2026-10-10T23:03:21+03:00",
+      "latitude": 40.6953,
+      "longitude": 29.248,
+      "depth": 7,
+      "magnitude": 1.1,
+      "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-10T23:03:21+03:00",
+          "latitude": 40.6953,
+          "longitude": 29.248,
+          "depth": 7,
+          "magnitude": 1.1,
+          "place": "YALOVA ACIKLARI (MARMARA DENIZI)",
+          "ml": 1.1,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-ad2fd409",
       "source": "KANDILLI",
