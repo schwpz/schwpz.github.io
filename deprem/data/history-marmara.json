@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-10-10T16:17:00.787Z",
+  "generatedAt": "2026-10-10T20:07:04.987Z",
   "windowDays": 365,
   "source": "KANDILLI_API_MIRROR",
   "events": [
+    {
+      "id": "k-ad2fd409",
+      "source": "KANDILLI",
+      "sourceId": "k-ad2fd409",
+      "time": "2026-10-10T22:46:07+03:00",
+      "latitude": 40.6767,
+      "longitude": 29.2512,
+      "depth": 12.8,
+      "magnitude": 2.5,
+      "place": "YALOVA",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-10T22:46:07+03:00",
+          "latitude": 40.6767,
+          "longitude": 29.2512,
+          "depth": 12.8,
+          "magnitude": 2.5,
+          "place": "YALOVA",
+          "ml": 2.5,
+          "mw": null,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
+    {
+      "id": "k-d3e6b740",
+      "source": "KANDILLI",
+      "sourceId": "k-d3e6b740",
+      "time": "2026-10-10T22:08:49+03:00",
+      "latitude": 40.6797,
+      "longitude": 29.2567,
+      "depth": 13,
+      "magnitude": 3.5,
+      "place": "YALOVA",
+      "catalogs": {
+        "KANDILLI": {
+          "time": "2026-10-10T22:08:49+03:00",
+          "latitude": 40.6797,
+          "longitude": 29.2567,
+          "depth": 13,
+          "magnitude": 3.5,
+          "place": "YALOVA",
+          "ml": 3.5,
+          "mw": 3.5,
+          "md": null
+        }
+      },
+      "sources": [
+        "KANDILLI"
+      ]
+    },
     {
       "id": "k-998771e9",
       "source": "KANDILLI",
