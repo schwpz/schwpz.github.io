@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T02:04:52.615Z",
+  "generatedAt": "2026-10-11T08:41:39.267Z",
   "seed": false,
   "methodology": {
     "version": "5.0",
@@ -264,7 +264,7 @@
       },
       "migration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "reason": "insufficient_events",
         "speedKmPerDay": null,
         "displacementKm": null,
@@ -278,7 +278,7 @@
       },
       "depthMigration": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopeKmPerDay": null,
         "r2": null,
         "netChangeKm": null,
@@ -287,7 +287,7 @@
       },
       "magnitudeTrend": {
         "valid": false,
-        "count": 1,
+        "count": 0,
         "slopePerDay": null,
         "r2": null,
         "accelerationStrength": 0
@@ -1269,10 +1269,10 @@
       "state": "locked",
       "events24h": 4,
       "events7d": 4,
-      "events30d": 13,
+      "events30d": 12,
       "maxMagnitude24h": 3.5,
-      "baselineDaily": 0.31,
-      "rateRatio": 12.89,
+      "baselineDaily": 0.28,
+      "rateRatio": 14.5,
       "baseAttention": 64,
       "advancedSignal": 15,
       "analogueUplift": 1,
@@ -1332,7 +1332,7 @@
       "bValue": {
         "recent": {
           "valid": false,
-          "n": 13,
+          "n": 12,
           "reason": "insufficient_events",
           "mc": null,
           "b": null,
@@ -1341,7 +1341,7 @@
         "baseline": {
           "valid": true,
           "n": 69,
-          "total": 165,
+          "total": 166,
           "mc": 1.6,
           "b": 0.975,
           "sigma": 0.116
@@ -1473,11 +1473,11 @@
         "magnitudeAcceleration": 0,
         "quiescence": 0,
         "bDrop": 0,
-        "rateAnomaly": 0.9251795664896614,
+        "rateAnomaly": 0.9678066685291458,
         "lockedContext": 1
       }
     }
   ],
   "source": "KANDILLI_ONLY",
-  "historyEvents": 313
+  "historyEvents": 314
 }
