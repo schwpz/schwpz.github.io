@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:29:45.592Z",
+  "generatedAt": "2026-10-11T02:04:52.567Z",
   "source": "KANDILLI_API_MIRROR",
   "events": [
     {
@@ -480,33 +480,6 @@
           "magnitude": 2,
           "place": "BOZLAR-BIGA (CANAKKALE)",
           "ml": 2,
-          "mw": null,
-          "md": null
-        }
-      },
-      "sources": [
-        "KANDILLI"
-      ]
-    },
-    {
-      "id": "k-06e71084",
-      "source": "KANDILLI",
-      "sourceId": "k-06e71084",
-      "time": "2026-10-04T22:51:15+03:00",
-      "latitude": 40.4075,
-      "longitude": 28.383,
-      "depth": 13.3,
-      "magnitude": 2.1,
-      "place": "BAYRAMDERE-KARACABEY (BURSA)",
-      "catalogs": {
-        "KANDILLI": {
-          "time": "2026-10-04T22:51:15+03:00",
-          "latitude": 40.4075,
-          "longitude": 28.383,
-          "depth": 13.3,
-          "magnitude": 2.1,
-          "place": "BAYRAMDERE-KARACABEY (BURSA)",
-          "ml": 2.1,
           "mw": null,
           "md": null
         }
